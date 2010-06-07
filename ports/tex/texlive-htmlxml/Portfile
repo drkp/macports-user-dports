@@ -1,0 +1,28 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           texlive 1.0
+
+name                texlive-htmlxml
+version             13822
+
+categories          tex
+maintainers         ambulatoryclam.net:dports
+description         TeX Live: HTML/SGML/XML support
+long_description    Packages to convert LaTeX to XML/HTML, and typset XML/SGML
+
+checksums           md5     db4347cb661544b9a46ccdef733a92dc \
+                    sha1    5928b03f3e37eb0d5c972c243c761c7c97811ed3 \
+                    rmd160  7d8f16526c32a03aa809e6c952cb2097f5154e85
+
+depends_lib         port:texlive-basic port:texlive-fonts-recommended port:texlive-latex
+
+texlive.formats      \
+    {1 jadetex pdftex language.dat {*jadetex.ini}} \
+    {1 pdfjadetex pdftex language.dat {*pdfjadetex.ini}} \
+    {1 xmltex pdftex language.dat {xmltex.ini}} \
+    {1 pdfxmltex pdftex language.dat {pdfxmltex.ini}}
+
+
+texlive.texmfport
