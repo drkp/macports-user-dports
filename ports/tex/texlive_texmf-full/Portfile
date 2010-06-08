@@ -1,0 +1,24 @@
+# $Id$
+
+PortSystem 1.0
+
+name           texlive_texmf-full
+version        2007
+revision       4
+set     rev    g0
+categories     tex
+maintainers    nomaintainer
+description    full texmf tree for texlive
+long_description   TeX Live is an easy way to get up and running with TeX. \
+     It provides a comprehensive TeX system with binaries for most flavors \
+     of Unix, including GNU/Linux, and also Windows. It includes all the \
+     major TeX-related programs, macro packages, and fonts that are free \
+     software, including support for many languages around the world.
+
+homepage       http://www.tug.org/texlive/
+platforms      darwin
+if {[info exists supported_archs]} {
+    supported_archs noarch
+}
+
+replaced_by    texlive
