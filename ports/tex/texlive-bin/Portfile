@@ -31,8 +31,13 @@ checksums       md5 34e636c76534d4b3a1b3f06f568ddedc \
                 rmd160 e467932d53abe418f4e36a56afb683912ab0caec
 
 # xetex doesn't build 64-bit; force 32-bit for now
-configure.build_arch i386
-configure.ldflags "-arch i386"
+if {${build_arch} == "x86_64"} {
+    configure.build_arch i386
+    configure.ldflags "-arch i386"
+} elseif {${build_arch} == "ppc64"} {
+    configure.build_arch ppc
+    configure.ldflags "-arch ppc"
+}
 archcheck.files lib/libz.dylib \
                 lib/libpng.dylib \
                 lib/libt1.dylib \
