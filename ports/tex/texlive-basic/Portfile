@@ -99,6 +99,16 @@ post-destroot {
     delete ${destroot}/${prefix}/bin/mf
 }
 
+pre-activate {
+    # If texlive 2007 metaport is installed, deactivate it to avoid
+    # conflicts on $prefix/bin/etex etc.
+    if {[file exists $prefix/bin/etex] 
+        && ![catch {set vers [lindex [registry_active texlive] 0]}]
+        && [rpm-vercomp [lindex $vers 1] 2009] < 0} {
+        registry_deactivate texlive "" [list ports_nodepcheck 1]
+    }
+}
+
 texlive.forceupdatecnf yes
 
 texlive.texmfport
