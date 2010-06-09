@@ -4,8 +4,7 @@ PortSystem 1.0
 
 name           texlive_texmf-full
 version        2007
-revision       4
-set     rev    g0
+revision       5
 categories     tex
 maintainers    nomaintainer
 description    full texmf tree for texlive
@@ -21,4 +20,15 @@ if {[info exists supported_archs]} {
     supported_archs noarch
 }
 
-replaced_by    texlive
+replaced_by    texlive-common
+
+pre-fetch {
+    ui_msg "$name is no longer used; install texlive instead."
+    return -code error "$name cannot be installed"
+}
+
+use_configure   no
+build           {}
+destroot        {}
+livecheck.type  none
+

@@ -4,6 +4,7 @@ PortSystem 1.0
 
 name           texlive_texmf-docs
 version        2007
+revision       1
 categories     tex
 maintainers    nomaintainer
 description    Docs for texlive
@@ -16,4 +17,15 @@ long_description   TeX Live is an easy way to get up and running with TeX. \
 homepage       http://www.tug.org/texlive/
 platforms      darwin
 
-replaced_by    texlive
+replaced_by    texlive-common
+
+pre-fetch {
+    ui_msg "$name is no longer used; install texlive instead."
+    return -code error "$name cannot be installed"
+}
+
+use_configure   no
+build           {}
+destroot        {}
+livecheck.type  none
+
