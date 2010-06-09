@@ -92,6 +92,22 @@ destroot {
         ${destroot}${prefix}/libexec/texlive-update-cnf
 }
 
+pre-activate {
+    # Delete ls-R index file if it exists
+    if [file exists ${texlive_texmflocal}/ls-R] {
+        delete ${texlive_texmflocal}/ls-R
+    }
+
+    # Deactivate any of the texlive 2007 ports. replaced_by does not
+    # accomplish this because not all of these ports conflict with
+    # this one (although they will cause problems later).
+    foreach oldport {texlive_base texlive_texmf-full texlive_texmf-minimal texlive_texmf-docs} {
+        if {![catch {registry_active $oldport}]} {
+            registry_deactivate $oldport "" [list ports_nodepcheck 1]
+        }
+    }
+}
+
 post-activate {
     system "${prefix}/libexec/texlive-update-cnf fmtutil.cnf"
     system "${prefix}/libexec/texlive-update-cnf language.dat"
