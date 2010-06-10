@@ -16,12 +16,7 @@ long_description    This port provides files that support a MacPorts    \
 
 homepage            http://www.tug.org/texlive/
 platforms           darwin
-
-if {[info exists supported_archs]} {
-    supported_archs noarch
-} else {
-    universal_variant no
-}
+supported_archs     noarch
 
 master_sites        http://flute.csail.mit.edu/texlive/
 worksrcdir          ${distname}
@@ -63,6 +58,7 @@ destroot {
     touch ${destroot}${texlive_texmfdist}/ls-R
     touch ${destroot}${texlive_texmflocal}/ls-R
     touch ${destroot}${texlive_texmfsysvar}/ls-R
+    touch ${destroot}${texlive_texmfsysconfig}/ls-R
 
     # Install texmf.cnf and symlink to its usual expected location
     xinstall -d ${destroot}${texlive_texmflocal}/web2c

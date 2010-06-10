@@ -21,6 +21,7 @@ long_description    TeX Live is an easy way to get up and running with TeX. \
 
 homepage        http://www.tug.org/texlive/
 platforms       darwin
+supported_archs noarch
 
 depends_lib     port:texlive-common port:texlive-bin
 

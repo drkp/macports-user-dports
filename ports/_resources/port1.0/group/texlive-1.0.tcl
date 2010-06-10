@@ -91,11 +91,7 @@ proc texlive.texmfport {} {
     homepage        http://www.tug.org/texlive/
     platforms       darwin
     
-    if {[info exists supported_archs]} { 
-        supported_archs noarch 
-    } else { 
-        universal_variant no 
-    } 
+    supported_archs noarch 
     
     master_sites    http://flute.csail.mit.edu/texlive/
     use_bzip2       yes
@@ -243,6 +239,37 @@ proc texlive.texmfport {} {
         if {${texlive.forceupdatecnf} || ${texlive.formats} != ""} {
             system "${prefix}/libexec/texlive-update-cnf fmtutil.cnf"
             system "${prefix}/bin/fmtutil-sys --all"
+        }
+    }
+
+    post-deactivate {
+        # Update ls-R and any config files to reflect that the package
+        # is now gone
+        system "${prefix}/bin/texhash"
+        if {${texlive.forceupdatecnf} || ${texlive.languages} != ""} {
+            system "${prefix}/libexec/texlive-update-cnf language.dat"
+            system "${prefix}/libexec/texlive-update-cnf language.def"
+        }
+        if {${texlive.forceupdatecnf} || ${texlive.maps} != ""} {
+            system "${prefix}/libexec/texlive-update-cnf updmap.cfg"
+        }
+        if {${texlive.forceupdatecnf} || ${texlive.formats} != ""} {
+            system "${prefix}/libexec/texlive-update-cnf fmtutil.cnf"
+        }
+        
+        # Remove any generated format files
+        foreach x ${texlive.formats} {
+            set fmtname [lindex $x 1]
+            set fmtengine [lindex $x 2]
+            switch $fmtengine {
+                "mf"       -
+                "mf-nowin" {set fmtengine "metafont"}
+                "mpost"    {set fmtengine "metapost"}
+            }
+            
+            foreach filename [glob -nocomplain ${texlive_texmfsysvar}/web2c/$fmtengine/$fmtname.*] {
+                delete $filename
+            }
         }
     }
 }
