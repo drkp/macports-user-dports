@@ -8,7 +8,7 @@ name                texlive-luatex
 version             13992
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: LuaTeX packages
 long_description    Packages for LuaTeX, a Unicode-aware extension of pdfTeX, using Lua  as an embedded scripting and extension language. http://luatex.org/
 

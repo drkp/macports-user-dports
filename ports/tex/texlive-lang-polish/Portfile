@@ -8,7 +8,7 @@ name                texlive-lang-polish
 version             14727
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Polish
 long_description    Support for typesetting Polish.
 

@@ -8,7 +8,7 @@ name                texlive-documentation-chinese
 version             14384
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Chinese documentation
 long_description    Chinese documentation
 

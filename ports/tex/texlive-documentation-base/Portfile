@@ -8,7 +8,7 @@ name                texlive-documentation-base
 version             13822
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: TeX Live documentation
 long_description    TeX Live documentation
 

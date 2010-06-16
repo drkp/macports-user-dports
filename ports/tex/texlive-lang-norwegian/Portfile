@@ -8,7 +8,7 @@ name                texlive-lang-norwegian
 version             14727
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Norwegian
 long_description    Support for typesetting Norwegian.
 

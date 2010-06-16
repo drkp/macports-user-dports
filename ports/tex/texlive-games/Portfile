@@ -8,7 +8,7 @@ name                texlive-games
 version             15166
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Games typesetting
 long_description    Setups for typesetting various games, including chess.
 

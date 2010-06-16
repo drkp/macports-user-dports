@@ -8,7 +8,7 @@ name                texlive-latex3
 version             15560
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: LaTeX3 packages
 long_description    LaTeX3 packages
 

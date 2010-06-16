@@ -8,7 +8,7 @@ name                texlive-math-extra
 version             15560
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Advanced math typesetting
 long_description    Extra math
 

@@ -7,7 +7,7 @@ name            texlive
 version         2009
 
 categories      tex
-maintainers     ambulatoryclam.net:dports
+maintainers     dports
 description     TeX Live metaport
 long_description    TeX Live is an easy way to get up and running with TeX. \
     It provides a comprehensive TeX system with binaries for most flavors   \

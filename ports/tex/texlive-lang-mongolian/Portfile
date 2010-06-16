@@ -8,7 +8,7 @@ name                texlive-lang-mongolian
 version             14727
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Mongolian
 long_description    Support for typesetting Mongolian.
 

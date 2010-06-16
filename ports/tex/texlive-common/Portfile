@@ -8,7 +8,7 @@ name                texlive-common
 version             2009
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live common infrastructure.
 long_description    This port provides files that support a MacPorts    \
                     installation of TeX Live, such as configuration     \

@@ -1,6 +1,6 @@
 # $Id$
 # 
-# Copyright (c) 2010 Dan R. K. Ports <dports@ambulatoryclam.net>
+# Copyright (c) 2010 Dan R. K. Ports <dports@macports.org>
 # All rights reserved.
 # 
 # Redistribution and use in source and binary forms, with or without

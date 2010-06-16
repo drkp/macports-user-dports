@@ -8,7 +8,7 @@ name                texlive-documentation-korean
 version             13822
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Korean documentation
 long_description    Korean documentation
 

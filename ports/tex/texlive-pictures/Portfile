@@ -8,7 +8,7 @@ name                texlive-pictures
 version             15543
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Graphics packages and programs
 long_description    Graphics packages and programs
 

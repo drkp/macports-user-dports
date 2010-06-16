@@ -8,7 +8,7 @@ name                texlive-documentation-japanese
 version             13822
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Japanese documentation
 long_description    Japanese documentation
 

@@ -8,7 +8,7 @@ name                texlive-documentation-turkish
 version             13822
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Turkish documentation
 long_description    Turkish documentation
 

@@ -8,7 +8,7 @@ name                texlive-xetex
 version             14329
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: XeTeX packages
 long_description    Packages for XeTeX, the Unicode/OpenType-enabled TeX by Jonathan Kew, http://scripts.sil.org/xetex.
 

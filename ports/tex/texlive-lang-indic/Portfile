@@ -8,7 +8,7 @@ name                texlive-lang-indic
 version             14727
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Indic scripts
 long_description    Support for typesetting some Indic scripts.
 

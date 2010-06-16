@@ -8,7 +8,7 @@ name                texlive-documentation-slovenian
 version             13822
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Slovenian documentation
 long_description    Slovenian documentation
 

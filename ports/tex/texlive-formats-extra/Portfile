@@ -8,7 +8,7 @@ name                texlive-formats-extra
 version             13822
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Extra formats
 long_description    A collection of TeX `formats', ie large-scale macro packages designed to be dumped into .fmt file
 

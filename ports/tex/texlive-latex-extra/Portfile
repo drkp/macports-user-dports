@@ -8,7 +8,7 @@ name                texlive-latex-extra
 version             15852
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: LaTeX supplementary packages
 long_description    A large collection of add-on packages for LaTeX.
 

@@ -8,7 +8,7 @@ name                texlive-documentation-italian
 version             15708
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Italian documentation
 long_description    Italian documentation
 

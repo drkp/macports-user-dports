@@ -8,7 +8,7 @@ name                texlive-lang-cjk
 version             15132
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Chinese, Japanese, Korean
 long_description    CJK (Chinese, Japanese, Korean) macros, fonts, documentation, also Thai since there is some overlap in the fonts.
 

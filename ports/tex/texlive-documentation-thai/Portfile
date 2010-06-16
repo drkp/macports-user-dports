@@ -8,7 +8,7 @@ name                texlive-documentation-thai
 version             13822
 
 categories          tex
-maintainers         ambulatoryclam.net:dports
+maintainers         dports
 description         TeX Live: Thai documentation
 long_description    Thai documentation
 
