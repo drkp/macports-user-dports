@@ -1,0 +1,23 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           texlive 1.0
+
+name                texlive-documentation-portuguese
+version             13822
+revision            1
+
+categories          tex
+maintainers         dports
+description         TeX Live: Portuguese documentation
+long_description    Portuguese documentation
+
+checksums           md5     0f1217b45a9206c72a796cbda2259bcb \
+                    sha1    5f208b59ec871344575d69dc34ecbd6a465c1cee \
+                    rmd160  f617c35c4e7e70f96db30609f389242c42b952ca
+
+depends_lib         port:texlive-documentation-base
+
+
+texlive.texmfport

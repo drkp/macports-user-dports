@@ -1,0 +1,21 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           texlive 1.0
+
+name                texlive-documentation-base
+version             13822
+revision            1
+
+categories          tex
+maintainers         dports
+description         TeX Live: TeX Live documentation
+long_description    TeX Live documentation
+
+checksums           md5     49126f7fd94f89ece7c0ea8ed5ba69fc \
+                    sha1    52dfd0026409c5e14d8d94de1bdf2d68a268368c \
+                    rmd160  fecb9e92bbb4a38f11fa7987a581fb86a6820306
+
+
+texlive.texmfport

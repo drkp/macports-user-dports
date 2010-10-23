@@ -1,0 +1,23 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           texlive 1.0
+
+name                texlive-publishers
+version             14434
+revision            1
+
+categories          tex
+maintainers         dports
+description         TeX Live: Support for publishers, theses, standards, conferences, etc.
+long_description    Support for publishers, theses, standards, conferences, etc.
+
+checksums           md5     36227da770add7d229d7806c0f1c9787 \
+                    sha1    6f95af39729923f357fb6914b203afbcdec1a4f9 \
+                    rmd160  871f42c17147ccdf2825dfcb6b4c498708e11ca0
+
+depends_lib         port:texlive-latex
+
+
+texlive.texmfport

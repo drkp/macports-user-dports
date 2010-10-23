@@ -1,0 +1,23 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           texlive 1.0
+
+name                texlive-documentation-japanese
+version             13822
+revision            1
+
+categories          tex
+maintainers         dports
+description         TeX Live: Japanese documentation
+long_description    Japanese documentation
+
+checksums           md5     1add20b620ff178c829deef456fc962f \
+                    sha1    d1d38d292b2c521f69a3ce189932b2c34788cc2b \
+                    rmd160  3513fb2d78e97915f0bd7b1cfbced70e8d6f415a
+
+depends_lib         port:texlive-documentation-base
+
+
+texlive.texmfport

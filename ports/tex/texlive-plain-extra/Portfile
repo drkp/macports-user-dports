@@ -1,0 +1,23 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           texlive 1.0
+
+name                texlive-plain-extra
+version             15279
+revision            1
+
+categories          tex
+maintainers         dports
+description         TeX Live: Plain TeX supplementary packages
+long_description    Add-on packages and macros that work with plain TeX.
+
+checksums           md5     f9425d61d27d8438cef1cd0624df77d8 \
+                    sha1    587f81956dda8b591e00996be71600e47e4ea0c0 \
+                    rmd160  1b5d4aa90694efaf91c1e977d32d776c75ab92d3
+
+depends_lib         port:texlive-basic
+
+
+texlive.texmfport

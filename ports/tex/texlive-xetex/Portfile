@@ -1,0 +1,27 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           texlive 1.0
+
+name                texlive-xetex
+version             14329
+revision            1
+
+categories          tex
+maintainers         dports
+description         TeX Live: XeTeX packages
+long_description    Packages for XeTeX, the Unicode/OpenType-enabled TeX by Jonathan Kew, http://scripts.sil.org/xetex.
+
+checksums           md5     7a9ebc1c23e0def88aace0bb7bd703f3 \
+                    sha1    53e8213f9b63fdbb954ab00779f248b6c0d48e33 \
+                    rmd160  2e267d8bc23f4bf93bfb576bd836ea03d0ad6902
+
+depends_lib         port:texlive-basic
+
+texlive.formats      \
+    {1 xetex xetex language.def {-etex xetex.ini}} \
+    {1 xelatex xetex language.dat {-etex xelatex.ini}}
+
+
+texlive.texmfport

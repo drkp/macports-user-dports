@@ -1,0 +1,23 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           texlive 1.0
+
+name                texlive-documentation-slovenian
+version             13822
+revision            1
+
+categories          tex
+maintainers         dports
+description         TeX Live: Slovenian documentation
+long_description    Slovenian documentation
+
+checksums           md5     06102a377d5e5d59cba3cb7ec5fe2409 \
+                    sha1    6a5edfd0e9b0fb87970f46d2736298f9240bb974 \
+                    rmd160  3d109d522c16fbafdb8ab19fc7bdf8b76dcaab9e
+
+depends_lib         port:texlive-documentation-base
+
+
+texlive.texmfport

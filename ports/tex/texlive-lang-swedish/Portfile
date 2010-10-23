@@ -1,0 +1,26 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           texlive 1.0
+
+name                texlive-lang-swedish
+version             14727
+revision            1
+
+categories          tex
+maintainers         dports
+description         TeX Live: Swedish
+long_description    Support for typesetting Swedish.
+
+checksums           md5     7cff2229ccb1067c4384cf853c5bb432 \
+                    sha1    0175b73db88b63e5d6ce33fbf7923808aa37f646 \
+                    rmd160  9284c7495d0ac4c19c1d9b64983f8373692eb16f
+
+depends_lib         port:texlive-basic
+
+texlive.languages      \
+    {swedish loadhyph-sv.tex 2 2 {}}
+
+
+texlive.texmfport

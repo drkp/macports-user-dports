@@ -1,0 +1,23 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           texlive 1.0
+
+name                texlive-documentation-arabic
+version             14327
+revision            1
+
+categories          tex
+maintainers         dports
+description         TeX Live: Arabic documentation
+long_description    Arabic documentation
+
+checksums           md5     e966ddd85ee1e1f356d5c29a28fca357 \
+                    sha1    92bf5f5c1fb8138dfc51abd4d60105ed9d9713a5 \
+                    rmd160  49dc1285f73986d4de6e36da22ed5ccf110352b2
+
+depends_lib         port:texlive-documentation-base
+
+
+texlive.texmfport

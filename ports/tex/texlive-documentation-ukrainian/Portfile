@@ -1,0 +1,23 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           texlive 1.0
+
+name                texlive-documentation-ukrainian
+version             13822
+revision            1
+
+categories          tex
+maintainers         dports
+description         TeX Live: Ukrainian documentation
+long_description    Ukrainian documentation
+
+checksums           md5     c7b5adbf14a0031f0f9b88cb07dfe909 \
+                    sha1    38d4c8b8049018d17c2579f86e0c1792c7a80fa1 \
+                    rmd160  e45e6fe735a224ccc591e6beff5aab67bf5a5c1e
+
+depends_lib         port:texlive-documentation-base
+
+
+texlive.texmfport
