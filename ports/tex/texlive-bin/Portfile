@@ -6,8 +6,7 @@ PortGroup       texlive 1.0
 PortGroup       archcheck 1.0
 
 name            texlive-bin
-version         2009
-revision        6
+version         2010
 
 categories      tex
 maintainers     dports
@@ -21,15 +20,14 @@ long_description    TeX Live is an easy way to get up and running with TeX. \
 homepage        http://www.tug.org/texlive/
 platforms       darwin
 
-# distfile is the same as the official one, but recompressed in bz2
-master_sites    http://flute.csail.mit.edu/texlive/
-set distversion 20091107
+master_sites    tex_ctan:systems/texlive/Source/
+set distversion 20100720
 distname        texlive-${distversion}-source
 worksrcdir      ${distname}
-use_bzip2       yes
-checksums       md5 34e636c76534d4b3a1b3f06f568ddedc \
-                sha1 891434197b1aa60030eb059553697cb40c6ab15b \
-                rmd160 e467932d53abe418f4e36a56afb683912ab0caec
+use_xz          yes
+checksums       md5     2a2201b84fdbf210032e1df70bc59157 \
+                sha1    713b861123e3d9e073e2c93d7ed3e13262d82c34 \
+                rmd160  b1120f3377ca45b4d86911b99a95c2e6e45927b5
 
 universal_variant no
 
@@ -59,20 +57,23 @@ depends_build   path:bin/perl:perl5 \
                 path:bin/pkg-config:pkgconfig
 
 patchfiles      patch-configure \
+                patch-libs_icu_icu-4.4_configure.diff \
                 patch-libs-freetype-Makefile.in.diff \
-                patch-texk_web2c_luatexdir_image_pdftoepdf_cc \
-                patch-texk_web2c_pdftexdir_pdftoepdf_cc \
-                patch-texk_xdvipdfmx_configure.diff \
                 patch-texk_texlive_linked_scripts_Makefile.in.diff
 
 post-patch {
     reinplace "s|@@TEXMFMAIN@@|${texlive_texmfmain}|" ${worksrcpath}/texk/texlive/linked_scripts/Makefile.in
     reinplace "s|@@TEXMFDIST@@|${texlive_texmfdist}|" ${worksrcpath}/texk/texlive/linked_scripts/Makefile.in
 
+    # Link our texmf.cnf in so that the proper paths are compiled into kpathsea
+    delete ${worksrcpath}/texk/kpathsea/texmf.cnf
+    ln -s ${texlive_texmfsysconfig}/texmf.cnf ${worksrcpath}/texk/kpathsea/texmf.cnf
+
     if {![variant_isset atsui]} {
         # Force configure to believe that Carbon API is
         # unavailable. This test is actually used to determine whether
         # ATSUI should be used.
+        reinplace "s|kpse_cv_have_ApplicationServices=yes|kpse_cv_have_ApplicationServices=no|" ${worksrcpath}/texk/xdvipdfmx/configure
         reinplace "s|kpse_cv_have_Carbon=yes|kpse_cv_have_Carbon=no|" ${worksrcpath}/texk/web2c/configure
         reinplace "s|kpse_cv_have_Carbon=yes|kpse_cv_have_Carbon=no|" ${worksrcpath}/texk/xdv2pdf/configure
     }
@@ -131,12 +132,10 @@ post-destroot   {
     # texmf and texmf-dist will be installed by other texlive ports
     delete ${destroot}${prefix}/texmf
     delete ${destroot}${prefix}/texmf-dist
-    delete ${destroot}${texlive_texmfmain}
-    delete ${destroot}${texlive_texmfdist}
 
     # Do not install symlinks to scripts that we will not install
-    delete ${destroot}${prefix}/bin/man
     delete ${destroot}${prefix}/bin/latexmk
+    delete ${destroot}${prefix}/bin/tlmgr
 }
 
 post-activate {
