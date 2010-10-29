@@ -92,7 +92,8 @@ default texlive.exclude {}
 options texlive.excludemanpages
 default texlive.excludemanpages no
 
-options texlive.formats texlive.languages texlive.maps
+options texlive.binaries texlive.formats texlive.languages texlive.maps
+default texlive.binaries {}
 default texlive.formats {}
 default texlive.languages {}
 default texlive.maps {}
@@ -107,12 +108,12 @@ proc texlive.texmfport {} {
     supported_archs noarch 
     
     master_sites    http://flute.csail.mit.edu/texlive/
-    use_bzip2       yes
+    use_xz          yes
 
     global name master_sites
     livecheck.type  regex
     livecheck.url   ${master_sites}
-    livecheck.regex ${name}-(\\d+)\\.tar\\.bz2
+    livecheck.regex ${name}-(\\d+)\\.tar
 
     depends_lib-append port:texlive-common port:texlive-bin
 
