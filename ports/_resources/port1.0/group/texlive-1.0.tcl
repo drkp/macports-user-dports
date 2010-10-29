@@ -55,8 +55,11 @@ set texlive_texmfmain "${prefix}/share/texmf-texlive"
 # well too
 set texlive_texmfdist "${prefix}/share/texmf-texlive-dist"
 
-# "local" texmf files, e.g. installed by ports other than texlive
-set texlive_texmflocal "${prefix}/share/texmf"
+# texmf files installed by ports other than texlive
+set texlive_texmfports "${prefix}/share/texmf"
+
+# optional tree for user-installed texmf files
+set texlive_texmflocal "${prefix}/share/texmf-local"
 
 # variable runtime data, e.g. formats
 set texlive_texmfsysvar "${prefix}/var/db/texmf"
