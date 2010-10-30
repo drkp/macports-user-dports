@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-omega
 version             13822
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Omega
 long_description    Omega, a 16-bit extended TeX by John Plaice and Yannis Haralambous
 
-checksums           md5     2869a0e3da8e4bce7940107b5a44bc35 \
-                    sha1    7c5bf877e60c44af94b02fec72235c752ded7277 \
-                    rmd160  8e6d2bae4fe200f737d0315cd6dca6c6f48e009d
+checksums           md5     ef880a4a9aa197ac0bccb614cbde1857 \
+                    sha1    232af635071033cd8a8a4fbca73fe1a98932cf37 \
+                    rmd160  e7382eb32d695241b9c4cdc959681ee13e2b7b55
 
 depends_lib         port:texlive-basic port:texlive-latex
 
@@ -25,6 +25,8 @@ texlive.formats      \
 
 texlive.maps      \
     {Map omega.map}
+
+texlive.binaries    odvicopy omfonts ovp2ovf otp2ocp outocp odvitype ovf2ovp opl2ofm aleph otangle ofm2opl
 
 texlive.excludemanpages yes
 

@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-generic-extra
-version             15267
-revision            1
+version             19036
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Extra generic packages
 long_description    Extra packages that work with multiple formats, typically both TeX and LaTeX.
 
-checksums           md5     2d025ea058879a1b26ea052240754ac8 \
-                    sha1    7d2b828d98f588f717b552c856540c578562bbce \
-                    rmd160  454585038a8782c0e0415cf226f2b45cb8567f95
+checksums           md5     740791ec9442e21cf35b7a635bca6be1 \
+                    sha1    191294b53cb318245357817fbead29fb93d8dbd9 \
+                    rmd160  335082668cd9427894f537605f4e6b3347fe5e9c
 
 depends_lib         port:texlive-basic
 

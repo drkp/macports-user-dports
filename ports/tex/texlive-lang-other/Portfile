@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-other
-version             14574
-revision            1
+version             18620
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Other hyphenation files
 long_description    Hyphenation patterns for languages with no other support.
 
-checksums           md5     e7053cb7eeb62e9cbfcd56bb2c876c53 \
-                    sha1    69ba9d447bf98312350a23806fe6910712b28f05 \
-                    rmd160  85116e6a6865d31f59daa996277130f563120bc2
+checksums           md5     755a33b4860773ee01611f8bbdd310bd \
+                    sha1    6a93231c1601389eb7bb7f6539862523e1f96d09 \
+                    rmd160  285d3a0cab05d61fb6a879b52256bd5a591b69b1
 
 depends_lib         port:texlive-basic
 
@@ -33,7 +33,9 @@ texlive.languages      \
     {slovenian loadhyph-sl.tex 2 2 {slovene}} \
     {turkish loadhyph-tr.tex 2 2 {}} \
     {uppersorbian loadhyph-hsb.tex 2 2 {}} \
-    {welsh loadhyph-cy.tex 2 3 {}}
+    {welsh loadhyph-cy.tex 2 3 {}} \
+    {lao loadhyph-lo.tex 1 1 {}} \
+    {armenian loadhyph-hy.tex 1 2 {}}
 
 
 texlive.texmfport

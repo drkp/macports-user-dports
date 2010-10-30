@@ -5,23 +5,23 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-basic
-version             15576
-revision            1
+version             17228
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Essential programs and files
 long_description    These files are regarded as basic for any TeX system, covering plain TeX macros, Computer Modern fonts, and configuration for common drivers\; no LaTeX.
 
-checksums           md5     925a2d2d1622858b15730066326f89f6 \
-                    sha1    b336e42d8e4e2f3103db61ace18256e67e0ab47c \
-                    rmd160  1d817c4ce28f7010dfd001e51800233345736c76
+checksums           md5     28b9ed12d50badf100a2cbcb1cd65511 \
+                    sha1    d843e9b1d2aac7c9470f6f98c0a9b20919e73076 \
+                    rmd160  c22c6a91256bbeb71d2163f4d23dd2611073095c
 
 depends_lib         port:texlive-documentation-base
 
 texlive.formats      \
-    {1 luatex luatex language.def {luatex.ini}} \
-    {1 dviluatex luatex language.def {dviluatex.ini}} \
+    {1 luatex luatex language.def,language.dat.lua {luatex.ini}} \
+    {1 dviluatex luatex language.def,language.dat.lua {dviluatex.ini}} \
     {1 mf mf-nowin - {-translate-file=cp227.tcx mf.ini}} \
     {1 pdftex pdftex language.def {-translate-file=cp227.tcx *pdfetex.ini}} \
     {1 etex pdftex language.def {-translate-file=cp227.tcx *etex.ini}} \
@@ -37,6 +37,8 @@ texlive.maps      \
     {MixedMap symbols.map} \
     {MixedMap cmtext-bsr-interpolated.map} \
     {MixedMap mflogo.map}
+
+texlive.binaries    xdvi kpsepath afm2tfm texlua ebb kpsexpand updmap-sys kpsereadlink allneeded mktexmf mkindex bibtex dvired mft tex fmtutil-sys dvipdfm dvipdfmx texconfig-dialog allcm simpdftex pktype dvips gftodvi gftopk kpsewhere kpsestat gftype extractbb kpseaccess kpsetool allec texconfig-sys mktexlsr dvi2fax mkofm gsftopk mktextfm pdftex pktogf luatex dvipdft fmtutil kpsewhich mf-nowin mktexpk texconfig texluac xdvi-xaw updmap makeindex texlinks tcdialog mkocp mktexfmt texhash
 
 texlive.exclude     texmf/doc/man/man1/afm2tfm.1 \
                     texmf/doc/man/man1/allcm.1 \
@@ -97,7 +99,7 @@ texlive.exclude     texmf/doc/man/man1/afm2tfm.1 \
                     texmf/tex/generic/config/language.def
 
 post-destroot {
-    delete ${destroot}${prefix}/bin/mf
+    delete ${destroot}/${prefix}/bin/mf
 }
 
 pre-activate {

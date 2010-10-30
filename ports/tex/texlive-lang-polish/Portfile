@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-lang-polish
 version             14727
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Polish
 long_description    Support for typesetting Polish.
 
-checksums           md5     3b68ac26442276d748648efc389ef470 \
-                    sha1    d20907fd26600b40ac995afa7acef09cc850369d \
-                    rmd160  af724c8a5228b40afbb50fc2ce3b7569ea60e739
+checksums           md5     24c363aa04b00994b350293c5ef882ac \
+                    sha1    798387ffb49e7d57f7b369254fcf5e7bcc4331fb \
+                    rmd160  ad7bc0bfa5d740da9b69cb44c43c40be92dc8f9d
 
 depends_lib         port:texlive-latex port:texlive-basic
 

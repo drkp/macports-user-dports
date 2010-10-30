@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-korean
 version             13822
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Korean documentation
 long_description    Korean documentation
 
-checksums           md5     1ff167627bd6357680644206bb7b4f52 \
-                    sha1    0a72d8b402028dc3db898af2e46bce503488681e \
-                    rmd160  369e7fe9eac548c6c722587a3eba73d391cfaa6f
+checksums           md5     15eee45cc758fcea13700ff3c9d5cf3b \
+                    sha1    eea732de5cb6cccc6e97eb957c7f2a1ca3b05a0f \
+                    rmd160  465070dd8761c5aa0ec34bbbda1decf8eefbec85
 
 depends_lib         port:texlive-documentation-base
 

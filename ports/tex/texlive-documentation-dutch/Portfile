@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-dutch
 version             13822
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Dutch documentation
 long_description    Dutch documentation
 
-checksums           md5     7968bdeb0c3187e2e2d3dd223a8b0005 \
-                    sha1    c4a858ec1570757172e69760441b8638628782d2 \
-                    rmd160  6a5cf00d61034715104b84e0eab2a8b1b24a3665
+checksums           md5     dcac5482c93d833002d6e5e7643d9de7 \
+                    sha1    74bc577de12e5f648dacb32ec882276512e33ffc \
+                    rmd160  4106900e51129c31d5b181cebc7e2d04a505be93
 
 depends_lib         port:texlive-documentation-base
 

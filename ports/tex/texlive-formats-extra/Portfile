@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-formats-extra
-version             13822
-revision            1
+version             18686
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Extra formats
-long_description    A collection of TeX `formats', ie large-scale macro packages designed to be dumped into .fmt file
+long_description    Collected TeX `formats', i.e., large-scale macro packages designed to be dumped into .fmt files, other than most common ones, such as latex and context.
 
-checksums           md5     1a0bf83a94800961ca738fe21fb25daf \
-                    sha1    c6275e58e11616c62fc11fb0917eaffbfb563955 \
-                    rmd160  3b86d6c16757f474d6fd1ba61a55253bd69dd5f3
+checksums           md5     86049fdf1c0e47fa7818e1e349036e75 \
+                    sha1    c8e683b2e80c6c1a8b05ecc5f64b3a4bab7f154d \
+                    rmd160  a9a39c034033498265fc9b4eff03b8141f67b05d
 
 depends_lib         port:texlive-basic
 

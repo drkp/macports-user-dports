@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-portuguese
 version             13822
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Portuguese documentation
 long_description    Portuguese documentation
 
-checksums           md5     0f1217b45a9206c72a796cbda2259bcb \
-                    sha1    5f208b59ec871344575d69dc34ecbd6a465c1cee \
-                    rmd160  f617c35c4e7e70f96db30609f389242c42b952ca
+checksums           md5     6cd6b55f9cc6769b6198999661de5d36 \
+                    sha1    d0a52166cfac7218dea60ea303163ce84998987a \
+                    rmd160  eb72f3e455fae42b1cffaca935f7e1295d21e2a8
 
 depends_lib         port:texlive-documentation-base
 

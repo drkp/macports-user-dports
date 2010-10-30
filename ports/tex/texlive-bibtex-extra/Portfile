@@ -5,19 +5,21 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-bibtex-extra
-version             15225
-revision            1
+version             17995
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Extra BibTeX styles
-long_description    Additional BibTeX styles and bibliography databases.
+long_description    Additional BibTeX styles and bibliography databases, including BibLaTeX.
 
-checksums           md5     43067241f2bef392645c5f4e878e8ff8 \
-                    sha1    ef7d98967bd02e70c893a48dec0bba4cacc76588 \
-                    rmd160  f4d1680c97635095910fe2a6237e525019e1d56f
+checksums           md5     0d7c6f8f732cf73e573d342270e26599 \
+                    sha1    55a237de835ae02d8d0c851aa522459b5bc76e60 \
+                    rmd160  94675bd84e3d3e43301bb55a5cea37b9298991e9
 
 depends_lib         port:texlive-latex
+
+texlive.binaries    bibexport
 
 
 texlive.texmfport

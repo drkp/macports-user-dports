@@ -5,22 +5,25 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-pictures
-version             15543
-revision            1
+version             19330
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Graphics packages and programs
 long_description    Graphics packages and programs
 
-checksums           md5     77d0ef49ff619676a2b76c44d039b141 \
-                    sha1    4b453c469ffcdc3f157449b1195ec6a11f8881bf \
-                    rmd160  a8526a233ce2301e09299da304d405f67b233716
+checksums           md5     719bb0b55c2ff673d9a22cf2f8220eae \
+                    sha1    5d4285f3fa0e502bf4cc1d3dfe374b79fbe09711 \
+                    rmd160  4490b08144a2c67361dfddf2268b73359e76b79d
 
 depends_lib         port:texlive-basic
 
 texlive.maps      \
+    {Map knitfont.map} \
     {MixedMap xypic.map}
+
+texlive.binaries    cachepic fig4latex epspdf mathspic epspdftk
 
 
 texlive.texmfport

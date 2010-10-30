@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-lang-croatian
 version             14727
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Croatian
 long_description    Support for typesetting Croatian.
 
-checksums           md5     5bc92c0ca275f8ef2b42a7e982545d70 \
-                    sha1    37149d014d513b305a390c5747b0ff93cad4a58f \
-                    rmd160  7121f98945829318ed0d1962886b9d5647704f36
+checksums           md5     91919ba8aa3a5c0e825d00f0eef60ad4 \
+                    sha1    fc2c7b831abf6a9c189a518899c0bd4734a4d2c6 \
+                    rmd160  8eecc11be2823eaf60577ddcababbd03fce37bd4
 
 depends_lib         port:texlive-basic
 

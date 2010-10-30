@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-lang-finnish
 version             14727
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Finnish
 long_description    Support for typesetting Finnish.
 
-checksums           md5     ffe7418fcb1f305de7d2b10c6064e015 \
-                    sha1    517cdf886ef637f9fe3c2a00fe800f07bc8101af \
-                    rmd160  1979d0efc6742a679e418197868fa55ad55f8f65
+checksums           md5     9dc142a6f75eb5708ebc75583899451a \
+                    sha1    b462ab4e7126a34bb0373d9882b2a0c366e32cb2 \
+                    rmd160  a7c8e3c9514dffbb2b27a8dc5299731f416fb056
 
 depends_lib         port:texlive-basic
 

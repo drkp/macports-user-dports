@@ -1,0 +1,23 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           texlive 1.0
+
+name                texlive-documentation-serbian
+version             19112
+revision            0
+
+categories          tex
+maintainers         dports
+description         TeX Live: Serbian documentation
+long_description    Serbian documentation
+
+checksums           md5     acc64e608e89d769dec33bb0a86de07c \
+                    sha1    6c374a33f2374ef028bd8a369216d84b0f8232d8 \
+                    rmd160  da5f67599cb8f8470612f81da939cb1b07dd9a0f
+
+depends_lib         port:texlive-documentation-base
+
+
+texlive.texmfport

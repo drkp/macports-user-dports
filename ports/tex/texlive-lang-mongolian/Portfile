@@ -6,22 +6,22 @@ PortGroup           texlive 1.0
 
 name                texlive-lang-mongolian
 version             14727
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Mongolian
 long_description    Support for typesetting Mongolian.
 
-checksums           md5     f210d756978df9b58400625d233f7b21 \
-                    sha1    a35ba0b5a478427aab111d865e6dd50f80012776 \
-                    rmd160  f9cace7ade7dbc7d06ecc200150daf4f09c02f48
+checksums           md5     f4dcb9889a0112cee80388b0d188da8c \
+                    sha1    831004257b867bb4c8facbc8eed186e20e0c61e9 \
+                    rmd160  2b3c2e95fdc2c58491ef4edbc27cb7dbbd04a370
 
 depends_lib         port:texlive-basic
 
 texlive.languages      \
     {mongolian loadhyph-mn-cyrl.tex 2 2 {}} \
-    {mongolian2a loadhyph-mn-cyrl-x-2a.tex 2 2 {}}
+    {mongolianlmc loadhyph-mn-cyrl-x-lmc.tex 2 2 {}}
 
 texlive.maps      \
     {MixedMap mongolian.map}

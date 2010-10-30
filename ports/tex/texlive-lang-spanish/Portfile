@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-lang-spanish
 version             13822
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Spanish
 long_description    Spanish
 
-checksums           md5     cf82a8733b6674cc40ba4c4886252edb \
-                    sha1    91a1fce77cab4c50740d6c492506e18b752bc23c \
-                    rmd160  e38a73767881ba1d81cab61338af0b2abbd79a16
+checksums           md5     67d79f169c81c3a5009574b9e848bb46 \
+                    sha1    af3cf80ff55d0d89c488d5d8c3ff90d15f3c9032 \
+                    rmd160  683b7da4fe377757a48f8f12a63d5937633c6fe6
 
 depends_lib         port:texlive-basic
 

@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-lang-dutch
 version             14727
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Dutch
 long_description    Support for typesetting Dutch.
 
-checksums           md5     a185590492fad0d7c59ae5422d826598 \
-                    sha1    82eef1973174f9f0c32e466f61f999f3828da61b \
-                    rmd160  b67eb37b6c2a026ee696e317d5cbbe00b2491e73
+checksums           md5     b9a0ebbe1227e087ff24646eab837ac1 \
+                    sha1    6e9cba34040fa842439a05a10b29f9a684208ca8 \
+                    rmd160  c75d585d279503d19f4d829f851261d06faf6552
 
 depends_lib         port:texlive-basic
 

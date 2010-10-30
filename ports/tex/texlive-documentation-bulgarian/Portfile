@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-bulgarian
-version             13822
-revision            1
+version             19296
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Bulgarian documentation
 long_description    Bulgarian documentation
 
-checksums           md5     98aae5b1727726ea06090ea3903680ee \
-                    sha1    e1beb73606cabb19499fd5761dcb7ba22b92bbd3 \
-                    rmd160  da1cbcb7d585bf6e104221213afebaecd9d04749
+checksums           md5     2fbd33e9ec1626a465d773cb7c4891dc \
+                    sha1    54c4bd301edecdec05b72f88b80df5d3d1c1ba3b \
+                    rmd160  86d72c130449c901409953e7400425e2c3eb83bc
 
 depends_lib         port:texlive-documentation-base
 

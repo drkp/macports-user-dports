@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-french
-version             13822
-revision            1
+version             17322
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: French documentation
 long_description    French documentation
 
-checksums           md5     07e07a08e6149ac95be135974ba37a99 \
-                    sha1    dc16efb8bb4c5e521edf4ff0e1b150f7e78f59ca \
-                    rmd160  b405bda5cde1460f74ac6c9ca16d6db0b2e7daa8
+checksums           md5     9016158c1bd168531029fd126385da4b \
+                    sha1    07801b1ca517077a68f43259f1777c3f986b4635 \
+                    rmd160  82502a2d5675b0bc8ff015f52d177c8477161af6
 
 depends_lib         port:texlive-documentation-base
 

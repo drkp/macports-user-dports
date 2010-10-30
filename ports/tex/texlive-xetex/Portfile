@@ -5,23 +5,25 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-xetex
-version             14329
-revision            1
+version             17780
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: XeTeX packages
 long_description    Packages for XeTeX, the Unicode/OpenType-enabled TeX by Jonathan Kew, http://scripts.sil.org/xetex.
 
-checksums           md5     7a9ebc1c23e0def88aace0bb7bd703f3 \
-                    sha1    53e8213f9b63fdbb954ab00779f248b6c0d48e33 \
-                    rmd160  2e267d8bc23f4bf93bfb576bd836ea03d0ad6902
+checksums           md5     475081c62d922b0588fa2c85a69e87ba \
+                    sha1    8195208a91cca82d616238b461f9c6e45f9d59bd \
+                    rmd160  7c74e22aeac6399873be279627352f3edf835609
 
 depends_lib         port:texlive-basic
 
 texlive.formats      \
     {1 xetex xetex language.def {-etex xetex.ini}} \
     {1 xelatex xetex language.dat {-etex xelatex.ini}}
+
+texlive.binaries    xetex T1Wrap xdvipdfmx xdv2pdf teckit_compile
 
 
 texlive.texmfport

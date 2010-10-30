@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-turkish
 version             13822
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Turkish documentation
 long_description    Turkish documentation
 
-checksums           md5     a379ac5fa4fea90430e22c1f3c30ed94 \
-                    sha1    daeb6ae4f5156d497dc62ea727406a45135de2c1 \
-                    rmd160  3bb3074118e6a161df0d4503a3a32d0c7d5a8dd4
+checksums           md5     7c5f90a56a49e7a9d2615f641717b430 \
+                    sha1    037a0d6b63b99f8dd8795bbc6364e925e65494b2 \
+                    rmd160  9e28024085c5041297e6bee4a30682b1538ca16b
 
 depends_lib         port:texlive-documentation-base
 

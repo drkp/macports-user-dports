@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-lang-tibetan
 version             14727
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Tibetan
 long_description    Support for typesetting Tibetan.
 
-checksums           md5     d21fb090673de015a06a4454c37ea599 \
-                    sha1    707f0de0b3c95bd8ebddd8bc9bc42879d06dfd87 \
-                    rmd160  7fd27e150d0ca15534cd3d93d9b28c73cd08af7b
+checksums           md5     4281b9a46f12f6ed4b03b07bd84b9ea7 \
+                    sha1    e2b1a6191da405d2a6edbe0e68860a01f5d956e3 \
+                    rmd160  54b0fd1985f35ead9a07cdc0e24d46a0b1ebb410
 
 depends_lib         port:texlive-basic
 

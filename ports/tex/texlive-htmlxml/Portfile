@@ -6,24 +6,26 @@ PortGroup           texlive 1.0
 
 name                texlive-htmlxml
 version             13822
-revision            2
+revision            3
 
 categories          tex
 maintainers         dports
 description         TeX Live: HTML/SGML/XML support
-long_description    Packages to convert LaTeX to XML/HTML, and typeset XML/SGML
+long_description    Packages to convert LaTeX to XML/HTML, and typset XML/SGML
 
-checksums           md5     1fa7abc8975c94e6584217296241ae40 \
-                    sha1    03201da211a657ad553b4e9b34d2e2b9b053aa17 \
-                    rmd160  46fa303c39e7078ca7bf0e8eebcc729b9e391799
+checksums           md5     d0338db9e579931575024a062ce53297 \
+                    sha1    7523b46f727c79ae95b04d85006f400942aece8f \
+                    rmd160  1d97abbd810ce9ae9eb29c1fd3db7d7e751a1339
 
-depends_lib         port:texlive-basic port:texlive-fonts-recommended port:texlive-latex port:texlive-latex-recommended
+depends_lib         port:texlive-basic port:texlive-fonts-recommended port:texlive-latex
 
 texlive.formats      \
     {1 jadetex pdftex language.dat {*jadetex.ini}} \
     {1 pdfjadetex pdftex language.dat {*pdfjadetex.ini}} \
-    {1 xmltex pdftex language.dat {xmltex.ini}} \
-    {1 pdfxmltex pdftex language.dat {pdfxmltex.ini}}
+    {1 xmltex pdftex language.dat {*xmltex.ini}} \
+    {1 pdfxmltex pdftex language.dat {*pdfxmltex.ini}}
+
+texlive.binaries    tex4ht htxelatex ht httex mk4ht htmex t4ht htcontext htxetex httexi htlatex
 
 
 texlive.texmfport

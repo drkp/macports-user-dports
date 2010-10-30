@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-publishers
-version             14434
-revision            1
+version             19046
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Support for publishers, theses, standards, conferences, etc.
 long_description    Support for publishers, theses, standards, conferences, etc.
 
-checksums           md5     36227da770add7d229d7806c0f1c9787 \
-                    sha1    6f95af39729923f357fb6914b203afbcdec1a4f9 \
-                    rmd160  871f42c17147ccdf2825dfcb6b4c498708e11ca0
+checksums           md5     0d8bc7399bc412f09c6bbd5c7f0ae2eb \
+                    sha1    90e21298e4d40f0051051dd3dc5058f27ae3e7d5 \
+                    rmd160  6b6843960235d04de8d4bd9df34eb75791805e72
 
 depends_lib         port:texlive-latex
 

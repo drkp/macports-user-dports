@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-lang-czechslovak
 version             14727
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Czech/Slovak
 long_description    Support for typesetting Czech/Slovak.
 
-checksums           md5     297f663d2930828dc4f7362bcd5985d4 \
-                    sha1    0ef494e313da69809e91851a6b9484d883238b78 \
-                    rmd160  352e7332ad5dfc055002e900dbb36eab499543d3
+checksums           md5     20317e9404b625c9e2b80e89c3eeb358 \
+                    sha1    20fee7bb1db465090db50e2e63b2eb96bf7553b8 \
+                    rmd160  6aaef17de69a5ebd00e98ce01a0b3504bead9d02
 
 depends_lib         port:texlive-basic port:texlive-latex
 
@@ -32,6 +32,8 @@ texlive.languages      \
 texlive.maps      \
     {MixedMap csother.map} \
     {MixedMap cstext.map}
+
+texlive.binaries    vlna
 
 texlive.excludemanpages yes
 texlive.texmfport

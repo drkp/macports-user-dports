@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-mongolian
 version             13822
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Mongolian documentation
 long_description    Mongolian documentation
 
-checksums           md5     b93b6ec51030f41cf56b7ef9c8862f28 \
-                    sha1    e9b0a529a1f35829abe714dcde1850118c0331c3 \
-                    rmd160  3faba98e3dc9a0860fe6bfdb23af4c2b528dbc43
+checksums           md5     758ac165e493cc3aa8b9c366563dc3b1 \
+                    sha1    cb59350adfcd6a7b5713775e53e35b956547c442 \
+                    rmd160  82e2b8516f27b83d396ab58ebb10d32269128b60
 
 depends_lib         port:texlive-documentation-base
 

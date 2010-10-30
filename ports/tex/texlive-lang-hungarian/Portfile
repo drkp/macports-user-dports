@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-lang-hungarian
 version             14727
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Hungarian
 long_description    Support for typesetting Hungarian.
 
-checksums           md5     14ca9fff074754714651dd2e6e21a94e \
-                    sha1    cd7f0eb98769953cd9884e7514012ca3a213c61f \
-                    rmd160  c36fb776d9bb712f70a6b40f35db95927a8cd1e6
+checksums           md5     5130f6ea4121f6d47912e65f6d33377e \
+                    sha1    49afc82140daa6a2ed0b9e6c3a1a889a211aa906 \
+                    rmd160  b414279115f87f65bdde321b93bf15a809b6617b
 
 depends_lib         port:texlive-basic
 

@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-ukrainian
 version             13822
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Ukrainian documentation
 long_description    Ukrainian documentation
 
-checksums           md5     c7b5adbf14a0031f0f9b88cb07dfe909 \
-                    sha1    38d4c8b8049018d17c2579f86e0c1792c7a80fa1 \
-                    rmd160  e45e6fe735a224ccc591e6beff5aab67bf5a5c1e
+checksums           md5     7fea78b4656fc38fbb228f8ecb447f4f \
+                    sha1    af9c3ce981ca5ac8c64f342b430a1e68b9cdf2e6 \
+                    rmd160  dfae5f4a3f43c1014dcfd0d9f004dc12be9c0f9f
 
 depends_lib         port:texlive-documentation-base
 

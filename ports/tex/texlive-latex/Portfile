@@ -5,25 +5,26 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-latex
-version             15495
-revision            1
+version             18674
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Basic LaTeX packages
 long_description    These packages are mandated by the core LaTeX team, or at least very strongly recommended.
 
-checksums           md5     643df1236150b1817ed95cf123b9d00f \
-                    sha1    2238ad75b4c2e2185c7328ca0565694750cd5767 \
-                    rmd160  36d4ca2a0b61147852efe207fbae2e9472ef7f85
+checksums           md5     62f683bf3509d38ce296ef322a37c319 \
+                    sha1    f0a6d5ff8d129c7b239b670f6308fc9759c02f32 \
+                    rmd160  e14d3b49907d122fec92b56fe80bbf082fc25785
 
 depends_lib         port:texlive-basic
 
 texlive.formats      \
     {1 latex pdftex language.dat {-translate-file=cp227.tcx *latex.ini}} \
     {1 pdflatex pdftex language.dat {-translate-file=cp227.tcx *pdflatex.ini}} \
-    {1 dvilualatex luatex language.dat {dvilualatex.ini}} \
-    {1 lualatex luatex language.dat {lualatex.ini}}
+    {1 dvilualatex luatex language.dat,language.dat.lua {dvilualatex.ini}} \
+    {1 lualatex luatex language.dat,language.dat.lua {lualatex.ini}} \
+    {1 mptopdf pdftex - {-translate-file=cp227.tcx mptopdf.tex}}
 
 texlive.maps      \
     {Map charter.map} \
@@ -32,5 +33,9 @@ texlive.maps      \
     {Map utopia.map}
 
 texlive.excludemanpages yes
+
+post-destroot {
+    delete ${destroot}${prefix}/bin/mptopdf
+}
 
 texlive.texmfport

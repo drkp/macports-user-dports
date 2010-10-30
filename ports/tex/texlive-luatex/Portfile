@@ -5,19 +5,21 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-luatex
-version             13992
-revision            1
+version             18256
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: LuaTeX packages
 long_description    Packages for LuaTeX, a Unicode-aware extension of pdfTeX, using Lua  as an embedded scripting and extension language. http://luatex.org/
 
-checksums           md5     330b10f24c8a01cfbc924b63058ff06a \
-                    sha1    237471228190992887c18986265cdd40a43659a8 \
-                    rmd160  d174352d192f9327a2ea0ba9f41630a9e990c0a9
+checksums           md5     9cf288d848ff567496e4afccaf35150b \
+                    sha1    3a6cd658ecaca27695246ee24408ef25bd42f499 \
+                    rmd160  25f1b877be754cc7f1941b33f8bc7c61281085ee
 
 depends_lib         port:texlive-basic
+
+texlive.binaries    mkluatexfontdb
 
 
 texlive.texmfport

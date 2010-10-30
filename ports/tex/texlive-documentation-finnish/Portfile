@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-finnish
 version             13822
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Finnish documentation
 long_description    Finnish documentation
 
-checksums           md5     9b608d2d141320274eeef7629b105b91 \
-                    sha1    d24afa7c8c0c846575b22926a986e51e9f764b0a \
-                    rmd160  6cc7e86ffebd89276f02f8b8acb88fa5b72e2a6e
+checksums           md5     d84111e33c56212324677e97816e4383 \
+                    sha1    a55f9e14fe1abe9e8f47de492558b7e47288c349 \
+                    rmd160  72b9b524f69b57a91ed4ad88bd6896f51565cccf
 
 depends_lib         port:texlive-documentation-base
 

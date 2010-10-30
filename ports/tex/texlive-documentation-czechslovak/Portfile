@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-czechslovak
 version             14740
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Czech/Slovak documentation
 long_description    Czech/Slovak documentation
 
-checksums           md5     83ace198b8db4d25245eaa7ded61add3 \
-                    sha1    faf18ff38cadc73e59e1af58f48e72961a2cbf1f \
-                    rmd160  9678312ea34daef15fd83174d3c05d9ed6e8259c
+checksums           md5     c2224a0192251029ccce9824ba54101c \
+                    sha1    a027b052b21d90799ec4f3198921de42426141ee \
+                    rmd160  323b09a6fddf73d19b5e51ac1e5518d6b56ac606
 
 depends_lib         port:texlive-documentation-base
 

@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-spanish
-version             13822
-revision            1
+version             16564
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Spanish documentation
 long_description    Spanish documentation
 
-checksums           md5     f686e0d5f08de2f85bf6405b8743bba5 \
-                    sha1    7ef596f09a5b90468e87b6e90663fc3c3c7c2b1d \
-                    rmd160  2d03b69e10f3a82844c052424c8c384201c9a184
+checksums           md5     b90115a93bde4a8f9807533b92b7fb37 \
+                    sha1    fb89e3aa11aafd0d4c064b91f011526de2061b85 \
+                    rmd160  7142573aeb7d760d1fbd554d116b91ba6f00b008
 
 depends_lib         port:texlive-documentation-base
 

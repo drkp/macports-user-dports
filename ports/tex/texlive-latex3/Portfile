@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-latex3
-version             15560
-revision            1
+version             16052
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: LaTeX3 packages
 long_description    LaTeX3 packages
 
-checksums           md5     919148eb4725a066e1362a425ce0397e \
-                    sha1    ea493ad28cf4bb70d3d4d7f1d4691a345073926f \
-                    rmd160  e740be79eff90e3083b394cec585219b6f1a5565
+checksums           md5     7c2227c3435d58a05cf5d1d06c8cc9f6 \
+                    sha1    503306062920e305cb3185ac6d6203ad0b040719 \
+                    rmd160  2a963f074a224474d74f71c9e73825d46fb28ac9
 
 depends_lib         port:texlive-latex
 

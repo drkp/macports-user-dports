@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-games
 version             15166
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Games typesetting
 long_description    Setups for typesetting various games, including chess.
 
-checksums           md5     e5118c04299a7bff32c8a11d6aa4d99f \
-                    sha1    87744bd9a1fc2afa654c5c2946d7ca3aaee12777 \
-                    rmd160  7a2fd8e5186a88150ddcfbed97cba07360888285
+checksums           md5     dc20546c225b5f9429eeadb61c408d60 \
+                    sha1    b5072976abe44d3fceb89b49358762ab1d09d649 \
+                    rmd160  3a0bc92131f15f0fb648e8225e76aed37c8a3d77
 
 depends_lib         port:texlive-latex
 

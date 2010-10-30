@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-cyrillic
-version             15492
-revision            1
+version             16705
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Cyrillic
 long_description    Support for typesetting Cyrillic.
 
-checksums           md5     ac2e8771031e030f3f3ec23d6a0ac37b \
-                    sha1    365ef23efa3674ed09a3d37a1e7d7fded8a7dda6 \
-                    rmd160  8ed7360889b0a0aba9822eb688545413b9e44a0a
+checksums           md5     fa04c85f77982bea03b542610154bee3 \
+                    sha1    f5dd3196d3ddbbe3c601fc6897f1393d112aeea8 \
+                    rmd160  726d1f210c273f52e14af0dea5351eb0ffc0927a
 
 depends_lib         port:texlive-basic port:texlive-latex
 
@@ -31,6 +31,8 @@ texlive.languages      \
 
 texlive.maps      \
     {Map cmcyr.map}
+
+texlive.binaries    rubibtex rumakeindex
 
 texlive.excludemanpages yes
 

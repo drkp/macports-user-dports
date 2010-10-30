@@ -6,16 +6,16 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-polish
 version             13822
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: Polish documentation
 long_description    Polish documentation
 
-checksums           md5     a52a84596892c97147169890bd9330ea \
-                    sha1    8886f1840e91234f569da3e16ea1b3a696467b12 \
-                    rmd160  d11b70ee017d392e6ba1c6bdbe4c23e23ec89372
+checksums           md5     25be4c4b0b9ce3eaeacc0469fcc6c1e8 \
+                    sha1    84b9c24d4753ac0cef3b8ec8481b7ab63439bf3f \
+                    rmd160  69441eaf168a4b023c5d126afbe842d79e9fa9d8
 
 depends_lib         port:texlive-documentation-base
 

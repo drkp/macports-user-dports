@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-german
-version             13822
-revision            1
+version             16981
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: German documentation
 long_description    German documentation
 
-checksums           md5     e2e660af226363eba898cae50b92b4c8 \
-                    sha1    afe4c10bf2e4460a813a53056ffe48b1fb7a1753 \
-                    rmd160  ed937922f011a7682309cac9cb50f5145e130f3d
+checksums           md5     0a151c27382ff9ae5d9c30cb8f94012b \
+                    sha1    d977e2fbe155b0659e4d823bb9d0f5dff5880d7d \
+                    rmd160  03a0f6681c042327166affff198cca2eac562197
 
 depends_lib         port:texlive-documentation-base
 

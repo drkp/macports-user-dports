@@ -6,22 +6,24 @@ PortGroup           texlive 1.0
 
 name                texlive-metapost
 version             15388
-revision            1
+revision            2
 
 categories          tex
 maintainers         dports
 description         TeX Live: MetaPost (and Metafont) drawing packages
 long_description    MetaPost (and Metafont) drawing packages
 
-checksums           md5     c17dea96501c30086734613d53bc59d1 \
-                    sha1    a224319a8ecfebf02d4efedef5b2ffa1b4d42eb4 \
-                    rmd160  d74468994632c2259c45047241efa1d68b1dc6cf
+checksums           md5     6dff3e646dd7937af01b075565eda805 \
+                    sha1    00f35f3e93e4974611a5543a28f2b93d0c618966 \
+                    rmd160  d7eeccb2d4bcc3e1b9b6e82739f0b91fb8e45324
 
 depends_lib         port:texlive-basic
 
 texlive.formats      \
     {1 mpost mpost - {mpost.mp}} \
     {1 mfplain mpost - {mfplain.ini}}
+
+texlive.binaries    dvitomp mpost
 
 texlive.excludemanpages yes
 

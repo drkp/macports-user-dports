@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-english
-version             15727
-revision            1
+version             18881
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: English documentation
 long_description    English documentation
 
-checksums           md5     ab47f96ce5dd05252431f7d1e381c43f \
-                    sha1    b5daa337252e13689db6ab72f45a15b873f94713 \
-                    rmd160  db1308dc66a6d29bbb6cf526afc34de1a4b5b3e7
+checksums           md5     41a436141b13cde0d1b8267d7e50024e \
+                    sha1    1821b7cbfffe3ffc7273886f1e243083f343e70d \
+                    rmd160  1a608cd58e12dc9944b7b9b610185b73b57bc879
 
 depends_lib         port:texlive-documentation-base
 

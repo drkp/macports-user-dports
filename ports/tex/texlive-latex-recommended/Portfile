@@ -5,19 +5,21 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-latex-recommended
-version             15271
-revision            1
+version             18261
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: LaTeX recommended packages
 long_description    A collection of recommended add-on packages for LaTeX which have widespread use
 
-checksums           md5     5ebb35bc4577b8712c10ff635702a0bb \
-                    sha1    f8b3fde0c1dda08f2282793de8be365c1fc5db39 \
-                    rmd160  00a10ecd1d8cd2e035ed17d4cba42ab5b60eb55e
+checksums           md5     3126b50c7e634e2593113ad262892678 \
+                    sha1    8b87b77c54c7fd555e4d654302cc111ae5b599b6 \
+                    rmd160  02bbc3bee11a3a4113d03dbf7d49a051918fd8f2
 
 depends_lib         port:texlive-latex
+
+texlive.binaries    thumbpdf
 
 texlive.excludemanpages yes
 
