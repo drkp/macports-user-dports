@@ -1,6 +1,23 @@
---- texk/texlive/linked_scripts/Makefile.in.orig	2010-10-26 23:44:12.000000000 -0400
-+++ texk/texlive/linked_scripts/Makefile.in	2010-10-26 23:46:18.000000000 -0400
-@@ -589,16 +589,16 @@
+--- texk/texlive/linked_scripts/Makefile.in.orig	2010-11-01 20:10:29.000000000 -0400
++++ texk/texlive/linked_scripts/Makefile.in	2010-11-01 22:27:35.000000000 -0400
+@@ -575,13 +575,10 @@
+ #
+ # We support both multiplatform and non-multiplatform builds.
+ #
++
++# MacPorts: hard-code link destinations instead of using relative ones
+ install-data-hook:
+-	case "$(bindir)" in \
+-	  */bin) $(MAKE) $(AM_MAKEFLAGS) REL=.. install-links;; \
+-	  */bin/*) $(MAKE) $(AM_MAKEFLAGS) REL=../.. install-links;; \
+-	  *) echo "strange directory '$(bindir)' for linked scripts" >&2; \
+-	     exit 1;; \
+-	esac
++	 $(MAKE) $(AM_MAKEFLAGS) install-links
+ 
+ .PHONY: install-links
+ install-links:
+@@ -589,16 +586,16 @@
  	  for s in $(nobase_dist_scriptx_SCRIPTS); do \
  	    target=`basename $$s | sed 's,\.[^/]*$$,,' | tr '[A-Z]' '[a-z]'`; \
  	    rm -f $$target; \
@@ -21,7 +38,7 @@
  	  done && \
  	  for s in $(bin_links); do \
  	    link=`echo $$s | sed 's,.*:,,'`; \
-@@ -606,12 +606,7 @@
+@@ -606,12 +603,7 @@
  	    rm -f $$link; \
  	    echo "creating link '$$link' -> '$$file'"; \
  	    $(LN_S) $$file $$link; \

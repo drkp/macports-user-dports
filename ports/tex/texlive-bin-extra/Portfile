@@ -19,7 +19,7 @@ checksums           md5     7c3d28267b3d391fddd4fa1d3861ae9f \
 
 depends_lib         port:texlive-basic
 
-texlive.binaries    purifyeps dviselect pdfjam-slides6up ps4pdf latex2man dviconcat pkfix-helper pooltype dv2dt xasy dvidvi pdf90 synctex e2pall pkfix pdfnup detex dvilj2p dvigif ctangle dvilj texloganalyser tpic2pdftex bundledoc tangle findhyph dvilj6 chktex pdfjam-pocketmod arlatex pdfflip a2ping texdiff tie pdftosrc pdfclose mkjobtexmf texdirflatten patgen dvi2tty latexdiff-vc rpdfcrop pdfjam-slides3up texdoctk texdoc dviasm latexmk dvibook asy disdvi pdf180 pdfbook dvipng fragmaster lacheck dvisvgm pdf270 dvitype dvilj4 texcount bibtex8 dvilj4l cweave pdfjam pdfjoin dvitodvi listings-ext.sh pdfcrop pdfpun deweb bibtexu pdfopen dvihp weave pdfatfi dt2dv dvipos de-macro chkweb ctie dvicopy latexdiff latexrevise
+texlive.binaries    purifyeps dviselect pdfjam-slides6up ps4pdf latex2man dviconcat pkfix-helper pooltype dv2dt xasy dvidvi pdf90 synctex e2pall pkfix pdfnup dvilj2p dvigif ctangle dvilj texloganalyser tpic2pdftex bundledoc tangle findhyph dvilj6 chktex pdfjam-pocketmod arlatex pdfflip a2ping texdiff tie pdftosrc pdfclose mkjobtexmf texdirflatten patgen dvi2tty latexdiff-vc rpdfcrop pdfjam-slides3up texdoctk texdoc dviasm dvibook asy disdvi pdf180 pdfbook dvipng fragmaster lacheck dvisvgm pdf270 dvitype dvilj4 texcount bibtex8 dvilj4l cweave pdfjam pdfjoin dvitodvi listings-ext.sh pdfcrop pdfpun deweb bibtexu pdfopen dvihp weave pdfatfi dt2dv dvipos de-macro chkweb ctie dvicopy latexdiff latexrevise
 
 texlive.excludemanpages yes
 

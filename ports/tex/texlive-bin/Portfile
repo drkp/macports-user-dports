@@ -59,11 +59,15 @@ depends_build   path:bin/perl:perl5 \
 patchfiles      patch-configure \
                 patch-libs_icu_icu-4.4_configure.diff \
                 patch-libs-freetype-Makefile.in.diff \
-                patch-texk_texlive_linked_scripts_Makefile.in.diff
+                patch-texk_texlive_linked_scripts_Makefile.in.diff \
+                patch-texk_tex4htk_Makefile.in.diff \
+                patch-texk_xdvik_xdvi-sh.in.diff
 
 post-patch {
     reinplace "s|@@TEXMFMAIN@@|${texlive_texmfmain}|" ${worksrcpath}/texk/texlive/linked_scripts/Makefile.in
     reinplace "s|@@TEXMFDIST@@|${texlive_texmfdist}|" ${worksrcpath}/texk/texlive/linked_scripts/Makefile.in
+    reinplace "s|@@TEXMFDIST@@|${texlive_texmfdist}|" ${worksrcpath}/texk/tex4htk/Makefile.in
+    reinplace "s|@@TEXLIVE_BINDIR@@|${texlive_bindir}|" ${worksrcpath}/texk/xdvik/xdvi-sh.in
 
     # Link our texmf.cnf in so that the proper paths are compiled into kpathsea
     delete ${worksrcpath}/texk/kpathsea/texmf.cnf
@@ -86,12 +90,13 @@ post-patch {
 #
 # Exceptions are freetype1 (not in MacPorts anymore) and icu (the
 # texlive version is non-standard)
-configure.args  --mandir=${prefix}/share/man \
+configure.args  --bindir=${texlive_bindir} \
+                --mandir=${texlive_bindir} \
                 --infodir=${prefix}/share/info \
                 --disable-multiplatform \
                 --disable-native-texlive-build \
                 --without-old-mac-fonts \
-                --with-tex-banner="TeX Live/MacPorts ${version}_${revision}" \
+                --with-banner-add="/MacPorts ${version}_${revision}" \
                 --enable-shared \
                 --with-system-freetype2 \
                 --without-system-freetype \
@@ -106,6 +111,7 @@ configure.args  --mandir=${prefix}/share/man \
                 --with-t1lib-libdir=${prefix}/lib \
                 --with-system-xpdf \
                 --with-system-zlib \
+                --enable-etex \
                 --disable-detex \
                 --disable-dvi2tty \
                 --disable-ps2eps \
@@ -134,12 +140,20 @@ post-destroot   {
     delete ${destroot}${prefix}/texmf-dist
 
     # Do not install symlinks to scripts that we will not install
-    delete ${destroot}${prefix}/bin/latexmk
-    delete ${destroot}${prefix}/bin/tlmgr
+    delete ${destroot}${texlive_bindir}/latexmk
+    delete ${destroot}${texlive_bindir}/tlmgr
+
+    # gzip manpages that are installed into texlive_bindir
+    foreach manpage [glob -directory ${destroot}${texlive_bindir} man*/*] {
+        # need to make sure it isn't a symlink
+        if {[file type $manpage] == "file"} {
+            system "gzip $manpage"
+        }
+    }
 }
 
 post-activate {
-    system "${prefix}/bin/mktexlsr"
+    system "${texlive_bindir}/mktexlsr"
 }
 
 variant atsui description {Use ATSUI instead of freetype for XeTeX font rendering (forces 32-bit)} {

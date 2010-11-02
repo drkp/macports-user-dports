@@ -19,7 +19,7 @@ checksums           md5     eb1d4624fd3df030148f50c5161b9cfe \
 
 depends_lib         port:texlive-basic
 
-texlive.binaries    cfftot1 pk2bm showglyphs afm2afm t1asm getafm ps2eps fixpspps ttf2afm tftopl autoinst ot2kpx psbook epstopdf ttf2pk pstops psmerge ps2pk t1reencode mkt1font afm2pl ttftotype42 fixscribeps fixwpps includeres showchar fixwfwps otftotfm t1rawafm t1unmac vftovp fixtpps pslatex t1dotlessj mmafm ttf2tfm otfinfo fontinst fixfmps mmpfb vptovf font2afm extractres repstopdf pfm2kpx psresize epsffit t1disasm t1mac ttfdump ps2frag mag t1binary fixwwps t1testpage fixpsditps pfb2pfa bbox vpl2ovp fixmacps pltotf vpl2vpl psnup cmap2enc fixdlsrps t1ascii psselect t1lint
+texlive.binaries    cfftot1 pk2bm showglyphs afm2afm getafm fixpspps ttf2afm tftopl autoinst ot2kpx psbook epstopdf ttf2pk pstops psmerge ps2pk t1reencode mkt1font afm2pl ttftotype42 fixscribeps fixwpps includeres showchar fixwfwps otftotfm t1rawafm vftovp fixtpps pslatex t1dotlessj mmafm ttf2tfm otfinfo fontinst fixfmps mmpfb vptovf font2afm repstopdf pfm2kpx psresize ttfdump ps2frag mag fixwwps t1testpage fixpsditps pfb2pfa vpl2ovp fixmacps pltotf vpl2vpl psnup cmap2enc fixdlsrps psselect t1lint
 
 texlive.excludemanpages yes
 
