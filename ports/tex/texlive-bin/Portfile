@@ -57,6 +57,7 @@ depends_build   path:bin/perl:perl5 \
                 path:bin/pkg-config:pkgconfig
 
 patchfiles      patch-configure \
+                patch-libs_icu_Makefile.in.diff \
                 patch-libs_icu_icu-4.4_configure.diff \
                 patch-libs-freetype-Makefile.in.diff \
                 patch-texk_texlive_linked_scripts_Makefile.in.diff \
