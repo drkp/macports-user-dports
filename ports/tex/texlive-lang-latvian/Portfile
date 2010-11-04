@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Latvian
 long_description    Support for typesetting Latvian.
 
-checksums           md5     4b40d4b583dc0fc27761912328bfd8bf \
-                    sha1    da8ef7233af9e8d99ad4ee78f3a76f124c9ac9c7 \
-                    rmd160  37c084fe2d79371f4b2f92187d757735b31c1864
+checksums           md5     9352332972b72cf5a08c7fc2fa2131f2 \
+                    sha1    4d983ccfd7004e5202cf6b54d5ba3eb3007f0252 \
+                    rmd160  47fdce50ae87b941e78948f321b0ac987b300d33
 
 depends_lib         port:texlive-basic
 

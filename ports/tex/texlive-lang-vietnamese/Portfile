@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Vietnamese
 long_description    Support for typesetting Vietnamese.
 
-checksums           md5     b1cd835a75acc645d4ef587790846a03 \
-                    sha1    bb3942dc60fb446f20bf992b24571acb37faeb5e \
-                    rmd160  6d7c1149096b2b5a28f3574cf9acfb66a91c058c
+checksums           md5     bcd05521b35066d8102241dc7d9acd7d \
+                    sha1    9605743dad35826bae161e9c62c5b13cf6bd3dc7 \
+                    rmd160  3b0cd4663087f986d7577b2e2b2c0abf45f8485f
 
 depends_lib         port:texlive-basic
 

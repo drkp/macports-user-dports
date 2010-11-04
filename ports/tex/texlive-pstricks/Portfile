@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: PSTricks packages
 long_description    PSTricks packages
 
-checksums           md5     536ebf642df570af732be6f74d55f70c \
-                    sha1    dc162ed9dbda133cc257b36cc9c1deb5b44e8413 \
-                    rmd160  3247c778692622b5d69d32e053dc822210c83c61
+checksums           md5     baa01d75d0180e4a4ee8c3a2d487055d \
+                    sha1    37412768ebd5b2197a747bd2ed2781765db900ca \
+                    rmd160  9a7ef4ac0abd01ee6c214ab42104fd4effa717a7
 
 depends_lib         port:texlive-basic port:texlive-generic-recommended
 

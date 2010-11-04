@@ -13,42 +13,13 @@ maintainers         dports
 description         TeX Live: TeX and Outline font utilities
 long_description    Programs for conversion between font formats, testing fonts, virtual fonts, .gf and .pk manipulation, mft, fontinst, etc. Manipulating OpenType, TrueType, PostScript Type 1, etc.
 
-checksums           md5     eb1d4624fd3df030148f50c5161b9cfe \
-                    sha1    4fa843b9c1897bcea51036d0559ac75a62b3444f \
-                    rmd160  a355aae563d1841288a70b064858468e5b7e1ae2
+checksums           md5     aee4ebe702b6324a309eff531f54d7f5 \
+                    sha1    125141e470cccd5a78a26bfaba93d03f441ea5e0 \
+                    rmd160  cc9a2a67243a755f16ddc0289d906820ab3f02ed
 
 depends_lib         port:texlive-basic
 
-texlive.binaries    cfftot1 pk2bm showglyphs afm2afm getafm fixpspps ttf2afm tftopl autoinst ot2kpx psbook epstopdf ttf2pk pstops psmerge ps2pk t1reencode mkt1font afm2pl ttftotype42 fixscribeps fixwpps includeres showchar fixwfwps otftotfm t1rawafm vftovp fixtpps pslatex t1dotlessj mmafm ttf2tfm otfinfo fontinst fixfmps mmpfb vptovf font2afm repstopdf pfm2kpx psresize ttfdump ps2frag mag fixwwps t1testpage fixpsditps pfb2pfa vpl2ovp fixmacps pltotf vpl2vpl psnup cmap2enc fixdlsrps psselect t1lint
+texlive.binaries    afm2afm afm2pl autoinst cfftot1 cmap2enc epstopdf font2afm fontinst mag mkt1font mmafm mmpfb ot2kpx otfinfo otftotfm pfb2pfa pfm2kpx pk2bm pltotf ps2pk repstopdf showglyphs t1dotlessj t1lint t1rawafm t1reencode t1testpage tftopl ttf2afm ttf2pk ttf2tfm ttfdump ttftotype42 vftovp vpl2ovp vpl2vpl vptovf
 
-texlive.excludemanpages yes
-
-texlive.exclude     texmf/doc/man/man1/afm2pl.1 \
-                    texmf/doc/man/man1/cfftot1.1 \
-                    texmf/doc/man/man1/mag.1 \
-                    texmf/doc/man/man1/mmafm.1 \
-                    texmf/doc/man/man1/mmpfb.1 \
-                    texmf/doc/man/man1/otfinfo.1 \
-                    texmf/doc/man/man1/otftotfm.1 \
-                    texmf/doc/man/man1/pfb2pfa.1 \
-                    texmf/doc/man/man1/pk2bm.1 \
-                    texmf/doc/man/man1/pltotf.1 \
-                    texmf/doc/man/man1/ps2frag.1 \
-                    texmf/doc/man/man1/ps2pk.1 \
-                    texmf/doc/man/man1/pslatex.1 \
-                    texmf/doc/man/man1/t1dotless.1 \
-                    texmf/doc/man/man1/t1dotlessj.1 \
-                    texmf/doc/man/man1/t1lint.1 \
-                    texmf/doc/man/man1/t1rawafm.1 \
-                    texmf/doc/man/man1/t1reencode.1 \
-                    texmf/doc/man/man1/t1testpage.1 \
-                    texmf/doc/man/man1/tftopl.1 \
-                    texmf/doc/man/man1/ttf2afm.1 \
-                    texmf/doc/man/man1/ttf2pk.1 \
-                    texmf/doc/man/man1/ttf2tfm.1 \
-                    texmf/doc/man/man1/ttfdump.1 \
-                    texmf/doc/man/man1/ttftotype42.1 \
-                    texmf/doc/man/man1/vftovp.1 \
-                    texmf/doc/man/man1/vptovf.1 \
 
 texlive.texmfport

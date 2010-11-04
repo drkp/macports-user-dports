@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Japanese documentation
 long_description    Japanese documentation
 
-checksums           md5     c9aedc329235ea66a78d6fb02d3a20b3 \
-                    sha1    3bfbd26318b031c73f794a87a36d8aef81c741ac \
-                    rmd160  7d1aca4de1b0baa34ac1cc4d9d68aeff2a757548
+checksums           md5     c7ae9e3c738504d37bbea6296af795a4 \
+                    sha1    18424cb6249d9791cdc88ddf80e45c555e360a26 \
+                    rmd160  dfe8a6577834aa89ad429e1d88a647450b64cf79
 
 depends_lib         port:texlive-documentation-base
 

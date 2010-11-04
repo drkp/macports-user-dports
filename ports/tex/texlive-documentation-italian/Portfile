@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Italian documentation
 long_description    Italian documentation
 
-checksums           md5     34bd8bbe5088058335b345b840ce8086 \
-                    sha1    eb55d33cc28fd149a4ff165d4dc54a4f8f2144cc \
-                    rmd160  e3c69e6841e45608c68317887d90b89a7067ff1e
+checksums           md5     094616e436ce99ef52a1b288b6863fb9 \
+                    sha1    ff9da9add3f873d12adafc8a9138d6f851afd6f9 \
+                    rmd160  8ddb962f6519d19ca268ecbbb968c5e564b0e0bc
 
 depends_lib         port:texlive-documentation-base
 

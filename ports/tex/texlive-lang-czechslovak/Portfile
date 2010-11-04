@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Czech/Slovak
 long_description    Support for typesetting Czech/Slovak.
 
-checksums           md5     20317e9404b625c9e2b80e89c3eeb358 \
-                    sha1    20fee7bb1db465090db50e2e63b2eb96bf7553b8 \
-                    rmd160  6aaef17de69a5ebd00e98ce01a0b3504bead9d02
+checksums           md5     2c8db8969867ce31a077c55a6f985d2e \
+                    sha1    b8c65c77c053c5dd8d598cbba77649628f91f05b \
+                    rmd160  d1d0f57b9e7c18b5b9e9544d6c9d85bb650fb02f
 
 depends_lib         port:texlive-basic port:texlive-latex
 
@@ -35,5 +35,5 @@ texlive.maps      \
 
 texlive.binaries    vlna
 
-texlive.excludemanpages yes
+
 texlive.texmfport

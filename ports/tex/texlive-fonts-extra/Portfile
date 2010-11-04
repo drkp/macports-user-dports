@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Extra fonts
 long_description    Extra fonts
 
-checksums           md5     b9a7d45f25b1a32c563f7a1e5a13013e \
-                    sha1    72caf2aeb63957db5f70c820d1a45f2ef5b70fcd \
-                    rmd160  4a2c00f80de4ae5d96be0c656d3fc662e404a53c
+checksums           md5     0531d502c09a8264890a0dc2ba5ca7c9 \
+                    sha1    b1daa77ff40f96d3244d66afc87671f71dcd31f6 \
+                    rmd160  9580a9f28b05303c5195bd994dffa47a4ae8cbb3
 
 depends_lib         port:texlive-basic
 

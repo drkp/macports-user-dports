@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Spanish documentation
 long_description    Spanish documentation
 
-checksums           md5     b90115a93bde4a8f9807533b92b7fb37 \
-                    sha1    fb89e3aa11aafd0d4c064b91f011526de2061b85 \
-                    rmd160  7142573aeb7d760d1fbd554d116b91ba6f00b008
+checksums           md5     0a2e7215ee5d1e9ff9f7ad3753595076 \
+                    sha1    6d1869cdb4da5944e537a3aaac7c3e3696056e0c \
+                    rmd160  aafe590fd7dff3772bcedb6439ac380670ff5eef
 
 depends_lib         port:texlive-documentation-base
 

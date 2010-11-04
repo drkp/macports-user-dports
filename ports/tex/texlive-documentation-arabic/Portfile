@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Arabic documentation
 long_description    Arabic documentation
 
-checksums           md5     9bbf9aa26f427f286ad3316fdb6dd87d \
-                    sha1    0c56550903d66e14e29614d36c8e383a0631d56b \
-                    rmd160  5d5e7668a26bb1a7a8938e38d4a8b707746b24fb
+checksums           md5     2e8b4abba8e95509b338f0c9b9fa867b \
+                    sha1    a021eb28d997d1cc01b8e10789a940787dd37114 \
+                    rmd160  82822a9fbdc2a14b8b7822bf17a74065a8d25f0d
 
 depends_lib         port:texlive-documentation-base
 

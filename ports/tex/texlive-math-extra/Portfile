@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Advanced math typesetting
 long_description    Extra math
 
-checksums           md5     e8a6d46d9c9c179408230bf668554fc6 \
-                    sha1    17ebb059f4cca1ac53450f96ec93068c279069e8 \
-                    rmd160  fe76d0e01da71f57a7e7b56939b91dbdea951928
+checksums           md5     a3a01ad0dbfcc2059821a4c1a03971cf \
+                    sha1    87bc710f7ca4fd36c47c30d90fd8f61f53c5a2b2 \
+                    rmd160  536054ee365b87f4e2c4c729400097ae8f561b96
 
 depends_lib         port:texlive-fonts-recommended port:texlive-latex
 
@@ -26,6 +26,5 @@ texlive.maps      \
     {MixedMap stmaryrd.map} \
     {MixedMap yhmath.map}
 
-texlive.excludemanpages yes
 
 texlive.texmfport

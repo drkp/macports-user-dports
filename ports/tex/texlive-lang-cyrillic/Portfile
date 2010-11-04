@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Cyrillic
 long_description    Support for typesetting Cyrillic.
 
-checksums           md5     fa04c85f77982bea03b542610154bee3 \
-                    sha1    f5dd3196d3ddbbe3c601fc6897f1393d112aeea8 \
-                    rmd160  726d1f210c273f52e14af0dea5351eb0ffc0927a
+checksums           md5     856774740ebb80d054efaa5f8a66f47b \
+                    sha1    8d43c5c936c67e99bd2b36b82a8866ca3a121b0b \
+                    rmd160  3389f6c8567c685993cf30b5da5a768aa1ec795a
 
 depends_lib         port:texlive-basic port:texlive-latex
 
@@ -34,6 +34,5 @@ texlive.maps      \
 
 texlive.binaries    rubibtex rumakeindex
 
-texlive.excludemanpages yes
 
 texlive.texmfport

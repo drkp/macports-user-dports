@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Plain TeX supplementary packages
 long_description    Add-on packages and macros that work with plain TeX.
 
-checksums           md5     0eab0c91c59d585dbe2fe3684f0a7f06 \
-                    sha1    e83ff2a0b934f08f5b2bcc8a7362215f68c2204c \
-                    rmd160  5331e207efdefd7334a90731dc74e4506d6378e4
+checksums           md5     684b99d09c1f666c373d866331ef3f44 \
+                    sha1    b161560645e37b48a6b11e7dad005af6a2578127 \
+                    rmd160  01a433270ef4ad97a46854f7d2f792b1a61b0668
 
 depends_lib         port:texlive-basic
 

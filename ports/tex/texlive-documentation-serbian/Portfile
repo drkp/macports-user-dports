@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Serbian documentation
 long_description    Serbian documentation
 
-checksums           md5     acc64e608e89d769dec33bb0a86de07c \
-                    sha1    6c374a33f2374ef028bd8a369216d84b0f8232d8 \
-                    rmd160  da5f67599cb8f8470612f81da939cb1b07dd9a0f
+checksums           md5     af6bc87b463dd698337a00fbb30d26d7 \
+                    sha1    98ed05467a814ba5713eee1790a2ee41d5e652ef \
+                    rmd160  0228ea30b002eedea4dfeae181f12d039a2a69ab
 
 depends_lib         port:texlive-documentation-base
 

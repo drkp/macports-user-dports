@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Czech/Slovak documentation
 long_description    Czech/Slovak documentation
 
-checksums           md5     c2224a0192251029ccce9824ba54101c \
-                    sha1    a027b052b21d90799ec4f3198921de42426141ee \
-                    rmd160  323b09a6fddf73d19b5e51ac1e5518d6b56ac606
+checksums           md5     45a2e8f0cf2e65555c7446c6d47af3ea \
+                    sha1    74e5065e4b7eb4246725d27c7a90700eb7fc9702 \
+                    rmd160  dc0f890d0308f5251c80b086245069b1b22ff4aa
 
 depends_lib         port:texlive-documentation-base
 

@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Armenian
 long_description    Support for typesetting Armenian.
 
-checksums           md5     db9c771214aecc4628b5b31225fc8a92 \
-                    sha1    a759c064624e0803101755adb7a4154d266fe7ac \
-                    rmd160  ca551cc155a25334ecfc18c34658c38404f70c50
+checksums           md5     ddb705a2355d0bff58251c881f7dc795 \
+                    sha1    398ec3a6a3c80d803c684cecfe18591f07165680 \
+                    rmd160  2a893036f598601bab694739b960d380b593a7b0
 
 depends_lib         port:texlive-basic
 

@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Lithuanian
 long_description    Support for typesetting Lithuanian.
 
-checksums           md5     6a3f950e5dc6fcf21cc7b9d325d3ace0 \
-                    sha1    f4a80c44608c6cb7b38ac5ec8214bfb3542997b5 \
-                    rmd160  faeaef471210bbf94b0f42f06587b1b0743e5f5b
+checksums           md5     808d214288d4cab51964b7a81dc38665 \
+                    sha1    fdabc9d5244e7fff3727b498542657d854fd453a \
+                    rmd160  95e2ca42755281d305cc7e4841d3e088d4897d34
 
 depends_lib         port:texlive-basic
 

@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Hebrew
 long_description    Support for typesetting Hebrew.
 
-checksums           md5     928c0e31524e7de5672a3d369758bc1b \
-                    sha1    c04ad6c91b040fd1029c03ec9ba70cfe6d9f2b7d \
-                    rmd160  f1d0800a049189181d3ad4d5de86c687e70324bd
+checksums           md5     f4144bc509d79a3ed42ec4ba16192507 \
+                    sha1    51bec5b91b36ec8260043cd0d0803beb5c9afc34 \
+                    rmd160  f07a1d36f31cf49dc78601551159ed52fd495fc1
 
 depends_lib         port:texlive-basic
 

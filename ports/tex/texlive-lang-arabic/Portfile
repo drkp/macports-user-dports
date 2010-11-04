@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Arabic
 long_description    Support for typesetting Arabic.
 
-checksums           md5     b51a3b4000f406accbee468d7c0b3daf \
-                    sha1    b765ba69b56214a010908d2b538a246ef42f406f \
-                    rmd160  287139769d290418ca39f5a8bf056058b6ebcc91
+checksums           md5     cc2346f75f26a51458bc5e0ccb45f107 \
+                    sha1    a177ef6d8d4559dc0da6ebc55c5b02a0198b81ba \
+                    rmd160  57a397626ec684357e04467dd3a0219b0d1d9d6a
 
 depends_lib         port:texlive-basic
 

@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: African scripts
 long_description    Support for typesetting some African scripts
 
-checksums           md5     b72f7d62d2a9a1d966d9295850e6164f \
-                    sha1    bfe8498b7e6a638810403d594ebdd415fad8b3ee \
-                    rmd160  150ccdf8e910af6e47347c570379025af7ca9517
+checksums           md5     e0e42c6eb80e2a151dc47f9cb6659973 \
+                    sha1    a718ff8e249560f504951e9bc02d91367276764d \
+                    rmd160  8d7002b7811e3ba3b55593bc6265ef0d3f818d9d
 
 depends_lib         port:texlive-basic
 

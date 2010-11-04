@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: LaTeX supplementary packages
 long_description    A large collection of add-on packages for LaTeX.
 
-checksums           md5     091c2de3f956f3d1b2befa7b5c5cdce1 \
-                    sha1    6109216f6737c92945c65ade2b9f7cd7842dc6e7 \
-                    rmd160  b37cb5c0784de957e3d3458c52fe97e475ecea7f
+checksums           md5     65a4e86c147ffac2eba46d390e0a5224 \
+                    sha1    37fdb358431feee651f2acd168a4958489ecc03a \
+                    rmd160  875963b3df7770da47bafc4c9f13a7fc7269bd7a
 
 depends_lib         port:texlive-latex port:texlive-pictures
 
@@ -24,7 +24,7 @@ texlive.maps      \
     {MixedMap esint.map} \
     {MixedMap manfnt.map}
 
-texlive.binaries    perltex pdfannotextractor pdfthumb vpe authorindex splitindex makeglossaries svn-multi ppower4
+texlive.binaries    authorindex makeglossaries pdfannotextractor pdfthumb perltex ppower4 splitindex svn-multi vpe
 
 
 texlive.texmfport

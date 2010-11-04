@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Mongolian documentation
 long_description    Mongolian documentation
 
-checksums           md5     758ac165e493cc3aa8b9c366563dc3b1 \
-                    sha1    cb59350adfcd6a7b5713775e53e35b956547c442 \
-                    rmd160  82e2b8516f27b83d396ab58ebb10d32269128b60
+checksums           md5     fbdc8e66f267a03ffb39e8b3aba4b4aa \
+                    sha1    89d031c6e4d284d8367e80ce05b8b5aa0d894525 \
+                    rmd160  5d5c7602280364dced42aecb4ed3054261619b7e
 
 depends_lib         port:texlive-documentation-base
 

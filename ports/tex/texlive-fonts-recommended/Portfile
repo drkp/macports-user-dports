@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Recommended fonts
 long_description    Recommended fonts, including the base 35 PostScript fonts, Latin Modern, TeX Gyre, and T1 and other encoding support for Computer Modern, in outline form.
 
-checksums           md5     cd057a6456b3ea4edc9c2c7b73e32e47 \
-                    sha1    496f5d1b717ab988e97173b777e29eef7db92ea2 \
-                    rmd160  819c13b8f67cf477d75e062eeb8c5adee7ef4e94
+checksums           md5     15d92d4564dd5392a1e9a7d155f3968d \
+                    sha1    bbb82b053e9c3d10d3cbc1aac36b366c52d1b90c \
+                    rmd160  ec24eca495b232735ed33e03e71ed575d4c060b0
 
 depends_lib         port:texlive-basic
 

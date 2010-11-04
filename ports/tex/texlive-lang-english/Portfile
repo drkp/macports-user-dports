@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: US and UK English
 long_description    Support for typesetting US and UK English.
 
-checksums           md5     09ac5ba67a0c070633efcfbf5d3cf27c \
-                    sha1    db7fa3bf9fc0ef6b091dbe02d442ec83fcd63695 \
-                    rmd160  f221b7591300401523590764716a4ef868e05830
+checksums           md5     87b13e5770ecfd072ff12c285667851c \
+                    sha1    eeb28eb41c52088f9186ef20f1868334f88e7494 \
+                    rmd160  8727e25faffd3af293977ab708b15dfdde3ddf90
 
 depends_lib         port:texlive-basic
 

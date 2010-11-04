@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Indic scripts
 long_description    Support for typesetting some Indic scripts.
 
-checksums           md5     adff5f203d1649c677da26807d6d2dd4 \
-                    sha1    ddc9e23e439b47788ac01a60eb18520c30051c3e \
-                    rmd160  e0c22b9c52704f19ba3fb22ae347b0d3ba239e1e
+checksums           md5     4e16de71ea8e93f332391fe3eaf21833 \
+                    sha1    f46ea7c513c0bd70b850ffcd84993447b30963ba \
+                    rmd160  69000415d5ba0d340eb54d61afe20dd554aedf4a
 
 depends_lib         port:texlive-basic
 

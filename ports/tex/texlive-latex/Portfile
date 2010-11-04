@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Basic LaTeX packages
 long_description    These packages are mandated by the core LaTeX team, or at least very strongly recommended.
 
-checksums           md5     62f683bf3509d38ce296ef322a37c319 \
-                    sha1    f0a6d5ff8d129c7b239b670f6308fc9759c02f32 \
-                    rmd160  e14d3b49907d122fec92b56fe80bbf082fc25785
+checksums           md5     6621ebb9ac0a33e766778bccfd1e502c \
+                    sha1    e1265ddbdd1c1cd907bc56b0dda37171be3c4450 \
+                    rmd160  f3b0aecb325aacb67ac8dd6859f9d7d78e1418fe
 
 depends_lib         port:texlive-basic
 
@@ -32,10 +32,5 @@ texlive.maps      \
     {Map pazo.map} \
     {Map utopia.map}
 
-texlive.excludemanpages yes
-
-post-destroot {
-    delete ${destroot}${prefix}/bin/mptopdf
-}
 
 texlive.texmfport

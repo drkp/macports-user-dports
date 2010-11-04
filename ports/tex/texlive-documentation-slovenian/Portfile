@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Slovenian documentation
 long_description    Slovenian documentation
 
-checksums           md5     6856638da16e50426d98d2efc163a1ad \
-                    sha1    27565357d518017edc4e528aa7e480609f0b940e \
-                    rmd160  4cdee5a793bd551ccbc5b7ed322e17d14df4afe8
+checksums           md5     ca795c1345722c16515234aeaee3d96a \
+                    sha1    35369badb94926e378c07e4d5aef8b422bc168ca \
+                    rmd160  64909578cab210765433c0b4705a8b3a43793bac
 
 depends_lib         port:texlive-documentation-base
 

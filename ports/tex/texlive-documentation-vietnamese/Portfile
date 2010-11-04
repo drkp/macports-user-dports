@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Vietnamese documentation
 long_description    Vietnamese documentation
 
-checksums           md5     9bbe2a2636ebddb0a9d8170cfa6c8807 \
-                    sha1    cc99fe38b6317d303c9c5345ef988ef2ad95ce4e \
-                    rmd160  f3507cb59017fccd576fb65c6a12ef1cff557e42
+checksums           md5     cb30cb15e21c9c0ab61b97561e3dd397 \
+                    sha1    00afe77336e7f3b696aed25644bbe2cfd8da9981 \
+                    rmd160  70c0b793611afcc29f5ebac8f2a353459e89caa7
 
 depends_lib         port:texlive-documentation-base
 

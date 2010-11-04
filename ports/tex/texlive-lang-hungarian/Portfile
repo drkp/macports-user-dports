@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Hungarian
 long_description    Support for typesetting Hungarian.
 
-checksums           md5     5130f6ea4121f6d47912e65f6d33377e \
-                    sha1    49afc82140daa6a2ed0b9e6c3a1a889a211aa906 \
-                    rmd160  b414279115f87f65bdde321b93bf15a809b6617b
+checksums           md5     975901955b23737967ee43a4066a0ca4 \
+                    sha1    653d86ce58ba1c97e30464ec9d1473ff147398b8 \
+                    rmd160  74d8c371b8d16f1ebab0c8a75bf3c974ef191e08
 
 depends_lib         port:texlive-basic
 

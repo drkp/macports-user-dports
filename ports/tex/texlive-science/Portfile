@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Typesetting for natural and computer sciences
 long_description    Typesetting for natural and computer sciences
 
-checksums           md5     a3fe152b701fa1cdb94f3a38ab2c9554 \
-                    sha1    cc515a3e42d365f656242266048a17517a360fbd \
-                    rmd160  c4966a6fa5fe885707d12f69c16355a64c780bd9
+checksums           md5     cd91eed5c1376b4646507ade634603cc \
+                    sha1    22c0011acc16db7b481cf7c7a87cad8d1a1be752 \
+                    rmd160  64bd2dca822fc82bebc336f21fbdbbe0e1d02a28
 
 depends_lib         port:texlive-latex
 

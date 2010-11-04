@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Portuguese documentation
 long_description    Portuguese documentation
 
-checksums           md5     6cd6b55f9cc6769b6198999661de5d36 \
-                    sha1    d0a52166cfac7218dea60ea303163ce84998987a \
-                    rmd160  eb72f3e455fae42b1cffaca935f7e1295d21e2a8
+checksums           md5     36e98a8d9268851ac61fba50a5151db8 \
+                    sha1    489cd5da4f86325cef6305fe4158b497519fc01f \
+                    rmd160  a1d45dce91d0140f262424b98d731982ca826a4e
 
 depends_lib         port:texlive-documentation-base
 

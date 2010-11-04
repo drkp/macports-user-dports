@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Russian documentation
 long_description    Russian documentation
 
-checksums           md5     d788766943f6ce37deeb38425c2f0dfb \
-                    sha1    540f778397d7665f0291f4e4321351515f03f6a7 \
-                    rmd160  42887db4768ed176823a470ee0d3aa11fc9e14e7
+checksums           md5     60749018c1b0713a495becdb85934d2a \
+                    sha1    2c683b9ba62c17ccbc5f93c7779fa9c4225d896a \
+                    rmd160  19186cc6e4de4409c475746a37496660c96e3926
 
 depends_lib         port:texlive-documentation-base
 

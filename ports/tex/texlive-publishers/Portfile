@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Support for publishers, theses, standards, conferences, etc.
 long_description    Support for publishers, theses, standards, conferences, etc.
 
-checksums           md5     0d8bc7399bc412f09c6bbd5c7f0ae2eb \
-                    sha1    90e21298e4d40f0051051dd3dc5058f27ae3e7d5 \
-                    rmd160  6b6843960235d04de8d4bd9df34eb75791805e72
+checksums           md5     7bd9d765582452f481cf224d7ef06190 \
+                    sha1    904fc759e73c4d330677415fb4312bfbbf5dc1e7 \
+                    rmd160  ffbe22146fbd170ab0703899a5493d2454442c4a
 
 depends_lib         port:texlive-latex
 

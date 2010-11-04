@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Swedish
 long_description    Support for typesetting Swedish.
 
-checksums           md5     a71a763dac0aa041c5c700ee08de0ef6 \
-                    sha1    d54f887264389d25f3941ad81d3b1c633d9899ec \
-                    rmd160  e240061c30b1fa5682b7ec68013ad987825d2185
+checksums           md5     574db59b99c72d220e7b2828bac1202b \
+                    sha1    9775239df22466dcffec48e8e3eddd4904270023 \
+                    rmd160  0bb8f62b1fb710b05137eaf3b11bea0239024573
 
 depends_lib         port:texlive-basic
 

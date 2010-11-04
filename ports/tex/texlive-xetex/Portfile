@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: XeTeX packages
 long_description    Packages for XeTeX, the Unicode/OpenType-enabled TeX by Jonathan Kew, http://scripts.sil.org/xetex.
 
-checksums           md5     475081c62d922b0588fa2c85a69e87ba \
-                    sha1    8195208a91cca82d616238b461f9c6e45f9d59bd \
-                    rmd160  7c74e22aeac6399873be279627352f3edf835609
+checksums           md5     52cb3cec276bdda21b9fc997ccd2f28e \
+                    sha1    213151c9e882c520e72aaa728ac49d5776e20496 \
+                    rmd160  487d3bde3f6c8d4cb74178c3b4f08da3fe4e780e
 
 depends_lib         port:texlive-basic
 
@@ -23,7 +23,7 @@ texlive.formats      \
     {1 xetex xetex language.def {-etex xetex.ini}} \
     {1 xelatex xetex language.dat {-etex xelatex.ini}}
 
-texlive.binaries    xetex T1Wrap xdvipdfmx xdv2pdf teckit_compile
+texlive.binaries    T1Wrap teckit_compile xdv2pdf xdvipdfmx xetex
 
 
 texlive.texmfport

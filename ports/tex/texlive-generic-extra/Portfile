@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Extra generic packages
 long_description    Extra packages that work with multiple formats, typically both TeX and LaTeX.
 
-checksums           md5     740791ec9442e21cf35b7a635bca6be1 \
-                    sha1    191294b53cb318245357817fbead29fb93d8dbd9 \
-                    rmd160  335082668cd9427894f537605f4e6b3347fe5e9c
+checksums           md5     07f61d2b3b2e92f3e752e445360209e6 \
+                    sha1    a675f633940202e723070f1c487e43cc33140afe \
+                    rmd160  7d9c5a61991883667129eaebe2c7da2a172fcff4
 
 depends_lib         port:texlive-basic
 

@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Finnish documentation
 long_description    Finnish documentation
 
-checksums           md5     d84111e33c56212324677e97816e4383 \
-                    sha1    a55f9e14fe1abe9e8f47de492558b7e47288c349 \
-                    rmd160  72b9b524f69b57a91ed4ad88bd6896f51565cccf
+checksums           md5     588bc7744d93c1e6896d873368305174 \
+                    sha1    0d4b46efd997e00e45b735a1e5c3c0a7ec0fe841 \
+                    rmd160  939e907e0a66404b08f235a47424e13cbcbcce58
 
 depends_lib         port:texlive-documentation-base
 

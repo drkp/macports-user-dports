@@ -13,14 +13,13 @@ maintainers         dports
 description         TeX Live: TeX auxiliary programs
 long_description    Various useful, but non-essential, support programs. Includes programs and macros for DVI file manipulation, literate programming, patgen, and the TeX Works Editor.
 
-checksums           md5     7c3d28267b3d391fddd4fa1d3861ae9f \
-                    sha1    34cb609f19bac60776cb39fff0fa41b9b0dc14cf \
-                    rmd160  df94737e8e9cc1eb1ed7e7716426e072bb895d38
+checksums           md5     1fcaa4b59ee8820479ce55a98d79748f \
+                    sha1    2174f242e476eca5c88bbed9b19bdeb8e2ffbd0a \
+                    rmd160  fb6b4f7339953d120d92aa3c484b70a862df36fe
 
 depends_lib         port:texlive-basic
 
-texlive.binaries    purifyeps dviselect pdfjam-slides6up ps4pdf latex2man dviconcat pkfix-helper pooltype dv2dt xasy dvidvi pdf90 synctex e2pall pkfix pdfnup dvilj2p dvigif ctangle dvilj texloganalyser tpic2pdftex bundledoc tangle findhyph dvilj6 chktex pdfjam-pocketmod arlatex pdfflip a2ping texdiff tie pdftosrc pdfclose mkjobtexmf texdirflatten patgen dvi2tty latexdiff-vc rpdfcrop pdfjam-slides3up texdoctk texdoc dviasm dvibook asy disdvi pdf180 pdfbook dvipng fragmaster lacheck dvisvgm pdf270 dvitype dvilj4 texcount bibtex8 dvilj4l cweave pdfjam pdfjoin dvitodvi listings-ext.sh pdfcrop pdfpun deweb bibtexu pdfopen dvihp weave pdfatfi dt2dv dvipos de-macro chkweb ctie dvicopy latexdiff latexrevise
+texlive.binaries    a2ping arlatex asy bibtex8 bibtexu bundledoc chktex chkweb ctangle ctie cweave de-macro deweb dt2dv dv2dt dviasm dvibook dviconcat dvicopy dvidvi dvigif dvihp dvilj dvilj2p dvilj4 dvilj4l dvilj6 dvipng dvipos dviselect dvisvgm dvitodvi dvitype e2pall findhyph fragmaster lacheck latex2man latexdiff latexdiff-vc latexrevise listings-ext.sh mkjobtexmf patgen pdf180 pdf270 pdf90 pdfatfi pdfbook pdfclose pdfcrop pdfflip pdfjam pdfjam-pocketmod pdfjam-slides3up pdfjam-slides6up pdfjoin pdfnup pdfopen pdfpun pdftosrc pkfix pkfix-helper pooltype ps4pdf purifyeps rpdfcrop synctex tangle texcount texdiff texdirflatten texdoc texdoctk texloganalyser tie tpic2pdftex weave xasy
 
-texlive.excludemanpages yes
 
 texlive.texmfport

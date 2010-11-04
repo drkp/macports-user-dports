@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Danish
 long_description    Support for typesetting Danish.
 
-checksums           md5     1af943c10c53c3aabd70706ee2007684 \
-                    sha1    b8e804234ced64a2307689ffd775a3d1894d41de \
-                    rmd160  3accaf0491ffc8e0ea3aa1d1e980dc340784f1b5
+checksums           md5     da96ece14f104dd567005177f05c766c \
+                    sha1    b06ef7f42b670679b9207b40f8d8803ac32029b9 \
+                    rmd160  f1db250094cd915123eb3efa30a75c180e659603
 
 depends_lib         port:texlive-basic
 

@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Humanities packages
 long_description    Packages for law, linguistics, the social sciences, the humanities, etc.
 
-checksums           md5     ec677c6976e9ae4a5db869dd908f96c6 \
-                    sha1    61a89db491aecdf021851bb4b0ae7eefd9806876 \
-                    rmd160  641dcd7ab083d9281cc79d7d4bada784c1a8c8c2
+checksums           md5     ac754578bc39ebc43531f92cb11a2623 \
+                    sha1    ba60f525baf6b4ad5694458836ab95dab8c968d9 \
+                    rmd160  3c9aa6f1b48c8f5e5b40eb0c2270c73bd9d605fe
 
 depends_lib         port:texlive-latex
 

@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Greek
 long_description    Support for typesetting Greek.
 
-checksums           md5     beec118b177dc5f665854752207d1e8d \
-                    sha1    034db4df6e24e33d2165b871b411692947ba7afb \
-                    rmd160  fde745b999b6b166b5c56908ff7ecc75b9e7b7bd
+checksums           md5     93827f0cd81fce1bb1dc9b5a91dec9a7 \
+                    sha1    355f18cdf0c31e9c68c63712a02caa0076810387 \
+                    rmd160  c3d250bd3996fb251f175053ea2b76ebd9610206
 
 depends_lib         port:texlive-basic
 

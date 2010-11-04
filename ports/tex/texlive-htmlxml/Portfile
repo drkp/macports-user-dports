@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: HTML/SGML/XML support
 long_description    Packages to convert LaTeX to XML/HTML, and typset XML/SGML
 
-checksums           md5     d0338db9e579931575024a062ce53297 \
-                    sha1    7523b46f727c79ae95b04d85006f400942aece8f \
-                    rmd160  1d97abbd810ce9ae9eb29c1fd3db7d7e751a1339
+checksums           md5     520c29559cd5530e1d8ee88279eab36a \
+                    sha1    f07ef1495aac348fb6e377b0b6d6a6db85109d34 \
+                    rmd160  47bbb3d75292b88f4d8dbcf91f3f7143e97766ee
 
 depends_lib         port:texlive-basic port:texlive-fonts-recommended port:texlive-latex
 
@@ -25,7 +25,16 @@ texlive.formats      \
     {1 xmltex pdftex language.dat {*xmltex.ini}} \
     {1 pdfxmltex pdftex language.dat {*pdfxmltex.ini}}
 
-texlive.binaries    tex4ht htxelatex ht httex mk4ht htmex t4ht htcontext htxetex httexi htlatex
+texlive.binaries    ht htcontext htlatex htmex httex httexi htxelatex htxetex mk4ht t4ht tex4ht
 
+texlive.exclude     texmf-dist/scripts/tex4ht/ht.sh \
+                    texmf-dist/scripts/tex4ht/htcontext.sh \
+                    texmf-dist/scripts/tex4ht/htlatex.sh \
+                    texmf-dist/scripts/tex4ht/htmex.sh \
+                    texmf-dist/scripts/tex4ht/httex.sh \
+                    texmf-dist/scripts/tex4ht/httexi.sh \
+                    texmf-dist/scripts/tex4ht/htxelatex.sh \
+                    texmf-dist/scripts/tex4ht/htxetex.sh \
+                    texmf-dist/scripts/tex4ht/mk4ht.pl
 
 texlive.texmfport

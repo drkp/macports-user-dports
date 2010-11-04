@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: German
 long_description    Support for typesetting German.
 
-checksums           md5     caba2e253526ce075471c7e2295f0e69 \
-                    sha1    3e5c73a51bab3a840a46971d75ee2f3015677306 \
-                    rmd160  969016b176d81b7beeebc726da3874897af840cf
+checksums           md5     e9dc19f8430c248459dff894d681c211 \
+                    sha1    de9844d6a308a43e8ad6587edde596f7e4134fbf \
+                    rmd160  aaaa9a9e5b8dc047c436ce07ecc57416f9b8753a
 
 depends_lib         port:texlive-basic
 

@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: French
 long_description    Support for typesetting French.
 
-checksums           md5     d9585e96e7d43afad42e800d47bc3af5 \
-                    sha1    79712acfd292f28b2ae806a0d18c7a3585d6ed98 \
-                    rmd160  82597a22bac6817706da4a3abfde9fe8838a2d10
+checksums           md5     9e6b21e662f3ab33936e6133314f244a \
+                    sha1    cac62f566ac6ce2ab53df5034b7c2da1cd0bfc47 \
+                    rmd160  531974dcd060e59a0568828c61e7ac1bafd49242
 
 depends_lib         port:texlive-basic
 

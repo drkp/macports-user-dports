@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Thai documentation
 long_description    Thai documentation
 
-checksums           md5     e1ff8d2e6a0ac3c001ecefe3bffd462c \
-                    sha1    4bc5e602746e3e80afee639f03b0f1401a8d1819 \
-                    rmd160  0380ef5641611965a08469c6f48e389f6dfc3fb0
+checksums           md5     e54a7aee2f624d8883d82f7852d83ee9 \
+                    sha1    f23245790fd4f330f77911b4d34430c04f927ff4 \
+                    rmd160  75ff3744aaaa96b60c60f7f71d0a5d8589385301
 
 depends_lib         port:texlive-documentation-base
 

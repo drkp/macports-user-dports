@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: German documentation
 long_description    German documentation
 
-checksums           md5     0a151c27382ff9ae5d9c30cb8f94012b \
-                    sha1    d977e2fbe155b0659e4d823bb9d0f5dff5880d7d \
-                    rmd160  03a0f6681c042327166affff198cca2eac562197
+checksums           md5     cf8a81ab09ee70fdeb99e4c9d3f539e7 \
+                    sha1    5ec6563ddb0c6f367993312d951552ab62e73f37 \
+                    rmd160  7395b66795e0cccd30c1ca8a8f8191f1ec84aa2a
 
 depends_lib         port:texlive-documentation-base
 

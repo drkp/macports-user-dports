@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Essential programs and files
 long_description    These files are regarded as basic for any TeX system, covering plain TeX macros, Computer Modern fonts, and configuration for common drivers\; no LaTeX.
 
-checksums           md5     28b9ed12d50badf100a2cbcb1cd65511 \
-                    sha1    d843e9b1d2aac7c9470f6f98c0a9b20919e73076 \
-                    rmd160  c22c6a91256bbeb71d2163f4d23dd2611073095c
+checksums           md5     cd34562742f998e23be31c3f90aaf8d5 \
+                    sha1    1547529eac5d2a2fa7015ac7e12a5eb049969efb \
+                    rmd160  d45ce7124c1c3a15991b8988e83587f348076047
 
 depends_lib         port:texlive-documentation-base
 
@@ -38,7 +38,7 @@ texlive.maps      \
     {MixedMap cmtext-bsr-interpolated.map} \
     {MixedMap mflogo.map}
 
-texlive.binaries    xdvi kpsepath afm2tfm texlua ebb kpsexpand updmap-sys kpsereadlink allneeded mktexmf mkindex bibtex dvired mft tex fmtutil-sys dvipdfm dvipdfmx texconfig-dialog allcm simpdftex pktype dvips gftodvi gftopk kpsewhere kpsestat gftype extractbb kpseaccess kpsetool allec texconfig-sys mktexlsr dvi2fax mkofm gsftopk mktextfm pdftex pktogf luatex dvipdft fmtutil kpsewhich mf-nowin mktexpk texconfig texluac xdvi-xaw updmap makeindex texlinks tcdialog mkocp mktexfmt texhash
+texlive.binaries    afm2tfm allcm allec allneeded bibtex dvi2fax dvipdfm dvipdfmx dvipdft dvips dvired ebb extractbb fmtutil fmtutil-sys gftodvi gftopk gftype gsftopk kpseaccess kpsepath kpsereadlink kpsestat kpsetool kpsewhere kpsewhich kpsexpand luatex makeindex mf-nowin mft mkindex mkocp mkofm mktexfmt mktexlsr mktexmf mktexpk mktextfm pdftex pktogf pktype simpdftex tcdialog tex texconfig texconfig-dialog texconfig-sys texhash texlinks texlua texluac updmap updmap-sys xdvi xdvi-xaw
 
 texlive.exclude     texmf/web2c/fmutil.cnf \
                     texmf/web2c/texmf.cnf \

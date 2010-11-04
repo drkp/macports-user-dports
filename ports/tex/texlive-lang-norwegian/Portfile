@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Norwegian
 long_description    Support for typesetting Norwegian.
 
-checksums           md5     96fa38d4b8553e73a801c160061f858d \
-                    sha1    c08d6e9a7f1398cf639b12c2b4c35f0c1a7c68ff \
-                    rmd160  ffe9077f21b362b2e7efb93251fe7baae44e7b14
+checksums           md5     f2c81b866d27a12e08f261959d145f9b \
+                    sha1    922f4bcf8660980e62f885043607094ad463663f \
+                    rmd160  b2a164464c7885c945e84dbe5309d36fac688fc6
 
 depends_lib         port:texlive-basic
 

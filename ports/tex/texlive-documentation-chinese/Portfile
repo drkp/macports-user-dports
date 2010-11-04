@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Chinese documentation
 long_description    Chinese documentation
 
-checksums           md5     c5cbe79006c5e5c58ef7de108c3aaa87 \
-                    sha1    f2f290eaab2a3d923be757ffb0929069723657ba \
-                    rmd160  780d6c5e973d3f933a5f81f178f445705d0b2ec9
+checksums           md5     70842e077af26baeffca29e1da66dcc8 \
+                    sha1    8c7566f9de950b15929eccae944eda695856d33e \
+                    rmd160  5234ff0401d5a80d045c12da93063125c37a95cb
 
 depends_lib         port:texlive-documentation-base
 

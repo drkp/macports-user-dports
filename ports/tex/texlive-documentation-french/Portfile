@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: French documentation
 long_description    French documentation
 
-checksums           md5     9016158c1bd168531029fd126385da4b \
-                    sha1    07801b1ca517077a68f43259f1777c3f986b4635 \
-                    rmd160  82502a2d5675b0bc8ff015f52d177c8477161af6
+checksums           md5     300889cb787fb8c3b562e3f918bd3328 \
+                    sha1    b00c557e6dbf0b4961b1dccd4290f630eb93f440 \
+                    rmd160  9219302498696d240548ad44b7c0eccbacf2f5a9
 
 depends_lib         port:texlive-documentation-base
 

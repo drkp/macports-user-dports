@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: MetaPost (and Metafont) drawing packages
 long_description    MetaPost (and Metafont) drawing packages
 
-checksums           md5     6dff3e646dd7937af01b075565eda805 \
-                    sha1    00f35f3e93e4974611a5543a28f2b93d0c618966 \
-                    rmd160  d7eeccb2d4bcc3e1b9b6e82739f0b91fb8e45324
+checksums           md5     c41470a1a7863341937a45c396f28969 \
+                    sha1    6a2382f9e280fdbf92419ca874eb53454008f737 \
+                    rmd160  2e0dff0e5f11b547b9163cbd3120de4ee4f5cfcc
 
 depends_lib         port:texlive-basic
 
@@ -25,6 +25,5 @@ texlive.formats      \
 
 texlive.binaries    dvitomp mpost
 
-texlive.excludemanpages yes
 
 texlive.texmfport
