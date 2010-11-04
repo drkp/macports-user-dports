@@ -106,11 +106,6 @@ proc texlive.removedocdepends {} {
 options texlive.exclude
 default texlive.exclude {}
 
-# Skip installing all manpages. A number of texmf ports include
-# manpages, but many of them are already installed by texmf-bin.
-options texlive.excludemanpages
-default texlive.excludemanpages no
-
 options texlive.binaries texlive.formats texlive.languages texlive.maps
 default texlive.binaries {}
 default texlive.formats {}
