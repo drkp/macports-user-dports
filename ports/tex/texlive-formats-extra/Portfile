@@ -27,5 +27,6 @@ texlive.formats      \
     {1 phyzzx pdftex - {physe.ini}} \
     {1 texsis pdftex - {-translate-file=cp227.tcx texsis.ini}}
 
+depends_lib-append  port:texlive-latex
 
 texlive.texmfport
