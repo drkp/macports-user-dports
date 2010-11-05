@@ -78,10 +78,15 @@ post-patch {
         # Force configure to believe that Carbon API is
         # unavailable. This test is actually used to determine whether
         # ATSUI should be used.
-        reinplace "s|kpse_cv_have_ApplicationServices=yes|kpse_cv_have_ApplicationServices=no|" ${worksrcpath}/texk/xdvipdfmx/configure
         reinplace "s|kpse_cv_have_Carbon=yes|kpse_cv_have_Carbon=no|" ${worksrcpath}/texk/web2c/configure
         reinplace "s|kpse_cv_have_Carbon=yes|kpse_cv_have_Carbon=no|" ${worksrcpath}/texk/xdv2pdf/configure
     }
+    
+    # Do the same for xdvipdfmx regardless of whether +atsui is set,
+    # because it will want to use deprecated fontconfig APIs that are
+    # only available if fontconfig is compiled with
+    # --with-old-mac-fonts
+    reinplace "s|kpse_cv_have_ApplicationServices=yes|kpse_cv_have_ApplicationServices=no|" ${worksrcpath}/texk/xdvipdfmx/configure
 }
 
 
