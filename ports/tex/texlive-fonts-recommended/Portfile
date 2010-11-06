@@ -44,5 +44,12 @@ texlive.maps      \
     {Map txfonts.map} \
     {MixedMap wasy.map}
 
+pre-activate {
+    # cmsuper moved from fonts-extra to fonts-recommended in TL2010
+    if {![catch {set vers [lindex [registry_active texlive-fonts-extra] 0]}]
+        && [rpm-vercomp [lindex $vers 1] 19491] < 0} {
+        registry_deactivate texlive-fonts-extra "" [list ports_nodepcheck 1]
+    }
+}
 
 texlive.texmfport

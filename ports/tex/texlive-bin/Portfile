@@ -158,6 +158,15 @@ post-destroot   {
     }
 }
 
+pre-activate {
+    if { [file exists ${texlive_texmfdist}/scripts/tex4ht/ht.sh]
+         && ![catch {set vers [lindex [registry_active texlive-htmlxml] 0]}]
+         && [rpm-vercomp [lindex $vers 1] 13822] == 0
+         && [lindex $vers 2] <3} {        
+        registry_deactivate texlive-htmlxml "" [list ports_nodepcheck 1]
+    }
+}
+
 post-activate {
     system "${texlive_bindir}/mktexlsr"
 }

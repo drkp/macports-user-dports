@@ -54,6 +54,13 @@ pre-activate {
         && [rpm-vercomp [lindex $vers 1] 2009] < 0} {
         registry_deactivate texlive "" [list ports_nodepcheck 1]
     }
+
+    # Deactivate texlive-fontutils to avoid conflicts on mft from the
+    # 2009->2010 update
+    if {![catch {set vers [lindex [registry_active texlive-fontutils] 0]}]
+        && [rpm-vercomp [lindex $vers 1] 16392] < 0} {
+        registry_deactivate texlive-fontutils "" [list ports_nodepcheck 1]
+    }
 }
 
 texlive.forceupdatecnf yes
