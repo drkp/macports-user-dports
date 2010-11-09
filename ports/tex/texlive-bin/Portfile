@@ -3,7 +3,6 @@
 
 PortSystem      1.0
 PortGroup       texlive 1.0
-PortGroup       archcheck 1.0
 
 name            texlive-bin
 version         2010
@@ -30,15 +29,6 @@ checksums       md5     2a2201b84fdbf210032e1df70bc59157 \
                 rmd160  b1120f3377ca45b4d86911b99a95c2e6e45927b5
 
 universal_variant no
-
-archcheck.files lib/libz.dylib \
-                lib/libpng.dylib \
-                lib/libt1.dylib \
-                lib/libfreetype.dylib \
-                lib/libgd.dylib \
-                lib/libpoppler.dylib \
-                lib/libXmu.dylib \
-                lib/libXp.dylib
 
 depends_lib     port:fontconfig \
                 port:freetype \
@@ -182,19 +172,16 @@ if {![variant_isset no_x11] && ![variant_isset motif] && ![variant_isset xaw] &&
 
 variant no_x11 conflicts xaw motif xaw3d nextaw {
     depends_lib-delete port:xorg-libXp
-    archcheck.files-delete lib/libXp.dylib lib/libXmu.dylib
     configure.args-append --without-x --without-pdfopen
     configure.args-delete  --x-includes=${prefix}/include \
                            --x-libraries=${prefix}/lib
 }
 variant motif conflicts no_x11 xaw xaw3d nextaw description {Use Motif to build xdvi} {
      depends_lib-append lib:libXm:openmotif
-     archcheck.files-append lib/libXm.dylib
      configure.args-append --with-xdvi-x-toolkit=motif
 }
 variant xaw conflicts no_x11 motif xaw3d nextaw description {Use Xaw to build xdvi} {
     depends_lib-append port:xorg-libXaw
-    archcheck.files-append lib/libXaw.dylib
     configure.args-append --with-xdvi-x-toolkit=xaw
 }
 variant xaw3d conflicts no_x11 motif xaw nextaw description {Use Xaw3d to build xdvi} {
@@ -203,7 +190,6 @@ variant xaw3d conflicts no_x11 motif xaw nextaw description {Use Xaw3d to build 
 }
 variant nextaw conflicts no_x11 motif xaw xaw3d description {Use neXtaw to build xdvi} {
     depends_lib-append port:neXtaw
-    archcheck.files-append lib/libneXtaw.dylib
     configure.args-append --with-xdvi-x-toolkit=neXtaw
 }
 
