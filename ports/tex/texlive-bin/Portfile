@@ -36,6 +36,7 @@ depends_lib     port:fontconfig \
                 port:libpng \
                 port:ncurses \
                 port:zlib \
+                port:libzzip \
                 port:t1lib \
                 port:poppler \
                 port:xorg-libXp \
@@ -107,6 +108,7 @@ configure.args  --bindir=${texlive_bindir} \
                 --with-t1lib-libdir=${prefix}/lib \
                 --with-system-xpdf \
                 --with-system-zlib \
+                --with-system-zziplib \
                 --enable-etex \
                 --disable-detex \
                 --disable-dvi2tty \
