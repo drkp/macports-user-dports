@@ -47,7 +47,7 @@ depends_run     port:ghostscript
 depends_build   path:bin/perl:perl5 \
                 path:bin/pkg-config:pkgconfig
 
-patchfiles      patch-configure \
+patchfiles      patch-configure.diff \
                 patch-libs_icu_Makefile.in.diff \
                 patch-libs_icu_icu-4.4_configure.diff \
                 patch-libs-freetype-Makefile.in.diff \
