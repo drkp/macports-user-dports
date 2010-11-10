@@ -46,6 +46,9 @@ texlive.exclude     texmf/web2c/fmutil.cnf \
                     texmf/tex/generic/config/language.dat \
                     texmf/tex/generic/config/language.def
 
+patchfiles          patch-runfiles_texmf_dvipdfm_config_config.diff \
+                    patch-runfiles_texmf_dvipdfmx_dvipdfmx.cfg
+
 pre-activate {
     # If texlive 2007 metaport is installed, deactivate it to avoid
     # conflicts on $prefix/bin/etex etc.
