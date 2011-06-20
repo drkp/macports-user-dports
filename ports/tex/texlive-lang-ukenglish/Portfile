@@ -1,0 +1,31 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           texlive 1.0
+
+name                texlive-lang-ukenglish
+version             14727
+revision            2
+
+categories          tex
+maintainers         dports
+description         TeX Live: UK English
+long_description    Support for typesetting UK English.
+
+homepage            http://www.tug.org/texlive/
+platforms           darwin
+supported_archs     noarch
+master_sites        http://flute.csail.mit.edu/texlive/
+
+replaced_by         texlive-lang-english
+
+pre-fetch {
+    ui_msg "$name has been replaced by texlive-lang-english."
+    return -code error "$name cannot be installed"
+}
+
+use_configure       no
+build               {}
+destroot            {}
+livecheck.type      none
