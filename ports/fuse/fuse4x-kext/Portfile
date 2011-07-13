@@ -1,0 +1,68 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           xcode 1.0
+
+name                fuse4x-kext
+version             0.8.6
+set tag             [string map {. _ } $version]
+categories          fuse devel
+platforms           macosx
+maintainers         dports
+description         A kernel extension for Fuse4X
+
+long_description    Fuse4X implements a mechanism that makes it          \
+                    possible to implement a fully functional file        \
+                    system in a user-space program on Mac OS X. It       \
+                    aims to be API-compliant with the FUSE               \
+                    (File-system in USErspace) mechanism that            \
+                    originated on Linux.  Therefore, many existing       \
+                    FUSE file systems become readily usable on Mac OS    \
+                    X. This port provides the dynamically loadable       \
+                    kernel extension at the core of Fuse4X.
+
+homepage            http://fuse4x.org/
+license             BSD
+# master_sites        https://github.com/fuse4x/kext/tarball/fuse4x_${tag}
+
+# checksums           sha1    ba45023df91b1c60c414072b4301b9938f2b2785 \
+#                     rmd160  bbfbbf33bd3562885e488aeeee73a2e118b54661
+
+# extract.mkdir       yes
+# extract.post_args   "| tar --strip-components=1 -xf -"
+
+fetch.type          git
+git.url             git://github.com/fuse4x/kext.git
+git.branch          pu
+
+# This port installs a kernel module, so it must be built for the same
+# architecture as the kernel. We don't have a way to get that;
+# build_arch is the userland architecture, which may be different
+# (e.g. 64-bit userland with 32-bit kernel). So build a universal
+# binary by default.
+default_variants    +universal
+
+xcode.configuration Release
+
+destroot.violate_mtree  yes
+destroot.asroot         yes
+
+destroot {
+    xinstall -d ${destroot}/System/Library/Extensions
+    file copy ${worksrcpath}/build/${xcode.configuration}/fuse4x.kext ${destroot}/System/Library/Extensions
+    file attributes ${destroot}/System/Library/Extensions/fuse4x.kext -owner root -group wheel -permissions rwxr-xr-x
+
+    xinstall -d ${destroot}/System/Library/Extensions/fuse4x.kext/Support
+    xinstall -o root -m 4755 ${worksrcpath}/build/${xcode.configuration}/load_fuse4x ${destroot}/System/Library/Extensions/fuse4x.kext/Support
+}
+
+post-activate {
+    if {[string length [exec kextstat -lb org.fuse4x.kext.fuse4x]] > 0} {
+        ui_msg "********************************************************"
+        ui_msg "*  fuse4x is already loaded. You may need to restart.  *"
+        ui_msg "*  Alternatively, if feeling adventurous, you can run  *"
+        ui_msg "*  `sudo kextunload -b org.fuse4x.kext.fuse4x`  *"
+        ui_msg "********************************************************"
+    }
+}

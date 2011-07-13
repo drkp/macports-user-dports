@@ -1,0 +1,50 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+
+name                fuse4x
+version             0.8.6
+set tag             [string map {. _ } $version]
+categories          fuse devel
+platforms           macosx
+maintainers         dports
+description         A FUSE-Compliant File System Implementation Mechanism \
+                    for Mac OS X
+
+long_description    Fuse4X implements a mechanism that makes it          \
+                    possible to implement a fully functional file        \
+                    system in a user-space program on Mac OS X. It       \
+                    aims to be API-compliant with the FUSE               \
+                    (File-system in USErspace) mechanism that            \
+                    originated on Linux.  Therefore, many existing       \
+                    FUSE file systems become readily usable on Mac OS    \
+                    X. This port provides the user-space library and     \
+                    header files for building filesystems.
+
+homepage            http://fuse4x.org/
+license             LGPL
+# master_sites        https://github.com/fuse4x/fuse/tarball/fuse4x_${tag}
+
+# checksums           sha1    c4169a1f904a95b1fea36525b56ab3776f558bd0 \
+#                     rmd160  27805bbe9a8071911ddee6b71f62cfc5dbb0c44c
+
+# extract.mkdir       yes
+# extract.post_args   "| tar --strip-components=1 -xf -"
+
+fetch.type          git
+git.url             git://github.com/fuse4x/fuse.git
+git.branch          pu
+patchfiles          patch-configure.in.diff
+
+configure.cflags-append -g -O0
+configure.ldflags   -framework CoreFoundation
+
+use_autoreconf      yes
+autoreconf.args     -fvi
+use_configure       yes
+
+depends_build       port:pkgconfig port:autoconf port:automake port:libtool
+depends_lib         port:fuse4x-kext
+
+
