@@ -33,7 +33,7 @@ license             BSD
 # extract.post_args   "| tar --strip-components=1 -xf -"
 
 fetch.type          git
-git.url             git://github.com/fuse4x/kext.git
+git.url             git://github.com/drkp/fuse4x-kext.git
 git.branch          pu
 
 # This port installs a kernel module, so it must be built for the same

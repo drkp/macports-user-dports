@@ -33,7 +33,7 @@ license             BSD
 # extract.post_args   "| tar --strip-components=1 -xf -"
 
 fetch.type          git
-git.url             git://github.com/fuse4x/framework.git
+git.url             git://github.com/drkp/fuse4x-framework.git
 git.branch          master
 
 depends_lib         port:fuse4x

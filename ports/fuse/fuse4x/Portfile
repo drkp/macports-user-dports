@@ -33,7 +33,7 @@ license             LGPL
 # extract.post_args   "| tar --strip-components=1 -xf -"
 
 fetch.type          git
-git.url             git://github.com/fuse4x/fuse.git
+git.url             git://github.com/drkp/fuse4x-fuse.git
 git.branch          pu
 patchfiles          patch-configure.in.diff
 
