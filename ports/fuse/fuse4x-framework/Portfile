@@ -34,7 +34,7 @@ license             BSD
 
 fetch.type          git
 git.url             git://github.com/fuse4x/framework.git
-git.branch          pu
+git.branch          master
 
 depends_lib         port:fuse4x
 
