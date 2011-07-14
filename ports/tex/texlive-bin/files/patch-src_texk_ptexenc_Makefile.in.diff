@@ -1,0 +1,4 @@
+256c256
+< libptexenc_la_LDFLAGS = -no-undefined -version-info $(PTEXENC_LT_VERSINFO)
+---
+> libptexenc_la_LDFLAGS = -version-info $(PTEXENC_LT_VERSINFO)
