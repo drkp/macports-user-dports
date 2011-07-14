@@ -51,6 +51,7 @@ patchfiles      patch-configure.diff \
                 patch-libs_icu_Makefile.in.diff \
                 patch-libs_icu_icu-4.6_configure.diff \
                 patch-libs_icu_icu-4.6_tools_icuinfo_Makefile.in.diff \
+                patch-texk_kpathsea_Makefile.in.diff \
                 patch-texk_ptexenc_Makefile.in.diff \
                 patch-texk_tetex_Makefile.in.diff \
                 patch-texk_tex4htk_Makefile.in.diff \
@@ -67,9 +68,19 @@ post-patch {
     reinplace "s|@@TEXLIVE_BINDIR@@|${texlive_bindir}|" ${worksrcpath}/texk/xdvik/xdvi-sh.in
     reinplace "s|@@TEXMFMAIN@@|${texlive_texmfmain}|" ${worksrcpath}/utils/chktex/Makefile.in
 
-    # Link our texmf.cnf in so that the proper paths are compiled into kpathsea
+    # Defaults for the texmf search paths need to be compiled into
+    # libkpathsea -- really, just the location of texmf.cnf, which
+    # defines all the other paths. texlive normally finds this file
+    # using a bindir-relative path extracted from texmf.cnf, but this
+    # is both incorrect (it fails to find our texmf.cnf) and overkill
+    # (we know the absolute path of texmf.cnf).
+    #
+    # Accordingly, we patch the kpathsea makefile to not try to derive
+    # the default paths from texmf.cnf, and just provide our own
+    # paths.h with the right path substituted in.
     delete ${worksrcpath}/texk/kpathsea/texmf.cnf
-    ln -s ${texlive_texmfsysconfig}/texmf.cnf ${worksrcpath}/texk/kpathsea/texmf.cnf
+    file copy ${filespath}/texk_kpathsea_paths.h ${worksrcpath}/texk/kpathsea/paths.h
+    reinplace "s|@@TEXMFSYSCONFIG@@|${texlive_texmfsysconfig}|" ${worksrcpath}/texk/kpathsea/paths.h
 
     if {![variant_isset atsui]} {
         # Force configure to believe that Carbon API is
