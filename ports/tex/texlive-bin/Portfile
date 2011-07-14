@@ -54,6 +54,7 @@ patchfiles      patch-configure.diff \
                 patch-texk_kpathsea_Makefile.in.diff \
                 patch-texk_ptexenc_Makefile.in.diff \
                 patch-texk_tetex_Makefile.in.diff \
+                patch-texk_tetex_updmap.pl.diff \
                 patch-texk_tex4htk_Makefile.in.diff \
                 patch-texk_texlive_linked_scripts_Makefile.in.diff \
                 patch-texk_xdvik_xdvi-sh.in.diff \
