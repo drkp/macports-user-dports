@@ -50,6 +50,7 @@ patchfiles      patch-configure.diff \
                 patch-libs-freetype-Makefile.in.diff \
                 patch-libs_icu_Makefile.in.diff \
                 patch-libs_icu_icu-4.6_configure.diff \
+                patch-libs_icu_icu-4.6_tools_icuinfo_Makefile.in.diff \
                 patch-texk_ptexenc_Makefile.in.diff \
                 patch-texk_tetex_Makefile.in.diff \
                 patch-texk_tex4htk_Makefile.in.diff \
@@ -129,9 +130,6 @@ configure.ldflags-delete    -L${prefix}/lib
 configure.env-append        C_INCLUDE_PATH=${prefix}/include
 configure.env-append        CPLUS_INCLUDE_PATH=${prefix}/include
 configure.env-append        LIBRARY_PATH=${prefix}/lib
-
-# XXX
-configure.ccache no            
 
 # work around bug in texlive makefiles where $OBJC is not recorded
 # during configure phase
