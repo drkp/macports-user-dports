@@ -11,7 +11,7 @@
  @WIN32_TRUE@@WIN32_WRAP_TRUE@wrappers = $(all_scripts:=.exe)
  @WIN32_TRUE@@WIN32_WRAP_TRUE@runscript = $(top_srcdir)/../../texk/texlive/w32_wrapper/runscript.exe
 -texmfdir = ${prefix}/$(scriptsdir)
-+texmfdir = /opt/local/share/texmf-texlive/$(scriptsdir)
++texmfdir = @@TEXMFMAIN@@/$(scriptsdir)
  dist_texmf_SCRIPTS = $(perl_scripts:=.pl) $(shell_scripts:=.sh)
  @WIN32_FALSE@dist_bin_SCRIPTS = $(sh_scripts)
  CLEANFILES = $(nodist_bin_SCRIPTS)
@@ -20,7 +20,7 @@
  	updmap.cfg.5
  
 -texconfdir = ${prefix}
-+texconfdir = /opt/local/share/texmf-texlive
++texconfdir = @@TEXMFMAIN@@
  nobase_dist_texconf_DATA = \
  	texmf/texconfig/README \
  	texmf/texconfig/g/generic \
@@ -29,11 +29,11 @@
  	texmf/texconfig/x/xterm
  
 -texconfigdir = ${prefix}/texmf/texconfig
-+texconfigdir = /opt/local/share/texmf-texlive/texconfig
++texconfigdir = @@TEXMFMAIN@@/texconfig
  dist_texconfig_SCRIPTS = tcfmgr
  dist_texconfig_DATA = tcfmgr.map
 -web2cdir = ${prefix}/texmf/web2c
-+web2cdir = /opt/local/share/texmf-texlive/web2c
++web2cdir = @@TEXMFMAIN@@/web2c
  dist_web2c_DATA = fmtutil.cnf
  bin_links = \
  	allcm:allec \
