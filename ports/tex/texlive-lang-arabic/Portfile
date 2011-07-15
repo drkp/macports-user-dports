@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-arabic
-version             19535
+version             23085
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Arabic
 long_description    Support for typesetting Arabic.
 
-checksums           md5     850df8706058b9de216fe5a1b3c236ae \
-                    sha1    020ebe254cf84d0f65ffeac90fd2aa32f7b5250b \
-                    rmd160  dee10f7c60abeb0a3e08ec3690e4d28e2d148063
+checksums           md5     9c81e9c96c0e4d811b76b2f595f3d560 \
+                    sha1    f7ccebacfab415a13ded4b0bcedf69eb2a865836 \
+                    rmd160  4141b9f2f3b4f7e97e6f16f4a7e3720461a4ec78
 
 depends_lib         port:texlive-basic
 

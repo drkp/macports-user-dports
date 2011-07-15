@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-metapost
-version             19440
+version             23089
 revision            0
 
 categories          tex
@@ -13,17 +13,16 @@ maintainers         dports
 description         TeX Live: MetaPost (and Metafont) drawing packages
 long_description    MetaPost (and Metafont) drawing packages
 
-checksums           md5     b958d4a4edd4e50658c284e88932c54a \
-                    sha1    a29818c6d9b59b8845728f8306a72542c91e7309 \
-                    rmd160  fa9511d717b388951f0c3974f9c61147f8c592d7
+checksums           md5     3fe549f35b9a7a07612f55bc699d2207 \
+                    sha1    6094fdc311e1b55332daeef2ad1b738e1f0a274d \
+                    rmd160  029c2b805045d8ba199d9ca11ae970a5c02df38d
 
 depends_lib         port:texlive-basic
 
-texlive.formats      \
-    {1 mpost mpost - {mpost.mp}} \
-    {1 mfplain mpost - {mfplain.ini}}
+texlive.maps      \
+    {Map troff-updmap.map}
 
-texlive.binaries    dvitomp mpost
+texlive.binaries    dvitomp mfplain mpost
 
 
 texlive.texmfport

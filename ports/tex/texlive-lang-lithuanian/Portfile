@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-lithuanian
-version             18673
-revision            1
+version             23085
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Lithuanian
 long_description    Support for typesetting Lithuanian.
 
-checksums           md5     c3310efca33b8165d80fc3fce52850ca \
-                    sha1    e2193773e656e302aa6b027fb3e1afcdbd2156aa \
-                    rmd160  c3876e6c5edba2dc36da5812a29337b31bc5af4d
+checksums           md5     4efc7681fbc1cfe3e0000e0ebf58d29b \
+                    sha1    08f76b2eafcc4383e1e111a9ac655a5792660888 \
+                    rmd160  a6c6aaa16064dd2e28cd3bb04789823d65d26968
 
 depends_lib         port:texlive-basic
 

@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-latvian
-version             18673
-revision            1
+version             23092
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Latvian
 long_description    Support for typesetting Latvian.
 
-checksums           md5     4ab2fbfb35381702105f608faac4f0c7 \
-                    sha1    7081de89c4292e54567081720247a590e2da031c \
-                    rmd160  4511bec17517eba1bbaa3f2b66b64f20033058ee
+checksums           md5     6e177924abb8350345178b46f77ae38c \
+                    sha1    bd9d546e4e91da5e321ff9184351dc7a7f765168 \
+                    rmd160  a3b8cdceec5fd84aa3652b465959657328c819ce
 
 depends_lib         port:texlive-basic
 

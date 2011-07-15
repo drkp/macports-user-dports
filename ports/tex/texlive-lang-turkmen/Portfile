@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-turkmen
-version             18673
-revision            1
+version             23092
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Turkmen
 long_description    Support for typesetting Turkmen.
 
-checksums           md5     aa893d52968bed454c2c075362043307 \
-                    sha1    84e825f23ef52a8439f9cd334b597016fd15ab12 \
-                    rmd160  e19db124509193a9b389f13d0d4203765becc87a
+checksums           md5     f8fd5cbb796fa4f3da947eeddc08b3c8 \
+                    sha1    6d44183160190229e66b5d5f40275e9641d60b9c \
+                    rmd160  bf7edb8f503f04fe67f1ec9e2c7a35faef8fdc81
 
 depends_lib         port:texlive-basic
 

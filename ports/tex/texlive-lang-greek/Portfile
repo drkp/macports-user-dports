@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-greek
-version             19440
-revision            1
+version             23092
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Greek
 long_description    Support for typesetting Greek.
 
-checksums           md5     57f7ba3a36295048ad751a80643e1a08 \
-                    sha1    2de3b62bf33ec7a715bacf9b5dff277af0476b2b \
-                    rmd160  a42831f41700f94fe85d799c9f0c5f2ad9e63bd0
+checksums           md5     d4690d411e006d8e49b2310a4b5cc6a5 \
+                    sha1    eb0f05a3da57776d6270ab5c94665170b3993ea4 \
+                    rmd160  3369d76ad964a01c04950f6e0723611120e22971
 
 depends_lib         port:texlive-basic
 

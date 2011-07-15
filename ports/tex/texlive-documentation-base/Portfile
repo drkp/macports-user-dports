@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-base
-version             19544
+version             23160
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: TeX Live documentation
 long_description    TeX Live documentation
 
-checksums           md5     c09640f01ebc6ae70fe036765ea8da03 \
-                    sha1    2291de495099cfe8386a5e88c1e238da0f8f4a8b \
-                    rmd160  0a67191a5daacbd10f7868efd1f63839d80b0ed2
+checksums           md5     a9f53abe557ef6b0f30bb1b26825d0fc \
+                    sha1    5b7b2bcdd3031d7ad7bec7bdf76851019a2a30ce \
+                    rmd160  c51afcda5cabe1e3f6b2accc967d9277d0748fd5
 
 
 texlive.texmfport

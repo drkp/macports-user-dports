@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-chinese
-version             19531
+version             22954
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Chinese documentation
 long_description    Chinese documentation
 
-checksums           md5     8fa269a51b90f30e0c7e7431b0376ddb \
-                    sha1    e887560901670ec31ec37e2d19b36e7dd41b95c8 \
-                    rmd160  a7c80b2897ebebd6159cedf284e2c3f7ab285c0e
+checksums           md5     6235ee6e0d8aa2a975c526c6cab52ab2 \
+                    sha1    a8dc1d38ddc8c3936a3372446148e0c8b0ede65c \
+                    rmd160  2fd0b0b6f0fee39bff37c8326977b583aaaec00b
 
 depends_lib         port:texlive-documentation-base
 

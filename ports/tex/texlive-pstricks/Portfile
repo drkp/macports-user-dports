@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-pstricks
-version             19320
+version             22586
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: PSTricks packages
 long_description    PSTricks packages
 
-checksums           md5     cf136ff9a8137942aa3156e99bc2150a \
-                    sha1    ddcaa322e9ec22153f6c4c8f4bb568a32e13d4d4 \
-                    rmd160  ac338ace960092debb197c0105b403b128014bfc
+checksums           md5     650535c883c9302d680564c8634b5e98 \
+                    sha1    25dc73d5b8c560a8ab22d332ffd4050830683f62 \
+                    rmd160  3c1d8d27302e7f8d9b21e9f8ed6ea746c9185d6c
 
 depends_lib         port:texlive-basic port:texlive-generic-recommended
 

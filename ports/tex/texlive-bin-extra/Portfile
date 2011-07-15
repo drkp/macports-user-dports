@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-bin-extra
-version             19536
+version             23089
 revision            0
 
 categories          tex
@@ -13,13 +13,13 @@ maintainers         dports
 description         TeX Live: TeX auxiliary programs
 long_description    Various useful, but non-essential, support programs. Includes programs and macros for DVI file manipulation, literate programming, patgen, and the TeX Works Editor.
 
-checksums           md5     e260dac1b8ac799248271abc48c87adb \
-                    sha1    292b283d5a35f24e8afaef41d6f7fef6f809c524 \
-                    rmd160  551435585721b1a2157aaa450da6573922047e4f
+checksums           md5     37c44064745829eb11b529f3940ea836 \
+                    sha1    eb3fa888e3de5c2685894ef1b0a750b0ac041c2a \
+                    rmd160  d753ed6b79485b9c631a9618559114cedd9aefe6
 
 depends_lib         port:texlive-basic
 
-texlive.binaries    a2ping arlatex bibtex8 bibtexu bundledoc chktex chkweb ctangle ctie cweave de-macro deweb dt2dv dv2dt dviasm dvibook dviconcat dvicopy dvidvi dvigif dvihp dvilj dvilj2p dvilj4 dvilj4l dvilj6 dvipng dvipos dviselect dvisvgm dvitodvi dvitype e2pall findhyph fragmaster lacheck latex2man listings-ext.sh mkjobtexmf patgen pdfatfi pdfclose pdfcrop pdfopen pdftosrc pkfix pkfix-helper pooltype ps4pdf purifyeps rpdfcrop synctex tangle texcount texdiff texdirflatten texdoc texdoctk texloganalyser tie tpic2pdftex weave
+texlive.binaries    a2ping arlatex bibtex8 bibtexu bundledoc chktex chkweb ctangle ctie cweave de-macro deweb dt2dv dv2dt dviasm dvibook dviconcat dvicopy dvidvi dvigif dvihp dvilj dvilj2p dvilj4 dvilj4l dvilj6 dvipng dvipos dviselect dvisvgm dvitodvi dvitype e2pall findhyph fragmaster installfont-tl lacheck latex2man listings-ext.sh mkjobtexmf patgen pdfatfi pdfclose pdfcrop pdfopen pdftosrc pkfix pkfix-helper pooltype ps4pdf purifyeps rpdfcrop sty2dtx synctex tangle texcount texdef texdiff texdirflatten texdoc texdoctk texloganalyser tie tpic2pdftex weave
 
 depends_run         port:latexmk \
                     port:detex \

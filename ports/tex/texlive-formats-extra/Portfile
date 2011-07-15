@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-formats-extra
-version             18835
+version             23089
 revision            0
 
 categories          tex
@@ -13,18 +13,16 @@ maintainers         dports
 description         TeX Live: Extra formats
 long_description    Collected TeX `formats', i.e., large-scale macro packages designed to be dumped into .fmt files, other than most common ones, such as latex and context.
 
-checksums           md5     4f85c4462e1c21a5a86aec25634f24ca \
-                    sha1    e5959d7adc46f011b9e2d08c5e7b37022fc44218 \
-                    rmd160  a782c623101dbfb84692dc7a4a522c4ba9568a7c
+checksums           md5     e90f87296c0fb995704ff21b8d0166e9 \
+                    sha1    5654466c41d7d93d35996e66f7bf6dd3854130af \
+                    rmd160  54e3d4ed320a255bac658c15abcb7b6d2e3a4157
 
 depends_lib         port:texlive-basic
 
 texlive.formats      \
     {1 eplain pdftex language.dat {-translate-file=cp227.tcx *eplain.ini}} \
-    {1 mltex pdftex - {-translate-file=cp227.tcx -mltex mltex.ini}} \
     {1 mllatex pdftex language.dat {-translate-file=cp227.tcx -mltex mllatex.ini}} \
-    {1 physe pdftex - {physe.ini}} \
-    {1 phyzzx pdftex - {physe.ini}} \
+    {1 mltex pdftex - {-translate-file=cp227.tcx -mltex mltex.ini}} \
     {1 texsis pdftex - {-translate-file=cp227.tcx texsis.ini}}
 
 depends_lib-append  port:texlive-latex

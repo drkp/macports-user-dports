@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-mongolian
-version             18673
-revision            1
+version             23092
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Mongolian
 long_description    Support for typesetting Mongolian.
 
-checksums           md5     8581589669fb4778bc5cc9195aa092f6 \
-                    sha1    aeec1baf0fcf6769f3c72fe7ecebd69d02129616 \
-                    rmd160  d4e49f84d5b250f26d934da9deaa19107ec3e5f8
+checksums           md5     5899cfef97fb49c968a53f9e250d7df2 \
+                    sha1    4752fcf88188543e6fb7158562e69b5fed6cbc15 \
+                    rmd160  5ff242a2565336c9721c427ae80caa9e122ab608
 
 depends_lib         port:texlive-basic
 

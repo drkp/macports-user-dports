@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-italian
-version             19139
-revision            1
+version             23092
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Italian
-long_description    Italian
+long_description    Support for typesetting Italian.
 
-checksums           md5     622c08c2fcaedcb3aa6495c5bc31327f \
-                    sha1    e05484cada9ac89091b806641f9a165985bad47f \
-                    rmd160  8a8f80d88800d2a1b2029e8b5a5977bcc84501eb
+checksums           md5     ab5519673f3b2fa2ba956892a79958ff \
+                    sha1    c6676a42e1c6f5e66e20043739d55f71ccbd6694 \
+                    rmd160  3362792325528d17d4c8746522543139f66de87e
 
 depends_lib         port:texlive-basic
 

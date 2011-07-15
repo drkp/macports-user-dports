@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-science
-version             19493
+version             22994
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Typesetting for natural and computer sciences
 long_description    Typesetting for natural and computer sciences
 
-checksums           md5     bd8dca1e5d6fdc8893627a784a6ac6b4 \
-                    sha1    e2435eb205b6d1aa992c6feea9a69e5956459f11 \
-                    rmd160  5ca264456cd4d302f4cbf778457c6d984061f146
+checksums           md5     04129c1615a0b557faaab01d2287e136 \
+                    sha1    d1c466f26dff1b230bf7a829b92aeba59b872bbc \
+                    rmd160  9fd5a2c57c96912db3f04201debb7df5599f1590
 
 depends_lib         port:texlive-latex
 

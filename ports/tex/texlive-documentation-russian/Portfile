@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-russian
-version             19395
+version             23042
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Russian documentation
 long_description    Russian documentation
 
-checksums           md5     a9110a2452129d588342e44ec3526a3f \
-                    sha1    abd229a6429e3db232603c85417141a6392ad24b \
-                    rmd160  29d368f284272443727736f99b083ecf25aed1ca
+checksums           md5     2a4ae49e0a80dcd8d7646f5b27863bc1 \
+                    sha1    117be6f37695624128f7a9ab5d426d11d720bbde \
+                    rmd160  a5f7e9d8fc68ac252c024453c3cc5cb4a15f8c6d
 
 depends_lib         port:texlive-documentation-base
 

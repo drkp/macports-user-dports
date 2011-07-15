@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-armenian
-version             15878
+version             20529
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Armenian
 long_description    Support for typesetting Armenian.
 
-checksums           md5     1aae1180241370b76fee6c5abe9e9484 \
-                    sha1    d28c4177f803a47a75822a3152af2a390ebcf28f \
-                    rmd160  466dbe7088846536cc7599801f41b6507a3877ce
+checksums           md5     4663f34f2f95023b1dfe781560bacf7a \
+                    sha1    4fffb29322c1461630e1e1ccb71c3cbafc20a82c \
+                    rmd160  a423956f8f8cd1aea9f8451c0a6b0a0a693d7c39
 
 depends_lib         port:texlive-basic
 

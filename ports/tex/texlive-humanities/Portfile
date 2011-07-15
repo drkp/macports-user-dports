@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-humanities
-version             19440
+version             22054
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Humanities packages
 long_description    Packages for law, linguistics, the social sciences, the humanities, etc.
 
-checksums           md5     14d63c9f9e95ddccf2677ff5de4121e5 \
-                    sha1    2e4c43c5c512361b5894dab235a711eba08ce213 \
-                    rmd160  68d0dd465d517f8105d305f4e550a302534748d3
+checksums           md5     7bd2a59e6591bb5da2b950645dc601fc \
+                    sha1    826958c8906d510fd71822ee0fc7ba6d4ad6607d \
+                    rmd160  57cf1746e5b07069affd626f0a6282ac19d79f3d
 
 depends_lib         port:texlive-latex
 

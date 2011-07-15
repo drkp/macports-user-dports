@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-english
-version             18673
-revision            1
+version             23092
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: US and UK English
 long_description    Support for typesetting US and UK English.
 
-checksums           md5     cf0359d060765a771c5649894e182d1a \
-                    sha1    6175fea0d8c06f4222c184721e04777be180c49e \
-                    rmd160  ad9a3f440c9729ee10168a37ab1894afa9758d81
+checksums           md5     8679d3bf08ee7cf4f2e9bb81e143a940 \
+                    sha1    0b7ccbbf7c96d231424c0cb8f77b18add5905835 \
+                    rmd160  ee16685e74186619fba36e70a5eec8cdc9f59801
 
 depends_lib         port:texlive-basic
 

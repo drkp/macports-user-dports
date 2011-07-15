@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-indic
-version             19005
-revision            1
+version             23164
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Indic scripts
 long_description    Support for typesetting some Indic scripts.
 
-checksums           md5     3286a2c07a41bac0a2b50058c6934223 \
-                    sha1    08fbdce1403cb3afeb72913579e23cff691b709a \
-                    rmd160  9b71a46da25305a420d2c556a322da80dbf8b9ed
+checksums           md5     3c8596adc6e00da41cc3d2b9a335fe1e \
+                    sha1    edf59c9117f00eba4b4531609d96cf922fc35460 \
+                    rmd160  2a95f0f0fa9ee7af380c6ada51d4cc711411fa9e
 
 depends_lib         port:texlive-basic
 

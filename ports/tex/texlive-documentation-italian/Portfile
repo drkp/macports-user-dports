@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-italian
-version             15914
+version             23069
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Italian documentation
 long_description    Italian documentation
 
-checksums           md5     18eb4027f34d1f31c03a9a7281afea0b \
-                    sha1    c55b963374a08a546881e94ddf169a66d0d4a257 \
-                    rmd160  4ab3e69de63c6ace2e7bfc9552a44801064fa38d
+checksums           md5     2f9d22128bfd8a10b4a229d1cf40730e \
+                    sha1    f336725cac8cd080a6c79a851e9f86b0be23a9fd \
+                    rmd160  6fb9b3e2341604cfa23786182ed4c63aea9ee94d
 
 depends_lib         port:texlive-documentation-base
 

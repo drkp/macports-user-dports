@@ -5,26 +5,27 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-cjk
-version             19473
-revision            1
+version             23118
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Chinese, Japanese, Korean
 long_description    CJK (Chinese, Japanese, Korean) macros, fonts, documentation, also Thai since there is some overlap in the fonts.
 
-checksums           md5     c64369a0845c28d5e4d01f86d96706d8 \
-                    sha1    dba39223f9afbd4b49544144f4659e5d7566113d \
-                    rmd160  ba98f2ecc169b5525b0edaacf9a5f936eb9533db
+checksums           md5     da65b09cad5c165eae0d82ef5758c4a3 \
+                    sha1    f059cc322989a1ae7ba1d7d90759ca286da4e9a2 \
+                    rmd160  49b9de8ac43d28c6fe01d89c904bccacad1ba813
 
 depends_lib         port:texlive-basic port:texlive-documentation-chinese
 
 texlive.formats      \
     {1 ptex ptex - {ptex.ini}} \
-    {1 platex ptex language.ptx {platex.ini}}
+    {1 eptex eptex language.def {*eptex.ini}} \
+    {1 platex eptex language.ptx {*platex.ini}}
 
 texlive.languages      \
-    {pinyin loadhyph-zh-latn.tex 1 1 {}}
+    {pinyin loadhyph-zh-latn-pinyin.tex 1 1 {}}
 
 texlive.maps      \
     {Map bkaiu.map} \
@@ -41,7 +42,7 @@ texlive.maps      \
     {Map mr2j.map} \
     {Map mrj.map}
 
-texlive.binaries    bg5+latex bg5+pdflatex bg5conv bg5latex bg5pdflatex cef5conv cef5latex cef5pdflatex cefconv ceflatex cefpdflatex cefsconv cefslatex cefspdflatex extconv gbklatex gbkpdflatex hbf2gf makejvf mendex pbibtex pdvitype ppltotf ptex ptftopl sjisconv sjislatex sjispdflatex
+texlive.binaries    bg5+latex bg5+pdflatex bg5conv bg5latex bg5pdflatex cef5conv cef5latex cef5pdflatex cefconv ceflatex cefpdflatex cefsconv cefslatex cefspdflatex eptex extconv gbklatex gbkpdflatex hbf2gf makejvf mendex pbibtex pdvitype ppltotf ptex ptftopl sjisconv sjislatex sjispdflatex
 
 depends_lib-append port:texlive-latex
 

@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-norwegian
-version             18673
-revision            1
+version             23085
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Norwegian
 long_description    Support for typesetting Norwegian.
 
-checksums           md5     a705d03ed9c534d1b0716ac0821926a9 \
-                    sha1    ee8a8597a16d512c11db70711e7196bfaf0fb047 \
-                    rmd160  cd846fe8e97f01460c7587f7d45179d3d384fd86
+checksums           md5     060ec1ab80dfd8fce886d23e09b09b3e \
+                    sha1    4d17a7427255819e76e8abb1ffcd18d27fccce45 \
+                    rmd160  d3054eeb02034d5268c2d50505696ef4c1fe8175
 
 depends_lib         port:texlive-basic
 

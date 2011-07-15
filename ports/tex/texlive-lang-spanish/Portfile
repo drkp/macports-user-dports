@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-spanish
-version             18733
-revision            1
+version             23092
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Spanish
-long_description    Spanish
+long_description    Support for typesetting Spanish.
 
-checksums           md5     ad7bfb9af9ddeb99108eab2546661422 \
-                    sha1    a3db905ef3f88bc5ac7e7e5a58fc896bb73f720c \
-                    rmd160  bf78317681dd44441434843d47213e51757f9209
+checksums           md5     3e2c8818047b28d3fe5470fbc2402353 \
+                    sha1    4687d981050f3cdbb403cab2a10009a5b8b95608 \
+                    rmd160  eaa59881349b80dc47919b3f64b254fc613d9f48
 
 depends_lib         port:texlive-basic
 

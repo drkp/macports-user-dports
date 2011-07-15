@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-german
-version             18673
-revision            1
+version             23085
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: German
 long_description    Support for typesetting German.
 
-checksums           md5     694986cff935e4e11450195c30e4d19e \
-                    sha1    3e3139dabdc7c0fd4a4f01f8771010311aff191b \
-                    rmd160  8154c5df5e4809e3d43918952e1489fb15c5be4f
+checksums           md5     9502d0423efb62fa3786de83ff55b5d7 \
+                    sha1    a2f886842930349abc9ca755a428f898f7ecc4ae \
+                    rmd160  a41fed2b7113eada6eebd4e2a16275ef6a71dfe1
 
 depends_lib         port:texlive-basic
 

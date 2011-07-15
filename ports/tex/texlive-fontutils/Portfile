@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-fontutils
-version             19534
+version             23142
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: TeX and Outline font utilities
 long_description    Programs for conversion between font formats, testing fonts, virtual fonts, .gf and .pk manipulation, mft, fontinst, etc. Manipulating OpenType, TrueType, PostScript Type 1, etc.
 
-checksums           md5     966df767016be5ec5ba453dd04ab5fa5 \
-                    sha1    5ce87ba0e82f6c5b05645aa0286df2989dfe9c6e \
-                    rmd160  2e8847da16e4d9c2668f34917dbe6322ed770999
+checksums           md5     12d23e43e9e519aff3b5147136daf775 \
+                    sha1    ea45c2681226abaf76718d6eb5686eae931d4434 \
+                    rmd160  c1790ade9ab9b2c1820b490e696d063551022bb7
 
 depends_lib         port:texlive-basic
 

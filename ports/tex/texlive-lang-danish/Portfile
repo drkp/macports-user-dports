@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-danish
-version             18673
-revision            1
+version             23085
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Danish
 long_description    Support for typesetting Danish.
 
-checksums           md5     25e92e8633b01cea4138d3cf72302004 \
-                    sha1    6dbf417d3f316738363a476a21119a52f8ef941f \
-                    rmd160  41a8d8f9b08a21db2ced9ebd4dd0b94e8301c792
+checksums           md5     1df3b40df663e4d786dfec93a45739b7 \
+                    sha1    6769ea838d32e51e292583452c1ad382a73d8d20 \
+                    rmd160  e5dc27006f6bdc6013b5054df83c1f368f956d5c
 
 depends_lib         port:texlive-basic
 

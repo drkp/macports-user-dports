@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-vietnamese
-version             15878
+version             21855
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Vietnamese documentation
 long_description    Vietnamese documentation
 
-checksums           md5     b4b0c8edcbb7d4e53a473b9e7f26d7c0 \
-                    sha1    ff1fb8fb3310fd49a68ecb6bf6dd827944ad5192 \
-                    rmd160  be8d990263484fc85fe48dce02f52232226e2a88
+checksums           md5     990c294531e9a6fd7706a1c27d9bfd1f \
+                    sha1    9cac75885c353702cd68d495fdecefa65053afd7 \
+                    rmd160  018dc1ee56ccee40bc376d2ebc6d46df2436e6fb
 
 depends_lib         port:texlive-documentation-base
 

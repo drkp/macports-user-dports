@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-fonts-recommended
-version             19478
+version             23165
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Recommended fonts
 long_description    Recommended fonts, including the base 35 PostScript fonts, Latin Modern, TeX Gyre, and T1 and other encoding support for Computer Modern, in outline form.
 
-checksums           md5     15d92d4564dd5392a1e9a7d155f3968d \
-                    sha1    bbb82b053e9c3d10d3cbc1aac36b366c52d1b90c \
-                    rmd160  ec24eca495b232735ed33e03e71ed575d4c060b0
+checksums           md5     a366c241131ba63d8cdba15114ab1ea5 \
+                    sha1    f9dd1c3f75737ffa4f4c4c3e6f482e6177e961e3 \
+                    rmd160  f3fcf423d44c18485df7a23036bde24cd4268ef6
 
 depends_lib         port:texlive-basic
 
@@ -26,7 +26,6 @@ texlive.maps      \
     {MixedMap cm-super-t2c.map} \
     {MixedMap cm-super-ts1.map} \
     {MixedMap cm-super-x2.map} \
-    {Map zpeu.map} \
     {MixedMap eurosym.map} \
     {Map lm.map} \
     {Map marvosym.map} \

@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-serbian
-version             19501
+version             23026
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Serbian documentation
 long_description    Serbian documentation
 
-checksums           md5     4979c4deb6af73e6aafb4fe0cbc1ab96 \
-                    sha1    bde1bbc44232564093844ad23c3ae6925107b90c \
-                    rmd160  a866b52915788fc0139f45b1c31619996e62affb
+checksums           md5     a5033680ca8d2d2d93f53f69cd36f888 \
+                    sha1    30b19bc9a4bcfa144484239ee90523fbc0c8009d \
+                    rmd160  927f331e8483053ab3d912e60564aee8143e1697
 
 depends_lib         port:texlive-documentation-base
 

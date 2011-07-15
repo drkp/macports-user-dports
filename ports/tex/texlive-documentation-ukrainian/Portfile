@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Ukrainian documentation
 long_description    Ukrainian documentation
 
-checksums           md5     c0ef3b3c94cf585d60491669d970d410 \
-                    sha1    193d5e872ff392d7d3f2a9a2a6e4211b2dc56c5f \
-                    rmd160  17a09c7dfc988b58eb2926a0908308585b47b6e1
+checksums           md5     9120c0b21ff40e4b02d0084f8fc4d4d7 \
+                    sha1    26f86caec97f171889b3a285e1377d2265993f72 \
+                    rmd160  b1204d9d50bfebc8aa8a9f0f45a6bd3216eb5e56
 
 depends_lib         port:texlive-documentation-base
 

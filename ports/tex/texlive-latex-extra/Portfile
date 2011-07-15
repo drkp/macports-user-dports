@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-latex-extra
-version             19548
+version             22931
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: LaTeX supplementary packages
 long_description    A large collection of add-on packages for LaTeX.
 
-checksums           md5     75a0de16feb14fc9aec5b10ced33142b \
-                    sha1    638d988963a7a5cdce88b8387811b199d5da7d8e \
-                    rmd160  5d71221e825499950b2e6908e9356f5a86dd3353
+checksums           md5     5ff995408a2399891f09f2ab98772a55 \
+                    sha1    c1318f71081eb9b0ab9c94c53c5c4c1ac03fb212 \
+                    rmd160  37495c2749ceb5e0b270de59cfc2f56d14ca41dd
 
 depends_lib         port:texlive-latex port:texlive-pictures
 

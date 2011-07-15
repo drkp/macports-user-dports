@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-vietnamese
-version             18845
+version             22766
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Vietnamese
 long_description    Support for typesetting Vietnamese.
 
-checksums           md5     66efe410444b2f6436342e3db433a591 \
-                    sha1    fc3d71e5acc477d23da6d81402215673b7f4690f \
-                    rmd160  ef426f0ddd1afc82ba2c79bf98ec866175ebe29d
+checksums           md5     ab4fe9a14fafd3d303f294446104eba4 \
+                    sha1    8b2343f02b7f4c991197e92eaa63aa2da39dfcb8 \
+                    rmd160  fea4a302956f7382776adb4e80f360f73eb239aa
 
 depends_lib         port:texlive-basic
 

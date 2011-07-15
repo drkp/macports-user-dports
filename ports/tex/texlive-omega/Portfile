@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-omega
-version             19270
+version             23089
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Omega
 long_description    Omega, a 16-bit extended TeX by John Plaice and Yannis Haralambous
 
-checksums           md5     6df5aec2893c32bce85e0ec92854a232 \
-                    sha1    35edd2ebaf9645fa8fc6257095d712b1ff3e12b6 \
-                    rmd160  1b5ff4da6143322f861dda2e31e9a1ff877d331e
+checksums           md5     ba6076e891e5b75451b49b78e8bc942a \
+                    sha1    513ccdcee2124f2260cddc3f6b2a9051ed0a432a \
+                    rmd160  5119a34ed5d6aed6ca05ad8efec3e082750d596e
 
 depends_lib         port:texlive-basic port:texlive-latex
 

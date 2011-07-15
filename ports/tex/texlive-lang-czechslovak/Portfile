@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-czechslovak
-version             19005
-revision            1
+version             23092
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Czech/Slovak
 long_description    Support for typesetting Czech/Slovak.
 
-checksums           md5     5764c33e398d0e08027539d0389314a4 \
-                    sha1    a6a29b6ca97245e56d4de8925cfd1e186b81368b \
-                    rmd160  bb48fbec3424680e5598964986a047f5e5cd81ef
+checksums           md5     4463f270d27ec079afb63e8d3fde52ea \
+                    sha1    0e884886e5d1768f2836d635d65e76c2dee82230 \
+                    rmd160  c3dd0f467079659e0791626c98bb427ef2a49396
 
 depends_lib         port:texlive-basic port:texlive-latex
 

@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-generic-recommended
-version             19515
+version             23088
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Recommended generic packages
 long_description    Recommended packages that work with multiple formats.
 
-checksums           md5     630010de2f7da8611a6823029a41e9c2 \
-                    sha1    9985cade013f66c5d768bddd4996013746c37136 \
-                    rmd160  0da45eb0413197a5d8686784d4d581be3db3af41
+checksums           md5     1f5a71795b808f6eca701081471ef105 \
+                    sha1    9bc8f89f8eb7bd68c2fd03bb4e1892eb7fb04657 \
+                    rmd160  4ad74cf91762640757c515aa3e85159cb7a97301
 
 depends_lib         port:texlive-basic
 

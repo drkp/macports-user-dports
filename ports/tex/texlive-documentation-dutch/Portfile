@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Dutch documentation
 long_description    Dutch documentation
 
-checksums           md5     2d3648d236f660ac454b35a11236dac4 \
-                    sha1    69020b7fc80bd84a1f8b5623b02aedfa0e332a47 \
-                    rmd160  4c5436bdd533407d225829ba52dc9c6f3c654a19
+checksums           md5     3ef7171acb42973d59cfda22f3f08d44 \
+                    sha1    7890f157647fd7f7447df8ba9e1d48f1cb343b24 \
+                    rmd160  9b2e25b0c317edd4034997b9127af203aa85fafe
 
 depends_lib         port:texlive-documentation-base
 

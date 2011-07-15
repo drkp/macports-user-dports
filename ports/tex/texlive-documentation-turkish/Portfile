@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Turkish documentation
 long_description    Turkish documentation
 
-checksums           md5     9913be60ae90b50ab89b5968879b5e71 \
-                    sha1    96ba5075bfb65ea4fe745a0b8db952d01a6ef9aa \
-                    rmd160  1d7a69ffce8ce5a214845aeab5a4de4776945bc9
+checksums           md5     4431a50b6bd7ac60c55dd769243cc737 \
+                    sha1    1714f93b0069c1b6d69f130cc26655e30d806d76 \
+                    rmd160  cdbf9aa9a0d4e16eaf6be1116444852d663df494
 
 depends_lib         port:texlive-documentation-base
 

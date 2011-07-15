@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-pictures
-version             19492
+version             22961
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Graphics packages and programs
 long_description    Graphics packages and programs
 
-checksums           md5     a18a715ae37f8621453df54768376afd \
-                    sha1    9db981fe4589e569cf6e2b4e8a592aed8a55094b \
-                    rmd160  c4b31b4b7083d111be248bc712f1c4ac2f4e236d
+checksums           md5     c80a1514829f147f6a1a5f6c74250fed \
+                    sha1    53a9b0a409cc7af4807c412fd1decd5ef35ad8c2 \
+                    rmd160  4f3bc0e1294dfb301193c6c38fd657652710eb89
 
 depends_lib         port:texlive-basic
 

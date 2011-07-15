@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-plain-extra
-version             19362
+version             21462
 revision            0
 
 categories          tex
@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Plain TeX supplementary packages
 long_description    Add-on packages and macros that work with plain TeX.
 
-checksums           md5     1db78ccd6dfe223e84614d0b31a07d9f \
-                    sha1    a0275132348875a95b0006a91e3be84c68caa5b8 \
-                    rmd160  9920b2b5ef22adf12704c67106ec29f60a596fc9
+checksums           md5     73c9c069afd78c16b2928442bb4b965a \
+                    sha1    b0cedfaa2a1c7993b80584c116e9194211c27de1 \
+                    rmd160  63c6840b4a22503673368f97e515afcc1eefbc99
 
 depends_lib         port:texlive-basic
 

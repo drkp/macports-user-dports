@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-music
-version             19005
+version             22568
 revision            0
 
 categories          tex
@@ -13,16 +13,16 @@ maintainers         dports
 description         TeX Live: Music typesetting
 long_description    Music-related fonts and packages.
 
-checksums           md5     a0d7d1ce2d65000fcfa50dfb1fad29ec \
-                    sha1    9b3372357e5b3da3b116bcc589ddd18bf85b413c \
-                    rmd160  4445317c8d7ee123bb26faff974b12b1737c98c9
+checksums           md5     f0db9767c18aa63392023b18e056f221 \
+                    sha1    4edf974956d3bcffba6c75de532582288aea96e0 \
+                    rmd160  9ce97488b7575ad3066dc4859b20d09350ce17e9
 
 depends_lib         port:texlive-latex
 
 texlive.maps      \
     {MixedMap musix.map}
 
-texlive.binaries    musixflx
+texlive.binaries    musixflx musixtex
 
 
 texlive.texmfport

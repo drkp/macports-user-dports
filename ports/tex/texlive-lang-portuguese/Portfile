@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-portuguese
-version             18673
-revision            1
+version             23092
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Portuguese
-long_description    Portuguese
+long_description    Support for typesetting Portuguese.
 
-checksums           md5     65d7ba9f83afc5516f39fc5aa20bec11 \
-                    sha1    216ee708fd967a5211ea20640acaec16e357eef8 \
-                    rmd160  e19f8bcd3313fc74273b702b558f4a24c4d12ce9
+checksums           md5     f2992c9737704196f081a25b34cd12fb \
+                    sha1    8f40be5c545929666fcc87ada05cd722cefc172d \
+                    rmd160  f42ac425e1af5ddae32473462d4369d7f698190f
 
 depends_lib         port:texlive-basic
 

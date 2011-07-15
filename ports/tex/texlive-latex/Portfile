@@ -5,17 +5,17 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-latex
-version             19536
-revision            1
+version             23089
+revision            0
 
 categories          tex
 maintainers         dports
 description         TeX Live: Basic LaTeX packages
 long_description    These packages are mandated by the core LaTeX team, or at least very strongly recommended.
 
-checksums           md5     6870e2770c0b5972eb56cfc161214aa9 \
-                    sha1    3a0ede5408b1c03eb1f8f5ca4c1ebc4a846328f6 \
-                    rmd160  09455d8fcae8ca0ec3b8e28cc85df2f5451d217a
+checksums           md5     8df048304dd70e786a913fb9f89094be \
+                    sha1    7bffba5de56c605094359ab2548f700a1e0ee8c0 \
+                    rmd160  f441dcc304e48118a0d23f4f7c0cd2d0d503e5c3
 
 depends_lib         port:texlive-basic
 

@@ -13,9 +13,9 @@ maintainers         dports
 description         TeX Live: Bulgarian documentation
 long_description    Bulgarian documentation
 
-checksums           md5     c0109a92e40572a210872883fc20e99b \
-                    sha1    7d104f16cecfbf2a35adce320a12b9077cf3ffc2 \
-                    rmd160  a6b951497d44a05e7d54d02351f06b25e301023f
+checksums           md5     e31e119d365f4b39f8431d39ef4ca963 \
+                    sha1    102ccdf67c282a653296fcc9440ccfb42a03c567 \
+                    rmd160  991e52acf4d0ea6f4a8d98a76763bc60acdd572a
 
 depends_lib         port:texlive-documentation-base
 
