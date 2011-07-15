@@ -55,7 +55,7 @@ texlive.exclude     texmf/web2c/fmtutil.cnf \
 
 
 patchfiles          patch-runfiles_texmf_dvipdfm_config_config.diff \
-                    patch-runfiles_texmf_dvipdfmx_dvipdfmx.cfg
+                    patch-runfiles_texmf_dvipdfmx_dvipdfmx.cfg.diff
 
 pre-activate {
     set deactivate_proc registry_deactivate_composite
