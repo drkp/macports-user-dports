@@ -17,7 +17,7 @@ checksums           md5     af88f27bd6049ef40a5ff9d911de3af4 \
                     sha1    81a212248dd0133424a3940c4605325053d79c87 \
                     rmd160  51d60829567cd13b03078e313f3a0c5956f4fa13
 
-depends_lib         port:texlive-latex port:texlive-latex
+depends_lib         port:texlive-latex
 
 texlive.binaries    thumbpdf
 
