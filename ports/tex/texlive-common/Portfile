@@ -5,8 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-common
-version             2010
-revision            1
+version             2011
 
 categories          tex
 maintainers         dports
@@ -19,11 +18,11 @@ homepage            http://www.tug.org/texlive/
 platforms           darwin
 supported_archs     noarch
 
-master_sites        http://flute.csail.mit.edu/texlive/
+master_sites        http://flute.csail.mit.edu/texlive/test/
 worksrcdir          ${distname}
 use_xz              yes
-checksums           sha1     4bbab1829c4218b51e00eb07d7bd741cf29fce55 \
-                    rmd160   fc20939680399ec60e2ff80c312f994f975cfd83
+checksums           sha1     176ea094f2bd6bacd7ff5bd5aeab2b26315d8903 \
+                    rmd160   9371019465792defa30005a4f25a61ba338e8b31
 
 livecheck.type  regex
 livecheck.url   ${master_sites}
