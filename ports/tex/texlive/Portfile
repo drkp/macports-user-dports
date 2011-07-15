@@ -187,7 +187,6 @@ variant full \
                     port:texlive-latex \
                     port:texlive-latex-extra \
                     port:texlive-latex-recommended \
-                    port:texlive-latex3 \
                     port:texlive-luatex \
                     port:texlive-math-extra \
                     port:texlive-metapost \

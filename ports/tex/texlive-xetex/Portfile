@@ -25,7 +25,7 @@ texlive.formats      \
 
 texlive.binaries    T1Wrap teckit_compile xdv2pdf xdvipdfmx xetex
 
-depends_lib-append  port:texlive-latex3 \
+depends_lib-append  port:texlive-latex-recommended \
                     port:texlive-generic-recommended
 
 texlive.texmfport
