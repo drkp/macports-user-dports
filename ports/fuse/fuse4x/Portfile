@@ -35,7 +35,21 @@ license             LGPL
 fetch.type          git
 git.url             git://github.com/drkp/fuse4x-fuse.git
 git.branch          pu
-patchfiles          patch-configure.in.diff
+patchfiles          patch-configure.in.diff \
+                    patch-include_fuse_param.h.diff
+
+# kext destination: kext will be installed into ${kextdir}/fuse4x.kext.
+#
+# The kext is autoloaded by the library using load_fuse4x, so it
+# doesn't have to go into /System/Library/Extensions. It doesn't
+# matter where we put it, as long as it's kept in sync with the library.
+#
+# If updating the patchfile or ${kextdir}, must also update the
+# corresponding patch in the fuse4x-kext port!
+set kextdir        "${prefix}/Library/Extensions"
+post-patch {
+    reinplace "s|@@KEXTPATH@@|${kextdir}/fuse4x.kext|" ${worksrcpath}/include/fuse_param.h
+}
 
 configure.cflags-append -g -O0
 configure.ldflags   -framework CoreFoundation

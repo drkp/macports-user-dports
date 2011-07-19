@@ -43,18 +43,32 @@ git.branch          pu
 # binary by default.
 default_variants    +universal
 
+# kext destination: kext will be installed into ${kextdir}/fuse4x.kext.
+#
+# The kext is autoloaded by the library using load_fuse4x, so it
+# doesn't have to go into /System/Library/Extensions. It doesn't
+# matter where we put it, as long as it's kept in sync with the library.
+#
+# If updating the patchfile or ${kextdir}, must also update the
+# corresponding patch in the fuse4x port!
+patchfiles          patch-common_fuse_param.h.diff
+set kextdir        "${prefix}/Library/Extensions"
+post-patch {
+    reinplace "s|@@KEXTPATH@@|${kextdir}/fuse4x.kext|" ${worksrcpath}/common/fuse_param.h
+}
+
 xcode.configuration Release
 
-destroot.violate_mtree  yes
+#destroot.violate_mtree  yes
 destroot.asroot         yes
 
 destroot {
-    xinstall -d ${destroot}/System/Library/Extensions
-    file copy ${worksrcpath}/build/${xcode.configuration}/fuse4x.kext ${destroot}/System/Library/Extensions
-    file attributes ${destroot}/System/Library/Extensions/fuse4x.kext -owner root -group wheel -permissions rwxr-xr-x
+    xinstall -d ${destroot}${kextdir}
+    file copy ${worksrcpath}/build/${xcode.configuration}/fuse4x.kext ${destroot}${kextdir}
+    file attributes ${destroot}${kextdir}/fuse4x.kext -owner root -group wheel -permissions rwxr-xr-x
 
-    xinstall -d ${destroot}/System/Library/Extensions/fuse4x.kext/Support
-    xinstall -o root -m 4755 ${worksrcpath}/build/${xcode.configuration}/load_fuse4x ${destroot}/System/Library/Extensions/fuse4x.kext/Support
+    xinstall -d ${destroot}${kextdir}/fuse4x.kext/Support
+    xinstall -o root -m 4755 ${worksrcpath}/build/${xcode.configuration}/load_fuse4x ${destroot}${kextdir}/fuse4x.kext/Support
 }
 
 post-activate {
