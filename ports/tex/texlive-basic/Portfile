@@ -43,6 +43,7 @@ texlive.binaries    afm2tfm allcm allec allneeded bibtex dvi2fax dvipdfm dvipdfm
 
 texlive.exclude     texmf/web2c/fmtutil.cnf \
                     texmf/web2c/texmf.cnf \
+                    texmf/web2c/texmfcnf.lua \
                     texmf/web2c/updmap.cfg \
                     texmf/tex/generic/config/language.dat \
                     texmf/tex/generic/config/language.def \
