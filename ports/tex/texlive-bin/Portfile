@@ -56,6 +56,7 @@ patchfiles      patch-configure.diff \
                 patch-texk_tetex_Makefile.in.diff \
                 patch-texk_tetex_updmap.pl.diff \
                 patch-texk_tex4htk_Makefile.in.diff \
+                patch-texk_texlive_context_mtxrun.diff \
                 patch-texk_texlive_linked_scripts_Makefile.in.diff \
                 patch-texk_xdvik_xdvi-sh.in.diff \
                 patch-utils_chktex_Makefile.in.diff
@@ -82,6 +83,7 @@ post-patch {
     delete ${worksrcpath}/texk/kpathsea/texmf.cnf
     file copy ${filespath}/texk_kpathsea_paths.h ${worksrcpath}/texk/kpathsea/paths.h
     reinplace "s|@@TEXMFSYSCONFIG@@|${texlive_texmfsysconfig}|" ${worksrcpath}/texk/kpathsea/paths.h
+    reinplace "s|@@TEXMFSYSCONFIG@@|${texlive_texmfsysconfig}|" ${worksrcpath}/texk/texlive/context/mtxrun
 
     if {![variant_isset atsui]} {
         # Force configure to believe that Carbon API is
