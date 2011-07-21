@@ -54,7 +54,6 @@ texlive.exclude     texmf/web2c/fmtutil.cnf \
                     texmf/scripts/tetex/updmap.pl \
                     texmf/texconfig
 
-
 patchfiles          patch-runfiles_texmf_dvipdfm_config_config.diff \
                     patch-runfiles_texmf_dvipdfmx_dvipdfmx.cfg.diff
 
