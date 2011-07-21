@@ -21,7 +21,7 @@ supported_archs     noarch
 master_sites        http://flute.csail.mit.edu/texlive/test/
 worksrcdir          ${distname}
 use_xz              yes
-checksums           sha1     a02857ee868df2a8fd393388619f3323648b9940
+checksums           sha1     a02857ee868df2a8fd393388619f3323648b9940 \
                     rmd160   a979ebd9151559b7d6ee0f4fd72043e465c5c925
 
 livecheck.type  regex
