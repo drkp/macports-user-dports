@@ -26,6 +26,8 @@ texlive.maps      \
     {MixedMap stmaryrd.map} \
     {MixedMap yhmath.map}
 
+texlive.binaries    amstex
+
 pre-activate {
     # binomexp moved from texlive-latex-extra to texlive-math-extra in TL2010
     if {![catch {set vers [lindex [registry_active texlive-latex-extra] 0]}]

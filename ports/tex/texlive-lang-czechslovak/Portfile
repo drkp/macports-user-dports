@@ -33,7 +33,7 @@ texlive.maps      \
     {MixedMap csother.map} \
     {MixedMap cstext.map}
 
-texlive.binaries    vlna
+texlive.binaries    cslatex csplain pdfcslatex pdfcsplain vlna
 
 
 texlive.texmfport

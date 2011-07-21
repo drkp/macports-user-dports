@@ -26,7 +26,7 @@ texlive.formats      \
 texlive.maps      \
     {Map omega.map}
 
-texlive.binaries    aleph odvicopy odvitype ofm2opl omfonts opl2ofm otangle otp2ocp outocp ovf2ovp ovp2ovf
+texlive.binaries    aleph lamed odvicopy odvitype ofm2opl omfonts opl2ofm otangle otp2ocp outocp ovf2ovp ovp2ovf
 
 
 texlive.texmfport

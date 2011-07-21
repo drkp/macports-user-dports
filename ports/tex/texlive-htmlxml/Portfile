@@ -25,7 +25,7 @@ texlive.formats      \
     {1 xmltex pdftex language.dat {*xmltex.ini}} \
     {1 pdfxmltex pdftex language.dat {*pdfxmltex.ini}}
 
-texlive.binaries    ht htcontext htlatex htmex httex httexi htxelatex htxetex mk4ht t4ht tex4ht
+texlive.binaries    ht htcontext htlatex htmex httex httexi htxelatex htxetex jadetex mk4ht pdfjadetex pdfxmltex t4ht tex4ht xmltex
 
 texlive.exclude     texmf-dist/scripts/tex4ht/ht.sh \
                     texmf-dist/scripts/tex4ht/htcontext.sh \

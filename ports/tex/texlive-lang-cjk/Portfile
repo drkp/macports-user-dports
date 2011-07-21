@@ -42,7 +42,7 @@ texlive.maps      \
     {Map mr2j.map} \
     {Map mrj.map}
 
-texlive.binaries    bg5+latex bg5+pdflatex bg5conv bg5latex bg5pdflatex cef5conv cef5latex cef5pdflatex cefconv ceflatex cefpdflatex cefsconv cefslatex cefspdflatex eptex extconv gbklatex gbkpdflatex hbf2gf makejvf mendex pbibtex pdvitype ppltotf ptex ptftopl sjisconv sjislatex sjispdflatex
+texlive.binaries    bg5+latex bg5+pdflatex bg5conv bg5latex bg5pdflatex cef5conv cef5latex cef5pdflatex cefconv ceflatex cefpdflatex cefsconv cefslatex cefspdflatex eptex extconv gbklatex gbkpdflatex hbf2gf makejvf mendex pbibtex pdvitype platex ppltotf ptex ptftopl sjisconv sjislatex sjispdflatex
 
 depends_lib-append port:texlive-latex
 

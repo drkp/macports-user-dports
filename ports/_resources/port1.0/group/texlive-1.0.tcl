@@ -210,12 +210,6 @@ proc texlive.texmfport {} {
             }
         }
 
-        # create symlinks for any binaries activated by the port
-        foreach bin ${texlive.binaries} {
-            ln -s ${texlive_bindir}/$bin ${destroot}${prefix}/bin
-            ln -s ${texlive_bindir}/$bin ${destroot}${texlive_mactex_texbindir}
-        }
-
         # install a documentation file containing the list of TeX
         # packages installed. This also ensures that each port
         # provides at least one file, even if there's nothing to
@@ -256,12 +250,16 @@ proc texlive.texmfport {} {
                     "$fmtprefix$fmtname\t$fmtengine\t$fmtpatterns\t$fmtoptions"
 
                 # Simulate texlinks
-                if {![file exists ${destroot}${prefix}/bin/$fmtname]} {
+                if {$fmtname in ${texlive.binaries}} {
                     # Decide what to link. Use the specified engine
                     # unless a binary with the same name as the
-                    # program exists (this can happen for metafont;
+                    # format exists (this can happen for metafont;
                     # see #28890)
-                    if {[file exists ${texlive_bindir}/$fmtname]} {
+                    #
+                    # It's OK if the binary named $fmtname is a broken
+                    # symlink, since we might be installing whatever
+                    # it's pointing to, hence the use of 'file lstat'.
+                    if {![catch {file lstat ${texlive_bindir}/$fmtname ignore}]} {
                         set linksource ${texlive_bindir}/$fmtname
                     } else {
                         set linksource ${prefix}/bin/$fmtengine
@@ -271,6 +269,11 @@ proc texlive.texmfport {} {
                         ${destroot}${prefix}/bin/$fmtname
                     ln -s $linksource \
                         ${destroot}${texlive_mactex_texbindir}/$fmtname
+
+                    # We've created the symlink for $fmtname; remove
+                    # it from texlive.binaries so we don't try to do
+                    # so again later.
+                    texlive.binaries-delete $fmtname
                 }
             }
             
@@ -316,6 +319,12 @@ proc texlive.texmfport {} {
             }
             close $langdatfile
             close $langdeffile
+        }
+
+        # create symlinks for any binaries activated by the port
+        foreach bin ${texlive.binaries} {
+            ln -s ${texlive_bindir}/$bin ${destroot}${prefix}/bin
+            ln -s ${texlive_bindir}/$bin ${destroot}${texlive_mactex_texbindir}
         }
     }
 

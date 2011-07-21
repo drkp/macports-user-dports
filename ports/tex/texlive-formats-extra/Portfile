@@ -25,6 +25,8 @@ texlive.formats      \
     {1 mltex pdftex - {-translate-file=cp227.tcx -mltex mltex.ini}} \
     {1 texsis pdftex - {-translate-file=cp227.tcx texsis.ini}}
 
+texlive.binaries    eplain mllatex mltex texsis
+
 depends_lib-append  port:texlive-latex
 
 texlive.texmfport

@@ -39,7 +39,7 @@ texlive.maps      \
     {MixedMap mflogo.map} \
     {Map mathpple.map}
 
-texlive.binaries    afm2tfm allcm allec allneeded bibtex dvi2fax dvipdfm dvipdfmx dvipdft dvips dvired ebb extractbb fmtutil fmtutil-sys gftodvi gftopk gftype gsftopk inimf initex kpseaccess kpsepath kpsereadlink kpsestat kpsetool kpsewhere kpsewhich kpsexpand luatex makeindex mf-nowin mft mkindex mkocp mkofm mktexfmt mktexlsr mktexmf mktexpk mktextfm pdftex pktogf pktype simpdftex tcdialog tex texconfig texconfig-dialog texconfig-sys texhash texlinks texlua texluac updmap updmap-sys xdvi
+texlive.binaries    afm2tfm allcm allec allneeded bibtex dvi2fax dviluatex dvipdfm dvipdfmx dvipdft dvips dvired ebb etex extractbb fmtutil fmtutil-sys gftodvi gftopk gftype gsftopk inimf initex kpseaccess kpsepath kpsereadlink kpsestat kpsetool kpsewhere kpsewhich kpsexpand luatex makeindex mf mf-nowin mft mkindex mkocp mkofm mktexfmt mktexlsr mktexmf mktexpk mktextfm pdfetex pdftex pktogf pktype simpdftex tcdialog tex texconfig texconfig-dialog texconfig-sys texhash texlinks texlua texluac updmap updmap-sys xdvi
 
 texlive.exclude     texmf/web2c/fmtutil.cnf \
                     texmf/web2c/texmf.cnf \
