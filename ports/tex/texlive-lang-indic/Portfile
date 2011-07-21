@@ -20,18 +20,18 @@ checksums           md5     3c8596adc6e00da41cc3d2b9a335fe1e \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {assamese loadhyph-as.tex 1 1 {}} \
-    {bengali loadhyph-bn.tex 1 1 {}} \
-    {gujarati loadhyph-gu.tex 1 1 {}} \
-    {hindi loadhyph-hi.tex 1 1 {}} \
-    {kannada loadhyph-kn.tex 1 1 {}} \
-    {malayalam loadhyph-ml.tex 1 1 {}} \
-    {marathi loadhyph-mr.tex 1 1 {}} \
-    {oriya loadhyph-or.tex 1 1 {}} \
-    {panjabi loadhyph-pa.tex 1 1 {}} \
-    {tamil loadhyph-ta.tex 1 1 {}} \
-    {telugu loadhyph-te.tex 1 1 {}} \
-    {sanskrit loadhyph-sa.tex 1 5 {}}
+    {assamese loadhyph-as.tex 1 1 {} {hyph-as.pat.txt} {} {} } \
+    {bengali loadhyph-bn.tex 1 1 {} {hyph-bn.pat.txt} {} {} } \
+    {gujarati loadhyph-gu.tex 1 1 {} {hyph-gu.pat.txt} {} {} } \
+    {hindi loadhyph-hi.tex 1 1 {} {hyph-hi.pat.txt} {} {} } \
+    {kannada loadhyph-kn.tex 1 1 {} {hyph-kn.pat.txt} {} {} } \
+    {malayalam loadhyph-ml.tex 1 1 {} {hyph-ml.pat.txt} {} {} } \
+    {marathi loadhyph-mr.tex 1 1 {} {hyph-mr.pat.txt} {} {} } \
+    {oriya loadhyph-or.tex 1 1 {} {hyph-or.pat.txt} {} {} } \
+    {panjabi loadhyph-pa.tex 1 1 {} {hyph-pa.pat.txt} {} {} } \
+    {tamil loadhyph-ta.tex 1 1 {} {hyph-ta.pat.txt} {} {} } \
+    {telugu loadhyph-te.tex 1 1 {} {hyph-te.pat.txt} {} {} } \
+    {sanskrit loadhyph-sa.tex 1 5 {} {hyph-sa.pat.txt} {} {} }
 
 texlive.maps      \
     {Map burmese.map} \

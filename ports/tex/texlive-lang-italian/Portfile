@@ -20,7 +20,7 @@ checksums           md5     ab5519673f3b2fa2ba956892a79958ff \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {italian loadhyph-it.tex 2 2 {}}
+    {italian loadhyph-it.tex 2 2 {} {hyph-it.pat.txt} {} {} }
 
 
 texlive.texmfport

@@ -20,10 +20,10 @@ checksums           md5     d4690d411e006d8e49b2310a4b5cc6a5 \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {monogreek loadhyph-el-monoton.tex 1 1 {}} \
-    {greek loadhyph-el-polyton.tex 1 1 {polygreek}} \
-    {ancientgreek loadhyph-grc.tex 1 1 {}} \
-    {ibycus ibyhyph.tex 2 2 {}}
+    {monogreek loadhyph-el-monoton.tex 1 1 {} {hyph-el-monoton.pat.txt} {} {} } \
+    {greek loadhyph-el-polyton.tex 1 1 {polygreek} {hyph-el-polyton.pat.txt} {} {} } \
+    {ancientgreek loadhyph-grc.tex 1 1 {} {hyph-grc.pat.txt} {} {} } \
+    {ibycus ibyhyph.tex 2 2 {} {} {} {disabled:8-bit only} }
 
 texlive.maps      \
     {MixedMap cbgreek-full.map} \

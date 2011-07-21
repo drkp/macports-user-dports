@@ -20,7 +20,7 @@ checksums           md5     50b6c0fd261eeee0aad5c4c7a48e1cc8 \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {swedish loadhyph-sv.tex 2 2 {}}
+    {swedish loadhyph-sv.tex 2 2 {} {hyph-sv.pat.txt} {} {} }
 
 
 texlive.texmfport

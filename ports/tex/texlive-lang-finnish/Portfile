@@ -20,7 +20,7 @@ checksums           md5     80d21c0edd1912e74407b5536970ff14 \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {finnish loadhyph-fi.tex 2 2 {}}
+    {finnish loadhyph-fi.tex 2 2 {} {hyph-fi.pat.txt} {} {} }
 
 
 texlive.texmfport

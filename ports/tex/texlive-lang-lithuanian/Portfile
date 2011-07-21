@@ -20,7 +20,7 @@ checksums           md5     4efc7681fbc1cfe3e0000e0ebf58d29b \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {lithuanian loadhyph-lt.tex 2 2 {}}
+    {lithuanian loadhyph-lt.tex 2 2 {} {hyph-lt.pat.txt} {} {} }
 
 texlive.maps      \
     {Map l7x-urwvn.map}

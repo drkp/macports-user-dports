@@ -20,8 +20,8 @@ checksums           md5     9c81e9c96c0e4d811b76b2f595f3d560 \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {arabic zerohyph.tex 2 3 {}} \
-    {farsi zerohyph.tex 2 3 {persian}}
+    {arabic zerohyph.tex 2 3 {} {} {} {} } \
+    {farsi zerohyph.tex 2 3 {persian} {} {} {} }
 
 texlive.maps      \
     {Map arabi.map} \

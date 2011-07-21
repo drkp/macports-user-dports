@@ -26,8 +26,8 @@ texlive.formats      \
     {1 pdfcsplain pdftex - {-etex -translate-file=cp227.tcx csplain.ini}}
 
 texlive.languages      \
-    {czech loadhyph-cs.tex 2 3 {}} \
-    {slovak loadhyph-sk.tex 2 3 {}}
+    {czech loadhyph-cs.tex 2 3 {} {hyph-cs.pat.txt} {hyph-cs.hyp.txt} {} } \
+    {slovak loadhyph-sk.tex 2 3 {} {hyph-sk.pat.txt} {hyph-sk.hyp.txt} {} }
 
 texlive.maps      \
     {MixedMap csother.map} \

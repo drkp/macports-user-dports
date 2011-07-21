@@ -20,7 +20,7 @@ checksums           md5     8cc38b2b2c4b6a3255c81638935b3478 \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {ethiopic loadhyph-mul-ethi.tex 1 1 {amharic geez}}
+    {ethiopic loadhyph-mul-ethi.tex 1 1 {amharic geez} {hyph-mul-ethi.pat.txt} {} {} }
 
 texlive.maps      \
     {MixedMap ethiop.map}

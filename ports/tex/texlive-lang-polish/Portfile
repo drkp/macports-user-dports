@@ -25,7 +25,7 @@ texlive.formats      \
     {1 utf8mex pdftex mexconf.tex {-enc *utf8mex.ini}}
 
 texlive.languages      \
-    {polish loadhyph-pl.tex 2 2 {}}
+    {polish loadhyph-pl.tex 2 2 {} {hyph-pl.pat.txt} {hyph-pl.hyp.txt} {} }
 
 texlive.maps      \
     {MixedMap ccpl.map} \

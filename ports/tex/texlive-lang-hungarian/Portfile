@@ -20,7 +20,7 @@ checksums           md5     1a8850314b938621fa5ac859db311bbd \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {hungarian loadhyph-hu.tex 2 2 {}}
+    {hungarian loadhyph-hu.tex 2 2 {} {hyph-hu.pat.txt} {} {} }
 
 
 texlive.texmfport

@@ -20,8 +20,8 @@ checksums           md5     8679d3bf08ee7cf4f2e9bb81e143a940 \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {ukenglish loadhyph-en-gb.tex 2 3 {british UKenglish}} \
-    {usenglishmax loadhyph-en-us.tex 2 3 {}}
+    {ukenglish loadhyph-en-gb.tex 2 3 {british UKenglish} {hyph-en-gb.pat.txt} {hyph-en-gb.hyp.txt} {} } \
+    {usenglishmax loadhyph-en-us.tex 2 3 {} {hyph-en-us.pat.txt} {hyph-en-us.hyp.txt} {} }
 
 
 texlive.texmfport

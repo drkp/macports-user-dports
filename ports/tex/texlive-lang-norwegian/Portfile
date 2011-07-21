@@ -20,8 +20,8 @@ checksums           md5     060ec1ab80dfd8fce886d23e09b09b3e \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {bokmal loadhyph-nb.tex 2 2 {norwegian norsk}} \
-    {nynorsk loadhyph-nn.tex 2 2 {}}
+    {bokmal loadhyph-nb.tex 2 2 {norwegian norsk} {hyph-nb.pat.txt} {hyph-nb.hyp.txt} {} } \
+    {nynorsk loadhyph-nn.tex 2 2 {} {hyph-nn.pat.txt} {hyph-nn.hyp.txt} {} }
 
 
 texlive.texmfport

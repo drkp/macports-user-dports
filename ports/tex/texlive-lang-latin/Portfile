@@ -20,7 +20,7 @@ checksums           md5     1e0df62c3a704a132e2949d8feb8bc32 \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {latin loadhyph-la.tex 2 2 {}}
+    {latin loadhyph-la.tex 2 2 {} {hyph-la.pat.txt} {} {} }
 
 
 texlive.texmfport

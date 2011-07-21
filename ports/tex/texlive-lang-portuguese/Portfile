@@ -20,7 +20,7 @@ checksums           md5     f2992c9737704196f081a25b34cd12fb \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {portuguese loadhyph-pt.tex 2 3 {portuges}}
+    {portuguese loadhyph-pt.tex 2 3 {portuges} {hyph-pt.pat.txt} {hyph-pt.hyp.txt} {} }
 
 
 texlive.texmfport

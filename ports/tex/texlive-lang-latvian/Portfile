@@ -20,7 +20,7 @@ checksums           md5     6e177924abb8350345178b46f77ae38c \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {latvian loadhyph-lv.tex 2 2 {}}
+    {latvian loadhyph-lv.tex 2 2 {} {hyph-lv.pat.txt} {} {} }
 
 
 texlive.texmfport

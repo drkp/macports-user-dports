@@ -20,8 +20,8 @@ checksums           md5     59b18322c69ec3c0de4fa41952fd70d1 \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {basque loadhyph-eu.tex 2 2 {}} \
-    {french loadhyph-fr.tex 2 3 {patois francais}}
+    {basque loadhyph-eu.tex 2 2 {} {hyph-eu.pat.txt} {} {} } \
+    {french loadhyph-fr.tex 2 3 {patois francais} {hyph-fr.pat.txt} {} {} }
 
 texlive.maps      \
     {Map tabvar.map}

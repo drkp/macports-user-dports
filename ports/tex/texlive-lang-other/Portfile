@@ -20,24 +20,24 @@ checksums           md5     d011cbe9b4b8d42e3f1d3ea84e113625 \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {afrikaans loadhyph-af.tex 1 2 {}} \
-    {armenian loadhyph-hy.tex 1 2 {}} \
-    {coptic loadhyph-cop.tex 1 1 {}} \
-    {esperanto loadhyph-eo.tex 2 2 {}} \
-    {estonian loadhyph-et.tex 2 3 {}} \
-    {icelandic loadhyph-is.tex 2 2 {}} \
-    {indonesian loadhyph-id.tex 2 2 {}} \
-    {interlingua loadhyph-ia.tex 2 2 {}} \
-    {irish loadhyph-ga.tex 2 3 {}} \
-    {kurmanji loadhyph-kmr.tex 2 2 {}} \
-    {lao loadhyph-lo.tex 1 1 {}} \
-    {romanian loadhyph-ro.tex 2 2 {}} \
-    {serbian loadhyph-sr-latn.tex 2 2 {}} \
-    {serbianc loadhyph-sr-cyrl.tex 2 2 {}} \
-    {slovenian loadhyph-sl.tex 2 2 {slovene}} \
-    {turkish loadhyph-tr.tex 2 2 {}} \
-    {uppersorbian loadhyph-hsb.tex 2 2 {}} \
-    {welsh loadhyph-cy.tex 2 3 {}}
+    {afrikaans loadhyph-af.tex 1 2 {} {hyph-af.pat.txt} {hyph-af.hyp.txt} {} } \
+    {armenian loadhyph-hy.tex 1 2 {} {hyph-hy.pat.txt} {} {} } \
+    {coptic loadhyph-cop.tex 1 1 {} {hyph-cop.pat.txt} {} {} } \
+    {esperanto loadhyph-eo.tex 2 2 {} {hyph-eo.pat.txt} {} {} } \
+    {estonian loadhyph-et.tex 2 3 {} {hyph-et.pat.txt} {} {} } \
+    {icelandic loadhyph-is.tex 2 2 {} {hyph-is.pat.txt} {} {} } \
+    {indonesian loadhyph-id.tex 2 2 {} {hyph-id.pat.txt} {hyph-id.hyp.txt} {} } \
+    {interlingua loadhyph-ia.tex 2 2 {} {hyph-ia.pat.txt} {hyph-ia.hyp.txt} {} } \
+    {irish loadhyph-ga.tex 2 3 {} {hyph-ga.pat.txt} {hyph-ga.hyp.txt} {} } \
+    {kurmanji loadhyph-kmr.tex 2 2 {} {hyph-kmr.pat.txt} {} {} } \
+    {lao loadhyph-lo.tex 1 1 {} {hyph-lo.pat.txt} {} {} } \
+    {romanian loadhyph-ro.tex 2 2 {} {hyph-ro.pat.txt} {} {} } \
+    {serbian loadhyph-sr-latn.tex 2 2 {} {hyph-sh-latn.pat.txt,hyph-sh-cyrl.pat.txt} {hyph-sh-latn.hyp.txt,hyph-sh-cyrl.hyp.txt} {} } \
+    {serbianc loadhyph-sr-cyrl.tex 2 2 {} {hyph-sh-latn.pat.txt,hyph-sh-cyrl.pat.txt} {hyph-sh-latn.hyp.txt,hyph-sh-cyrl.hyp.txt} {} } \
+    {slovenian loadhyph-sl.tex 2 2 {slovene} {hyph-sl.pat.txt} {} {} } \
+    {turkish loadhyph-tr.tex 2 2 {} {hyph-tr.pat.txt} {} {} } \
+    {uppersorbian loadhyph-hsb.tex 2 2 {} {hyph-hsb.pat.txt} {hyph-hsb.hyp.txt} {} } \
+    {welsh loadhyph-cy.tex 2 3 {} {hyph-cy.pat.txt} {} {} }
 
 
 texlive.texmfport

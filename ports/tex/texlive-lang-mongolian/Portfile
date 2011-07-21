@@ -20,8 +20,8 @@ checksums           md5     5899cfef97fb49c968a53f9e250d7df2 \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {mongolian loadhyph-mn-cyrl.tex 2 2 {}} \
-    {mongolianlmc loadhyph-mn-cyrl-x-lmc.tex 2 2 {}}
+    {mongolian loadhyph-mn-cyrl.tex 2 2 {} {hyph-mn-cyrl.pat.txt} {} {} } \
+    {mongolianlmc loadhyph-mn-cyrl-x-lmc.tex 2 2 {} {} {} {disabled:only for 8bit montex with lmc encoding} }
 
 texlive.maps      \
     {MixedMap mongolian.map}

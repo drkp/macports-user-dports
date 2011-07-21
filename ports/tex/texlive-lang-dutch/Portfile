@@ -20,7 +20,7 @@ checksums           md5     04a86878fa6bd96ec3148c2228242ba4 \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {dutch loadhyph-nl.tex 2 2 {}}
+    {dutch loadhyph-nl.tex 2 2 {} {hyph-nl.pat.txt} {hyph-nl.hyp.txt} {} }
 
 
 texlive.texmfport

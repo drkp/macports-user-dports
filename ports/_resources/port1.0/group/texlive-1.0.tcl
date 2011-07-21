@@ -299,14 +299,21 @@ proc texlive.texmfport {} {
                 ${destroot}${texlive_texmfsysconfig}/language.d/10${name}.dat
             set langdeffilename \
                 ${destroot}${texlive_texmfsysconfig}/language.d/10${name}.def
+            set langluafilename \
+                ${destroot}${texlive_texmfsysconfig}/language.d/10${name}.dat.lua
             set langdatfile [open $langdatfilename "w"]
             set langdeffile [open $langdeffilename "w"]
+            set langluafile [open $langluafilename "w"]
+            
             foreach x ${texlive.languages} {
                 set langname [lindex $x 0]
                 set langfile [lindex $x 1]
                 set langlhmin [lindex $x 2]
                 set langrhmin [lindex $x 3]
                 set langsyns [lindex $x 4]
+                set langpatt [lindex $x 5]
+                set langhyph [lindex $x 6]
+                set langspecial [lindex $x 7]
 
                 puts $langdatfile "$langname $langfile"
                 foreach syn $langsyns {
@@ -316,9 +323,32 @@ proc texlive.texmfport {} {
                 foreach syn [concat $langname $langsyns] {
                     puts $langdeffile "\\addlanguage{$syn}{$langfile}{}{$langlhmin}{$langrhmin}"
                 }
+
+                puts $langluafile "\t\['$langname'\] = {"
+                puts $langluafile "\t\tloader = '$langfile',"
+                puts $langluafile "\t\tlefthyphenmin = $langlhmin,"
+                puts $langluafile "\t\trighthyphenmin = $langrhmin,"
+                set qsyns {}
+                foreach syn $langsyns {
+                    lappend qsyns "'$syn'"
+                }
+                set qsynlist [join $qsyns ", "]
+                puts $langluafile "\t\tsynonyms = { $qsynlist },"
+                if {$langpatt != ""} {
+                    puts $langluafile "\t\tpatterns = '$langpatt',"
+                }
+                if {$langhyph != ""} {
+                    puts $langluafile "\t\thyphenation = '$langhyph',"
+                }
+                if {$langspecial != ""} {
+                    puts $langluafile "\t\tpatterns = '$langspecial',"
+                }
+                puts $langluafile "\t},\n"                
             }
+            
             close $langdatfile
             close $langdeffile
+            close $langluafile
         }
 
         # create symlinks for any binaries activated by the port
@@ -335,6 +365,7 @@ proc texlive.texmfport {} {
             # regenerate all maps and formats.
             system "${prefix}/libexec/texlive-update-cnf language.dat"
             system "${prefix}/libexec/texlive-update-cnf language.def"
+            system "${prefix}/libexec/texlive-update-cnf language.dat.lua"
             system "${prefix}/libexec/texlive-update-cnf updmap.cfg"
             system "${prefix}/libexec/texlive-update-cnf fmtutil.cnf"
             system "${prefix}/bin/updmap-sys"
@@ -346,6 +377,7 @@ proc texlive.texmfport {} {
             if {${texlive.languages} != ""} {
                 system "${prefix}/libexec/texlive-update-cnf language.dat"
                 system "${prefix}/libexec/texlive-update-cnf language.def"
+                system "${prefix}/libexec/texlive-update-cnf language.dat.lua"
             }
             if {${texlive.maps} != ""} {
                 system "${prefix}/libexec/texlive-update-cnf updmap.cfg"
@@ -377,6 +409,7 @@ proc texlive.texmfport {} {
         if {${texlive.forceupdatecnf} || ${texlive.languages} != ""} {
             system "${prefix}/libexec/texlive-update-cnf language.dat"
             system "${prefix}/libexec/texlive-update-cnf language.def"
+            system "${prefix}/libexec/texlive-update-cnf language.dat.lua"
         }
         if {${texlive.forceupdatecnf} || ${texlive.maps} != ""} {
             system "${prefix}/libexec/texlive-update-cnf updmap.cfg"

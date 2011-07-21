@@ -20,7 +20,7 @@ checksums           md5     f8fd5cbb796fa4f3da947eeddc08b3c8 \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {turkmen loadhyph-tk.tex 2 2 {}}
+    {turkmen loadhyph-tk.tex 2 2 {} {hyph-tk.pat.txt} {} {} }
 
 
 texlive.texmfport

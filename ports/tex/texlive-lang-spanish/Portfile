@@ -20,9 +20,9 @@ checksums           md5     3e2c8818047b28d3fe5470fbc2402353 \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {spanish loadhyph-es.tex 2 2 {espanol}} \
-    {catalan loadhyph-ca.tex 2 2 {}} \
-    {galician loadhyph-gl.tex 2 2 {}}
+    {spanish loadhyph-es.tex 2 2 {espanol} {hyph-es.pat.txt} {} {} } \
+    {catalan loadhyph-ca.tex 2 2 {} {hyph-ca.pat.txt} {hyph-ca.hyp.txt} {} } \
+    {galician loadhyph-gl.tex 2 2 {} {hyph-gl.pat.txt} {} {} }
 
 
 texlive.texmfport

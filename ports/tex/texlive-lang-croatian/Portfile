@@ -20,7 +20,7 @@ checksums           md5     131dd9a9661c38d7ab018c6e7cdcfc3e \
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {croatian loadhyph-hr.tex 2 2 {}}
+    {croatian loadhyph-hr.tex 2 2 {} {hyph-hr.pat.txt} {} {} }
 
 
 texlive.texmfport

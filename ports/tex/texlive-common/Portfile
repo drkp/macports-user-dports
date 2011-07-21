@@ -21,8 +21,8 @@ supported_archs     noarch
 master_sites        http://flute.csail.mit.edu/texlive/test/
 worksrcdir          ${distname}
 use_xz              yes
-checksums           sha1     b6368e40771d69ef90a079fee7c548a582368a0b \
-                    rmd160   303055018103850e1416f396723cc4da1edc990f
+checksums           sha1     a02857ee868df2a8fd393388619f3323648b9940
+                    rmd160   a979ebd9151559b7d6ee0f4fd72043e465c5c925
 
 livecheck.type  regex
 livecheck.url   ${master_sites}
@@ -75,11 +75,15 @@ destroot {
         ${destroot}${texlive_texmfsysconfig}/language.d/00language.us.dat
     xinstall -m 644 ${worksrcpath}/language.us.def \
         ${destroot}${texlive_texmfsysconfig}/language.d/00language.us.def
+    xinstall -m 644 ${worksrcpath}/language.us.lua \
+        ${destroot}${texlive_texmfsysconfig}/language.d/00language.us.lua
     xinstall -d ${destroot}${texlive_texmfsysvar}/web2c
     touch ${destroot}${texlive_texmfsysvar}/web2c/updmap.cfg
     touch ${destroot}${texlive_texmfsysvar}/web2c/fmtutil.cnf
     xinstall -d ${destroot}${texlive_texmfsysvar}/tex/generic/config
     touch ${destroot}${texlive_texmfsysvar}/tex/generic/config/language.dat
+    touch ${destroot}${texlive_texmfsysvar}/tex/generic/config/language.def
+    touch ${destroot}${texlive_texmfsysvar}/tex/generic/config/language.dat.lua
     xinstall -m 755 ${worksrcpath}/texlive-update-cnf \
         ${destroot}${prefix}/libexec/texlive-update-cnf
 
@@ -111,6 +115,12 @@ pre-activate {
         }
     }
 
+    # An earlier version forgot to register language.def to this port,
+    # so delete it if it exists to prevent a conflict
+    if [file exists ${texlive_texmfsysvar}/tex/generic/config/language.def] {
+        delete ${texlive_texmfsysvar}/tex/generic/config/language.def
+    }
+
     # Deactivate tetex and any of the texlive 2007 ports. replaced_by
     # does not accomplish this because not all of these ports conflict
     # with this one (although they will cause problems later).
@@ -130,6 +140,7 @@ post-activate {
     system "${prefix}/libexec/texlive-update-cnf fmtutil.cnf"
     system "${prefix}/libexec/texlive-update-cnf language.dat"
     system "${prefix}/libexec/texlive-update-cnf language.def"
+    system "${prefix}/libexec/texlive-update-cnf language.dat.lua"
     system "${prefix}/libexec/texlive-update-cnf updmap.cfg"
 
     # run mktexlsr if it exists (i.e. if we are upgrading an existing
