@@ -146,6 +146,6 @@ post-activate {
     # run mktexlsr if it exists (i.e. if we are upgrading an existing
     # installation)
     if [file exists ${prefix}/bin/mktexlsr] {
-        system "${prefix}/bin/mktexlsr"
+        texlive.mktexlsr
     }
 }

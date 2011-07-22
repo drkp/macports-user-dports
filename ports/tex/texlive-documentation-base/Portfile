@@ -17,5 +17,8 @@ checksums           md5     a9f53abe557ef6b0f30bb1b26825d0fc \
                     sha1    5b7b2bcdd3031d7ad7bec7bdf76851019a2a30ce \
                     rmd160  c51afcda5cabe1e3f6b2accc967d9277d0748fd5
 
+# This port is installed prior to texlive-basic, so mktexlsr is not
+# available yet. Do not try to run it in post-activate.
+texlive.use_mktexlsr no
 
 texlive.texmfport

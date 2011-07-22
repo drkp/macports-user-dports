@@ -86,6 +86,24 @@ set texlive_bindir "${prefix}/libexec/texlive/binaries"
 # /usr/texbin symlink here
 set texlive_mactex_texbindir "${prefix}/libexec/texlive/texbin"
 
+# update texmf file path databases (ls-R)
+#
+# This should be run in the post-activate/deactivate hooks of any port
+# that installs texmf files. It updates the kpathsea database using
+# mktexlsr (formerly texhash), as well as ConTeXt's cache.
+proc texlive.mktexlsr {} {
+    global prefix
+
+    # Run mktexlsr. If that's not available, something's wrong.
+    system "${prefix}/bin/mktexlsr"
+
+    # If mtxrun is available (i.e. ConTeXt is installed), update its
+    # cache too. If it's not installed, that's OK.
+    if [file exists "${prefix}/bin/mtxrun"] {
+        system "${prefix}/bin/mtxrun --generate"
+    }
+}
+
 # Remove dependencies on any texlive-documentation-* ports, for use by
 # -doc variants
 proc texlive.removedocdepends {} {
@@ -112,8 +130,15 @@ default texlive.formats {}
 default texlive.languages {}
 default texlive.maps {}
 
+# Whether to regenerate all config files, maps, and formats after
+# activation regardless of whether any new ones are installed.
 options texlive.forceupdatecnf
 default texlive.forceupdatecnf no
+
+# Whether to run mktexlsr after activation. Usually required if
+# installing any texmf files.
+options texlive.use_mktexlsr
+default texlive.use_mktexlsr yes
 
 proc texlive.texmfport {} {
     homepage        http://www.tug.org/texlive/
@@ -359,7 +384,10 @@ proc texlive.texmfport {} {
     }
 
     post-activate {
-        system "${texlive_bindir}/mktexlsr"
+        if {${texlive.use_mktexlsr}} {
+            texlive.mktexlsr
+        }
+        
         if {${texlive.forceupdatecnf}} {
             # If force was specified, update all the config files, and
             # regenerate all maps and formats.
@@ -405,7 +433,7 @@ proc texlive.texmfport {} {
     post-deactivate {
         # Update ls-R and any config files to reflect that the package
         # is now gone
-        system "${texlive_bindir}/mktexlsr"
+        texlive.mktexlsr
         if {${texlive.forceupdatecnf} || ${texlive.languages} != ""} {
             system "${prefix}/libexec/texlive-update-cnf language.dat"
             system "${prefix}/libexec/texlive-update-cnf language.def"
