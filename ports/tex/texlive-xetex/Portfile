@@ -25,6 +25,8 @@ texlive.formats      \
 
 texlive.binaries    T1Wrap teckit_compile xdv2pdf xdvipdfmx xelatex xetex
 
+texlive.exclude     tlpkg/tlpostcode/xetex.pl
+
 depends_lib-append  port:texlive-latex-recommended \
                     port:texlive-generic-recommended
 
