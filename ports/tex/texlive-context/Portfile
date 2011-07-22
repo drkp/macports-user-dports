@@ -39,7 +39,8 @@ post-patch {
     reinplace "s|@@TEXMFSYSCONFIG@@|${texlive_texmfsysconfig}|" ${worksrcpath}/runfiles/texmf-dist/tex/context/base/data-res.lua
 }
 
-depends_lib-append  port:texlive-metapost \
+depends_lib-append  port:texlive-latex \
+                    port:texlive-metapost \
                     port:texlive-xetex \
                     port:texlive-fonts-recommended \
                     port:texlive-math-extra
