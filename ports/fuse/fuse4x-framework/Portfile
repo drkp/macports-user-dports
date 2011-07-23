@@ -47,3 +47,7 @@ destroot {
     file copy ${worksrcpath}/build/${xcode.configuration}/Fuse4X.framework \
               ${destroot}/${frameworks_dir}
 }
+
+livecheck.type      regex
+livecheck.url       ${homepage}
+livecheck.regex     {Fuse4X-([0-9.]+).pkg}

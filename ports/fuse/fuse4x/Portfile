@@ -61,4 +61,6 @@ use_configure       yes
 depends_build       port:pkgconfig port:autoconf port:automake port:libtool
 depends_lib         port:fuse4x-kext
 
-
+livecheck.type      regex
+livecheck.url       ${homepage}
+livecheck.regex     {Fuse4X-([0-9.]+).pkg}

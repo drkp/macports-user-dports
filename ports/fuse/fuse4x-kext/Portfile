@@ -80,3 +80,7 @@ post-activate {
         ui_msg "********************************************************"
     }
 }
+
+livecheck.type      regex
+livecheck.url       ${homepage}
+livecheck.regex     {Fuse4X-([0-9.]+).pkg}
