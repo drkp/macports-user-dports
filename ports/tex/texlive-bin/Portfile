@@ -19,13 +19,14 @@ long_description    TeX Live is an easy way to get up and running with TeX. \
 homepage        http://www.tug.org/texlive/
 platforms       darwin
 
-master_sites    http://flute.csail.mit.edu/texlive/test
-set distversion 20110628
+master_sites    tex_ctan:systems/texlive/Source \
+                http://flute.csail.mit.edu/texlive/test
+set distversion 20110705
 distname        texlive-${distversion}-source
 worksrcdir      ${distname}
 use_xz          yes
-checksums       sha1    05d701ff5e50760471207147f326c647d77f8ca0 \
-                rmd160  ad90c0179ab913019a6ddefb834c463ace7b5c5b
+checksums       sha1    7a47cfe847801c86c98da8ade181baf97339f6e4 \
+                rmd160  fbcad494cc4717a0238ab2624f259270fce9332b
 
 universal_variant no
 
