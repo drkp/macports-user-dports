@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Latvian
 long_description    Support for typesetting Latvian.
 
-checksums           md5     6e177924abb8350345178b46f77ae38c \
-                    sha1    bd9d546e4e91da5e321ff9184351dc7a7f765168 \
-                    rmd160  a3b8cdceec5fd84aa3652b465959657328c819ce
+checksums           texlive-lang-latvian-23092-run.tar.xz \
+                    md5     ca39b3a0e8cbc129810e0a22d661ba3a \
+                    sha1    6f184ea3139a9ad9af5714e99ace45ee7c8303b0 \
+                    rmd160  90ff0fe6196527a3fac5a69f1c7b475c8af3c43a \
+                    texlive-lang-latvian-23092-doc.tar.xz \
+                    md5     12daba394990dbe8e07700c68fe789fd \
+                    sha1    f15c0b9c0826d69671da59f5134df78e484b5b9a \
+                    rmd160  06b6077b6a3df4ab84ee4d360e0c562d1620f794 \
+                    texlive-lang-latvian-23092-src.tar.xz \
+                    md5     ebedeeb04e54219d1c52f40705339c12 \
+                    sha1    138a7feb73edd628e2a5496fef5e36bde803bef5 \
+                    rmd160  2aa8dd21a03aca2e07b03227d7a88caa83177dbb
 
 depends_lib         port:texlive-basic
 

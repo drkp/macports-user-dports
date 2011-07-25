@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Tibetan
 long_description    Support for typesetting Tibetan.
 
-checksums           md5     06b572ab5dea981d8661988109146343 \
-                    sha1    f01644bd165fba3f3e0976c361e9282b4b5c70c2 \
-                    rmd160  0cd2b276f1b5f8f6796673860ea4d7b41bd381b4
+checksums           texlive-lang-tibetan-15878-run.tar.xz \
+                    md5     bbff0e11db1e8266771c33b1357a2883 \
+                    sha1    74a4bfda894fa3d2e7d89489b2a23b9c71503f40 \
+                    rmd160  09dab8595247b2d4345ccf0030b4dd8333f5434a \
+                    texlive-lang-tibetan-15878-doc.tar.xz \
+                    md5     0badc850a9854aa6a22b3e2e73e12469 \
+                    sha1    70ead07ff8f19532a2db77eefc96048b95954346 \
+                    rmd160  3fd3d6a93f029fb5f222f2f0e7b306178ded9602 \
+                    texlive-lang-tibetan-15878-src.tar.xz \
+                    md5     066f2fba6146f33f7d7f26b3d928a7fe \
+                    sha1    cda3d95beb2124c611d79180608842f3e5b7b36c \
+                    rmd160  2f379be637c45cc36cf0969f61bd2687b5a9ce9d
 
 depends_lib         port:texlive-basic
 

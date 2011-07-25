@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: French documentation
 long_description    French documentation
 
-checksums           md5     543ea8095354cf1fae9003fdb1043d6c \
-                    sha1    8432dedeaeaad84f7150fc5415f36e710b251726 \
-                    rmd160  67c6db2e8c6059049132421ec0d2c5f64d3c4744
+checksums           texlive-documentation-french-23115-run.tar.xz \
+                    md5     2532898138a287d95ee02edf6c20bab1 \
+                    sha1    1c302bae408879ae8a5b556972f5cf3afa543d2c \
+                    rmd160  df09bc45d7f80fba58ab40ccf9dd83eb2e1e9d95 \
+                    texlive-documentation-french-23115-doc.tar.xz \
+                    md5     85f383acbd94e5c06e7204b2b327ac9b \
+                    sha1    f848251cc4bb8d728366c775301055df1bcde204 \
+                    rmd160  0e7affd17c168458c5cf04aa20ce02b77bc8953c \
+                    texlive-documentation-french-23115-src.tar.xz \
+                    md5     7f3a7bb017195f56e213d3cbee77c384 \
+                    sha1    430ee2785cfc0c5a03db03f9d1f91f79a755b6ec \
+                    rmd160  1197e9db12d6c1317fe8f002f654ef0d97e44907
 
 depends_lib         port:texlive-documentation-base
 

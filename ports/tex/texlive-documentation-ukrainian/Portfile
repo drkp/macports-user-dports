@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Ukrainian documentation
 long_description    Ukrainian documentation
 
-checksums           md5     9120c0b21ff40e4b02d0084f8fc4d4d7 \
-                    sha1    26f86caec97f171889b3a285e1377d2265993f72 \
-                    rmd160  b1204d9d50bfebc8aa8a9f0f45a6bd3216eb5e56
+checksums           texlive-documentation-ukrainian-15878-run.tar.xz \
+                    md5     4f304d0e6654c554385553d7dcb779a0 \
+                    sha1    4c33b80879cc42a600930ca924cd66eaab884db6 \
+                    rmd160  ec9d8e26b848b6ea75da0f8329837613f2cd44b6 \
+                    texlive-documentation-ukrainian-15878-doc.tar.xz \
+                    md5     7115bf03c0c685ead4e0b901c055937f \
+                    sha1    a6fbf98cf675d92847d411787ddf0f942abb87c0 \
+                    rmd160  8c19f05d2b6ccaa5eb22d7a74525d97c08e43334 \
+                    texlive-documentation-ukrainian-15878-src.tar.xz \
+                    md5     e60c1d6d726cfb1c87b11bedd8fcb0cf \
+                    sha1    0d723be415dc7e7553131432a54e805e76e32d60 \
+                    rmd160  18bda8e3be95b320f5bdaa2e2d3d6ba1a755fe5c
 
 depends_lib         port:texlive-documentation-base
 

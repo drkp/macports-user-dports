@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Danish
 long_description    Support for typesetting Danish.
 
-checksums           md5     1df3b40df663e4d786dfec93a45739b7 \
-                    sha1    6769ea838d32e51e292583452c1ad382a73d8d20 \
-                    rmd160  e5dc27006f6bdc6013b5054df83c1f368f956d5c
+checksums           texlive-lang-danish-23085-run.tar.xz \
+                    md5     acce0e05f45de4a4154371c17e068516 \
+                    sha1    617b55ff31d76ef0266629577ceda31a3c315565 \
+                    rmd160  533579eefb32b9bb69b8d2386b59f25bd224731e \
+                    texlive-lang-danish-23085-doc.tar.xz \
+                    md5     99ca821e3cdec16afabd80b5a27532fd \
+                    sha1    fa51e893fbf44e261e550e2a59a241a41e96040e \
+                    rmd160  06707614b36f142a579efd1d0cca3b25084b200a \
+                    texlive-lang-danish-23085-src.tar.xz \
+                    md5     9669d5957cdc769e0a7e034a616b3ebf \
+                    sha1    c3677e4213e69f9355384c302d08a6b66ca2c3bf \
+                    rmd160  4a27acd5550d06ce8f61f0837c7a4219f4d46485
 
 depends_lib         port:texlive-basic
 

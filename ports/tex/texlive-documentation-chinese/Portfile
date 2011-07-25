@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Chinese documentation
 long_description    Chinese documentation
 
-checksums           md5     6235ee6e0d8aa2a975c526c6cab52ab2 \
-                    sha1    a8dc1d38ddc8c3936a3372446148e0c8b0ede65c \
-                    rmd160  2fd0b0b6f0fee39bff37c8326977b583aaaec00b
+checksums           texlive-documentation-chinese-22954-run.tar.xz \
+                    md5     d169862b5218bd4ee317bc5242b7b872 \
+                    sha1    45f99fbcefe30eea2c13b5bbb32695249e4ba8c0 \
+                    rmd160  52f7de453fcfa822a890144a359c5278818d9304 \
+                    texlive-documentation-chinese-22954-doc.tar.xz \
+                    md5     49a8c2b9b88cf4b7978b3c3ad2399ef8 \
+                    sha1    348117c9a87afea841132888933b24d0c776f4c0 \
+                    rmd160  857fd33509d2d7d84d0b8dd0d4e5774de682d0e0 \
+                    texlive-documentation-chinese-22954-src.tar.xz \
+                    md5     4d9ef40f48569d6aafa920fadf416ee6 \
+                    sha1    b7ae223a12fbcdc5bdcd1e0d710e5ddd16d4c904 \
+                    rmd160  ae50a47a934111c5d64ffceb33aaa64971459356
 
 depends_lib         port:texlive-documentation-base
 

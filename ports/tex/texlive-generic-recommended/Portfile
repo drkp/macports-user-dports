@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Recommended generic packages
 long_description    Recommended packages that work with multiple formats.
 
-checksums           md5     1f5a71795b808f6eca701081471ef105 \
-                    sha1    9bc8f89f8eb7bd68c2fd03bb4e1892eb7fb04657 \
-                    rmd160  4ad74cf91762640757c515aa3e85159cb7a97301
+checksums           texlive-generic-recommended-23088-run.tar.xz \
+                    md5     06e2dc9f87bbfd00e33a9767a4ba9041 \
+                    sha1    0303f4f10b9883bf219897d4f273ee1601d42fba \
+                    rmd160  ed1e92074adccaf76e8d338af2077d3dd990d0ba \
+                    texlive-generic-recommended-23088-doc.tar.xz \
+                    md5     de29a9bb722b85b7e73a2ee041208cbd \
+                    sha1    5e4756c541296490a7b8a6fa8f271127be64e580 \
+                    rmd160  38ed2a8ef449b320ad7c6a06754dc69d199a8e52 \
+                    texlive-generic-recommended-23088-src.tar.xz \
+                    md5     afad1717c257428d48312aad09f36c06 \
+                    sha1    40b91a3e8a7412e4aaf13f2399fd269711520dc9 \
+                    rmd160  1fb354f67e480d6a3037e3d1d857bb1662d15f19
 
 depends_lib         port:texlive-basic
 

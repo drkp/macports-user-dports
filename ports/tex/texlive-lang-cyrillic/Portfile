@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Cyrillic
 long_description    Support for typesetting Cyrillic.
 
-checksums           md5     186fbbcb5f0f19d417ac6f469b28fa69 \
-                    sha1    51a2de54bffd657df706d092db3419a3bab702e0 \
-                    rmd160  7aafd16036857e517b157b388dd40c4ff5078132
+checksums           texlive-lang-cyrillic-23092-run.tar.xz \
+                    md5     c5b7bcb08ab7ccc8940d4291856e7be4 \
+                    sha1    9f66a13136b1dd7c22390bdb953a925450238ac2 \
+                    rmd160  b7acb276d3e95789f7006c84060fc5cb85cc5811 \
+                    texlive-lang-cyrillic-23092-doc.tar.xz \
+                    md5     cb0c34373016cf8b43b96e3e61303648 \
+                    sha1    e82dfad38cab4ffa134532bcfe73de537d7b520e \
+                    rmd160  9ac8dc33a8aff381ab7f37f9de70c95cc40eb7a2 \
+                    texlive-lang-cyrillic-23092-src.tar.xz \
+                    md5     5c7af2ba97e95f4721794544c09d08d4 \
+                    sha1    83bc72cf170e9a4f85cf4bb7d3a5adec9a07085d \
+                    rmd160  328dff518934f186e8dc6f45a3f879d20e157296
 
 depends_lib         port:texlive-basic port:texlive-latex
 

@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Mongolian
 long_description    Support for typesetting Mongolian.
 
-checksums           md5     5899cfef97fb49c968a53f9e250d7df2 \
-                    sha1    4752fcf88188543e6fb7158562e69b5fed6cbc15 \
-                    rmd160  5ff242a2565336c9721c427ae80caa9e122ab608
+checksums           texlive-lang-mongolian-23092-run.tar.xz \
+                    md5     78881e51747bcbe09a05c809278b70a0 \
+                    sha1    03e09817db073add591b715fbc0644f0f084fff7 \
+                    rmd160  3fb8ab24f4dc1d1349dde8f310eec810a8083bbd \
+                    texlive-lang-mongolian-23092-doc.tar.xz \
+                    md5     86812a384726a3e6f7ef2dcbf923e521 \
+                    sha1    dd9499e46d06b6a602eb86a18ebcc949b8a52b0e \
+                    rmd160  e5e2ed626ce2e9b8dff5ed1ddcaefdde9bcde324 \
+                    texlive-lang-mongolian-23092-src.tar.xz \
+                    md5     36f2d354d41958946c6ef2bbccf72613 \
+                    sha1    1730d9798eb706c55cb642b1c5e6caad808010c4 \
+                    rmd160  0e7e2b0dcaa1b5247b73ed9d8e38a717476db40e
 
 depends_lib         port:texlive-basic
 

@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Turkish documentation
 long_description    Turkish documentation
 
-checksums           md5     4431a50b6bd7ac60c55dd769243cc737 \
-                    sha1    1714f93b0069c1b6d69f130cc26655e30d806d76 \
-                    rmd160  cdbf9aa9a0d4e16eaf6be1116444852d663df494
+checksums           texlive-documentation-turkish-15878-run.tar.xz \
+                    md5     24952ade43ac473609c4adbd623ab3e9 \
+                    sha1    73eff1913aed86d50a8f2e2aca9acdc193836758 \
+                    rmd160  871b9100321c3b68d3c5fdd578435a69718d850c \
+                    texlive-documentation-turkish-15878-doc.tar.xz \
+                    md5     a91da08e287acd776d7b9d7d2a94bc8b \
+                    sha1    c3831d1b56c683622902ce55e85024cfb8f990f4 \
+                    rmd160  19e7ea2d5acf37587cbd2653a82b306870a6f583 \
+                    texlive-documentation-turkish-15878-src.tar.xz \
+                    md5     4d56d0b3ca53230c44a2dddab3f750c7 \
+                    sha1    7d1bc1d7a0e669131d348ec74f2b59023d8f4d22 \
+                    rmd160  f0378e89898fe1be518a5d657184d58cddfc2d5c
 
 depends_lib         port:texlive-documentation-base
 

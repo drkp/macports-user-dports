@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Chinese, Japanese, Korean
 long_description    CJK (Chinese, Japanese, Korean) macros, fonts, documentation, also Thai since there is some overlap in the fonts.
 
-checksums           md5     da65b09cad5c165eae0d82ef5758c4a3 \
-                    sha1    f059cc322989a1ae7ba1d7d90759ca286da4e9a2 \
-                    rmd160  49b9de8ac43d28c6fe01d89c904bccacad1ba813
+checksums           texlive-lang-cjk-23118-run.tar.xz \
+                    md5     c55cd7eb0ff1cb48021ba9f7cc8f9dd4 \
+                    sha1    50bc017651e6797ed537d1bb19f036abfb9cedf0 \
+                    rmd160  ab7d5fda14d4710bfae43a39bc5df307f6ec1fca \
+                    texlive-lang-cjk-23118-doc.tar.xz \
+                    md5     370592e228801d1e8ee88169248a2c4a \
+                    sha1    da45b4ef867261bf491e0c27397388816433942d \
+                    rmd160  ec0df02d9702b40d330aaee3311c4edc50500093 \
+                    texlive-lang-cjk-23118-src.tar.xz \
+                    md5     231f74c3f4e30d9491de1a19852d4a89 \
+                    sha1    6c4d3beadecba75bdc0abb765815d0d4d9fadc46 \
+                    rmd160  df4c5293cac5a4b98b6f9e65f35bb4f5350fee4f
 
 depends_lib         port:texlive-basic port:texlive-documentation-chinese
 

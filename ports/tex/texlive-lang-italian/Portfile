@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Italian
 long_description    Support for typesetting Italian.
 
-checksums           md5     ab5519673f3b2fa2ba956892a79958ff \
-                    sha1    c6676a42e1c6f5e66e20043739d55f71ccbd6694 \
-                    rmd160  3362792325528d17d4c8746522543139f66de87e
+checksums           texlive-lang-italian-23092-run.tar.xz \
+                    md5     da9a6eef84227d9f54e92c56e54bb096 \
+                    sha1    52af589a8abd8b78ad16c6dec89be14109d02e9c \
+                    rmd160  3c3e1f8beecc3f190eb9f32f1a7c331ee9430281 \
+                    texlive-lang-italian-23092-doc.tar.xz \
+                    md5     1142daa3f38708e553572f318f6d1f9c \
+                    sha1    59b88d73162754a7bbe797a32c7aeb0529911afa \
+                    rmd160  84ab8ae584698ecc2ce8c9d672cd35f859d569fa \
+                    texlive-lang-italian-23092-src.tar.xz \
+                    md5     13d1f2370cd782f9d50e1864a2fffcf6 \
+                    sha1    b131fec6ce96f4232ca49c78e305369b68f3e3df \
+                    rmd160  a2716828a2165363ccc9c9662f115e977cc66997
 
 depends_lib         port:texlive-basic
 

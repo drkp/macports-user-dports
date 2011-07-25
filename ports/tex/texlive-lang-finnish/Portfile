@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Finnish
 long_description    Support for typesetting Finnish.
 
-checksums           md5     80d21c0edd1912e74407b5536970ff14 \
-                    sha1    c95bbe4ac53fbf2cfe50369b180a4b48de2cdd1a \
-                    rmd160  2e475d4ab8df63835fd217208bb82196aeccf7f6
+checksums           texlive-lang-finnish-23092-run.tar.xz \
+                    md5     57f4c999601984f46712b8d8341ff2b9 \
+                    sha1    f44e3bfedbf7267734d5720edb4d0a0d051bb2b2 \
+                    rmd160  e5aba3238b8616a8f2b470e02f45625b443267eb \
+                    texlive-lang-finnish-23092-doc.tar.xz \
+                    md5     f10fc8ddb7a9aa3165ca37398dda6cfa \
+                    sha1    2b18d323df54eb78c7d985a2478010092e490ad3 \
+                    rmd160  828bf9eed09271e529dc7e8bcedbf5f0870f22a8 \
+                    texlive-lang-finnish-23092-src.tar.xz \
+                    md5     721a35e3444d510bdc6ca84dd318d0b3 \
+                    sha1    83de8f328b0e55ad398ee1b4521bb8f585a94004 \
+                    rmd160  27f8e015ce5ebc8f9b9a4d3c786ae8d38643a8c4
 
 depends_lib         port:texlive-basic
 

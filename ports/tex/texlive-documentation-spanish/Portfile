@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Spanish documentation
 long_description    Spanish documentation
 
-checksums           md5     c58742513e0a2f701e123aa1c9d21480 \
-                    sha1    dbbfca4b5aef15e08652b37d2d0e1c9a73d06f50 \
-                    rmd160  8694b46529b64c6b8eef7df498d7b3dc55633d4d
+checksums           texlive-documentation-spanish-19634-run.tar.xz \
+                    md5     a22a6aa38f1cfe6a19a9d825ccd11a23 \
+                    sha1    740eca267b12c9eea59ecf87f8ebda432a179ad0 \
+                    rmd160  db0eee23b2c855844aa54d37529a1e45ac8ec068 \
+                    texlive-documentation-spanish-19634-doc.tar.xz \
+                    md5     fdeeece269301bf140124b7276f1ef83 \
+                    sha1    611088bbc6feda86152d055794012bd09a3e02cf \
+                    rmd160  8888c0f5b3b0aee8c2103a5ebcd4f2779040c774 \
+                    texlive-documentation-spanish-19634-src.tar.xz \
+                    md5     07208ff3e14b2d78495fd6a5d658e849 \
+                    sha1    37b23cd9de6ba0e5a4f429b467cefc30ed0f986d \
+                    rmd160  28ec4a5417c2ac7c23bd683c7c13c924e8c9e45f
 
 depends_lib         port:texlive-documentation-base
 

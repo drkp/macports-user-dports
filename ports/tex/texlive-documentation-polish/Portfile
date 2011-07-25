@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Polish documentation
 long_description    Polish documentation
 
-checksums           md5     d35b1ab1f850c6a5556d26001690deb4 \
-                    sha1    7a58348c9051fe95cdf748380ac3d91fd8db7940 \
-                    rmd160  ac112725e5ac80740b0c3fdf3928b9398b16e041
+checksums           texlive-documentation-polish-23093-run.tar.xz \
+                    md5     5720aa6851897a88e1119f250f68b173 \
+                    sha1    6d73882c6465369babc2c36d1c7f98a86e91c9b1 \
+                    rmd160  d2e6c6a0f287f697b56bcc9bad0b56cb1d609e1d \
+                    texlive-documentation-polish-23093-doc.tar.xz \
+                    md5     c621a575a48956453fc33d02b2b079d7 \
+                    sha1    5d31d15357776dbcc9ae1404a2a5fc2a3c29504d \
+                    rmd160  aa7acc1b7fcced42ff073304b0422a18d66dac1a \
+                    texlive-documentation-polish-23093-src.tar.xz \
+                    md5     1f6e577f67d47f41d5b81d012e19c05f \
+                    sha1    bce713ea15101e67c64a0e4c2b19d4d99f0b1608 \
+                    rmd160  efd947fd9c5b62c8e065c192479c38f360fd6f66
 
 depends_lib         port:texlive-documentation-base
 

@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: German documentation
 long_description    German documentation
 
-checksums           md5     613469d861e4668d55dcdb88ca0056c3 \
-                    sha1    e8871934f8462ef6c7d45ebe04859721c1d8fade \
-                    rmd160  0e10e8fd9f40ed8f406ba31bb2e0e0db3f0306c0
+checksums           texlive-documentation-german-23053-run.tar.xz \
+                    md5     c057c4ba28e0ed201b0d1e5806100c0e \
+                    sha1    868a2e2ba5c169d1dda88307be61c09f880f35ea \
+                    rmd160  f19c56d581211a4eb78ae089c16fe61b4d82cfac \
+                    texlive-documentation-german-23053-doc.tar.xz \
+                    md5     76a9c90529465d918278e1671c477cd3 \
+                    sha1    7f5433d52a02517cf87138d3be9208c76b817613 \
+                    rmd160  02935e1962782a95f499ef7988189e6c1c98e018 \
+                    texlive-documentation-german-23053-src.tar.xz \
+                    md5     f2044b4aef2aa2d7757d1fe229e0155f \
+                    sha1    c8f043d19c8242f73016c84ce4ec089a43a07de4 \
+                    rmd160  2f24fa1ddb61e741a6248a8ddb1dbb679bf8a743
 
 depends_lib         port:texlive-documentation-base
 

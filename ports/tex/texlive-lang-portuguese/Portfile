@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Portuguese
 long_description    Support for typesetting Portuguese.
 
-checksums           md5     f2992c9737704196f081a25b34cd12fb \
-                    sha1    8f40be5c545929666fcc87ada05cd722cefc172d \
-                    rmd160  f42ac425e1af5ddae32473462d4369d7f698190f
+checksums           texlive-lang-portuguese-23092-run.tar.xz \
+                    md5     8de45b511a08111649640d816a1e569b \
+                    sha1    0fbb76bb55a01744fcfe052bc3d0446c89bd99d1 \
+                    rmd160  a006e36df90ad1311bbdd7ca5a4410d0b1701036 \
+                    texlive-lang-portuguese-23092-doc.tar.xz \
+                    md5     ec012a969978a5d31f398ff1e8608376 \
+                    sha1    2045bcdfbbdbb7e575639bcde36ecad9a426e135 \
+                    rmd160  53c7fbce4864af6cfa3335c3ae24b577cee522c7 \
+                    texlive-lang-portuguese-23092-src.tar.xz \
+                    md5     c0142b8258f0f0a5888e53935110ca40 \
+                    sha1    01f4f4d944a9f3ac1984a6542a22f751b3a77e7f \
+                    rmd160  304298a1ecadb4aa59aeb409a7ac4fbb4f6392c5
 
 depends_lib         port:texlive-basic
 

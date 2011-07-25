@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Mongolian documentation
 long_description    Mongolian documentation
 
-checksums           md5     36c6b2be60db2225a99bae2dce86844e \
-                    sha1    72bd07452d939c4b4cfbd1bff6bdaa29c8bed468 \
-                    rmd160  7e650f93caa710d95f4cb0d0c732bffd2c37fe82
+checksums           texlive-documentation-mongolian-15878-run.tar.xz \
+                    md5     2e2dd501e19670a24402443bf712e457 \
+                    sha1    ced1b73b7d4d4bb22534144cccb0063774f85a68 \
+                    rmd160  226aec3f6acd7872fe98436b77687749ce75a3db \
+                    texlive-documentation-mongolian-15878-doc.tar.xz \
+                    md5     c57b8b1559ac7e106769ece43f6a15ee \
+                    sha1    13a66fbbb7e6cec4afbf3465f59bae7de816572a \
+                    rmd160  23ca21808caa46d66ea8ad98d2f4ca9664d51179 \
+                    texlive-documentation-mongolian-15878-src.tar.xz \
+                    md5     b61c35544bea58e4035f8a5b50d67d4c \
+                    sha1    444f6029ef6528a45719b6429557269c79a82a49 \
+                    rmd160  db96e96b5fe4141d3141c208f27747bb72745013
 
 depends_lib         port:texlive-documentation-base
 

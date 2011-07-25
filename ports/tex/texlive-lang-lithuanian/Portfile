@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Lithuanian
 long_description    Support for typesetting Lithuanian.
 
-checksums           md5     4efc7681fbc1cfe3e0000e0ebf58d29b \
-                    sha1    08f76b2eafcc4383e1e111a9ac655a5792660888 \
-                    rmd160  a6c6aaa16064dd2e28cd3bb04789823d65d26968
+checksums           texlive-lang-lithuanian-23085-run.tar.xz \
+                    md5     98759f8ad09271b3599182dab0c34b09 \
+                    sha1    ac1c133ba0f7a7297467d12f4b2f58737217c18e \
+                    rmd160  0470aea447934526787169b1f1858a962ec7211a \
+                    texlive-lang-lithuanian-23085-doc.tar.xz \
+                    md5     d10fbaf28bf92eaea550b752a6fd101e \
+                    sha1    50cbe60f6c8e07fc147daf5b4ee9a9e2044d217f \
+                    rmd160  8ebcbb6aa9d984f13629edeac127eded1834ab86 \
+                    texlive-lang-lithuanian-23085-src.tar.xz \
+                    md5     1ce88e0567d70caf61a27e079ff0d846 \
+                    sha1    cf71d37e16c9631c1237e127697ef88274dc0a11 \
+                    rmd160  84ac6aa5ec686247b5f61c8f2549a2184d47e646
 
 depends_lib         port:texlive-basic
 

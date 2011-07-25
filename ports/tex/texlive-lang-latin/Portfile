@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Latin
 long_description    Support for typesetting Latin.
 
-checksums           md5     1e0df62c3a704a132e2949d8feb8bc32 \
-                    sha1    e80beaab912281d61f2bc490ffc1efe8914370a8 \
-                    rmd160  d5d569edae9ab013c6565187430881fcbc867138
+checksums           texlive-lang-latin-23092-run.tar.xz \
+                    md5     66cbbb9efd119dd08b1996dd625d7c12 \
+                    sha1    e8f024b17f3cc239bfafe9fcbab2138b187a5dba \
+                    rmd160  9da385dd869fed57ebeb4a3089787c844b14c0c3 \
+                    texlive-lang-latin-23092-doc.tar.xz \
+                    md5     49b6a7e5094290251871371846ea7ade \
+                    sha1    fae84a2f3fa7a283db9e55ea9f778e9c7ee5426f \
+                    rmd160  29d3310239e14baaf576b652606081d091bb3c46 \
+                    texlive-lang-latin-23092-src.tar.xz \
+                    md5     b19cbb72f779e8e676dc3b62dcce429d \
+                    sha1    246134efc239a52409db94c9469001ff4263d18e \
+                    rmd160  461da008d6897baeb6fbed746f527cc58095f7b9
 
 depends_lib         port:texlive-basic
 

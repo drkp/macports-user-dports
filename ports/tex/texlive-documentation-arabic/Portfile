@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Arabic documentation
 long_description    Arabic documentation
 
-checksums           md5     3c5248a846ed9aefa22c471dad03b560 \
-                    sha1    3cc96c8660592eaadb27e190b68f511e446a9be6 \
-                    rmd160  531904b63d5b8fc7630762047c55761bfc466852
+checksums           texlive-documentation-arabic-15878-run.tar.xz \
+                    md5     fd354323a545e287d3fe529a5236d2ef \
+                    sha1    766d94abcb3778544b77b03d8f8cfd1f4955d8ba \
+                    rmd160  04cc76a737068650c455eed4c9541ffa4e9e996d \
+                    texlive-documentation-arabic-15878-doc.tar.xz \
+                    md5     94243b86c0163c76f0ffcd0b0f428cb1 \
+                    sha1    3d965f144294bb212607f5956f792524f4b986bd \
+                    rmd160  e37ee9ab83d4dc04ef883307dbd27fda09d5ad55 \
+                    texlive-documentation-arabic-15878-src.tar.xz \
+                    md5     901d0038b9a6f19d87d3104dcc9c1c38 \
+                    sha1    8676dc081056310e6c74c769bd0a511b1ac0ed5f \
+                    rmd160  8bca810767a2c41ff76b02629cdfaa0b8cc7a134
 
 depends_lib         port:texlive-documentation-base
 

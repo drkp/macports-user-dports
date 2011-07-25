@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Music typesetting
 long_description    Music-related fonts and packages.
 
-checksums           md5     f0db9767c18aa63392023b18e056f221 \
-                    sha1    4edf974956d3bcffba6c75de532582288aea96e0 \
-                    rmd160  9ce97488b7575ad3066dc4859b20d09350ce17e9
+checksums           texlive-music-22568-run.tar.xz \
+                    md5     ec9865a58881bea0321c3603c3b40fe8 \
+                    sha1    b2e46560001fbb4adab09164f71ada38c3b7aee8 \
+                    rmd160  e204b621bdb95236226358794a20635370c64b65 \
+                    texlive-music-22568-doc.tar.xz \
+                    md5     5f57780b015cdb4e2887bdb68a9aead7 \
+                    sha1    f18fb16c36ab906cca105b9743240e1ebd474db4 \
+                    rmd160  941545bce946b316e5fbf3b9694951f9d842b4b1 \
+                    texlive-music-22568-src.tar.xz \
+                    md5     80c80b208c17b6dbc46e30f6913783a6 \
+                    sha1    1f60c43e16f71cfadf8d5623f4a8bdd32a4d61be \
+                    rmd160  249c146a74b18968e1a5a1d0416dae9f4b8b8a58
 
 depends_lib         port:texlive-latex
 

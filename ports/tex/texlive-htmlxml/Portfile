@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: HTML/SGML/XML support
 long_description    Packages to convert LaTeX to XML/HTML, and typset XML/SGML
 
-checksums           md5     905005034d2189753d31f8b728974bf8 \
-                    sha1    ba378c63357f25fef5dcff4cdc7fbb8a41b60903 \
-                    rmd160  213be972b55d3a4b2fc44c5fef59e602a0e99fa8
+checksums           texlive-htmlxml-23080-run.tar.xz \
+                    md5     0dfc3522f639adb8d8b0c278ef446fa8 \
+                    sha1    b789744635a72d77203315c904deb1ffad96a0f0 \
+                    rmd160  64a96528070c3de6d88fdae1cdebc80ddcd37435 \
+                    texlive-htmlxml-23080-doc.tar.xz \
+                    md5     c61c8b0b338c6bc316771171be84a52e \
+                    sha1    a58596366493f028a9e74001ded60cc9563fd409 \
+                    rmd160  8f0e9f77af1eb073a0c0e43d28f1f56662b867ec \
+                    texlive-htmlxml-23080-src.tar.xz \
+                    md5     43665584c1bd880e8f17e7ee707dcc65 \
+                    sha1    8069d9d7449dab71e9395d0125be82a9413d9e7d \
+                    rmd160  a0bd5894712f3171db9a67f20e28e5c0a1790619
 
 depends_lib         port:texlive-basic port:texlive-fonts-recommended port:texlive-latex
 

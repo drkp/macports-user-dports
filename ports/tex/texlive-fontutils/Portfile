@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: TeX and Outline font utilities
 long_description    Programs for conversion between font formats, testing fonts, virtual fonts, .gf and .pk manipulation, mft, fontinst, etc. Manipulating OpenType, TrueType, PostScript Type 1, etc.
 
-checksums           md5     12d23e43e9e519aff3b5147136daf775 \
-                    sha1    ea45c2681226abaf76718d6eb5686eae931d4434 \
-                    rmd160  c1790ade9ab9b2c1820b490e696d063551022bb7
+checksums           texlive-fontutils-23142-run.tar.xz \
+                    md5     1bfaa05034d0b1a13b9b74073ac10573 \
+                    sha1    b097da6e17414a7608fcb41d664cb736e7e2a173 \
+                    rmd160  77f4e99d6f435a346b5ae65a155e28d7d4c836f4 \
+                    texlive-fontutils-23142-doc.tar.xz \
+                    md5     8c2e745a48db62424448d36515e04e85 \
+                    sha1    654860183b5a743e062dfa06f90a31154ca795b8 \
+                    rmd160  a1fe1164b011def5655cd9edbb48448ccefd7d82 \
+                    texlive-fontutils-23142-src.tar.xz \
+                    md5     9f64bd6043c2556c39f58dded4683431 \
+                    sha1    79ed5e250bd5169797d807f92928adfe93ccfa41 \
+                    rmd160  db6fc40bf7718487603ba90b60a5019c5d8c1ff7
 
 depends_lib         port:texlive-basic
 

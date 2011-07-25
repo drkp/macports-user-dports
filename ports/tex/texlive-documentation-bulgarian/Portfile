@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Bulgarian documentation
 long_description    Bulgarian documentation
 
-checksums           md5     e31e119d365f4b39f8431d39ef4ca963 \
-                    sha1    102ccdf67c282a653296fcc9440ccfb42a03c567 \
-                    rmd160  991e52acf4d0ea6f4a8d98a76763bc60acdd572a
+checksums           texlive-documentation-bulgarian-19296-run.tar.xz \
+                    md5     5c19d7bc137d0d00f9573ae5cb158590 \
+                    sha1    62d674bb95e9d343d91fb7b3cce317c6bb7c5712 \
+                    rmd160  e7627a622cfcb211a0ab3787cdc2433dd375e583 \
+                    texlive-documentation-bulgarian-19296-doc.tar.xz \
+                    md5     5d4b6022e632f28e455ef3553766e7eb \
+                    sha1    8fdb543176a309a281721858cf421d8035e85abd \
+                    rmd160  85a87e95220cd6480cc76ac69fcf10de8d66da3e \
+                    texlive-documentation-bulgarian-19296-src.tar.xz \
+                    md5     620ceca332c52e01f0c00b2d9d8d7ff9 \
+                    sha1    3d41969bd0747860e5b43bed3338321333a48aa1 \
+                    rmd160  0313f0e808b3dcbeaac616a9d960bfa2daf823d0
 
 depends_lib         port:texlive-documentation-base
 

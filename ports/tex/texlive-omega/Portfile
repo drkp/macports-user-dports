@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Omega
 long_description    Omega, a 16-bit extended TeX by John Plaice and Yannis Haralambous
 
-checksums           md5     ba6076e891e5b75451b49b78e8bc942a \
-                    sha1    513ccdcee2124f2260cddc3f6b2a9051ed0a432a \
-                    rmd160  5119a34ed5d6aed6ca05ad8efec3e082750d596e
+checksums           texlive-omega-23089-run.tar.xz \
+                    md5     0bf330de229572e20f644c0f1025a8e3 \
+                    sha1    bd3ce1685711283f930e4875f813e92edfb9a077 \
+                    rmd160  e8502832037a77ddb41cd01459b748dd3b6bbb58 \
+                    texlive-omega-23089-doc.tar.xz \
+                    md5     e6c2c9a1bdc7d7daa279ba300760de75 \
+                    sha1    9bf7c5da9a21c834491d231e355ef3dc9e732b69 \
+                    rmd160  c9b7275cebd40f528fc7fa74b6242b165278c3cb \
+                    texlive-omega-23089-src.tar.xz \
+                    md5     0b7a6baeb4f7754db2ad3ddcf871e30c \
+                    sha1    1ceb54a8f402ba3d253dd4641f0d5662fbb2b31e \
+                    rmd160  6b1145ded66cc8c58134be8539c07feb4b567f50
 
 depends_lib         port:texlive-basic port:texlive-latex
 

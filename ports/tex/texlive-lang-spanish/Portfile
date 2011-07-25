@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Spanish
 long_description    Support for typesetting Spanish.
 
-checksums           md5     3e2c8818047b28d3fe5470fbc2402353 \
-                    sha1    4687d981050f3cdbb403cab2a10009a5b8b95608 \
-                    rmd160  eaa59881349b80dc47919b3f64b254fc613d9f48
+checksums           texlive-lang-spanish-23092-run.tar.xz \
+                    md5     44400aba0db32bcd062b14d4d0644701 \
+                    sha1    7e70ed8db5e562b74e8166e7c49a1d9ea9c0181a \
+                    rmd160  c3a89081b5fc5569c21c8e08704d4789aa99b305 \
+                    texlive-lang-spanish-23092-doc.tar.xz \
+                    md5     a64702a368eff28fdb2a51f690783872 \
+                    sha1    7c758081b988d5b65a62ca3236019326267b5a2c \
+                    rmd160  a1bd38309bd10b5a60f1275da22f7c061c7276c7 \
+                    texlive-lang-spanish-23092-src.tar.xz \
+                    md5     9656e159ab0cc8d6e380ec06460d596f \
+                    sha1    f72284093b3e5f090f63c6dc273d656252fd9d5a \
+                    rmd160  b818c0151658cc0b5a649960117f73d622ac0d72
 
 depends_lib         port:texlive-basic
 

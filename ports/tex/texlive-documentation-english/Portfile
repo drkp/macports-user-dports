@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: English documentation
 long_description    English documentation
 
-checksums           md5     f1b60f3624f05e30085f46cfc9e75fc9 \
-                    sha1    8df59f01310b497242235cd6bb715bcfdeaa7347 \
-                    rmd160  a37bf59cb73927164c330a1d220573315ed21676
+checksums           texlive-documentation-english-22612-run.tar.xz \
+                    md5     2b5bcfb8d2dee93ff802bc5853d28317 \
+                    sha1    c961f0b56b54672959fd67672d10c582a13c438f \
+                    rmd160  8051894629b8074a4907568eb979067edfd9b19a \
+                    texlive-documentation-english-22612-doc.tar.xz \
+                    md5     e9bfb6dacf6a4bf82b8a842a7cbc9360 \
+                    sha1    d5628ccf9800bfe1b36c8f275df524f54258027e \
+                    rmd160  0e98d9f33baa9bb73749cb9ee69051120d44fc99 \
+                    texlive-documentation-english-22612-src.tar.xz \
+                    md5     4c72c0ba3318c40faf90bc1c42192c26 \
+                    sha1    5b5ecf79a2275927da014d692aa31fcdba39b7ed \
+                    rmd160  6ce64264259eb7ebc5000ee695f2171e3886c6b8
 
 depends_lib         port:texlive-documentation-base
 

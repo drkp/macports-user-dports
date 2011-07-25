@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Basic LaTeX packages
 long_description    These packages are mandated by the core LaTeX team, or at least very strongly recommended.
 
-checksums           md5     8df048304dd70e786a913fb9f89094be \
-                    sha1    7bffba5de56c605094359ab2548f700a1e0ee8c0 \
-                    rmd160  f441dcc304e48118a0d23f4f7c0cd2d0d503e5c3
+checksums           texlive-latex-23089-run.tar.xz \
+                    md5     9b0a52bdfb9153aa80d4d73d494e7076 \
+                    sha1    03748958004f0a2969bf54a51dcc6e699dd6dc10 \
+                    rmd160  70040bad3ddc7f7dcc9a471bc1f7c636547fcac7 \
+                    texlive-latex-23089-doc.tar.xz \
+                    md5     3d626440761bc2a56947c64b1e9ee17d \
+                    sha1    46681143812b15876c89807cc3cbf9f1caf5001d \
+                    rmd160  8427f8acba1e645a7e7152a08605fe9206fccdca \
+                    texlive-latex-23089-src.tar.xz \
+                    md5     eb817dd05ac081d5bf8ee84840248a83 \
+                    sha1    46104aeb39600131cec10dc61acb9a44bbfc3a45 \
+                    rmd160  91396fff70afcced016056d16191406d5b94f196
 
 depends_lib         port:texlive-basic
 

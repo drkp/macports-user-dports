@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Turkmen
 long_description    Support for typesetting Turkmen.
 
-checksums           md5     f8fd5cbb796fa4f3da947eeddc08b3c8 \
-                    sha1    6d44183160190229e66b5d5f40275e9641d60b9c \
-                    rmd160  bf7edb8f503f04fe67f1ec9e2c7a35faef8fdc81
+checksums           texlive-lang-turkmen-23092-run.tar.xz \
+                    md5     1778c4caf8b70f712e895566feda4ed3 \
+                    sha1    85b8a0a0cf157e65c17d758d3bb49f43ef9626b8 \
+                    rmd160  37940580fd6c9fbb5653dc85a847ba75bc3324cd \
+                    texlive-lang-turkmen-23092-doc.tar.xz \
+                    md5     f0f47c8ac84c04c7888665c208389dfe \
+                    sha1    1dd5c11d93b805db5e1060037e827af46d635eb9 \
+                    rmd160  733c3f8fb3f406c39e401495842f1dac2158420b \
+                    texlive-lang-turkmen-23092-src.tar.xz \
+                    md5     7dfa6a58f778e9d4ec12402846de39b5 \
+                    sha1    20c50735a9fd7a613e2400751d92123adda6adfd \
+                    rmd160  8f22f28aea121b3dbb1ee60061c5fa48a5671796
 
 depends_lib         port:texlive-basic
 

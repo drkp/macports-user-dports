@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Dutch documentation
 long_description    Dutch documentation
 
-checksums           md5     3ef7171acb42973d59cfda22f3f08d44 \
-                    sha1    7890f157647fd7f7447df8ba9e1d48f1cb343b24 \
-                    rmd160  9b2e25b0c317edd4034997b9127af203aa85fafe
+checksums           texlive-documentation-dutch-15878-run.tar.xz \
+                    md5     7641bd6077daf42aab769a61b25bf07d \
+                    sha1    324a41d7450fc31ee6f018fa904554eff485a679 \
+                    rmd160  13d1160625dbd2e06e8e0a1d862d0864b6ab5def \
+                    texlive-documentation-dutch-15878-doc.tar.xz \
+                    md5     be249da6aebfe5fbf81f99eabb24f7e7 \
+                    sha1    5eeafb9f86f4db3adc15dc23f1ceae60272e3bd2 \
+                    rmd160  596b8546a0f24b3948d92afbc96c2db5ce8ba635 \
+                    texlive-documentation-dutch-15878-src.tar.xz \
+                    md5     dcedf1c21db5259893567c46be150b9a \
+                    sha1    34b1d33980937a17ef35ca47d584b356b5014a7f \
+                    rmd160  067eb82e1c7a731f07d604b60c21c61a74f9c47e
 
 depends_lib         port:texlive-documentation-base
 

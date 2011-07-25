@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Arabic
 long_description    Support for typesetting Arabic.
 
-checksums           md5     9c81e9c96c0e4d811b76b2f595f3d560 \
-                    sha1    f7ccebacfab415a13ded4b0bcedf69eb2a865836 \
-                    rmd160  4141b9f2f3b4f7e97e6f16f4a7e3720461a4ec78
+checksums           texlive-lang-arabic-23085-run.tar.xz \
+                    md5     11a5408352433e3dcf3b1a0729a3c4cf \
+                    sha1    214c3bd7db740c67ad431396b45efc3e8fe77368 \
+                    rmd160  b1cec38119da3cd99d7531696286d6e80d5a6730 \
+                    texlive-lang-arabic-23085-doc.tar.xz \
+                    md5     2796c454d2938dba96ca5e1736b178a3 \
+                    sha1    026a50c1495bfa390003c7406148dfcd406ca263 \
+                    rmd160  b10fd1c5e01131848ba8312df50f779cb242adf4 \
+                    texlive-lang-arabic-23085-src.tar.xz \
+                    md5     05da9ac79700f8ace1981fc1b83d2a03 \
+                    sha1    0f4c68317a7471b51a81eb218df280c81591ce03 \
+                    rmd160  8fe7b01598ab1146d9aab2692b3e09b610e039a6
 
 depends_lib         port:texlive-basic
 

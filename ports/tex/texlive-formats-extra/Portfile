@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Extra formats
 long_description    Collected TeX `formats', i.e., large-scale macro packages designed to be dumped into .fmt files, other than most common ones, such as latex and context.
 
-checksums           md5     e90f87296c0fb995704ff21b8d0166e9 \
-                    sha1    5654466c41d7d93d35996e66f7bf6dd3854130af \
-                    rmd160  54e3d4ed320a255bac658c15abcb7b6d2e3a4157
+checksums           texlive-formats-extra-23089-run.tar.xz \
+                    md5     4af31b405c952b84fdc64b9ecd95ed3a \
+                    sha1    c89931cb87e67939d69cab5a8743ec74676fe91b \
+                    rmd160  4ae7fdb7cfa65bc08fddd3dc529874de906d0b16 \
+                    texlive-formats-extra-23089-doc.tar.xz \
+                    md5     807e241e79cdb6539af83a82a16f9476 \
+                    sha1    f9ae8388c9a1c3d28a2de53be0769de91926a097 \
+                    rmd160  66fec2f6d8efecdfe276cffadcc73d7b4d9df820 \
+                    texlive-formats-extra-23089-src.tar.xz \
+                    md5     930ccb6e9deeec173f002b6f6490eef7 \
+                    sha1    61d37086f2fe225e739c576c537db2949a9a984e \
+                    rmd160  49634813ee8d5747b77a3cb2c898a29c8fa7f95f
 
 depends_lib         port:texlive-basic
 

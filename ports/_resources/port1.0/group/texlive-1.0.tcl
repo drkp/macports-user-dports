@@ -149,15 +149,30 @@ proc texlive.texmfport {} {
     master_sites    http://flute.csail.mit.edu/texlive/test/
     use_xz          yes
 
-    global name master_sites
+    global name master_sites distname extract.suffix
     livecheck.type  regex
     livecheck.url   ${master_sites}
     livecheck.regex ${name}-(\\d+)\\.tar
 
     depends_lib-append port:texlive-common port:texlive-bin
 
-    variant doc description "Install documentation" { }
-    variant src description "Install TeX source" { }
+    # distfile is split into three parts, all of which extract into
+    # $worksrcdir
+    # - $distname-run contains the runtime files required to install the
+    #   package, as well as the "tlpkginfo" directory containing metadata
+    # - $distname-doc contains optional documentation files
+    # - $distname-src contains optional source code for installed files
+    # The latter two are only downloaded if the corresponding variant
+    # is enabled. Currently, each package must have all three distfiles
+    # even if some are empty. 
+    distfiles       ${distname}-run${extract.suffix}
+
+    variant doc description "Install documentation" {
+        distfiles-append ${distname}-doc${extract.suffix}
+    }
+    variant src description "Install TeX source" {
+        distfiles-append ${distname}-src${extract.suffix}
+    }
     default_variants +doc
 
     if {![variant_isset "doc"]} {

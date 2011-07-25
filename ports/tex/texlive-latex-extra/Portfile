@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: LaTeX supplementary packages
 long_description    A large collection of add-on packages for LaTeX.
 
-checksums           md5     5ff995408a2399891f09f2ab98772a55 \
-                    sha1    c1318f71081eb9b0ab9c94c53c5c4c1ac03fb212 \
-                    rmd160  37495c2749ceb5e0b270de59cfc2f56d14ca41dd
+checksums           texlive-latex-extra-22931-run.tar.xz \
+                    md5     e7f823d23dae480b987015c63d527c3b \
+                    sha1    5c7dc65e73db3981e6a6f52fb87066bfe21ad4fc \
+                    rmd160  e4aca5e5ae3a3484cf34a535762ad20c7b68132b \
+                    texlive-latex-extra-22931-doc.tar.xz \
+                    md5     2b47b491a0c6586ec2e2934961b33167 \
+                    sha1    b49cafaa4b0aa62ffa202a41ace0c95e8d9ec544 \
+                    rmd160  f3e68f32f44f7e6a3ba5dbeab5ec1a030cdfb489 \
+                    texlive-latex-extra-22931-src.tar.xz \
+                    md5     93748e5cf16259b0030ba54bfb9cf34e \
+                    sha1    943cbf47d1a1c812593b18d5b0b2d5f9e4c6d800 \
+                    rmd160  5add749451ba708b85b026eff872934a604a026a
 
 depends_lib         port:texlive-latex port:texlive-pictures
 

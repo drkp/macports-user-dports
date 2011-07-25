@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Extra BibTeX styles
 long_description    Additional BibTeX styles and bibliography databases, including BibLaTeX.
 
-checksums           md5     4ca9849efb50ab1cb4f88438a40487b4 \
-                    sha1    9cf09f08fbd6d46a8c49d0762542e477935a19ad \
-                    rmd160  59bb6d76e0cfee354ac05a191c91373b0a50a666
+checksums           texlive-bibtex-extra-23155-run.tar.xz \
+                    md5     afc7e12554588cf037287bb3e368d70f \
+                    sha1    12eff09ff14cb7a1d750e573106eabc079113afb \
+                    rmd160  7f3f75b926c8ccdaea1f3577c4dead33b2faf6ef \
+                    texlive-bibtex-extra-23155-doc.tar.xz \
+                    md5     73014585bb5b729500400dca37768fa3 \
+                    sha1    6b5aa9e082c427a9258083174184eb6e1e13ee1f \
+                    rmd160  8a90b860140e4497a8dc909f2406753468f22938 \
+                    texlive-bibtex-extra-23155-src.tar.xz \
+                    md5     5576df95fa62c1242f1e6548aeb9c9b6 \
+                    sha1    3710fa20ab424eecec175dc89c977bb944620914 \
+                    rmd160  91a1d001c1524c895fdde2eb9346845eb0666ec3
 
 depends_lib         port:texlive-latex
 

@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Finnish documentation
 long_description    Finnish documentation
 
-checksums           md5     7447a770bf75a4848506447aecc330fc \
-                    sha1    38d68b70fbe4eef738be7fa834baefee7611c74c \
-                    rmd160  210c0c7ae7d1cfe8a3ceb0b7e70088dd0f1b183c
+checksums           texlive-documentation-finnish-15878-run.tar.xz \
+                    md5     88b3a12a32e5e40f016d3bc02fd24afc \
+                    sha1    320099c6d9901bcead6221b17e76ca9785b0561d \
+                    rmd160  db09a6f4ff248c8fac7e178a7365a3fa21de8bb3 \
+                    texlive-documentation-finnish-15878-doc.tar.xz \
+                    md5     53f18d32e994645752930c61640323f8 \
+                    sha1    85e82007638045c9e9ce283d509ecbf5f41634c9 \
+                    rmd160  f0ce4ccc7fa415c320e63cf211371d418370f04c \
+                    texlive-documentation-finnish-15878-src.tar.xz \
+                    md5     ce5b6abfe254c137563626ce91d64db4 \
+                    sha1    88d869669b74b42ec14df983009e9556b761ffa9 \
+                    rmd160  12b98a44a8dec6f4dd03aa9047ddd414b80f07ef
 
 depends_lib         port:texlive-documentation-base
 

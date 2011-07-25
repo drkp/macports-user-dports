@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Dutch
 long_description    Support for typesetting Dutch.
 
-checksums           md5     04a86878fa6bd96ec3148c2228242ba4 \
-                    sha1    4142fbf97c5750cbe391321508d2ce5714696a77 \
-                    rmd160  4bd884bbb0a62059a88fe69c8aeff2b76a4af724
+checksums           texlive-lang-dutch-23092-run.tar.xz \
+                    md5     509d7f1e1a143de69370dbf6d734e8c3 \
+                    sha1    5eff9696f612503797190fad20a3576babc40efe \
+                    rmd160  6b9f5b8fb62f83b123aeccbaa5ecc0cfde6b3570 \
+                    texlive-lang-dutch-23092-doc.tar.xz \
+                    md5     94351d9beff1e56254fd88df8808265a \
+                    sha1    5b9beb4d3da03e111fe27e792929b4fa2af8db49 \
+                    rmd160  d5a751a0867afdddc58ee794d5d0bbd63d668e79 \
+                    texlive-lang-dutch-23092-src.tar.xz \
+                    md5     af1fde1c9edfa5fec5bbc000343beedf \
+                    sha1    ced8dd0c01bef0fe2a00ca858c0f2c4a8f559cd7 \
+                    rmd160  4650abdfb3143e5184b57f9a67f38739cdb7d255
 
 depends_lib         port:texlive-basic
 

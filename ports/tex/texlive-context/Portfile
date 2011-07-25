@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: ConTeXt format
 long_description    Hans Hagen's powerful ConTeXt system, http://pragma-ade.com. Also includes third-party ConTeXt packages.
 
-checksums           md5     0c21dd70205b3a458f7bbbb852080d3d \
-                    sha1    742f89da1f184e4018119a180c680311395c4fa5 \
-                    rmd160  b61d6cd96b9d0d0a3ee0812231706f8191b12339
+checksums           texlive-context-23171-run.tar.xz \
+                    md5     9333879de6d8a124b9f7411dd80c1fc8 \
+                    sha1    4fe4ac627fc4d0f1e5e21214f10a467611f5ecbe \
+                    rmd160  a081f437c508e1426ac13734c422e6fed2b8fdd2 \
+                    texlive-context-23171-doc.tar.xz \
+                    md5     ec20237b292a2b9c1cee30095cef24fe \
+                    sha1    cdc5a773dbdde6c3b1e4151c825791aed1131787 \
+                    rmd160  686c74b439ac57ee111e85b001af958562657222 \
+                    texlive-context-23171-src.tar.xz \
+                    md5     91e946655b8d49c4ffe86137aef578f0 \
+                    sha1    f4dbf31bf2cf3d87464d7be51c441d3781355d19 \
+                    rmd160  e291ec9215640768b9c40a6af433d78c43153c5d
 
 depends_lib         port:texlive-basic
 

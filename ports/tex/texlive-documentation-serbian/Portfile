@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Serbian documentation
 long_description    Serbian documentation
 
-checksums           md5     a5033680ca8d2d2d93f53f69cd36f888 \
-                    sha1    30b19bc9a4bcfa144484239ee90523fbc0c8009d \
-                    rmd160  927f331e8483053ab3d912e60564aee8143e1697
+checksums           texlive-documentation-serbian-23026-run.tar.xz \
+                    md5     0dc7ea0c7b72fc17e60b914d0fbe4c6e \
+                    sha1    11fc01041ae90b48cb9db735a045a64c02c8cf1b \
+                    rmd160  c1dae530adae3efe1ad92ee0d6fb5d1a85798797 \
+                    texlive-documentation-serbian-23026-doc.tar.xz \
+                    md5     0635cf4a99fdbd241a4328997566ce1c \
+                    sha1    44a909bce53913dd4096406be29523def8fa4cea \
+                    rmd160  ca113ffa93f38b1ecd5c0575a120c737245153f6 \
+                    texlive-documentation-serbian-23026-src.tar.xz \
+                    md5     05f0c3018e1a59a1dd3f0bf5c1d91ada \
+                    sha1    a98957ae7b3d840c90fdd6d4614aaf4296c8fcc4 \
+                    rmd160  1375210297b18f306c3ee737290b51078a08b2e9
 
 depends_lib         port:texlive-documentation-base
 

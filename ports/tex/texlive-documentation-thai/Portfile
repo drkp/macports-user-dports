@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Thai documentation
 long_description    Thai documentation
 
-checksums           md5     9a54d5b486ca7b31b75774e1944ad288 \
-                    sha1    e97e5979ccd7c445786bbe3c7e2b462fb09f84b2 \
-                    rmd160  95a1e3517d6935dc27efa096370d645a9b830a84
+checksums           texlive-documentation-thai-15878-run.tar.xz \
+                    md5     6a27e4c86884850208c8393dfa3a7493 \
+                    sha1    974c2b3b6a09a677af4cf85686546710181e3f51 \
+                    rmd160  f21674b15ed45ec9fbcfdca8e60c91c76543eda7 \
+                    texlive-documentation-thai-15878-doc.tar.xz \
+                    md5     a4adacd60c9dcb417eaaccefb1fd25bf \
+                    sha1    0f13cb6f872836f1496f726a62c38d50388a231d \
+                    rmd160  652c41cf23e6d09bf81033f9b66cd16240d205c3 \
+                    texlive-documentation-thai-15878-src.tar.xz \
+                    md5     2e5d1c77194d2e9cf4c6029d866c2d99 \
+                    sha1    e924d10ccbc04d217943c2d5af52c427e08f8134 \
+                    rmd160  c0c90315c4d8eca53d97a253ea87a0ec8468abd9
 
 depends_lib         port:texlive-documentation-base
 

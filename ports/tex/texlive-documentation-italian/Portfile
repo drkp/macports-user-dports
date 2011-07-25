@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Italian documentation
 long_description    Italian documentation
 
-checksums           md5     2f9d22128bfd8a10b4a229d1cf40730e \
-                    sha1    f336725cac8cd080a6c79a851e9f86b0be23a9fd \
-                    rmd160  6fb9b3e2341604cfa23786182ed4c63aea9ee94d
+checksums           texlive-documentation-italian-23069-run.tar.xz \
+                    md5     ff7985627812f81f61ec3882ab669235 \
+                    sha1    f1c44ac5bd6bf5eb09e4db61fcb1342875fccac5 \
+                    rmd160  62800b7c4da684f0181fdda57277cc1d1433c3ed \
+                    texlive-documentation-italian-23069-doc.tar.xz \
+                    md5     937beab1f1f6d21b2433ee6bce4f75b3 \
+                    sha1    e99344cdf4927fc197240bb7a803215bd22d5aea \
+                    rmd160  205c24bd8f82490b4ac728b66fbc7698a1d7b60c \
+                    texlive-documentation-italian-23069-src.tar.xz \
+                    md5     e61391b1801ba98039eb6fdb257cd9ad \
+                    sha1    9ecf8699261ad50c048d750991ad6f6174c0dfa7 \
+                    rmd160  0fe0722496817691504103d437eca6b1cfc0373d
 
 depends_lib         port:texlive-documentation-base
 

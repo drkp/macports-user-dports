@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Other hyphenation patterns
 long_description    Hyphenation patterns for languages without (much) other support.
 
-checksums           md5     d011cbe9b4b8d42e3f1d3ea84e113625 \
-                    sha1    17d13b9eca7b46a65065d21b93af3631d946d27a \
-                    rmd160  7c139642810bf859c6a7f8665f0b0715a6b868ae
+checksums           texlive-lang-other-23092-run.tar.xz \
+                    md5     ebb0f0526ae6d141738a072e460e0334 \
+                    sha1    e8cab72957a736f18ed9ab16007fa72bf88f2393 \
+                    rmd160  6ba3b5ec1f26a89c9618c114d96a48daf702cfdc \
+                    texlive-lang-other-23092-doc.tar.xz \
+                    md5     976cf6048e672193f289de58f93eb75d \
+                    sha1    b0a1181af0cd7d4534c0603deb702aba87db40ac \
+                    rmd160  462039cbcb76cbbf1166a12919c78c18e68daf16 \
+                    texlive-lang-other-23092-src.tar.xz \
+                    md5     24c673953a42e5deb29a2530b7d04bb5 \
+                    sha1    73de498fd408b5e3fdbb8b5a4d6522d81da00f46 \
+                    rmd160  ffb5ad7f4513a75c15b06b3ad5d4edf5c39b071f
 
 depends_lib         port:texlive-basic
 

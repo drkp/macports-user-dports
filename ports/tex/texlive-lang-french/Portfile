@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: French
 long_description    Support for typesetting French.
 
-checksums           md5     59b18322c69ec3c0de4fa41952fd70d1 \
-                    sha1    c8e0a8d8dc175c00400de07d1431f397db325212 \
-                    rmd160  d6db88924014ffd58d19a236ec227cc946e4d077
+checksums           texlive-lang-french-23092-run.tar.xz \
+                    md5     689c8f5d1f0e111d396cf2651ed4a6fa \
+                    sha1    907acafe81c682aaf60a8474a48205c39797dacb \
+                    rmd160  9ecee9c072eb37b476766392214f382fffebf11c \
+                    texlive-lang-french-23092-doc.tar.xz \
+                    md5     d65328ebf8d8661496561c0cd385420d \
+                    sha1    05b65e92c67d97f5b9360c6917e44541dcbab6b0 \
+                    rmd160  f829347173e83ce4e9b37e461dc1589445ca3f63 \
+                    texlive-lang-french-23092-src.tar.xz \
+                    md5     a65c5d8638e3b33abf8fde590cb4e7bd \
+                    sha1    a3f5c31bd9be2ed3d95bebf9f35603d6f763fecc \
+                    rmd160  02aa264daa007b40900055f975be6cd0c1d53203
 
 depends_lib         port:texlive-basic
 

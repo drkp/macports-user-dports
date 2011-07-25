@@ -13,9 +13,18 @@ maintainers         dports
 description         TeX Live: Greek
 long_description    Support for typesetting Greek.
 
-checksums           md5     d4690d411e006d8e49b2310a4b5cc6a5 \
-                    sha1    eb0f05a3da57776d6270ab5c94665170b3993ea4 \
-                    rmd160  3369d76ad964a01c04950f6e0723611120e22971
+checksums           texlive-lang-greek-23092-run.tar.xz \
+                    md5     e5e353bcfc9e9c6340c8a3821f05ef2d \
+                    sha1    147522b5f3be32a2f31f75f39b8290db82d4e74a \
+                    rmd160  3fe661c75ff4f962b703a39bc39aa1408acef871 \
+                    texlive-lang-greek-23092-doc.tar.xz \
+                    md5     0dc9e767876cafc338e3bba1c2fb1951 \
+                    sha1    b5f1b509c15bbb072ccf2e4e92c8353b4230ae09 \
+                    rmd160  fd356a7060cde42c6593a003bbd54564012198b3 \
+                    texlive-lang-greek-23092-src.tar.xz \
+                    md5     4188b1f9d4182c438aa533dc76b3b5ca \
+                    sha1    213412722e2ce7ab8c09d40ca2f8528bf51dcf95 \
+                    rmd160  efd4c1d4b2fe296035b49888887cc3a407236fa5
 
 depends_lib         port:texlive-basic
 
