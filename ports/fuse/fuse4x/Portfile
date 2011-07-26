@@ -48,15 +48,13 @@ post-patch {
     reinplace "s|@@KEXTPATH@@|${kextdir}/fuse4x.kext|" ${worksrcpath}/include/fuse_param.h
 }
 
-configure.cflags-append -g -O0
 configure.ldflags   -framework CoreFoundation
 
 use_autoreconf      yes
-autoreconf.args     -fvi
-use_configure       yes
+autoreconf.args     -fi
 
 depends_build       port:pkgconfig port:autoconf port:automake port:libtool
-depends_lib         port:fuse4x-kext
+depends_run         port:fuse4x-kext
 
 livecheck.type      regex
 livecheck.url       ${homepage}
