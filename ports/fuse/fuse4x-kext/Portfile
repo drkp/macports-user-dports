@@ -55,8 +55,7 @@ post-patch {
 
 xcode.configuration Release
 
-#destroot.violate_mtree  yes
-destroot.asroot         yes
+destroot.asroot     yes
 
 destroot {
     xinstall -d ${destroot}${kextdir}
@@ -72,7 +71,7 @@ post-activate {
         ui_msg "********************************************************"
         ui_msg "*  fuse4x is already loaded. You may need to restart.  *"
         ui_msg "*  Alternatively, if feeling adventurous, you can run  *"
-        ui_msg "*  `sudo kextunload -b org.fuse4x.kext.fuse4x`  *"
+        ui_msg "*  `sudo kextunload -b org.fuse4x.kext.fuse4x`         *"
         ui_msg "********************************************************"
     }
 }
