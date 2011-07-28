@@ -83,6 +83,7 @@ post-patch {
     # paths.h with the right path substituted in.
     delete ${worksrcpath}/texk/kpathsea/texmf.cnf
     file copy ${filespath}/texk_kpathsea_paths.h ${worksrcpath}/texk/kpathsea/paths.h
+    reinplace "s|@@PREFIX@@|${prefix}|" ${worksrcpath}/texk/kpathsea/paths.h
     reinplace "s|@@TEXMFSYSCONFIG@@|${texlive_texmfsysconfig}|" ${worksrcpath}/texk/kpathsea/paths.h
     reinplace "s|@@TEXMFSYSCONFIG@@|${texlive_texmfsysconfig}|" ${worksrcpath}/texk/texlive/context/mtxrun
 

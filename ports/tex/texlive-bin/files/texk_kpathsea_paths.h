@@ -311,7 +311,7 @@
 #endif
 
 #ifndef DEFAULT_CLUAINPUTS
-#define DEFAULT_CLUAINPUTS ".:$SELFAUTOLOC/lib/{$progname,$engine,}/lua//"
+#define DEFAULT_CLUAINPUTS "@@PREFIX@@/lib/{$progname,$engine,}/lua//"
 #endif
 
 #ifndef DEFAULT_TEXMFSCRIPTS
@@ -334,7 +334,9 @@
 #define DEFAULT_RUBYINPUTS "/nonesuch"
 #endif
 
+#ifndef DEFAULT_TEXMFCNF
 #define DEFAULT_TEXMFCNF "@@TEXMFSYSCONFIG@@"
+#endif
 
 #ifndef DEFAULT_TEXMF_RESTRICTED_SCRIPTS
 #define DEFAULT_TEXMF_RESTRICTED_SCRIPTS "/nonesuch"
