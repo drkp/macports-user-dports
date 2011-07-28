@@ -290,7 +290,7 @@ proc texlive.texmfport {} {
                     "$fmtprefix$fmtname\t$fmtengine\t$fmtpatterns\t$fmtoptions"
 
                 # Simulate texlinks
-                if {$fmtname in ${texlive.binaries}} {
+                if {[lsearch -exact ${texlive.binaries} $fmtname] != -1} {
                     # Decide what to link. Use the specified engine
                     # unless a binary with the same name as the
                     # format exists (this can happen for metafont;
