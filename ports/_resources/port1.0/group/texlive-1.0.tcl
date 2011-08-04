@@ -67,6 +67,12 @@ set texlive_texmfsysvar "${prefix}/var/db/texmf"
 # configuration data from texconfig
 set texlive_texmfsysconfig "${prefix}/etc/texmf"
 
+# user's local texmf tree.
+# Note that this path is specified relative to the user's
+# home directory, i.e. it begins with an implicit ~/
+set texlive_texmfhome "Library/texmf"
+
+
 # location of binaries installed by texlive-bin
 #
 # All TeXLive binaries are built by texlive-bin, but most of them

@@ -21,8 +21,9 @@ supported_archs     noarch
 master_sites        http://flute.csail.mit.edu/texlive/test/
 worksrcdir          ${distname}
 use_xz              yes
-checksums           sha1     a02857ee868df2a8fd393388619f3323648b9940 \
-                    rmd160   a979ebd9151559b7d6ee0f4fd72043e465c5c925
+
+checksums           rmd160  ebb014281c37d2fab37fb464a9739b7fb48b5478 \
+                    sha256  3a428bdbb8e82aa2281fcba64afcccff21ef30e6ff3bd6d96621c7b0b355c610
 
 livecheck.type  regex
 livecheck.url   ${master_sites}
@@ -37,6 +38,7 @@ post-patch {
         reinplace "s|@@TEXMFLOCAL@@|${texlive_texmflocal}|g" ${worksrcpath}/${x}
         reinplace "s|@@TEXMFSYSVAR@@|${texlive_texmfsysvar}|g" ${worksrcpath}/${x}
         reinplace "s|@@TEXMFSYSCONFIG@@|${texlive_texmfsysconfig}|g" ${worksrcpath}/${x}
+        reinplace "s|@@TEXMFHOME@@|${texlive_texmfhome}|g" ${worksrcpath}/${x}
         reinplace "s|@@TEXLIVE_BINDIR@@|${texlive_bindir}|g" ${worksrcpath}/${x}
     }
 }
