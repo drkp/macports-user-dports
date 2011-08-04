@@ -30,5 +30,6 @@ depends_lib         port:texlive-latex
 
 texlive.binaries    bibexport
 
+depends_run-append  port:biblatex-biber
 
 texlive.texmfport
