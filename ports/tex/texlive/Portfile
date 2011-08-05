@@ -204,7 +204,7 @@ variant full \
     }
 
 variant letter description {Set paper format to letter} {
-    build   {
+    post-activate {
         system "texconfig-sys paper letter"
     }
 }
