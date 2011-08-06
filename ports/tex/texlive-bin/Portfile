@@ -43,7 +43,6 @@ depends_lib     port:fontconfig \
                 port:libzzip \
                 port:t1lib \
                 port:poppler \
-                port:xorg-libXp \
                 port:texlive-common
 
 depends_run     port:ghostscript
@@ -149,7 +148,9 @@ configure.args  --bindir=${texlive_bindir} \
                 --disable-psutils \
                 --disable-t1utils \
                 --disable-texinfo \
-                --disable-xindy
+                --disable-xindy \
+                --without-x \
+                --without-pdfopen
 
 configure.cppflags-delete   -I${prefix}/include
 configure.ldflags-delete    -L${prefix}/lib
@@ -219,32 +220,24 @@ if {![variant_isset "atsui"]} {
     notes-append "XeTeX is built without support for Apple Type Services for Unicode Imaging (ATSUI) or Apple Advanced Typography (AAT). To enable it, build texlive-bin with the +atsui variant. Note that this will force texlive and all of its dependencies to be built 32-bit."
 }
 
-
-if {![variant_isset no_x11] && ![variant_isset motif] && ![variant_isset xaw] && ![variant_isset xaw3d] && ![variant_isset nextaw]} {
-    default_variants    +motif
-}
-
-variant no_x11 conflicts xaw motif xaw3d nextaw {
-    depends_lib-delete port:xorg-libXp
-    configure.args-append --without-x --without-pdfopen
-    configure.args-delete  --x-includes=${prefix}/include \
-                           --x-libraries=${prefix}/lib
-}
-variant motif conflicts no_x11 xaw xaw3d nextaw description {Use Motif to build xdvi} {
-     depends_lib-append lib:libXm:openmotif
-     configure.args-append --with-xdvi-x-toolkit=motif
-}
-variant xaw conflicts no_x11 motif xaw3d nextaw description {Use Xaw to build xdvi} {
+variant x11 conflicts no_x11 description {Build with x11 support, using Xaw widgets for xdvi} {
+    depends_lib-append port:xorg-libXp
+    configure.args-delete --without-x --without-pdfopen    
     depends_lib-append port:xorg-libXaw
     configure.args-append --with-xdvi-x-toolkit=xaw
 }
-variant xaw3d conflicts no_x11 motif xaw nextaw description {Use Xaw3d to build xdvi} {
-    depends_lib-append port:Xaw3d
-    configure.args-append --with-xdvi-x-toolkit=xaw3d
+
+variant motif conflicts no_x11 xaw xaw3d nextaw description {Use Motif to build xdvi} {
+    depends_lib-delete port:xorg-libXaw
+    configure.args-delete --with-xdvi-x-toolkit=xaw
+    depends_lib-append lib:libXm:openmotif
+    configure.args-append --with-xdvi-x-toolkit=motif
 }
-variant nextaw conflicts no_x11 motif xaw xaw3d description {Use neXtaw to build xdvi} {
-    depends_lib-append port:neXtaw
-    configure.args-append --with-xdvi-x-toolkit=neXtaw
+
+variant no_x11 conflicts x11 motif description {Legacy compatibility variant} {}
+
+if {![variant_isset no_x11]} {
+    default_variants    +x11
 }
 
 livecheck.type      regex
