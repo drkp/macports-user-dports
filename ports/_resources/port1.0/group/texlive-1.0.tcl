@@ -90,7 +90,12 @@ set texlive_bindir "${prefix}/libexec/texlive/binaries"
 # This is provided to support MacTeX's TeX Distribution preference
 # pane: it can select the active TeX distribution by pointing the
 # /usr/texbin symlink here
+#
+# It also seems like the prefpane wants architecture-specific links,
+# and may want version-specific ones in the future, so create those in
+# ${texlive_mactex_texdistdir}.
 set texlive_mactex_texbindir "${prefix}/libexec/texlive/texbin"
+set texlive_mactex_texdistdir "${prefix}/libexec/texlive/texdist"
 
 # update texmf file path databases (ls-R)
 #
