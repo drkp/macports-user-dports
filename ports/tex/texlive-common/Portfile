@@ -17,6 +17,7 @@ long_description    This port provides files that support a MacPorts    \
 homepage            http://www.tug.org/texlive/
 platforms           darwin
 supported_archs     noarch
+license             Permissive
 
 master_sites        http://flute.csail.mit.edu/texlive/test/
 worksrcdir          ${distname}

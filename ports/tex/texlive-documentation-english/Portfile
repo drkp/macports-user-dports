@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: English documentation
 long_description    English documentation
 
 checksums           texlive-documentation-english-22612-run.tar.xz \
-                    md5     2b5bcfb8d2dee93ff802bc5853d28317 \
-                    sha1    c961f0b56b54672959fd67672d10c582a13c438f \
                     rmd160  8051894629b8074a4907568eb979067edfd9b19a \
+                    sha256  1da10d1fb67d2bdc4aa8f07700f1a59fe5b5db89c7824e9f7329fc84d6263da7 \
                     texlive-documentation-english-22612-doc.tar.xz \
-                    md5     e9bfb6dacf6a4bf82b8a842a7cbc9360 \
-                    sha1    d5628ccf9800bfe1b36c8f275df524f54258027e \
                     rmd160  0e98d9f33baa9bb73749cb9ee69051120d44fc99 \
+                    sha256  69c341471c8e552424c769c7db023f87c5a326af36e32b15ff04b0504c114c93 \
                     texlive-documentation-english-22612-src.tar.xz \
-                    md5     4c72c0ba3318c40faf90bc1c42192c26 \
-                    sha1    5b5ecf79a2275927da014d692aa31fcdba39b7ed \
-                    rmd160  6ce64264259eb7ebc5000ee695f2171e3886c6b8
+                    rmd160  6ce64264259eb7ebc5000ee695f2171e3886c6b8 \
+                    sha256  92c6f20f97669c49a68ddc7dc6a74f230c4b8579e48651162799ecdd596ed805
 
 depends_lib         port:texlive-documentation-base
 

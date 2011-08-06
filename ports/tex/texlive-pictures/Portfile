@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Graphics packages and programs
 long_description    Graphics packages and programs
 
 checksums           texlive-pictures-22961-run.tar.xz \
-                    md5     7d591441a4d972b6be22eeea98d8c9f3 \
-                    sha1    499d3977d9cfcc4481e33d0a195ad9d203d97b16 \
                     rmd160  dcb5cd77414f236f7b9a6138099b17b1fdc43528 \
+                    sha256  2cd607c7c228d2d8e049d4448f1d94e941516a9321fd9576e02408c6161a862d \
                     texlive-pictures-22961-doc.tar.xz \
-                    md5     7a08585b651f3b137c19b94c2623161d \
-                    sha1    8c7efbcc6f4c38f09ab978da1bc665e9f7bf5106 \
                     rmd160  2d2638937c384973401fff6abf976ad142acab59 \
+                    sha256  cba9b17eb9a03b50e72806adc6403339ae75accde73483745656779b12bad48c \
                     texlive-pictures-22961-src.tar.xz \
-                    md5     0d2957826f8d24af509e56fb3d94b6fd \
-                    sha1    e4642c1109a5ace0f981c29700eeedf26b342447 \
-                    rmd160  8fb8739194b2781a86fbd909b95e1e1f648b2940
+                    rmd160  8fb8739194b2781a86fbd909b95e1e1f648b2940 \
+                    sha256  84f8547e25d7e559aadc09961642f0507e2774c916c4b678d190f4fd6dc851e6
 
 depends_lib         port:texlive-basic
 

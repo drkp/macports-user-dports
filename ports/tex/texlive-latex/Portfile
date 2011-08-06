@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Basic LaTeX packages
 long_description    These packages are mandated by the core LaTeX team, or at least very strongly recommended.
 
 checksums           texlive-latex-23089-run.tar.xz \
-                    md5     9b0a52bdfb9153aa80d4d73d494e7076 \
-                    sha1    03748958004f0a2969bf54a51dcc6e699dd6dc10 \
                     rmd160  70040bad3ddc7f7dcc9a471bc1f7c636547fcac7 \
+                    sha256  f4a711eb4bd71befcb7b639ed95c872c2222799a3e9f3420310aea8df0a149cc \
                     texlive-latex-23089-doc.tar.xz \
-                    md5     3d626440761bc2a56947c64b1e9ee17d \
-                    sha1    46681143812b15876c89807cc3cbf9f1caf5001d \
                     rmd160  8427f8acba1e645a7e7152a08605fe9206fccdca \
+                    sha256  8eef8f97601f88eb733becedb6d6afb37a21edd0d20d9312f4d8f94f2c9ab0c2 \
                     texlive-latex-23089-src.tar.xz \
-                    md5     eb817dd05ac081d5bf8ee84840248a83 \
-                    sha1    46104aeb39600131cec10dc61acb9a44bbfc3a45 \
-                    rmd160  91396fff70afcced016056d16191406d5b94f196
+                    rmd160  91396fff70afcced016056d16191406d5b94f196 \
+                    sha256  76dd047ca6cd5d1d5d26fcfc8ff24c147b9416a4affc5e84081702d3a34d71be
 
 depends_lib         port:texlive-basic
 

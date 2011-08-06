@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: US and UK English
 long_description    Support for typesetting US and UK English.
 
 checksums           texlive-lang-english-23092-run.tar.xz \
-                    md5     cb6fbf9db41c7d7be23b16817bf26b9e \
-                    sha1    cbe7830852ec06df99480e3f66e8ee787f3b1908 \
                     rmd160  bf7077a71343bf8a03bde4fa150e5606b3d2b6c9 \
+                    sha256  1b6aee16191ddef7c20b820a554d017fdd412718f3d36813408761fee57bcf6d \
                     texlive-lang-english-23092-doc.tar.xz \
-                    md5     1a66d05bb6e021e9d4b4d920ac8c359c \
-                    sha1    8c04b5aaa4b8065c100a493f04f544276921c56e \
                     rmd160  eda0b5ddfa8b043461b5f1fc5ea1011a2937a40a \
+                    sha256  4ef8de19a48bfcb544c03760c527790f4b095b01ef1220653bd764b6973c1a02 \
                     texlive-lang-english-23092-src.tar.xz \
-                    md5     73a333713a29b1d0f63a3e34608ac395 \
-                    sha1    8b7d28b5731d7ba5e36096dcd9cdc45c5fea26a0 \
-                    rmd160  9a7adaa3b21cf7423d488fbede0c7a75d3cd7669
+                    rmd160  9a7adaa3b21cf7423d488fbede0c7a75d3cd7669 \
+                    sha256  432421deb90b0feaa65d0ac22192798435164db2d33e637eee273a6334aa4797
 
 depends_lib         port:texlive-basic
 

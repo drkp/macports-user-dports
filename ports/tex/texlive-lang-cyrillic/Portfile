@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Cyrillic
 long_description    Support for typesetting Cyrillic.
 
 checksums           texlive-lang-cyrillic-23092-run.tar.xz \
-                    md5     c5b7bcb08ab7ccc8940d4291856e7be4 \
-                    sha1    9f66a13136b1dd7c22390bdb953a925450238ac2 \
                     rmd160  b7acb276d3e95789f7006c84060fc5cb85cc5811 \
+                    sha256  7335daee872ae81bddd60583cbcf969dac9ad432a974ea11e6c411e3851b2291 \
                     texlive-lang-cyrillic-23092-doc.tar.xz \
-                    md5     cb0c34373016cf8b43b96e3e61303648 \
-                    sha1    e82dfad38cab4ffa134532bcfe73de537d7b520e \
                     rmd160  9ac8dc33a8aff381ab7f37f9de70c95cc40eb7a2 \
+                    sha256  8a06e9242e9aa25991ddeb19d80b679f0845a70aee61809aedeb021cfb879528 \
                     texlive-lang-cyrillic-23092-src.tar.xz \
-                    md5     5c7af2ba97e95f4721794544c09d08d4 \
-                    sha1    83bc72cf170e9a4f85cf4bb7d3a5adec9a07085d \
-                    rmd160  328dff518934f186e8dc6f45a3f879d20e157296
+                    rmd160  328dff518934f186e8dc6f45a3f879d20e157296 \
+                    sha256  fed7f72ccaf54d89138506bcff53337b1c346a1d114f21be291b9c87aefab797
 
 depends_lib         port:texlive-basic port:texlive-latex
 

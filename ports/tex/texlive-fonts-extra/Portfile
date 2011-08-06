@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Extra fonts
 long_description    Extra fonts
 
 checksums           texlive-fonts-extra-22691-run.tar.xz \
-                    md5     d9e7b6cad7b1a05e146500d886b1a89c \
-                    sha1    51a8573efe6263d820e05311ad572cb90d2111e1 \
                     rmd160  f1297a5c3ffc86ef24e8489f8fd4c083886dd7b4 \
+                    sha256  8bedba1faccdcc5d98ec68c938d87417f0f9673d9e9069af308d2450e5d2c001 \
                     texlive-fonts-extra-22691-doc.tar.xz \
-                    md5     4d96f84ab4f761107fa19599206485cf \
-                    sha1    a712a227fcc339d0ffebd81e7723effea11c8a79 \
                     rmd160  a669aded9438cf12b3f2c1fe49bb8d4c9b807082 \
+                    sha256  b1d9c2d76993c56550be33feacdef39c45f84bddae22137df98fcd05ff4aa7f6 \
                     texlive-fonts-extra-22691-src.tar.xz \
-                    md5     b896ff0040687d618dca6318c2b89e2f \
-                    sha1    16a048e9fafbbe70998652c1a2bb51a49077f605 \
-                    rmd160  411c2b42225dfbbefe8401f8786232985eef3727
+                    rmd160  411c2b42225dfbbefe8401f8786232985eef3727 \
+                    sha256  7955587207930c7092b02f985ff136deef401a0095b15a76ae9a9d4abfd95145
 
 depends_lib         port:texlive-basic
 

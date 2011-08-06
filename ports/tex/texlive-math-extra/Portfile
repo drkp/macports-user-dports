@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Advanced math typesetting
 long_description    Extra math
 
 checksums           texlive-math-extra-23089-run.tar.xz \
-                    md5     2745f92436e5191b5c4666825b9fb6ec \
-                    sha1    0d9ad8015b28099059a6081aacd8fcf7e3604b1c \
                     rmd160  db99185fa0052e19fa273135374fc6e6bab86c81 \
+                    sha256  bc7c60e4c554c674c3dd19e0596ba86aa5bdd12efbd8b715258e00f4ddc235e7 \
                     texlive-math-extra-23089-doc.tar.xz \
-                    md5     79c6e66b239d911f469f5d1b7a1e2c7d \
-                    sha1    93eeef45f9d34c2c114a06c257224c13e0d8db4b \
                     rmd160  b0f5d499da766d5b24abb51a2bea69e7caf272fe \
+                    sha256  682b6987ec4898110d2ad87c9b435dcbe45e39618466d43480b9b3ee59c1b345 \
                     texlive-math-extra-23089-src.tar.xz \
-                    md5     9b325d84b7a50f22c8adeeabcef8e599 \
-                    sha1    327076b4d7cdc1fc5ca3cd81149f07d7c0e73469 \
-                    rmd160  337a6786d48e6bf1c2cc6eb3fdc8ea2611404efb
+                    rmd160  337a6786d48e6bf1c2cc6eb3fdc8ea2611404efb \
+                    sha256  88d2576d85a600ee27295fbdf23a331d23f00b1acc804645ef53d285848dff71
 
 depends_lib         port:texlive-fonts-recommended port:texlive-latex
 

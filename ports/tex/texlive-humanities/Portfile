@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Humanities packages
 long_description    Packages for law, linguistics, the social sciences, the humanities, etc.
 
 checksums           texlive-humanities-22054-run.tar.xz \
-                    md5     b907a2202b9b5ffcf17832b68c327f81 \
-                    sha1    46c01561e56980ed2bf26c063ad7b3fe7da66a75 \
                     rmd160  3d1c49ebc382e8d95aa806d93f9823cad929c0e1 \
+                    sha256  9e00b664e27cb0d5ea56d0a4197247b11473059ac8c5f3364c0c9243d9a8a607 \
                     texlive-humanities-22054-doc.tar.xz \
-                    md5     ab2c162441cb57e51af370bbc3d91087 \
-                    sha1    d7779372e4aecb0aa75c90e3567e9364375fabc5 \
                     rmd160  6c5dce82d43817b41b996f3a79e273de83435624 \
+                    sha256  cde8b448768ac92f4a8edebbf7a26462bf6db45c9049d55f30b46c7de490902d \
                     texlive-humanities-22054-src.tar.xz \
-                    md5     d80523eda2322169214b9e8c3f0f1754 \
-                    sha1    a6b09c81fabf0d59bdba49baba104513cef76785 \
-                    rmd160  d89e27623c3c4267cfab3f9c4bcf9892f1d093da
+                    rmd160  d89e27623c3c4267cfab3f9c4bcf9892f1d093da \
+                    sha256  7683f73637d15e4850cd1d0ab80bf3e853d68786a94f4036e88d259c5718c31b
 
 depends_lib         port:texlive-latex
 

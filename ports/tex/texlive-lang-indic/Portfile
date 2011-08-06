@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Indic scripts
 long_description    Support for typesetting some Indic scripts.
 
 checksums           texlive-lang-indic-23164-run.tar.xz \
-                    md5     b8ebc6b984ac51bf325c586f457a6fa0 \
-                    sha1    b9304e5864455ebf0306e007a62ec2ac1ad4d929 \
                     rmd160  9c7652ed7eb55cb44c019840878ed0b618fae5fb \
+                    sha256  79cecd9037b6b4da38c497c1fb1475004946379f4ebd90e7ecbb8b06e813019b \
                     texlive-lang-indic-23164-doc.tar.xz \
-                    md5     4f993a66b067670559ece1ad850a1b87 \
-                    sha1    b4007d2dc6000bb8f52ccf7eca7423ac55dc3649 \
                     rmd160  e6328d7260f46c54df6a8a56547eeae9c7073213 \
+                    sha256  d3451d257e6f16828ae7d3f816260b6174b20ecd11439f9aec4a04f1dd2a687a \
                     texlive-lang-indic-23164-src.tar.xz \
-                    md5     7ed7ad8d694e5f30be5916b507c1c352 \
-                    sha1    f4a27416c2c55e13a280799feff01693b5573244 \
-                    rmd160  3146416d0ac8bb52e0f996ec0e319d5e5253fc3f
+                    rmd160  3146416d0ac8bb52e0f996ec0e319d5e5253fc3f \
+                    sha256  f55fda40716bd3ffb04d84d4ea8229605ed5035ba7a0ca159ee8b1b3b373b01c
 
 depends_lib         port:texlive-basic
 

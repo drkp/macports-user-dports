@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Hebrew
 long_description    Support for typesetting Hebrew.
 
 checksums           texlive-lang-hebrew-15878-run.tar.xz \
-                    md5     fb247888eceda172f8d25bc8fd3c0d19 \
-                    sha1    eed099523bd121880f12342f5a6dcdd3d4e753ef \
                     rmd160  72c18dc873cf36ec227a3f6970a910c8da93ad9b \
+                    sha256  c6f4574d995401586c30b2e52706a510a9aad10905ca622415f3658889c47022 \
                     texlive-lang-hebrew-15878-doc.tar.xz \
-                    md5     b6e5fbd5c2142e7384167817416bf96a \
-                    sha1    6b771f72a0956119a802eb73a4026b9d6cb686fd \
                     rmd160  c309f12fa1b2afcaf3df8fccd7446fbe1f171e18 \
+                    sha256  819e39e626c47bf7c1087be63ceb8b43aba803f4719302e4fc82a05d823afa91 \
                     texlive-lang-hebrew-15878-src.tar.xz \
-                    md5     8f72c7b16cdb69adf7d1b05859336a7f \
-                    sha1    23ffc1b69faeaca42458ccb870dfc7ebd3b4590a \
-                    rmd160  fe8be8a6c6b3c9da66e25907aea31a33b181c82f
+                    rmd160  fe8be8a6c6b3c9da66e25907aea31a33b181c82f \
+                    sha256  ffb0c6415fc0683e3d54a36361c25e3b58be2cc79942bc11caba7c2fa52b6a8d
 
 depends_lib         port:texlive-basic
 

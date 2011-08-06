@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Greek
 long_description    Support for typesetting Greek.
 
 checksums           texlive-lang-greek-23092-run.tar.xz \
-                    md5     e5e353bcfc9e9c6340c8a3821f05ef2d \
-                    sha1    147522b5f3be32a2f31f75f39b8290db82d4e74a \
                     rmd160  3fe661c75ff4f962b703a39bc39aa1408acef871 \
+                    sha256  bea7168edafe5142b732f0c227f425249e43127d0912410f14c6cb698e43ab9d \
                     texlive-lang-greek-23092-doc.tar.xz \
-                    md5     0dc9e767876cafc338e3bba1c2fb1951 \
-                    sha1    b5f1b509c15bbb072ccf2e4e92c8353b4230ae09 \
                     rmd160  fd356a7060cde42c6593a003bbd54564012198b3 \
+                    sha256  5a25334f9ad25284e409a438d845ed93cf7519c70842330e773f3648e5644653 \
                     texlive-lang-greek-23092-src.tar.xz \
-                    md5     4188b1f9d4182c438aa533dc76b3b5ca \
-                    sha1    213412722e2ce7ab8c09d40ca2f8528bf51dcf95 \
-                    rmd160  efd4c1d4b2fe296035b49888887cc3a407236fa5
+                    rmd160  efd4c1d4b2fe296035b49888887cc3a407236fa5 \
+                    sha256  f76384e1776373b0d329ea70bac2ad93f4f93369b8f1e3a130add94bda6b751b
 
 depends_lib         port:texlive-basic
 

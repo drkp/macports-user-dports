@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Swedish
 long_description    Support for typesetting Swedish.
 
 checksums           texlive-lang-swedish-23085-run.tar.xz \
-                    md5     b32376155adc01e3a55702d615414280 \
-                    sha1    26cc244219f2fbdb7e16e7b257c87992ece6c891 \
                     rmd160  b743e29f1eaead9bc60f060a2342bc4e824b97b9 \
+                    sha256  1948801a629be789d3c5bb3f0c8163d5516736838a2b42c4736f974f78bb238d \
                     texlive-lang-swedish-23085-doc.tar.xz \
-                    md5     d4ddc381da61dc1454a98f40ac81c75b \
-                    sha1    67f9753b30187c92739a5fc7bd7f909a825ebb89 \
                     rmd160  a183a2eca63cb02476663a40acecf0996be1d2f5 \
+                    sha256  61e1a64eefd8ff71a25992d5fc9a50d07eb354abaed5182f64e0c9fa3c044a6e \
                     texlive-lang-swedish-23085-src.tar.xz \
-                    md5     565efac74c26d10fc4035815064c89d4 \
-                    sha1    25bfba6bdef5e1ebf7cb7058fc867b18f70358a5 \
-                    rmd160  4dde13f9a2affa123e01d2304b26990a5c51d0d8
+                    rmd160  4dde13f9a2affa123e01d2304b26990a5c51d0d8 \
+                    sha256  e107d5e2f375a8089968347c139097d373d6a3d8f26fae842ee29f2fe2e13811
 
 depends_lib         port:texlive-basic
 

@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: LuaTeX packages
 long_description    Packages for LuaTeX, a Unicode-aware extension of pdfTeX, using Lua as an embedded scripting and extension language. http://luatex.org/
 
 checksums           texlive-luatex-23137-run.tar.xz \
-                    md5     97d20940b1f6504b12ba929300886b1d \
-                    sha1    b55a65d83d848ce930295a4d78c25ca42cdf190a \
                     rmd160  38025a878d632f7871ab0dc15f06f6ee55d5f20f \
+                    sha256  0e99ee592bd57a986f9236abd47b3dcd7bb5e37115d90679c4ca0eaa8ef470c8 \
                     texlive-luatex-23137-doc.tar.xz \
-                    md5     14989413951dd3abde0931b0cc85f545 \
-                    sha1    abab7745b4f3743e20730c2911bf5e1321fafe57 \
                     rmd160  db7b6cae771bb3dafaa0eda50bfe95fa61e90403 \
+                    sha256  0b667e3ca0758b2ec994d13d50111bd2865761957e9572e635b053e1e5ac00d5 \
                     texlive-luatex-23137-src.tar.xz \
-                    md5     21ff47d39440ac5501ea5ec4c8da9ec1 \
-                    sha1    662131098b23d529e69ab61ea75f5d29a8d57ff6 \
-                    rmd160  23f92e344e0d962a26503149983104a280e182dd
+                    rmd160  23f92e344e0d962a26503149983104a280e182dd \
+                    sha256  d4dc1248553b42fe943dbbf2e144a324bf693b0b2a6252a1ec7fc15ad8b363b8
 
 depends_lib         port:texlive-basic
 

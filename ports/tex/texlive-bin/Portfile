@@ -18,6 +18,7 @@ long_description    TeX Live is an easy way to get up and running with TeX. \
 
 homepage        http://www.tug.org/texlive/
 platforms       darwin
+license         Permissive
 
 # Our distfile is a stripped-down version of the texlive source
 # tarball, available from CTAN in systems/texlive/Source. For faster

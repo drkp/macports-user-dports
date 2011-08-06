@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Mongolian documentation
 long_description    Mongolian documentation
 
 checksums           texlive-documentation-mongolian-15878-run.tar.xz \
-                    md5     2e2dd501e19670a24402443bf712e457 \
-                    sha1    ced1b73b7d4d4bb22534144cccb0063774f85a68 \
                     rmd160  226aec3f6acd7872fe98436b77687749ce75a3db \
+                    sha256  d30802e47bf9f4cb785ef22d3e4831088cc778e71caf1cd4df36912ed40b128c \
                     texlive-documentation-mongolian-15878-doc.tar.xz \
-                    md5     c57b8b1559ac7e106769ece43f6a15ee \
-                    sha1    13a66fbbb7e6cec4afbf3465f59bae7de816572a \
                     rmd160  23ca21808caa46d66ea8ad98d2f4ca9664d51179 \
+                    sha256  f63df3a2ba81f1df2e1a66f7fcdf5e84dd1e1e9481c782bc63544d1ee73d16aa \
                     texlive-documentation-mongolian-15878-src.tar.xz \
-                    md5     b61c35544bea58e4035f8a5b50d67d4c \
-                    sha1    444f6029ef6528a45719b6429557269c79a82a49 \
-                    rmd160  db96e96b5fe4141d3141c208f27747bb72745013
+                    rmd160  db96e96b5fe4141d3141c208f27747bb72745013 \
+                    sha256  44983aa4244e6d38b4ef97b3de0f09e33078eeea860de80e0cd5ba1e18067046
 
 depends_lib         port:texlive-documentation-base
 

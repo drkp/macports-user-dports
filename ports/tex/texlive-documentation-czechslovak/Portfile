@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Czech/Slovak documentation
 long_description    Czech/Slovak documentation
 
 checksums           texlive-documentation-czechslovak-23147-run.tar.xz \
-                    md5     e19f5f77d667e81943d28c87df07585c \
-                    sha1    90dbc08658b44daa179b530819a19eb8b3e03f55 \
                     rmd160  20770cab0356ca046edbfd5e1dc734ac7fd276bc \
+                    sha256  b1abbc9a52d5e956fd589ae9674368b521a293193f15826c83c6b8bf84033c80 \
                     texlive-documentation-czechslovak-23147-doc.tar.xz \
-                    md5     2f23bbae1b49295c776e7cd61b32b120 \
-                    sha1    9059a203225964250d44cf6af5e4607281afda8c \
                     rmd160  1874e3d9010a0e553b437edcd32bad1ce457103e \
+                    sha256  adf29f4be53932695cce80f3355f6839c668429b2f615b0fd811a4a213c4fb51 \
                     texlive-documentation-czechslovak-23147-src.tar.xz \
-                    md5     44dc69e9a28b2b4299591119da296904 \
-                    sha1    4bd7fbba7ab33d343a6672335a59d3b4d9605439 \
-                    rmd160  06206dc6a41bc7cb94c1b0def304b7abd6deaba8
+                    rmd160  06206dc6a41bc7cb94c1b0def304b7abd6deaba8 \
+                    sha256  58b5c8111a9ec2ccf8095773c27d728af50afeb837686e367d4d2c690c505c0d
 
 depends_lib         port:texlive-documentation-base
 

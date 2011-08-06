@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Finnish documentation
 long_description    Finnish documentation
 
 checksums           texlive-documentation-finnish-15878-run.tar.xz \
-                    md5     88b3a12a32e5e40f016d3bc02fd24afc \
-                    sha1    320099c6d9901bcead6221b17e76ca9785b0561d \
                     rmd160  db09a6f4ff248c8fac7e178a7365a3fa21de8bb3 \
+                    sha256  529fcdbf4481ae6e199f7c11e25035af7a291cc9a5e3f70ac259819e167a7b95 \
                     texlive-documentation-finnish-15878-doc.tar.xz \
-                    md5     53f18d32e994645752930c61640323f8 \
-                    sha1    85e82007638045c9e9ce283d509ecbf5f41634c9 \
                     rmd160  f0ce4ccc7fa415c320e63cf211371d418370f04c \
+                    sha256  a244a2399e60ce6c87111905ce427bb7a6a54e177702be42c891562eebe4129f \
                     texlive-documentation-finnish-15878-src.tar.xz \
-                    md5     ce5b6abfe254c137563626ce91d64db4 \
-                    sha1    88d869669b74b42ec14df983009e9556b761ffa9 \
-                    rmd160  12b98a44a8dec6f4dd03aa9047ddd414b80f07ef
+                    rmd160  12b98a44a8dec6f4dd03aa9047ddd414b80f07ef \
+                    sha256  457ca833d39df66a0a08bffc1112fc50f7d5ee65b6183ab8647f556c17585ecb
 
 depends_lib         port:texlive-documentation-base
 

@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Bulgarian documentation
 long_description    Bulgarian documentation
 
 checksums           texlive-documentation-bulgarian-19296-run.tar.xz \
-                    md5     5c19d7bc137d0d00f9573ae5cb158590 \
-                    sha1    62d674bb95e9d343d91fb7b3cce317c6bb7c5712 \
                     rmd160  e7627a622cfcb211a0ab3787cdc2433dd375e583 \
+                    sha256  128462f1faefb709f3f54c96d89a6ef0728a1eaaab49fd1d8223092a105d5a44 \
                     texlive-documentation-bulgarian-19296-doc.tar.xz \
-                    md5     5d4b6022e632f28e455ef3553766e7eb \
-                    sha1    8fdb543176a309a281721858cf421d8035e85abd \
                     rmd160  85a87e95220cd6480cc76ac69fcf10de8d66da3e \
+                    sha256  f3366846b5f4787cf2b9ef2828fd0cc0da0573094b52ae424a5958d21fe00eaf \
                     texlive-documentation-bulgarian-19296-src.tar.xz \
-                    md5     620ceca332c52e01f0c00b2d9d8d7ff9 \
-                    sha1    3d41969bd0747860e5b43bed3338321333a48aa1 \
-                    rmd160  0313f0e808b3dcbeaac616a9d960bfa2daf823d0
+                    rmd160  0313f0e808b3dcbeaac616a9d960bfa2daf823d0 \
+                    sha256  3286d2948d4d0486733c4c60b2bc0f76d53b61616e7d190006a192324ec24957
 
 depends_lib         port:texlive-documentation-base
 

@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Plain TeX supplementary packages
 long_description    Add-on packages and macros that work with plain TeX.
 
 checksums           texlive-plain-extra-21462-run.tar.xz \
-                    md5     5f9e3f5b77fc3d3796c94decaaf18e34 \
-                    sha1    857c761a6f9d45754d6f79fd5c95abbcb9dc233d \
                     rmd160  07b035b7318d958aa813b591b28525d9c782c3e2 \
+                    sha256  8a321ce35b4ec073ab0b0e9a2a25d1cf08cf3dffa28ea8d78bcf305e11fc0a1b \
                     texlive-plain-extra-21462-doc.tar.xz \
-                    md5     b9763c641e6f69a6d473651fa3544c22 \
-                    sha1    e077dd35ffa9822bed6a96187b9273f56e3add20 \
                     rmd160  89dbfabe33f42fc12a5999ef9203cc22a1d18dc0 \
+                    sha256  ee74b9e0666a3b9cb4d94dd22e7da4691110b8f16ebf1b2dc3612fc16fb083ae \
                     texlive-plain-extra-21462-src.tar.xz \
-                    md5     2e37f8d50bf4a9dbe0a8fd592585feff \
-                    sha1    aba0dd9650585a63e98d678c09077a5ca55273b8 \
-                    rmd160  148599c2d78b1decd4282b8e7bf4fc228ff6e861
+                    rmd160  148599c2d78b1decd4282b8e7bf4fc228ff6e861 \
+                    sha256  096f2c9841bb726187fbd5d81d7f10cf94d522ff7d4cd57469dd66a68d4a2de3
 
 depends_lib         port:texlive-basic
 

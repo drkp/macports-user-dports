@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Chinese, Japanese, Korean
 long_description    CJK (Chinese, Japanese, Korean) macros, fonts, documentation, also Thai since there is some overlap in the fonts.
 
 checksums           texlive-lang-cjk-23118-run.tar.xz \
-                    md5     c55cd7eb0ff1cb48021ba9f7cc8f9dd4 \
-                    sha1    50bc017651e6797ed537d1bb19f036abfb9cedf0 \
                     rmd160  ab7d5fda14d4710bfae43a39bc5df307f6ec1fca \
+                    sha256  cc78a94ef6958d1529c160256e493037a80806f74ab88ff7396cd5d640ebd7d6 \
                     texlive-lang-cjk-23118-doc.tar.xz \
-                    md5     370592e228801d1e8ee88169248a2c4a \
-                    sha1    da45b4ef867261bf491e0c27397388816433942d \
                     rmd160  ec0df02d9702b40d330aaee3311c4edc50500093 \
+                    sha256  2ecd7f1d8d4f1ab876f2409ac59e7ada5bcc15d772c946380fc94a15b637adca \
                     texlive-lang-cjk-23118-src.tar.xz \
-                    md5     231f74c3f4e30d9491de1a19852d4a89 \
-                    sha1    6c4d3beadecba75bdc0abb765815d0d4d9fadc46 \
-                    rmd160  df4c5293cac5a4b98b6f9e65f35bb4f5350fee4f
+                    rmd160  df4c5293cac5a4b98b6f9e65f35bb4f5350fee4f \
+                    sha256  9a442e4ae757ac2a9d2f808b4a5dca4a7db2c736c441c3c7f7d99f99f0cddf94
 
 depends_lib         port:texlive-basic port:texlive-documentation-chinese
 

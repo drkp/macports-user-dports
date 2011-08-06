@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Japanese documentation
 long_description    Japanese documentation
 
 checksums           texlive-documentation-japanese-15878-run.tar.xz \
-                    md5     abe7c898b0d4cdf4e903aaf5b99cee86 \
-                    sha1    dafdbd6f0c16b79b17c6dc0d812edad0ea908db3 \
                     rmd160  701a7403cbbcf05ab6d494ee7083e710cc061325 \
+                    sha256  69054f315a92cec439366a44da3cdfa3849f9624a61d5c8fc2fd6ac9ca24d458 \
                     texlive-documentation-japanese-15878-doc.tar.xz \
-                    md5     2e2e5adac73169b7f86c331ad263bc47 \
-                    sha1    b7eac86039781a2c6fcc157dbde28f39d57b0c41 \
                     rmd160  abef51d6b49b51a059a7b506f6c5f0b81c0eb298 \
+                    sha256  9378545e15c15f6766d9770853712840dcabb3f9164cee1b2eaf1721bc7a1396 \
                     texlive-documentation-japanese-15878-src.tar.xz \
-                    md5     11c79229aacc5bdefd5571eb70537856 \
-                    sha1    8071215172cfb234ff4016818fc94d3024e2cc16 \
-                    rmd160  02d1344509b5b61245d298ebe713ba72a273ad0d
+                    rmd160  02d1344509b5b61245d298ebe713ba72a273ad0d \
+                    sha256  51155e7c32a55bab45e4dd22daa0a0b2db68e509ecff8eb95eb7e656121b8dc1
 
 depends_lib         port:texlive-documentation-base
 

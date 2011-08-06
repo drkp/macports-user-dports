@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Essential programs and files
 long_description    These files are regarded as basic for any TeX system, covering plain TeX macros, Computer Modern fonts, and configuration for common drivers\; no LaTeX.
 
 checksums           texlive-basic-23152-run.tar.xz \
-                    md5     b076a5628cc7816a0c427663428e7f68 \
-                    sha1    0095bf9a28f4e04572ad031439617c565d0f2e74 \
                     rmd160  35a2e3a1d67b4449160e57f84bed4f4ea9234d65 \
+                    sha256  85513f4d008745fd775432b83bdce1f6ff6d5e9635abc828ea4fce96580f5343 \
                     texlive-basic-23152-doc.tar.xz \
-                    md5     ad9016ca3cea9218e25aa8086f3a4232 \
-                    sha1    45bc5f2bc067724b9a273ab04577093b92e72992 \
                     rmd160  411661df8a10de65d707d8aa34fbd15265d295d4 \
+                    sha256  d6cd2b4601d103e0571e66dff2cc1f4e5d4be68706afb6aa20fb644e4cf96771 \
                     texlive-basic-23152-src.tar.xz \
-                    md5     135e20251bb54a958cd2cf321de55df0 \
-                    sha1    2d2208c5343c1c38049af2dcbe976b13711e6cb9 \
-                    rmd160  3782446c6f25b6521215f19ce353ba5489861789
+                    rmd160  3782446c6f25b6521215f19ce353ba5489861789 \
+                    sha256  735a967f189fe7e0a8b64df723e1b8c06d4507c369fba8e431b48116f7b53bd7
 
 depends_lib         port:texlive-documentation-base
 

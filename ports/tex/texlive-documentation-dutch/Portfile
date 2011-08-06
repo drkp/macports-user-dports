@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Dutch documentation
 long_description    Dutch documentation
 
 checksums           texlive-documentation-dutch-15878-run.tar.xz \
-                    md5     7641bd6077daf42aab769a61b25bf07d \
-                    sha1    324a41d7450fc31ee6f018fa904554eff485a679 \
                     rmd160  13d1160625dbd2e06e8e0a1d862d0864b6ab5def \
+                    sha256  91f343e3424bd0f7281d776e4277f41111bca2c44e2cd9fd83ee79f45f93f518 \
                     texlive-documentation-dutch-15878-doc.tar.xz \
-                    md5     be249da6aebfe5fbf81f99eabb24f7e7 \
-                    sha1    5eeafb9f86f4db3adc15dc23f1ceae60272e3bd2 \
                     rmd160  596b8546a0f24b3948d92afbc96c2db5ce8ba635 \
+                    sha256  2fce4d6a7ef7ce484e46a3d6c8f948a9454fe05e873b50e1ba0702521b562052 \
                     texlive-documentation-dutch-15878-src.tar.xz \
-                    md5     dcedf1c21db5259893567c46be150b9a \
-                    sha1    34b1d33980937a17ef35ca47d584b356b5014a7f \
-                    rmd160  067eb82e1c7a731f07d604b60c21c61a74f9c47e
+                    rmd160  067eb82e1c7a731f07d604b60c21c61a74f9c47e \
+                    sha256  ecc318f5b2c50589b70356104a51f2ae31d97136e1c5d7b62b9f9513a5921287
 
 depends_lib         port:texlive-documentation-base
 

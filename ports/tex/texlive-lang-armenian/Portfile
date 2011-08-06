@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Armenian
 long_description    Support for typesetting Armenian.
 
 checksums           texlive-lang-armenian-20529-run.tar.xz \
-                    md5     7b5b57d0999f195951a07377db0ed01a \
-                    sha1    4d7baf854a67dddebf0f10fe1a77df250ba8aaf1 \
                     rmd160  244045f0b5eb4cbee542cdaa758a464f1ae27323 \
+                    sha256  200116ab13aac4dd9a9b113aa5ef6dc600d1c0c7ebf3ac3646ea765809d7af76 \
                     texlive-lang-armenian-20529-doc.tar.xz \
-                    md5     3c5859689139fc440a029d9af9fab7a6 \
-                    sha1    6c43dae6323d7fbaae37a24af0060e9014424827 \
                     rmd160  6206014502f6962d5fde83560be72bf966b966de \
+                    sha256  3b1b528e599d3cfb7ddbbf05d9b825402792f33e7a86f64929188cf0c3099183 \
                     texlive-lang-armenian-20529-src.tar.xz \
-                    md5     bae2e68248bd67da288ab182f3fa50be \
-                    sha1    46bc45108178f197200d5ba1c488aa0c917cd80e \
-                    rmd160  d40dbceb55cbfa9532adca3ec99130cb6b60cc6a
+                    rmd160  d40dbceb55cbfa9532adca3ec99130cb6b60cc6a \
+                    sha256  56e036e9decc0677d4ca0eaa7c98d3de4b571d5a2bfd64978b0069f33d68829b
 
 depends_lib         port:texlive-basic
 

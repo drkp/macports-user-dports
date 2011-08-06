@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Games typesetting
 long_description    Setups for typesetting various games, including chess.
 
 checksums           texlive-games-20619-run.tar.xz \
-                    md5     1d1cd37058a24b0a222b04c0aa907a62 \
-                    sha1    b12ca18dea402744ef1f341e0d277c10b1f0cf7f \
                     rmd160  886c1e8664e138645d04ebeb269f057911b951ad \
+                    sha256  4a26b7e5ec7f0a1cbe837b4276f54a150a30f20bdcbe4cc2fad92d11e03b0cc6 \
                     texlive-games-20619-doc.tar.xz \
-                    md5     91fb5d18321e4b04f61d91b439af5ed4 \
-                    sha1    142ba710638d30091744b67da305c9071c4c814f \
                     rmd160  239105bb41a921bbadd46455fb53cf833f34afe8 \
+                    sha256  b6dde88f83b8dc002a76867683764db5708a8d8b11368c0a132bd41796ac345b \
                     texlive-games-20619-src.tar.xz \
-                    md5     e4a2ef65a7f5b03dd9d7192322fd8459 \
-                    sha1    50c5fdb96ce0c23e8c3a28cc6046c7b2d3e78f02 \
-                    rmd160  b65eca39c287547962e3bca4c481cdd0e4c54db5
+                    rmd160  b65eca39c287547962e3bca4c481cdd0e4c54db5 \
+                    sha256  2063c5c397e953721f9ebdf3b863a168c64411bf9f4f505f090c56314f9febee
 
 depends_lib         port:texlive-latex
 

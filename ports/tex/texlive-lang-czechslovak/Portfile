@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Czech/Slovak
 long_description    Support for typesetting Czech/Slovak.
 
 checksums           texlive-lang-czechslovak-23092-run.tar.xz \
-                    md5     fa8eb98fb835fc6c38c6ef919b2e37c5 \
-                    sha1    a69d339aaccd1b16f2851b8b0de8661235aaac4b \
                     rmd160  10a1ea77ef70d4b5c91f8102b941f4eeebf0994d \
+                    sha256  2002b803387649f2139913d065e01de8689d262b41997de2ed098f46e7cc16fd \
                     texlive-lang-czechslovak-23092-doc.tar.xz \
-                    md5     0c81f8955b8d4c024278094c68f86567 \
-                    sha1    e1739e286ef929b2ecbc5f081b00f337bc8c41b9 \
                     rmd160  b6af35dba58142382ee19a2daccbf1fce5428f90 \
+                    sha256  3852acea24419dc737d052709d99f6407199166a9a4795d47eeb2ca5974a5aae \
                     texlive-lang-czechslovak-23092-src.tar.xz \
-                    md5     621ffc6d17c0a1ab352054db472842b5 \
-                    sha1    a712d540f59ab9aa6d8c13f1a0934663ebc1cd26 \
-                    rmd160  29d1a7cda7970a4b5f9264cfb679fee0fe4d76f2
+                    rmd160  29d1a7cda7970a4b5f9264cfb679fee0fe4d76f2 \
+                    sha256  83c56e853137ecc469bfdc4553813851c955bcde46e90d850bd89200d81ed87c
 
 depends_lib         port:texlive-basic port:texlive-latex
 

@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Mongolian
 long_description    Support for typesetting Mongolian.
 
 checksums           texlive-lang-mongolian-23092-run.tar.xz \
-                    md5     78881e51747bcbe09a05c809278b70a0 \
-                    sha1    03e09817db073add591b715fbc0644f0f084fff7 \
                     rmd160  3fb8ab24f4dc1d1349dde8f310eec810a8083bbd \
+                    sha256  e01850056d23ac796ab253b4ec1ddcb0de9125a43d2af98ae6fb39b577697208 \
                     texlive-lang-mongolian-23092-doc.tar.xz \
-                    md5     86812a384726a3e6f7ef2dcbf923e521 \
-                    sha1    dd9499e46d06b6a602eb86a18ebcc949b8a52b0e \
                     rmd160  e5e2ed626ce2e9b8dff5ed1ddcaefdde9bcde324 \
+                    sha256  ccabfe742f652cf86e373321e7adf987c3ed5b88df1246b6634d6138eff1f8fd \
                     texlive-lang-mongolian-23092-src.tar.xz \
-                    md5     36f2d354d41958946c6ef2bbccf72613 \
-                    sha1    1730d9798eb706c55cb642b1c5e6caad808010c4 \
-                    rmd160  0e7e2b0dcaa1b5247b73ed9d8e38a717476db40e
+                    rmd160  0e7e2b0dcaa1b5247b73ed9d8e38a717476db40e \
+                    sha256  d64c45527e9f31b8b5461a4c62deca88dd9358e9c2fc0e241c60d6e0990b46c9
 
 depends_lib         port:texlive-basic
 

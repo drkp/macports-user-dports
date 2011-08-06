@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Italian
 long_description    Support for typesetting Italian.
 
 checksums           texlive-lang-italian-23092-run.tar.xz \
-                    md5     da9a6eef84227d9f54e92c56e54bb096 \
-                    sha1    52af589a8abd8b78ad16c6dec89be14109d02e9c \
                     rmd160  3c3e1f8beecc3f190eb9f32f1a7c331ee9430281 \
+                    sha256  83c6c51738c35bf6e9315fe3c62c5f8fb38b218663c1f4ecb505caf49f1eb4f2 \
                     texlive-lang-italian-23092-doc.tar.xz \
-                    md5     1142daa3f38708e553572f318f6d1f9c \
-                    sha1    59b88d73162754a7bbe797a32c7aeb0529911afa \
                     rmd160  84ab8ae584698ecc2ce8c9d672cd35f859d569fa \
+                    sha256  edea8dfe46a208591921c6ef279e9da5ade1b4b400fed81c781f85d789d53f06 \
                     texlive-lang-italian-23092-src.tar.xz \
-                    md5     13d1f2370cd782f9d50e1864a2fffcf6 \
-                    sha1    b131fec6ce96f4232ca49c78e305369b68f3e3df \
-                    rmd160  a2716828a2165363ccc9c9662f115e977cc66997
+                    rmd160  a2716828a2165363ccc9c9662f115e977cc66997 \
+                    sha256  7b353b52441d995b0dabcd65844eb54fd42e788b7c3dc3c5e8217c1443e116ea
 
 depends_lib         port:texlive-basic
 

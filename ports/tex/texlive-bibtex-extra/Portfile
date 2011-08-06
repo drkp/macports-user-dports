@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Extra BibTeX styles
 long_description    Additional BibTeX styles and bibliography databases, including BibLaTeX.
 
 checksums           texlive-bibtex-extra-23155-run.tar.xz \
-                    md5     03d2156f2006f4f1ec29e6a1d51cafb1 \
-                    sha1    610efef5996e525461f49e379b7901bea88847c1 \
                     rmd160  99b235c23005c075a0b860d2521c4da3c2b5a1b1 \
+                    sha256  a58d796fa2c5ecd8378eb7d7e3d808fc43ff7bdff437c659e9cd4785baebe6c4 \
                     texlive-bibtex-extra-23155-doc.tar.xz \
-                    md5     f46e4dae6ae5635822e0061c191a7544 \
-                    sha1    b6e170335d9be3b43c6f98d4c5cccc2c594463e6 \
                     rmd160  8bf2ff09073f6d60ad7cec537ab314f1a6c1062a \
+                    sha256  542f14cc7df8e704b51d5a3b115ee4bdc28aee3b766dc9c9197db76e0e270516 \
                     texlive-bibtex-extra-23155-src.tar.xz \
-                    md5     91fee2857093c4f81175ac7e70538a7d \
-                    sha1    4098b271fe49f48d99eb62a450a08450e3a43097 \
-                    rmd160  f3674bdd9a9ae9e5996fc32da74e12bc9467c12c
+                    rmd160  f3674bdd9a9ae9e5996fc32da74e12bc9467c12c \
+                    sha256  2a216c3df04287dd262350e8369b5688ab28f68d73b974e115cec6c047797ebf
 
 depends_lib         port:texlive-latex
 

@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: LaTeX recommended packages
 long_description    A collection of recommended add-on packages for LaTeX which have widespread use
 
 checksums           texlive-latex-recommended-23089-run.tar.xz \
-                    md5     22fa5fb1dda1d41e39f2b2b708e29424 \
-                    sha1    2682380e90b96d338588e703943b97a6deded85b \
                     rmd160  a0b358beef2215c1bc8798108e1793200691b6dc \
+                    sha256  fb025e0714a7c49bfea02a9768cd608ecd961cd647864e098ce34ee7f1b3aed9 \
                     texlive-latex-recommended-23089-doc.tar.xz \
-                    md5     6997bac6135d98ef6b49413254f95bf0 \
-                    sha1    cfdcaa4826da13de0727319bd3e2423781a2a595 \
                     rmd160  3f7ddfb5b93d57b3f8d9a2582df4954f9fae2ea6 \
+                    sha256  73ee420d11d69f0ad8f57d12712d0fd3dc990a57747c352632c5f89bd9d9f514 \
                     texlive-latex-recommended-23089-src.tar.xz \
-                    md5     33f5f54c730d67840c788a7cf6848f1a \
-                    sha1    bed7925e910c4ef7aad179fc6ef3f5984a093c0d \
-                    rmd160  445211c9a747ef7803884b371bbfd38ee4ec929e
+                    rmd160  445211c9a747ef7803884b371bbfd38ee4ec929e \
+                    sha256  6a885413f09ab12bd0d769d744c67dd959442aec0860241f53fc2642c9c96d00
 
 depends_lib         port:texlive-latex
 

@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Norwegian
 long_description    Support for typesetting Norwegian.
 
 checksums           texlive-lang-norwegian-23085-run.tar.xz \
-                    md5     418d9a6cd0764e39ad66acb211cb461a \
-                    sha1    a6316a2980424fa6e36872ec3bff2302d3461e72 \
                     rmd160  2ee2b185a4a7747841d1359dab328b3a47b63b5d \
+                    sha256  4122e1c3dcaf466b3aff36a92011cb017b40709bac7d96074b1a2c68d4c83cfe \
                     texlive-lang-norwegian-23085-doc.tar.xz \
-                    md5     ea61306713bbb2895af1c6da956dbc8f \
-                    sha1    2dc6d4324340f9fddc6b47d58ae91709e009457e \
                     rmd160  ecb14623166d2a96dad421242e4e09bdddce7e8e \
+                    sha256  dff4e901b053e574e29b844a7a8bdf56fb8d9e307a3860da052613a613613d4f \
                     texlive-lang-norwegian-23085-src.tar.xz \
-                    md5     a609532656306f1b199e8f860d09937f \
-                    sha1    63529efe12b1b917ca4f2d17b9aecc5d837cf20e \
-                    rmd160  e8b86608c9577282692be2ce95ca3150355f8108
+                    rmd160  e8b86608c9577282692be2ce95ca3150355f8108 \
+                    sha256  6ee57a066dc7f71538ea82433d0b552945ccc7bd29f5ac7811ec0efff859730e
 
 depends_lib         port:texlive-basic
 

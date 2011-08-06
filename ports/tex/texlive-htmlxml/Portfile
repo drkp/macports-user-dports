@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: HTML/SGML/XML support
 long_description    Packages to convert LaTeX to XML/HTML, and typset XML/SGML
 
 checksums           texlive-htmlxml-23080-run.tar.xz \
-                    md5     0dfc3522f639adb8d8b0c278ef446fa8 \
-                    sha1    b789744635a72d77203315c904deb1ffad96a0f0 \
                     rmd160  64a96528070c3de6d88fdae1cdebc80ddcd37435 \
+                    sha256  77b94310825eb3944da4b38223e6233b426793ff892e36ad7deb008ca6726f45 \
                     texlive-htmlxml-23080-doc.tar.xz \
-                    md5     c61c8b0b338c6bc316771171be84a52e \
-                    sha1    a58596366493f028a9e74001ded60cc9563fd409 \
                     rmd160  8f0e9f77af1eb073a0c0e43d28f1f56662b867ec \
+                    sha256  2013f46b370674753ddc9327269ce628c6a9b63a4cac4fdc22f0eda9e5ab8377 \
                     texlive-htmlxml-23080-src.tar.xz \
-                    md5     43665584c1bd880e8f17e7ee707dcc65 \
-                    sha1    8069d9d7449dab71e9395d0125be82a9413d9e7d \
-                    rmd160  a0bd5894712f3171db9a67f20e28e5c0a1790619
+                    rmd160  a0bd5894712f3171db9a67f20e28e5c0a1790619 \
+                    sha256  cac8335cc2469f9ee9235dadc226a86bf42f427046f7f01f85af8269e235128a
 
 depends_lib         port:texlive-basic port:texlive-fonts-recommended port:texlive-latex
 

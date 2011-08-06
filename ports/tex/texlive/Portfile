@@ -24,6 +24,16 @@ homepage        http://www.tug.org/texlive/
 platforms       darwin
 supported_archs noarch
 
+# TeX Live consists of thousands of individual CTAN packages with
+# different licenses -- usually some combination of the GPL, LaTeX
+# Project Public License, or plain old public domain -- but all of
+# them should be redistributable in source or binary form, which is
+# what we care about. See http://www.tug.org/texlive/LICENSE.TL
+#
+# (Actually, *this* port is just a metaport and doesn't install
+# anything.)
+license         Permissive
+
 distfiles
 use_configure   no
 build           {}

@@ -10,21 +10,19 @@ revision            0
 
 categories          tex
 maintainers         dports
+license             Permissive
 description         TeX Live: Danish
 long_description    Support for typesetting Danish.
 
 checksums           texlive-lang-danish-23085-run.tar.xz \
-                    md5     acce0e05f45de4a4154371c17e068516 \
-                    sha1    617b55ff31d76ef0266629577ceda31a3c315565 \
                     rmd160  533579eefb32b9bb69b8d2386b59f25bd224731e \
+                    sha256  47e00ee136bfa9c4fd066a6660266dc626d25b75c613feefd36e932039d14c52 \
                     texlive-lang-danish-23085-doc.tar.xz \
-                    md5     99ca821e3cdec16afabd80b5a27532fd \
-                    sha1    fa51e893fbf44e261e550e2a59a241a41e96040e \
                     rmd160  06707614b36f142a579efd1d0cca3b25084b200a \
+                    sha256  b5fce68c2a01150137797f3c014b554ba00e9ec18d2efdf13dd67d2f6b212f8d \
                     texlive-lang-danish-23085-src.tar.xz \
-                    md5     9669d5957cdc769e0a7e034a616b3ebf \
-                    sha1    c3677e4213e69f9355384c302d08a6b66ca2c3bf \
-                    rmd160  4a27acd5550d06ce8f61f0837c7a4219f4d46485
+                    rmd160  4a27acd5550d06ce8f61f0837c7a4219f4d46485 \
+                    sha256  388519888158523ee701ada5c5dfdb52e0f7e57ca9fea19d6ec74e1deec36619
 
 depends_lib         port:texlive-basic
 
