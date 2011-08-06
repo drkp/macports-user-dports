@@ -199,7 +199,7 @@ pre-activate {
 
     if { [file exists ${texlive_texmfmain}/scripts/tetex/updmap.pl]
          && ![catch {set vers [lindex [registry_active texlive-basic] 0]}]
-         && [rpm-vercomp [lindex $vers 1] 2011] < 0} {
+         && [rpm-vercomp [lindex $vers 1] 23152] < 0} {
         set deactivate_proc registry_deactivate_composite
         if {[info commands registry_deactivate_composite] == {}} {
             set deactivate_proc registry_deactivate
@@ -223,12 +223,12 @@ if {![variant_isset "atsui"]} {
 
 variant x11 conflicts no_x11 description {Build with x11 support, using Xaw widgets for xdvi} {
     depends_lib-append port:xorg-libXp
-    configure.args-delete --without-x --without-pdfopen    
+    configure.args-delete --without-x --without-pdfopen
     depends_lib-append port:xorg-libXaw
     configure.args-append --with-xdvi-x-toolkit=xaw
 }
 
-variant motif conflicts no_x11 xaw xaw3d nextaw description {Use Motif to build xdvi} {
+variant motif requires x11 description {Use Motif to build xdvi} {
     depends_lib-delete port:xorg-libXaw
     configure.args-delete --with-xdvi-x-toolkit=xaw
     depends_lib-append lib:libXm:openmotif
