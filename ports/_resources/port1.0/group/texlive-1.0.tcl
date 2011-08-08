@@ -157,7 +157,7 @@ proc texlive.texmfport {} {
     
     supported_archs noarch 
     
-    master_sites    http://flute.csail.mit.edu/texlive/test/
+    master_sites    http://flute.csail.mit.edu/texlive/
     use_xz          yes
 
     global name master_sites distname extract.suffix
