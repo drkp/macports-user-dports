@@ -222,8 +222,16 @@ post-activate {
 }
 
 variant atsui description {Use ATSUI instead of freetype for XeTeX font rendering (forces 32-bit)} {
-    # force 32-bit build
+    # ATSUI is a deprecated interface, not available on 64-bit archs,
+    # so force 32-bit build
     supported_archs i386 ppc
+
+    # ...and on 10.7 and above, enough of the APIs are broken that we
+    # can't build xdv2pdf, and need to use a hack to make xetex build
+    if {${os.platform} == "darwin" && ${os.major} >= 11} {
+        configure.args-append --disable-xdv2pdf
+        patchfiles-append patch-texk_web2c_xetexdir_XeTeX_ext.h.diff
+    }
 }
 
 if {![variant_isset "atsui"]} {
