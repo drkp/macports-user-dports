@@ -5,8 +5,7 @@ PortSystem      1.0
 PortGroup       texlive 1.0
 
 name            texlive-bin
-version         2011
-revision        5
+version         2012
 
 categories      tex
 maintainers     dports
@@ -30,13 +29,14 @@ license         Copyleft Permissive LGPL-2.1+ BSD
 # download time, it omits a number of libraries and utilities that we
 # don't build. However, the port should still work with an unmodified
 # texlive distfile.
-master_sites    http://flute.csail.mit.edu/texlive/
-set distversion 20110705
-distname        texlive-${distversion}-source-stripped
+master_sites    http://flute.csail.mit.edu/texlive/test
+set distversion 20120530.26733
+distname        texlive-${distversion}-source
 worksrcdir      ${distname}
 use_xz          yes
-checksums       rmd160 00949298eff3b301025c5a587fe5d93becbfe227 \
-                sha256 996079f1def51553933cf40ef156cbc6bdc0a68aed738ebc23acfb0024ffaeb8
+
+checksums       rmd160  f5c73c3db1ac433f809c9747843fed68ee95b3ca \
+                sha256  b6d23d62bf21e8a5236bbbd31138826d0371926b29b24a77f54aaf71dcc1f7f8
 
 depends_lib     port:fontconfig \
                 port:freetype \
@@ -53,29 +53,18 @@ depends_run     port:ghostscript
 depends_build   path:bin/perl:perl5 \
                 path:bin/pkg-config:pkgconfig
 
-# fixes backported from the 2011 branch
-patchfiles-append   patch-r23716-synctex-fix.diff \
-                    patch-r23740-enctex-xetex-segfault.diff \
-                    patch-r24159-file-line-error.diff
+# # eliminate updmap.pl's dependency on TLUtils.pm
+# patchfiles-append   patch-texk_tetex_updmap.pl.diff
 
-# poppler 1.8 compatibility fix backported from trunk
-patchfiles-append   patch-r24218-luatex-poppler-1.8-compat.diff
+# # fix xdvipdfmx/freetype dfont issue (#30745)
+# patchfiles-append   patch-texk_xdvipdfmx_src_cidtype2.c.diff
 
-# eliminate updmap.pl's dependency on TLUtils.pm
-patchfiles-append   patch-texk_tetex_updmap.pl.diff
+# # fix for clang compatibility
+# patchfiles-append   patch-texk_ps2pkm_type1.c.diff
 
-# fix xdvipdfmx/freetype dfont issue (#30745)
-patchfiles-append   patch-texk_xdvipdfmx_src_cidtype2.c.diff
-
-# fix for clang compatibility
-patchfiles-append   patch-texk_ps2pkm_type1.c.diff
-
-# make luatex less sensitive to zlib version changes
-# (cf. http://bugs.debian.org/581818)
-patchfiles-append   patch-texk_web2c_luatexdir_luazlib_lzlib.c.diff
-
-# fix xetex format loading error w/ zlib 1.2.6 (#33164; fixed upstream)
-patchfiles-append   patch-texk_web2c_xetexdir_xetex.ch.diff                    
+# # make luatex less sensitive to zlib version changes
+# # (cf. http://bugs.debian.org/581818)
+# patchfiles-append   patch-texk_web2c_luatexdir_luazlib_lzlib.c.diff
 
 # patches related to changes in install paths
 patchfiles-append   patch-texk_kpathsea_Makefile.in.diff \
@@ -87,13 +76,13 @@ patchfiles-append   patch-texk_kpathsea_Makefile.in.diff \
                     patch-texk_xdvik_xdvi-sh.in.diff \
                     patch-utils_chktex_Makefile.in.diff
 
-# fixes for makefile brokenness not otherwise specified
-patchfiles-append   patch-configure.diff \
-                    patch-libs-freetype-Makefile.in.diff \
-                    patch-libs_icu_Makefile.in.diff \
-                    patch-libs_icu_icu-4.6_configure.diff \
-                    patch-libs_icu_icu-4.6_tools_icuinfo_Makefile.in.diff \
-                    patch-texk_ptexenc_Makefile.in.diff
+# # fixes for makefile brokenness not otherwise specified
+# patchfiles-append   patch-configure.diff \
+#                     patch-libs-freetype-Makefile.in.diff \
+#                     patch-libs_icu_Makefile.in.diff \
+#                     patch-libs_icu_icu-4.6_configure.diff \
+#                     patch-libs_icu_icu-4.6_tools_icuinfo_Makefile.in.diff \
+#                     patch-texk_ptexenc_Makefile.in.diff
 
 post-patch {
     reinplace "s|@@TEXMFMAIN@@|${texlive_texmfmain}|" ${worksrcpath}/texk/tetex/Makefile.in
@@ -184,7 +173,9 @@ configure.args  --bindir=${texlive_bindir} \
                 --disable-texinfo \
                 --disable-xindy \
                 --without-x \
-                --without-pdfopen
+                --without-pdfopen \
+                --enable-build-in-source-tree
+
 
 configure.cppflags-delete   -I${prefix}/include
 configure.ldflags-delete    -L${prefix}/lib
