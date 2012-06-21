@@ -192,12 +192,15 @@ pre-build {
 
 post-destroot   {
     # texmf and texmf-dist will be installed by other texlive ports
-    delete ${destroot}${prefix}/texmf
-    delete ${destroot}${prefix}/texmf-dist
+    delete ${destroot}${prefix}/share/texmf
+    delete ${destroot}${prefix}/share/texmf-dist
+    delete ${destroot}${texlive_texmfdist}
 
-    # Do not install symlinks to scripts that we will not install
+    # Do not install scripts we do not want, or symlinks to scripts that
+    # we don't install
+    delete ${destroot}${texlive_texmfmain}/scripts/texlive/tlmgr.pl
     delete ${destroot}${texlive_bindir}/latexmk
-    delete ${destroot}${texlive_bindir}/tlmgr
+    delete ${destroot}${texlive_bindir}/tlmgr    
 
     # Do not install the pre-generated fmtutil.cnf; we generate our own
     delete ${destroot}${texlive_texmfmain}/web2c/fmtutil.cnf
