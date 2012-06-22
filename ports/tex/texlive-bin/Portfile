@@ -31,12 +31,19 @@ license         Copyleft Permissive LGPL-2.1+ BSD
 # texlive distfile.
 master_sites    http://flute.csail.mit.edu/texlive/test
 set distversion 20120530.26733
+use_xz          yes
 distname        texlive-${distversion}-source
 worksrcdir      ${distname}
-use_xz          yes
 
-checksums       rmd160  f5c73c3db1ac433f809c9747843fed68ee95b3ca \
-                sha256  b6d23d62bf21e8a5236bbbd31138826d0371926b29b24a77f54aaf71dcc1f7f8
+set tlpkgdistname   tlpkg-TeXLive-${distversion}
+distfiles-append    ${tlpkgdistname}${extract.suffix}
+
+checksums       texlive-20120530.26733-source.tar.xz \
+                rmd160  f5c73c3db1ac433f809c9747843fed68ee95b3ca \
+                sha256  b6d23d62bf21e8a5236bbbd31138826d0371926b29b24a77f54aaf71dcc1f7f8 \
+                tlpkg-TeXLive-20120530.26733.tar.xz \
+                rmd160  e0d917c6e9891046a85cf03fcb223b639bbb2a13 \
+                sha256  487549a4230f72d80a4e45c3c4f275f7bd6e081360e4e7a38252bdbe54fab6a8
 
 depends_lib     port:fontconfig \
                 port:freetype \
@@ -52,9 +59,6 @@ depends_run     port:ghostscript
 
 depends_build   path:bin/perl:perl5 \
                 path:bin/pkg-config:pkgconfig
-
-# # eliminate updmap.pl's dependency on TLUtils.pm
-# patchfiles-append   patch-texk_tetex_updmap.pl.diff
 
 # # fix xdvipdfmx/freetype dfont issue (#30745)
 # patchfiles-append   patch-texk_xdvipdfmx_src_cidtype2.c.diff
@@ -204,6 +208,9 @@ post-destroot   {
 
     # Do not install the pre-generated fmtutil.cnf; we generate our own
     delete ${destroot}${texlive_texmfmain}/web2c/fmtutil.cnf
+
+    # install the tlpkg/TeXLive perl module
+    copy ${workpath}/${tlpkgdistname} ${destroot}${prefix}/share/tlpkg
 
     # gzip manpages that are installed into texlive_bindir
     foreach manpage [glob -directory ${destroot}${texlive_bindir} man*/*] {
