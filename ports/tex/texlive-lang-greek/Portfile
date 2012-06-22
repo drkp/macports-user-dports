@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-greek
-version             23092
+version             26313
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Greek
 long_description    Support for typesetting Greek.
 
-checksums           texlive-lang-greek-23092-run.tar.xz \
-                    rmd160  3fe661c75ff4f962b703a39bc39aa1408acef871 \
-                    sha256  bea7168edafe5142b732f0c227f425249e43127d0912410f14c6cb698e43ab9d \
-                    texlive-lang-greek-23092-doc.tar.xz \
-                    rmd160  fd356a7060cde42c6593a003bbd54564012198b3 \
-                    sha256  5a25334f9ad25284e409a438d845ed93cf7519c70842330e773f3648e5644653 \
-                    texlive-lang-greek-23092-src.tar.xz \
-                    rmd160  efd4c1d4b2fe296035b49888887cc3a407236fa5 \
-                    sha256  f76384e1776373b0d329ea70bac2ad93f4f93369b8f1e3a130add94bda6b751b
+checksums           texlive-lang-greek-26313-run.tar.xz \
+                    rmd160  9b8fd4297ba589a0e20804ae331919e34765e3ff \
+                    sha256  07653250c49d2dedf47f328f220e7043aef62ab11fc488fbffe9b182b30ad4d1 \
+                    texlive-lang-greek-26313-doc.tar.xz \
+                    rmd160  e76fd5409e314f0c46a30eeca7441cf7acf9c72c \
+                    sha256  59e0dcd938a98c948373cb2e5ec19e3ed032dbd569cfbff44928b483f82b08d4 \
+                    texlive-lang-greek-26313-src.tar.xz \
+                    rmd160  bc8238f7903e45c0c368493107fb76af31b1294d \
+                    sha256  a108d933c321b6f91b10d6c5020caabf5846f46a38cd4311c1482fc0fe912bb7
 
 depends_lib         port:texlive-basic
 

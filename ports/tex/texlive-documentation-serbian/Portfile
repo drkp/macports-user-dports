@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-serbian
-version             23026
+version             26818
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Serbian documentation
 long_description    Serbian documentation
 
-checksums           texlive-documentation-serbian-23026-run.tar.xz \
-                    rmd160  c1dae530adae3efe1ad92ee0d6fb5d1a85798797 \
-                    sha256  f9470a4af9b8323415f78c86abc8ae88692c80dfffb5ea2a9e48dd80fd665877 \
-                    texlive-documentation-serbian-23026-doc.tar.xz \
-                    rmd160  ca113ffa93f38b1ecd5c0575a120c737245153f6 \
-                    sha256  08bdd31ba1faea87b48c81f0cdc16e01394336f4f607cd4ae23e89b1b82fcb05 \
-                    texlive-documentation-serbian-23026-src.tar.xz \
-                    rmd160  1375210297b18f306c3ee737290b51078a08b2e9 \
-                    sha256  505b79ac75fbcc28e9bc23d378b5e4225bd75112de686c4b1cc1948448940788
+checksums           texlive-documentation-serbian-26818-run.tar.xz \
+                    rmd160  d9e4d1451f3202e8aab80b9c4e9b58cdff06ee28 \
+                    sha256  50c123013cbb4385045526f8017e04d07c77cc92c53d835825b81fb74b02d7d2 \
+                    texlive-documentation-serbian-26818-doc.tar.xz \
+                    rmd160  921bdb9d3583b12b21e9efbe1e45101ed4ca4e5f \
+                    sha256  deedb88b9487a83b23d0469915ad8b44387773c8c112183966893b3b78dfdf7c \
+                    texlive-documentation-serbian-26818-src.tar.xz \
+                    rmd160  d7b67a7be31d11231d7d47014e11b82b457ab88d \
+                    sha256  96d83a35486a83f564fc8c344d5f3c72fcf670fc63f505da602ad208c16c8810
 
 depends_lib         port:texlive-documentation-base
 

@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-latin
-version             23092
+version             25990
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Latin
 long_description    Support for typesetting Latin.
 
-checksums           texlive-lang-latin-23092-run.tar.xz \
-                    rmd160  9da385dd869fed57ebeb4a3089787c844b14c0c3 \
-                    sha256  8e71c6fc2868b3409643cffe31924f79d23786cf7c675fe6aaa8663a0b1d8260 \
-                    texlive-lang-latin-23092-doc.tar.xz \
-                    rmd160  29d3310239e14baaf576b652606081d091bb3c46 \
-                    sha256  f7735f625ac375cb048aee8caee26baa2e34412598a30ce44e3963855c234726 \
-                    texlive-lang-latin-23092-src.tar.xz \
-                    rmd160  461da008d6897baeb6fbed746f527cc58095f7b9 \
-                    sha256  95f59df2c5ceecd62f98256171fd261675691cfb94c65b0cb731c112c80f080a
+checksums           texlive-lang-latin-25990-run.tar.xz \
+                    rmd160  45274b1cff0d4782efc8755b3ba15e065ed49571 \
+                    sha256  8711dec88d1e2669f1e895224b16b73b63ca27fcbe0d8ceece174c758ab2671f \
+                    texlive-lang-latin-25990-doc.tar.xz \
+                    rmd160  94f6a8f5345bc2db5944cc6ca9501938506949a6 \
+                    sha256  2c297db4fc6c17fdecadf8b95aa4013cc666f9cec5b1e429040bfce506422c4e \
+                    texlive-lang-latin-25990-src.tar.xz \
+                    rmd160  9ad29b0f649f1033e83d800866f419ef1b098d6c \
+                    sha256  609266309038579a79af0479d1751a32136e9484c0f61d8e281e0a99ea1819f5
 
 depends_lib         port:texlive-basic
 

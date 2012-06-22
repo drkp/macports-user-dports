@@ -5,8 +5,8 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-fonts-extra
-version             22691
-revision            1
+version             26866
+revision            0
 
 categories          tex
 maintainers         dports
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Extra fonts
 long_description    Extra fonts
 
-checksums           texlive-fonts-extra-22691-run.tar.xz \
-                    rmd160  f1297a5c3ffc86ef24e8489f8fd4c083886dd7b4 \
-                    sha256  8bedba1faccdcc5d98ec68c938d87417f0f9673d9e9069af308d2450e5d2c001 \
-                    texlive-fonts-extra-22691-doc.tar.xz \
-                    rmd160  a669aded9438cf12b3f2c1fe49bb8d4c9b807082 \
-                    sha256  b1d9c2d76993c56550be33feacdef39c45f84bddae22137df98fcd05ff4aa7f6 \
-                    texlive-fonts-extra-22691-src.tar.xz \
-                    rmd160  411c2b42225dfbbefe8401f8786232985eef3727 \
-                    sha256  7955587207930c7092b02f985ff136deef401a0095b15a76ae9a9d4abfd95145
+checksums           texlive-fonts-extra-26866-run.tar.xz \
+                    rmd160  01d81448c6e189f84fa9cf8b236030d4d04c1cd0 \
+                    sha256  650884a72b9c049e274c4c34f5a7b8dc080ae339ea3342ffd499661e4d9cbfe7 \
+                    texlive-fonts-extra-26866-doc.tar.xz \
+                    rmd160  e31b8f8961acd5282884216ebbb0106f72757532 \
+                    sha256  8829bef7ac0a34a673ab80038c698d4912ed1391a88a7119979f5dc23d943b1b \
+                    texlive-fonts-extra-26866-src.tar.xz \
+                    rmd160  2c7b8cd3b84ec8bbf24f5576c2cb641aa423df33 \
+                    sha256  9b07b6b4d7e3331b3e82ed36fa97a6dcbb2f3698798f0898841abaadb3217fc3
 
 depends_lib         port:texlive-basic
 
@@ -36,6 +36,7 @@ texlive.maps      \
     {Map archaicprw.map} \
     {Map arev.map} \
     {Map ascii.map} \
+    {Map aspectratio.map} \
     {Map augie.map} \
     {Map auncial.map} \
     {Map aurical.map} \
@@ -47,6 +48,7 @@ texlive.maps      \
     {Map sqrcaps.map} \
     {Map boondox.map} \
     {Map pbsi.map} \
+    {Map calligra.map} \
     {Map cantarell.map} \
     {Map cmin.map} \
     {Map ccicons.map} \
@@ -54,10 +56,13 @@ texlive.maps      \
     {Map cm-lgc.map} \
     {MixedMap cmll.map} \
     {Map comfortaa.map} \
+    {Map CountriesOfEurope.map} \
     {Map cyklop.map} \
+    {Map dejavu-type1.map} \
     {Map dictsym.map} \
     {Map dstroke.map} \
     {Map droid.map} \
+    {Map dutchcal.map} \
     {Map yes.map} \
     {Map epigrafica.map} \
     {Map ESSTIX.map} \
@@ -68,6 +73,7 @@ texlive.maps      \
     {Map fonetika.map} \
     {Map fourier.map} \
     {Map fourier-utopia-expert.map} \
+    {Map frcursive.map} \
     {Map gfsartemisia.map} \
     {Map gfsbodoni.map} \
     {Map gfscomplutum.map} \
@@ -113,18 +119,23 @@ texlive.maps      \
     {Map mdbch.map} \
     {Map mdput.map} \
     {Map mdugm.map} \
+    {Map mdsymbol.map} \
     {Map MnSymbol.map} \
+    {Map ntx.map} \
     {Map cherokee.map} \
     {Map ocrb.map} \
     {Map oinuit.map} \
+    {Map opensans.map} \
+    {Map paratype-type1.map} \
     {Map phaistos.map} \
     {MixedMap pigpen.map} \
     {Map ap.map} \
     {Map prodint.map} \
-    {Map PTSans-type1.map} \
-    {Map PTSerif-type1.map} \
+    {Map pxtx.map} \
     {Map recycle.map} \
     {Map yrd.map} \
+    {Map rsfso.map} \
+    {Map sansmathaccent.map} \
     {MixedMap semaf.map} \
     {Map icelandic.map} \
     {Map starfont.map} \
@@ -135,8 +146,7 @@ texlive.maps      \
     {Map yv2.map} \
     {Map yv3.map} \
     {Map yvo.map} \
-    {Map yvt.map} \
-    {Map rsfso.map}
+    {Map yvt.map}
 
 
 texlive.texmfport

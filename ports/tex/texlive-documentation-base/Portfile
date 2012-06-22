@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-base
-version             23160
+version             26859
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: TeX Live documentation
 long_description    TeX Live documentation
 
-checksums           texlive-documentation-base-23160-run.tar.xz \
-                    rmd160  ad6df77efc8bcb1f6501c430d6bf28eba821188e \
-                    sha256  159f882d9af6997dd119352c8a46194068a97c349081d7740610a6cd897485ff \
-                    texlive-documentation-base-23160-doc.tar.xz \
-                    rmd160  619fa11dba18c707c03d2f2dd6dc50fb41b22cbc \
-                    sha256  a529461d8787ca561445cc8fca343d78c3dbccf940a80accaed162329123ba26 \
-                    texlive-documentation-base-23160-src.tar.xz \
-                    rmd160  89423d44efb7b3f617264bd8cb4ec702b9c93c1c \
-                    sha256  d7054bb320393da909a8f97c3078d1498788c4ac26e0044e9cdfd84ac864bb46
+checksums           texlive-documentation-base-26859-run.tar.xz \
+                    rmd160  b8ee50f18f413e4a646b1e85658bb3e7f49598f8 \
+                    sha256  5b9cb38544efeb2c0bf8a4af5bc9740deb731581a5c4d8f62e36f15e05b5d626 \
+                    texlive-documentation-base-26859-doc.tar.xz \
+                    rmd160  ad160727f931a0ffb4f97b910f26ebf0141477f7 \
+                    sha256  33cfc77a6b75f548048878d8a16da752623bd2d28b0e4a65fb4bc6576658ee69 \
+                    texlive-documentation-base-26859-src.tar.xz \
+                    rmd160  ccc6a09d05778f973e6874be5247adad31041571 \
+                    sha256  a8001922ec3e117cd4da9c90f567c08596092a29c199adbcc74c25cb52f34ccf
 
 texlive.exclude     doc.html
 

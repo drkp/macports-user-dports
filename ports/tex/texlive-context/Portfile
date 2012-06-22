@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-context
-version             23171
+version             26873
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: ConTeXt format
 long_description    Hans Hagen's powerful ConTeXt system, http://pragma-ade.com. Also includes third-party ConTeXt packages.
 
-checksums           texlive-context-23171-run.tar.xz \
-                    rmd160  a081f437c508e1426ac13734c422e6fed2b8fdd2 \
-                    sha256  5e2a23acbbf4f8ab5bb4e04708d6629750e7cea06dde7a70be26ecb58195cf65 \
-                    texlive-context-23171-doc.tar.xz \
-                    rmd160  686c74b439ac57ee111e85b001af958562657222 \
-                    sha256  9de13424e872ae480e3b94d797bfc25da021cadf817a52c391d9fd5cd220c684 \
-                    texlive-context-23171-src.tar.xz \
-                    rmd160  e291ec9215640768b9c40a6af433d78c43153c5d \
-                    sha256  d65b67b6683fbff49a2bf600682531666ee6cb95e8725a56f9c60cb74a0859c0
+checksums           texlive-context-26873-run.tar.xz \
+                    rmd160  0bfcfaa5f236602cd9894c203841183c5d014146 \
+                    sha256  1000fc59d181870d44b696b7cd0f822b2d8cc9c1de228c3af64b77fe537adf39 \
+                    texlive-context-26873-doc.tar.xz \
+                    rmd160  76a9afdd1a5f660f5c964dc4514ea07a6e1b1d47 \
+                    sha256  573fa25df199ee1f347196661c65e387442462c96f50732b0d0dd5221af7c470 \
+                    texlive-context-26873-src.tar.xz \
+                    rmd160  f8e666aa8a843f8855895f8400e1a268b8c5b2aa \
+                    sha256  a669f5cb4a6b43d30028cc1da4f504fd2d00519abeaf304ce32c63cc0ceac900
 
 depends_lib         port:texlive-basic
 
@@ -38,7 +38,7 @@ texlive.formats      \
 texlive.maps      \
     {Map original-context-symbol.map}
 
-texlive.binaries    context ctxtools luatools mtxrun pstopdf rlxtools texexec texmfstart
+texlive.binaries    context ctxtools luatools mtxrun pstopdf texexec texmfstart
 
 patchfiles          patch-runfiles_texmf-dist_tex_context_base_data-res.lua.diff
 

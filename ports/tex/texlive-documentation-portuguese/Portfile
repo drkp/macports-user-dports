@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-portuguese
-version             22569
+version             24139
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Portuguese documentation
 long_description    Portuguese documentation
 
-checksums           texlive-documentation-portuguese-22569-run.tar.xz \
-                    rmd160  497f6149c4eae63ad7c04a335da373fde04c9efd \
-                    sha256  ac8bc2d41027f0b1d1191e0ec4946031b4457050e5ae7ca233ed1ee12c10d3e0 \
-                    texlive-documentation-portuguese-22569-doc.tar.xz \
-                    rmd160  b5c917235e9ac8952361c36c3c723b3acb9d6b73 \
-                    sha256  59f8a7f22ace736598bf5bf5f9765f36b4d6398adf22137742b9123fccd3e9ac \
-                    texlive-documentation-portuguese-22569-src.tar.xz \
-                    rmd160  db387b36703f70ee3256be3924a0a0cfcf79879d \
-                    sha256  70bc8b0df66912572273c08a120b0e23ba78a80bcabdb79eef9e2c99149bb176
+checksums           texlive-documentation-portuguese-24139-run.tar.xz \
+                    rmd160  2eafdefcf63b1dddcd1cb52e57f5b0a4de9b0d7c \
+                    sha256  ec603f7c32d004b3722ea55087ea83fb94876e23a364266a4f245b3a0c011634 \
+                    texlive-documentation-portuguese-24139-doc.tar.xz \
+                    rmd160  cba524aca738d5a9c736ec4c0bed406afb95166b \
+                    sha256  4ceef4ca0e2088d99b91c1390d165435519065995c09e997c7c87cb511994797 \
+                    texlive-documentation-portuguese-24139-src.tar.xz \
+                    rmd160  ae433df9c2106fc5ceef2f70ad9bfe7052b6df2d \
+                    sha256  506a3449a65833aee4a925c5771b9dcf102a7249b494fe2011765fc9f7c41be1
 
 depends_lib         port:texlive-documentation-base
 

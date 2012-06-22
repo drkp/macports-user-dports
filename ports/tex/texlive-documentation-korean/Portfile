@@ -6,7 +6,7 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-korean
 version             15878
-revision            0
+revision            1
 
 categories          tex
 maintainers         dports
@@ -15,14 +15,14 @@ description         TeX Live: Korean documentation
 long_description    Korean documentation
 
 checksums           texlive-documentation-korean-15878-run.tar.xz \
-                    rmd160  749bd5304318d6d5e891007d2379ce570e2b84e6 \
-                    sha256  bd6f56a0eef8102041c92b554cdd2afc4e8850d0161d457b9195f7539fefb23f \
+                    rmd160  8497c7076130d1c516c1ee072573da38b3baaac0 \
+                    sha256  a31fd24e536e497f9ee35822b5bf0c0175791558ebb8c519c741f1670e22acb7 \
                     texlive-documentation-korean-15878-doc.tar.xz \
-                    rmd160  e024910783af8e8d8426653b62a53a0ecb96ba65 \
-                    sha256  071096bca2587ad626d692ea24874e70468ab87af723e1cd4d9b07ced7181887 \
+                    rmd160  109494bca08abf3218bc76eed128d1eccbaf9b5d \
+                    sha256  23f33430b2bf99d09bc03a0f7d6bf8923fe48d77bc6384c201c9fe24d6b25b9b \
                     texlive-documentation-korean-15878-src.tar.xz \
-                    rmd160  5e88d982c805e354ac57b4295d10e12ad6d2bcdd \
-                    sha256  83979e8a2c91c538bafc05734ed03f8955550588bfffc6d3808076d0cb55d3c9
+                    rmd160  d553b3226b38bd29d20d59b230cdb53c12afa9a9 \
+                    sha256  f916cc5275af2d9c0828cf0ce5d5dbeb4a30e7bc771ea718a477cfd81b9ff95b
 
 depends_lib         port:texlive-documentation-base
 

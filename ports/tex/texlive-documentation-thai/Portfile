@@ -6,7 +6,7 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-thai
 version             15878
-revision            0
+revision            1
 
 categories          tex
 maintainers         dports
@@ -15,14 +15,14 @@ description         TeX Live: Thai documentation
 long_description    Thai documentation
 
 checksums           texlive-documentation-thai-15878-run.tar.xz \
-                    rmd160  f21674b15ed45ec9fbcfdca8e60c91c76543eda7 \
-                    sha256  092907998162fdcf009ecb5fc6d02c0ef53706c2ba2f8f1911f5b8e9e9bc463b \
+                    rmd160  6c12cd02a2df152179e6aff50408f6290f8736f1 \
+                    sha256  b09bacbcf1b0415fabecc82fb8352e836dfb91145f2235b9573ef5199fc2c180 \
                     texlive-documentation-thai-15878-doc.tar.xz \
-                    rmd160  652c41cf23e6d09bf81033f9b66cd16240d205c3 \
-                    sha256  88acf4c73c9d73407962d466a08a5fee1d682555576fa0915ec647039dc11116 \
+                    rmd160  c2fa50aa2d6b69a8c8fdc320d4728eeb4c1bbe1c \
+                    sha256  daf8e9552a28bd5e0fc5d5687ffff5ab56503c5e37f8fbff8db5fc1c1f4773a0 \
                     texlive-documentation-thai-15878-src.tar.xz \
-                    rmd160  c0c90315c4d8eca53d97a253ea87a0ec8468abd9 \
-                    sha256  3df8cd44aca39b8532b6395405a0ee561d7ec08ba5fac3e1c29062b279c2cb9a
+                    rmd160  66f90f902aa185e407265874ddda1f197acebb3e \
+                    sha256  c42e1036957fd1317921c009f29335d83e4c53e997adacac04456fc703ea3501
 
 depends_lib         port:texlive-documentation-base
 

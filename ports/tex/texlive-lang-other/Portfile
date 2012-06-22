@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-other
-version             23092
+version             26614
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Other hyphenation patterns
 long_description    Hyphenation patterns for languages without (much) other support.
 
-checksums           texlive-lang-other-23092-run.tar.xz \
-                    rmd160  6ba3b5ec1f26a89c9618c114d96a48daf702cfdc \
-                    sha256  785592422a750091e40db47b120674acdab73b10b2660ede8dd1415756e94673 \
-                    texlive-lang-other-23092-doc.tar.xz \
-                    rmd160  462039cbcb76cbbf1166a12919c78c18e68daf16 \
-                    sha256  cfc96c8639aacce8577b8060404d37cf0ea866010d095623d5a630ec1ce6006f \
-                    texlive-lang-other-23092-src.tar.xz \
-                    rmd160  ffb5ad7f4513a75c15b06b3ad5d4edf5c39b071f \
-                    sha256  e154256713d2277896ab8025f353e6623fd553ee1e01427be75c92545553cbc6
+checksums           texlive-lang-other-26614-run.tar.xz \
+                    rmd160  4c1b6d127897117b650227d2a4f990b960a18a7b \
+                    sha256  50d168d479dd4c42ba456918704495589a7b073162ad13834c4686075fb4eba1 \
+                    texlive-lang-other-26614-doc.tar.xz \
+                    rmd160  a0d027f5229c3c5d217dc43b081d21ae927fb632 \
+                    sha256  649b7e623635ff3fad73cd6d97a4d5236593aaae30fb558cfc82c7513c30142f \
+                    texlive-lang-other-26614-src.tar.xz \
+                    rmd160  fb009fa15a97947d9ad421cf00b4004054046a3c \
+                    sha256  cb93055306b07babcf7e7c178b3562afa1178408c73feced6c08e0a002109d85
 
 depends_lib         port:texlive-basic
 
@@ -32,13 +32,14 @@ texlive.languages      \
     {coptic loadhyph-cop.tex 1 1 {} {hyph-cop.pat.txt} {} {} } \
     {esperanto loadhyph-eo.tex 2 2 {} {hyph-eo.pat.txt} {} {} } \
     {estonian loadhyph-et.tex 2 3 {} {hyph-et.pat.txt} {} {} } \
+    {friulan loadhyph-fur.tex 2 2 {} {hyph-fur.pat.txt} {} {} } \
     {icelandic loadhyph-is.tex 2 2 {} {hyph-is.pat.txt} {} {} } \
     {indonesian loadhyph-id.tex 2 2 {} {hyph-id.pat.txt} {hyph-id.hyp.txt} {} } \
     {interlingua loadhyph-ia.tex 2 2 {} {hyph-ia.pat.txt} {hyph-ia.hyp.txt} {} } \
     {irish loadhyph-ga.tex 2 3 {} {hyph-ga.pat.txt} {hyph-ga.hyp.txt} {} } \
     {kurmanji loadhyph-kmr.tex 2 2 {} {hyph-kmr.pat.txt} {} {} } \
-    {lao loadhyph-lo.tex 1 1 {} {hyph-lo.pat.txt} {} {} } \
     {romanian loadhyph-ro.tex 2 2 {} {hyph-ro.pat.txt} {} {} } \
+    {romansh loadhyph-rm.tex 2 2 {} {hyph-rm.pat.txt} {} {} } \
     {serbian loadhyph-sr-latn.tex 2 2 {} {hyph-sh-latn.pat.txt,hyph-sh-cyrl.pat.txt} {hyph-sh-latn.hyp.txt,hyph-sh-cyrl.hyp.txt} {} } \
     {serbianc loadhyph-sr-cyrl.tex 2 2 {} {hyph-sh-latn.pat.txt,hyph-sh-cyrl.pat.txt} {hyph-sh-latn.hyp.txt,hyph-sh-cyrl.hyp.txt} {} } \
     {slovenian loadhyph-sl.tex 2 2 {slovene} {hyph-sl.pat.txt} {} {} } \

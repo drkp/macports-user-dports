@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-finnish
-version             23092
+version             25990
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Finnish
 long_description    Support for typesetting Finnish.
 
-checksums           texlive-lang-finnish-23092-run.tar.xz \
-                    rmd160  e5aba3238b8616a8f2b470e02f45625b443267eb \
-                    sha256  dc97fc5b31042625a3618d715a5456c3affe2e7654baf0f5a20c914ac50f8517 \
-                    texlive-lang-finnish-23092-doc.tar.xz \
-                    rmd160  828bf9eed09271e529dc7e8bcedbf5f0870f22a8 \
-                    sha256  84927db75bef053a3a0ce5b3877b30fce26571dd1eb21ba21ff4d494f080783a \
-                    texlive-lang-finnish-23092-src.tar.xz \
-                    rmd160  27f8e015ce5ebc8f9b9a4d3c786ae8d38643a8c4 \
-                    sha256  311b8f4aec2a7a0e07f604a7eeaf63fa52a2fa1b9ee9a35fe7eda42889241942
+checksums           texlive-lang-finnish-25990-run.tar.xz \
+                    rmd160  a2248f58c09f69bc9e448c87b76dd0b982e7af3d \
+                    sha256  3dc7cb8e75e6c37f73d042bdfcd96e9806ad00e821ddaef807e0b7fbd923d2f0 \
+                    texlive-lang-finnish-25990-doc.tar.xz \
+                    rmd160  420b78b67cdf4f1ec0403f3164abcdd4d4b5d0f9 \
+                    sha256  971872e98217c9ccfb97f745201ef2f95b2c6af9463ec4d3f3b1c2559fa1dcd9 \
+                    texlive-lang-finnish-25990-src.tar.xz \
+                    rmd160  cf8ca5c9caa04cbbfe7dbcd7bc74b606a4532168 \
+                    sha256  d8646670ed2923750a294f2e881dbcf7e9771763f21cb9320a9c2566f4f68b18
 
 depends_lib         port:texlive-basic
 

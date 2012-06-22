@@ -6,7 +6,7 @@ PortGroup           texlive 1.0
 
 name                texlive-lang-croatian
 version             23085
-revision            0
+revision            1
 
 categories          tex
 maintainers         dports
@@ -15,14 +15,14 @@ description         TeX Live: Croatian
 long_description    Support for typesetting Croatian.
 
 checksums           texlive-lang-croatian-23085-run.tar.xz \
-                    rmd160  b877bdc1794fa0fb05ce17fbf149348979cd099a \
-                    sha256  4c4ee3c7c126c2e4608f10f7ca018cb6c564a683c912c44dbcb8daafd25f9da1 \
+                    rmd160  7d5845277d6d0d04cfa184bd28f0f6433613863c \
+                    sha256  a9eb22096e8c9bb572b827e749c003fe3d29efd3a99ad64615d51771ef62d45b \
                     texlive-lang-croatian-23085-doc.tar.xz \
-                    rmd160  5a5ce1f760df8a21a3d475f80a35b19d957c4a59 \
-                    sha256  878b0898a6ef1f0f369b54794f63e41fdb3b4e7f1efa1d1257a4ac76b825b664 \
+                    rmd160  fa14eafdd5d6838055b6604ed3737e97e98071a1 \
+                    sha256  51481016424fc9805a7f14d7358c4160a90123541d97734be5cebd783a93a50d \
                     texlive-lang-croatian-23085-src.tar.xz \
-                    rmd160  1d6f4ca8dd7bc8c147b3bb4b9a00932e1e78a15f \
-                    sha256  1b718c118090fe5cd7a2c09b9d751083c0fffd666f2be0696591dfae9bfc21a2
+                    rmd160  5f4185db58b9acf9c0cb9a80b3e48a37dfec300e \
+                    sha256  9d7961a220e104eb158b5842d562328dc4de7e40ef8bae06a68aacc13d3420f5
 
 depends_lib         port:texlive-basic
 

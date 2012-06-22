@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-science
-version             22994
+version             26607
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Typesetting for natural and computer sciences
 long_description    Typesetting for natural and computer sciences
 
-checksums           texlive-science-22994-run.tar.xz \
-                    rmd160  941a86bfd45c92a561514c22e8ceed1ff1deb1c5 \
-                    sha256  b38b2a4597063d9025381e17cd86c5e0a2c9f9e791582d74eefd21a366b8bdf0 \
-                    texlive-science-22994-doc.tar.xz \
-                    rmd160  75a070cdf49a9d80f0019d77e3c35f72c4a549f2 \
-                    sha256  347ebaae249d6d3ed836b7450fd0e04e2f59f25cd688df0b0b007186fe72518c \
-                    texlive-science-22994-src.tar.xz \
-                    rmd160  f5f1690a20efb300cec430eda513e1ee9b730f51 \
-                    sha256  0d35f86ff0d184e1e3a86df51c851797dfc85daa6542e49b09c3c07c5e3b44c3
+checksums           texlive-science-26607-run.tar.xz \
+                    rmd160  a126a450ec1c49da8acc7ffffed1e0487346e1ff \
+                    sha256  6c4b0796059fb1f82f9ca5dcac4506f8cfd6a30434c2d3ce8b76bbf80d6f7a1e \
+                    texlive-science-26607-doc.tar.xz \
+                    rmd160  321747c5f5f53ce292f54d8e34ca2cf662507b27 \
+                    sha256  04e6fa6e739d2027b8bbfc2f774b7f611f46995b939d2ed99bb162e353658dfb \
+                    texlive-science-26607-src.tar.xz \
+                    rmd160  e51e6866121fd2a1cc78d94d32d0ce804bd5e3f5 \
+                    sha256  946bee5a53c5dfea6640083367e535117188dc1de34aea7d505ac0392713c6ba
 
 depends_lib         port:texlive-latex
 

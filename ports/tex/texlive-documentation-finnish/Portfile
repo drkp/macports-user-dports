@@ -6,7 +6,7 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-finnish
 version             15878
-revision            0
+revision            1
 
 categories          tex
 maintainers         dports
@@ -15,14 +15,14 @@ description         TeX Live: Finnish documentation
 long_description    Finnish documentation
 
 checksums           texlive-documentation-finnish-15878-run.tar.xz \
-                    rmd160  db09a6f4ff248c8fac7e178a7365a3fa21de8bb3 \
-                    sha256  529fcdbf4481ae6e199f7c11e25035af7a291cc9a5e3f70ac259819e167a7b95 \
+                    rmd160  92655af451b907474432c7de6d398d37c5b3f905 \
+                    sha256  967cfd146a696032c26d2e83267259257df888f2cb65b5ee63bbe361ffcdc875 \
                     texlive-documentation-finnish-15878-doc.tar.xz \
-                    rmd160  f0ce4ccc7fa415c320e63cf211371d418370f04c \
-                    sha256  a244a2399e60ce6c87111905ce427bb7a6a54e177702be42c891562eebe4129f \
+                    rmd160  b762abb004ca57ade81b16fb72ab73058b71d3e0 \
+                    sha256  2018414aef78127d8808fdb348dcd50ba82151674ce1b3390a5afa96bfb0b345 \
                     texlive-documentation-finnish-15878-src.tar.xz \
-                    rmd160  12b98a44a8dec6f4dd03aa9047ddd414b80f07ef \
-                    sha256  457ca833d39df66a0a08bffc1112fc50f7d5ee65b6183ab8647f556c17585ecb
+                    rmd160  60b4c22bf1f1dafee921faa7bad7c58637203122 \
+                    sha256  a6e71d17182898e2ae60cffd35d077f8c35c5a4ca94f378cd82ff90a52365f63
 
 depends_lib         port:texlive-documentation-base
 

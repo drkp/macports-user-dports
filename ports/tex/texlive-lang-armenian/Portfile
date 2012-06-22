@@ -6,7 +6,7 @@ PortGroup           texlive 1.0
 
 name                texlive-lang-armenian
 version             20529
-revision            0
+revision            1
 
 categories          tex
 maintainers         dports
@@ -15,14 +15,14 @@ description         TeX Live: Armenian
 long_description    Support for typesetting Armenian.
 
 checksums           texlive-lang-armenian-20529-run.tar.xz \
-                    rmd160  244045f0b5eb4cbee542cdaa758a464f1ae27323 \
-                    sha256  200116ab13aac4dd9a9b113aa5ef6dc600d1c0c7ebf3ac3646ea765809d7af76 \
+                    rmd160  2a61ece1f60c6ac3fce335e1ba592241e2410de4 \
+                    sha256  c7d250193ec6f1c62adb71fe7f68782ee71e970cbb79eeff323a9312ea609e4e \
                     texlive-lang-armenian-20529-doc.tar.xz \
-                    rmd160  6206014502f6962d5fde83560be72bf966b966de \
-                    sha256  3b1b528e599d3cfb7ddbbf05d9b825402792f33e7a86f64929188cf0c3099183 \
+                    rmd160  0e0dae52912743ea78bdde4568440d66fb8c35ae \
+                    sha256  fd38e2568c2ddfedcae7e462c28c6c0a6a29afac8ca6596615de7d13e970d137 \
                     texlive-lang-armenian-20529-src.tar.xz \
-                    rmd160  d40dbceb55cbfa9532adca3ec99130cb6b60cc6a \
-                    sha256  56e036e9decc0677d4ca0eaa7c98d3de4b571d5a2bfd64978b0069f33d68829b
+                    rmd160  d31171710831ad8014a5a6e3491574774466729a \
+                    sha256  150c8910e09e4bde6c81ce89f3d9ebd91c86a8da2361694c3c57dd43bee86fff
 
 depends_lib         port:texlive-basic
 

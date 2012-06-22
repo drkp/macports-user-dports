@@ -6,7 +6,7 @@ PortGroup           texlive 1.0
 
 name                texlive-lang-tibetan
 version             15878
-revision            0
+revision            1
 
 categories          tex
 maintainers         dports
@@ -15,14 +15,14 @@ description         TeX Live: Tibetan
 long_description    Support for typesetting Tibetan.
 
 checksums           texlive-lang-tibetan-15878-run.tar.xz \
-                    rmd160  09dab8595247b2d4345ccf0030b4dd8333f5434a \
-                    sha256  01578e320fe9f4d0ad0fa9f6324c61d454a3d3c7e0bee51f04b5dafb67961656 \
+                    rmd160  ad3002e7935a9fcff02ecd00f174d1c4d0ed90d1 \
+                    sha256  51acaaf0bd87c6c59739c624e39bccec3f1677ea2ecd307a2ad424a0819273e6 \
                     texlive-lang-tibetan-15878-doc.tar.xz \
-                    rmd160  3fd3d6a93f029fb5f222f2f0e7b306178ded9602 \
-                    sha256  dc0f41abecf04f6c52b4ebc419727c63164df20045b67c4818deb99361d2af01 \
+                    rmd160  446c757d4c852819b6bb7d529e245f154d2428ce \
+                    sha256  648d5d9ec524d91ec2b2a1e06f13951780913d96c0367f6da22b6217f758a31a \
                     texlive-lang-tibetan-15878-src.tar.xz \
-                    rmd160  2f379be637c45cc36cf0969f61bd2687b5a9ce9d \
-                    sha256  c9b4607c68a96d333ba7e4a7af52e19bf9c99b87a258382230336ff4bd8dc778
+                    rmd160  fe71d16d7f151e0e0b359ecbfcbffbb903aebba8 \
+                    sha256  3fcea078272f58086c6998a6078fb35c38bb10785847c4e2f74a1e72c5fe2337
 
 depends_lib         port:texlive-basic
 

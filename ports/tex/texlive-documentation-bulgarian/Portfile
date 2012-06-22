@@ -6,7 +6,7 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-bulgarian
 version             19296
-revision            0
+revision            1
 
 categories          tex
 maintainers         dports
@@ -15,14 +15,14 @@ description         TeX Live: Bulgarian documentation
 long_description    Bulgarian documentation
 
 checksums           texlive-documentation-bulgarian-19296-run.tar.xz \
-                    rmd160  e7627a622cfcb211a0ab3787cdc2433dd375e583 \
-                    sha256  128462f1faefb709f3f54c96d89a6ef0728a1eaaab49fd1d8223092a105d5a44 \
+                    rmd160  f0a5ef27ce8349c76f5b9e7b1487565654830b20 \
+                    sha256  0940944519a8769a545a92f01b43d033b4993b2d2b1a42b8ee076212fddf58df \
                     texlive-documentation-bulgarian-19296-doc.tar.xz \
-                    rmd160  85a87e95220cd6480cc76ac69fcf10de8d66da3e \
-                    sha256  f3366846b5f4787cf2b9ef2828fd0cc0da0573094b52ae424a5958d21fe00eaf \
+                    rmd160  f779780817d0f522ad70d84afde05e883dcb3a8c \
+                    sha256  da0048ddcba2f4352258e8900975f8fd46092fac6349db3aea4a29722d6470f5 \
                     texlive-documentation-bulgarian-19296-src.tar.xz \
-                    rmd160  0313f0e808b3dcbeaac616a9d960bfa2daf823d0 \
-                    sha256  3286d2948d4d0486733c4c60b2bc0f76d53b61616e7d190006a192324ec24957
+                    rmd160  2b126c8c89d86167649f6ca80059597ff56e8b03 \
+                    sha256  3397f5e0c04e6ea6c4371aaf838d01704278b34a3c24fa73f961a1cafbd7929b
 
 depends_lib         port:texlive-documentation-base
 

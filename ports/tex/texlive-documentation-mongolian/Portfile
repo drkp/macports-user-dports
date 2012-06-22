@@ -6,7 +6,7 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-mongolian
 version             15878
-revision            0
+revision            1
 
 categories          tex
 maintainers         dports
@@ -15,14 +15,14 @@ description         TeX Live: Mongolian documentation
 long_description    Mongolian documentation
 
 checksums           texlive-documentation-mongolian-15878-run.tar.xz \
-                    rmd160  226aec3f6acd7872fe98436b77687749ce75a3db \
-                    sha256  d30802e47bf9f4cb785ef22d3e4831088cc778e71caf1cd4df36912ed40b128c \
+                    rmd160  9349e3cb01771e1461a047f6f5591f097258e89e \
+                    sha256  efffbc8a170c64a03a3bbfdd1bc23093da1ae506070ab1eb8ac77a83b5e626f4 \
                     texlive-documentation-mongolian-15878-doc.tar.xz \
-                    rmd160  23ca21808caa46d66ea8ad98d2f4ca9664d51179 \
-                    sha256  f63df3a2ba81f1df2e1a66f7fcdf5e84dd1e1e9481c782bc63544d1ee73d16aa \
+                    rmd160  cc25a52a24c365a127c4638133afef4bf8a604f1 \
+                    sha256  7e79fd95de5937cb49a5ad5a219ccbbcf18c3e58d95e4f3cdb8e241bce4ae39c \
                     texlive-documentation-mongolian-15878-src.tar.xz \
-                    rmd160  db96e96b5fe4141d3141c208f27747bb72745013 \
-                    sha256  44983aa4244e6d38b4ef97b3de0f09e33078eeea860de80e0cd5ba1e18067046
+                    rmd160  0e2a93c5f3924250868edb46eb4658b776e5156f \
+                    sha256  3f29a298a7c22541f3b7db54668bf0b68643b8c821c3c39bdc48323ab6ef6413
 
 depends_lib         port:texlive-documentation-base
 

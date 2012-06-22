@@ -5,8 +5,8 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-pictures
-version             22961
-revision            1
+version             26791
+revision            0
 
 categories          tex
 maintainers         dports
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Graphics packages and programs
 long_description    Graphics packages and programs
 
-checksums           texlive-pictures-22961-run.tar.xz \
-                    rmd160  dcb5cd77414f236f7b9a6138099b17b1fdc43528 \
-                    sha256  2cd607c7c228d2d8e049d4448f1d94e941516a9321fd9576e02408c6161a862d \
-                    texlive-pictures-22961-doc.tar.xz \
-                    rmd160  2d2638937c384973401fff6abf976ad142acab59 \
-                    sha256  cba9b17eb9a03b50e72806adc6403339ae75accde73483745656779b12bad48c \
-                    texlive-pictures-22961-src.tar.xz \
-                    rmd160  8fb8739194b2781a86fbd909b95e1e1f648b2940 \
-                    sha256  84f8547e25d7e559aadc09961642f0507e2774c916c4b678d190f4fd6dc851e6
+checksums           texlive-pictures-26791-run.tar.xz \
+                    rmd160  e0f8733e6bf3d4bd7ac4e48627f5b143c6409726 \
+                    sha256  432f76dcc6b5d29b5e067fde1024f993a72017e5af134eead390abab5150abed \
+                    texlive-pictures-26791-doc.tar.xz \
+                    rmd160  2bea3e537f2a8865b40785a7b43cb6c8717bed12 \
+                    sha256  9a0152de006f687cdb6d6697384e4a000e19c72df2047c728932e1acbc90fb3b \
+                    texlive-pictures-26791-src.tar.xz \
+                    rmd160  b7e63a9ac23b26452074c129c536a34da6faad23 \
+                    sha256  700aea3b38b695a088bcec446414d76bc313f97d8b1a70ade03dd52026234fee
 
 depends_lib         port:texlive-basic
 

@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-formats-extra
-version             23089
+version             26689
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Extra formats
 long_description    Collected TeX `formats', i.e., large-scale macro packages designed to be dumped into .fmt files, other than most common ones, such as latex and context.
 
-checksums           texlive-formats-extra-23089-run.tar.xz \
-                    rmd160  4ae7fdb7cfa65bc08fddd3dc529874de906d0b16 \
-                    sha256  4283aca5d7a545c14abf0a61f98f076cd406228dc7d5ee2f06c7b2f2c42f132a \
-                    texlive-formats-extra-23089-doc.tar.xz \
-                    rmd160  66fec2f6d8efecdfe276cffadcc73d7b4d9df820 \
-                    sha256  dcc88ea5e96ae22098a8c2e2bded7be0446d6878125a0f4e98080e137a93106f \
-                    texlive-formats-extra-23089-src.tar.xz \
-                    rmd160  49634813ee8d5747b77a3cb2c898a29c8fa7f95f \
-                    sha256  ec9fcfb08b20cfed97ef5e21487e8d99d48eb92a51eb22a01414c9dcdd7108f2
+checksums           texlive-formats-extra-26689-run.tar.xz \
+                    rmd160  4b4efd7c0ced9cf3e83e9c70e4cb081fcbe73d6c \
+                    sha256  a3605a21d7d8f029c414399327878503687d76b8ef4bed3d37c5fcce10d2e480 \
+                    texlive-formats-extra-26689-doc.tar.xz \
+                    rmd160  afa035fae30fc4c42cb4ecef54a1d549904a3126 \
+                    sha256  695029bf8307775c4a669c5716017181c0f59d6bbc37a176abe913d8709239f2 \
+                    texlive-formats-extra-26689-src.tar.xz \
+                    rmd160  410a7ceeba56981fa2bf316e77d5f68185710877 \
+                    sha256  eb280f8f39ba9b8241d6691091629d4cefba007905b7785c2470deaea4888535
 
 depends_lib         port:texlive-basic
 

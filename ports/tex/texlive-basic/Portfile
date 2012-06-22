@@ -5,8 +5,8 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-basic
-version             23152
-revision            1
+version             26892
+revision            0
 
 categories          tex
 maintainers         dports
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Essential programs and files
 long_description    These files are regarded as basic for any TeX system, covering plain TeX macros, Computer Modern fonts, and configuration for common drivers\; no LaTeX.
 
-checksums           texlive-basic-23152-run.tar.xz \
-                    rmd160  35a2e3a1d67b4449160e57f84bed4f4ea9234d65 \
-                    sha256  85513f4d008745fd775432b83bdce1f6ff6d5e9635abc828ea4fce96580f5343 \
-                    texlive-basic-23152-doc.tar.xz \
-                    rmd160  411661df8a10de65d707d8aa34fbd15265d295d4 \
-                    sha256  d6cd2b4601d103e0571e66dff2cc1f4e5d4be68706afb6aa20fb644e4cf96771 \
-                    texlive-basic-23152-src.tar.xz \
-                    rmd160  3782446c6f25b6521215f19ce353ba5489861789 \
-                    sha256  735a967f189fe7e0a8b64df723e1b8c06d4507c369fba8e431b48116f7b53bd7
+checksums           texlive-basic-26892-run.tar.xz \
+                    rmd160  e50c11855a03a247907dde5191ccd9b11fc3497e \
+                    sha256  e33cbcdf417b2f972813da90b1336a601a21ac01c5d51cf9c2ce33665e035c9e \
+                    texlive-basic-26892-doc.tar.xz \
+                    rmd160  5ae42bbeeb334bd763a40903ee1482c700f7b4af \
+                    sha256  d616a7b41202fc8ee91349307feb441344521c8e8490b2fa4051724312d65d14 \
+                    texlive-basic-26892-src.tar.xz \
+                    rmd160  d68efc962b5f48b4f10a53b4904f3b7c19c0f475 \
+                    sha256  49b47e0f009d6b08ec8fc7682d94e91c3949ec84d7e26f0dcea2caf818ea61a5
 
 depends_lib         port:texlive-documentation-base
 
@@ -46,18 +46,20 @@ texlive.maps      \
     {MixedMap mflogo.map} \
     {Map mathpple.map}
 
-texlive.binaries    afm2tfm allcm allec allneeded bibtex dvi2fax dviluatex dvipdfm dvipdfmx dvipdft dvips dvired ebb etex extractbb fmtutil fmtutil-sys gftodvi gftopk gftype gsftopk inimf initex kpseaccess kpsepath kpsereadlink kpsestat kpsetool kpsewhere kpsewhich kpsexpand luatex makeindex mf mf-nowin mft mkindex mkocp mkofm mktexfmt mktexlsr mktexmf mktexpk mktextfm pdfetex pdftex pktogf pktype simpdftex tcdialog tex texconfig texconfig-dialog texconfig-sys texhash texlinks texlua texluac updmap updmap-sys xdvi
+texlive.binaries    afm2tfm allcm allec allneeded bibtex dvi2fax dviluatex dvipdfm dvipdfmx dvipdft dvips dvired ebb etex extractbb fmtutil fmtutil-sys gftodvi gftopk gftype gsftopk inimf initex kpseaccess kpsepath kpsereadlink kpsestat kpsetool kpsewhere kpsewhich kpsexpand luatex makeindex mf mf-nowin mft mkindex mkocp mkofm mktexfmt mktexlsr mktexmf mktexpk mktextfm pdfetex pdftex pktogf pktype simpdftex tex texconfig texconfig-dialog texconfig-sys texhash texlinks texlua texluac updmap updmap-sys xdvi
 
 texlive.exclude     texmf/web2c/fmtutil.cnf \
                     texmf/web2c/texmf.cnf \
                     texmf/web2c/texmfcnf.lua \
                     texmf/web2c/updmap.cfg \
+                    texmf-dist/web2c/updmap.cfg \
                     texmf/tex/generic/config/language.dat \
                     texmf/tex/generic/config/language.dat.lua \
                     texmf/tex/generic/config/language.def \
                     texmf/fonts/map/dvipdfm/updmap \
                     texmf/fonts/map/dvips/updmap \
                     texmf/fonts/map/pdftex/updmap \
+                    texmf/scripts/simpdftex/simpdftex \
                     texmf/scripts/tetex/updmap-sys.sh \
                     texmf/scripts/tetex/updmap.pl \
                     texmf/texconfig

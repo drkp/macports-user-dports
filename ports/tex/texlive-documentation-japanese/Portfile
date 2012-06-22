@@ -6,7 +6,7 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-japanese
 version             15878
-revision            0
+revision            1
 
 categories          tex
 maintainers         dports
@@ -15,14 +15,14 @@ description         TeX Live: Japanese documentation
 long_description    Japanese documentation
 
 checksums           texlive-documentation-japanese-15878-run.tar.xz \
-                    rmd160  701a7403cbbcf05ab6d494ee7083e710cc061325 \
-                    sha256  69054f315a92cec439366a44da3cdfa3849f9624a61d5c8fc2fd6ac9ca24d458 \
+                    rmd160  4ef01af13a26816bbf066b28f533ede57fddb772 \
+                    sha256  c45d7bf200c551730ce90cdbaeaf86dd2ba3925a6b2a1c31c8b57e93307eb291 \
                     texlive-documentation-japanese-15878-doc.tar.xz \
-                    rmd160  abef51d6b49b51a059a7b506f6c5f0b81c0eb298 \
-                    sha256  9378545e15c15f6766d9770853712840dcabb3f9164cee1b2eaf1721bc7a1396 \
+                    rmd160  069fed243c17b29edf70753f9f6cb6ad345087e2 \
+                    sha256  9d17698d36e2138683ebad52bb83bb68cac1aaa0d6d1fd6b76a876d409acf394 \
                     texlive-documentation-japanese-15878-src.tar.xz \
-                    rmd160  02d1344509b5b61245d298ebe713ba72a273ad0d \
-                    sha256  51155e7c32a55bab45e4dd22daa0a0b2db68e509ecff8eb95eb7e656121b8dc1
+                    rmd160  3abeee976c7458d24b2d5b2ec4b97f51d2a29446 \
+                    sha256  4b7a983962e9f3b80733912683d4ec0a411a1612240bc419c7da5257a2e16945
 
 depends_lib         port:texlive-documentation-base
 

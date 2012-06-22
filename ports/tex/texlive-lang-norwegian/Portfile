@@ -6,7 +6,7 @@ PortGroup           texlive 1.0
 
 name                texlive-lang-norwegian
 version             23085
-revision            0
+revision            1
 
 categories          tex
 maintainers         dports
@@ -15,14 +15,14 @@ description         TeX Live: Norwegian
 long_description    Support for typesetting Norwegian.
 
 checksums           texlive-lang-norwegian-23085-run.tar.xz \
-                    rmd160  2ee2b185a4a7747841d1359dab328b3a47b63b5d \
-                    sha256  4122e1c3dcaf466b3aff36a92011cb017b40709bac7d96074b1a2c68d4c83cfe \
+                    rmd160  48937ee1fbba1c09cdeca2648e98c8a4999f2ebb \
+                    sha256  bab169c1469149d356ffba5bb509516bb73a20e38e778d9ca3d9f658dc72298b \
                     texlive-lang-norwegian-23085-doc.tar.xz \
-                    rmd160  ecb14623166d2a96dad421242e4e09bdddce7e8e \
-                    sha256  dff4e901b053e574e29b844a7a8bdf56fb8d9e307a3860da052613a613613d4f \
+                    rmd160  9d39d6360a1b4bc98f4f8797a81043fb14b634e1 \
+                    sha256  c0f64cde06d333de1600190c29ec6a5f023848f4fe475c2427594e2b3c3399ca \
                     texlive-lang-norwegian-23085-src.tar.xz \
-                    rmd160  e8b86608c9577282692be2ce95ca3150355f8108 \
-                    sha256  6ee57a066dc7f71538ea82433d0b552945ccc7bd29f5ac7811ec0efff859730e
+                    rmd160  928c98fb17d45f1ea1d9ea80074e563767cdc58b \
+                    sha256  b82d1e0766c6b1e66c253c339cec9d5d391fea3d8adb29ae090c31a90a688acb
 
 depends_lib         port:texlive-basic
 

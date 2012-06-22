@@ -6,7 +6,7 @@ PortGroup           texlive 1.0
 
 name                texlive-lang-danish
 version             23085
-revision            0
+revision            1
 
 categories          tex
 maintainers         dports
@@ -15,14 +15,14 @@ description         TeX Live: Danish
 long_description    Support for typesetting Danish.
 
 checksums           texlive-lang-danish-23085-run.tar.xz \
-                    rmd160  533579eefb32b9bb69b8d2386b59f25bd224731e \
-                    sha256  47e00ee136bfa9c4fd066a6660266dc626d25b75c613feefd36e932039d14c52 \
+                    rmd160  2232ab20131735aa9aed1308dcd7591ae99fa3b5 \
+                    sha256  7eee6ba2bb4079cd6a3c0fdbfdd9afc05019ea382ea6333a1a24f48a117ed2e4 \
                     texlive-lang-danish-23085-doc.tar.xz \
-                    rmd160  06707614b36f142a579efd1d0cca3b25084b200a \
-                    sha256  b5fce68c2a01150137797f3c014b554ba00e9ec18d2efdf13dd67d2f6b212f8d \
+                    rmd160  26a703115ada56e2c98f5f23382ba7b56213c401 \
+                    sha256  df9a074a0a75edf380e00a502252829a5d63fcf46140c90bc5aa5fbabaf7b058 \
                     texlive-lang-danish-23085-src.tar.xz \
-                    rmd160  4a27acd5550d06ce8f61f0837c7a4219f4d46485 \
-                    sha256  388519888158523ee701ada5c5dfdb52e0f7e57ca9fea19d6ec74e1deec36619
+                    rmd160  de6278a13c5c501d5b37f2d0de49f401c321801e \
+                    sha256  5fcc06603511f9f967bb466a5ac5c4907c0722966cea7ff89b8870694c1bc5a4
 
 depends_lib         port:texlive-basic
 

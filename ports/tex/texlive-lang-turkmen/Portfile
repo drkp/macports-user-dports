@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-turkmen
-version             23092
+version             25990
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Turkmen
 long_description    Support for typesetting Turkmen.
 
-checksums           texlive-lang-turkmen-23092-run.tar.xz \
-                    rmd160  37940580fd6c9fbb5653dc85a847ba75bc3324cd \
-                    sha256  a4a818b2b9652f57000a76522b61fcdb270b4a474de0400e37f5b0a3542d24e2 \
-                    texlive-lang-turkmen-23092-doc.tar.xz \
-                    rmd160  733c3f8fb3f406c39e401495842f1dac2158420b \
-                    sha256  3ef2ea21b46a83fc8b7f3941299f813a65ddfad1783e13644a5cd21b2b7d096d \
-                    texlive-lang-turkmen-23092-src.tar.xz \
-                    rmd160  8f22f28aea121b3dbb1ee60061c5fa48a5671796 \
-                    sha256  9c5c3518563a8cd48a511042ae59a5e1c113c3ebdc099a04f8c5095e85de7d83
+checksums           texlive-lang-turkmen-25990-run.tar.xz \
+                    rmd160  2537203c001bd26a5b35a399a2e36ff058f82140 \
+                    sha256  fd6f8639b4f55c5be4e829ba61030cd30a36b06c536b6e4f0af3ceef1465df4d \
+                    texlive-lang-turkmen-25990-doc.tar.xz \
+                    rmd160  ffa04fbfb6b3c8110d2ac605496b236704662e85 \
+                    sha256  e4146b6b75c32ca372d0128161319275605205bc714515377b2ebb45aa6a48bd \
+                    texlive-lang-turkmen-25990-src.tar.xz \
+                    rmd160  6a08ee93cbd1df90409c8d2f0b85261a4ecc07bd \
+                    sha256  d7f5898fa1e841a7e5b90bc87f5a72f981ec7bfdafa2c10e5442ee10d7697add
 
 depends_lib         port:texlive-basic
 

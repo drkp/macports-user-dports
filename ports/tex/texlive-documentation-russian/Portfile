@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-russian
-version             23042
+version             26661
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Russian documentation
 long_description    Russian documentation
 
-checksums           texlive-documentation-russian-23042-run.tar.xz \
-                    rmd160  3bfd08d8ac7058ccaef2b1c7bad7a461b56a3bd9 \
-                    sha256  9f4255810e7beeb8a7a3af9094663f276e091ff40b34e5e54914a163d1664280 \
-                    texlive-documentation-russian-23042-doc.tar.xz \
-                    rmd160  6deb3f4baec6aa5007e2585df782730e85357134 \
-                    sha256  16f20980f75923a4107bb2df5a6606320edaa7c0ed244667a1cd40c5c058b5c6 \
-                    texlive-documentation-russian-23042-src.tar.xz \
-                    rmd160  836095ee2e007f138dca14d90202e9fa6a2581f1 \
-                    sha256  a624e70cbf5f4c64773e5d485fcb92acd954f197f2504ac77e39a0fead69ea25
+checksums           texlive-documentation-russian-26661-run.tar.xz \
+                    rmd160  193b298c2a2c732f678c953166faf779164ca69d \
+                    sha256  8c8da70a4bab1639e6a33bd8408f6a8c80acfef5c2d956d966e4607b0583bae3 \
+                    texlive-documentation-russian-26661-doc.tar.xz \
+                    rmd160  c803866825481ae80c6110666177f63718708652 \
+                    sha256  8ddf6749edbf296d573d770487cec131b598e500a0aec431e1fe470e7e685393 \
+                    texlive-documentation-russian-26661-src.tar.xz \
+                    rmd160  98bc15d1f24efe66660785cb4389ff6b7cd9710d \
+                    sha256  06024d4024dcfcf65ff6151e2a196451ac5b9197da3fbb04c1ff9f06ca14b24a
 
 depends_lib         port:texlive-documentation-base
 

@@ -6,7 +6,7 @@ PortGroup           texlive 1.0
 
 name                texlive-documentation-vietnamese
 version             21855
-revision            0
+revision            1
 
 categories          tex
 maintainers         dports
@@ -15,14 +15,14 @@ description         TeX Live: Vietnamese documentation
 long_description    Vietnamese documentation
 
 checksums           texlive-documentation-vietnamese-21855-run.tar.xz \
-                    rmd160  f8fb4b2a3e0ec8f131301e6e8459e05f87cbfa13 \
-                    sha256  18205a6402aad101f3ead470bc6ae9c0d996ba557fd9f3dcc13640e5f254f762 \
+                    rmd160  bfdf6efeeb03d757d122a7b8cac1893f29905b17 \
+                    sha256  78e17e2e4cb39d3b6063e3412c4c2071aeecbf702a6f61f4efa6284404509f66 \
                     texlive-documentation-vietnamese-21855-doc.tar.xz \
-                    rmd160  b239971f690ec4b4c81b52e4677f30f7c6cde0a2 \
-                    sha256  9ee1eec2deb7d6b77a821efdfb8649be8780423925e758618b6dd9da70eaafaf \
+                    rmd160  88301c3ff91447a891c107e3ad94707726792bda \
+                    sha256  65ecbe13a27341a7be463978209b404c8f1f41a0a0cfc75e3f8ac1c38c8d591f \
                     texlive-documentation-vietnamese-21855-src.tar.xz \
-                    rmd160  8699eab1842c345331e22a95e821192bff06d4cc \
-                    sha256  f7504838bb1c156a18c72509582d9ff648cabf4312d7eb235cd93c5222b582dc
+                    rmd160  73d8c9107601a7ce770d26b1cb41489110a5842b \
+                    sha256  a74ce4bec4a12ed28f8bfc9e4c6077519c8efd3c44ae73d24bde0e04b4470b9d
 
 depends_lib         port:texlive-documentation-base
 

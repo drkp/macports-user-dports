@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-games
-version             20619
+version             26207
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Games typesetting
 long_description    Setups for typesetting various games, including chess.
 
-checksums           texlive-games-20619-run.tar.xz \
-                    rmd160  886c1e8664e138645d04ebeb269f057911b951ad \
-                    sha256  4a26b7e5ec7f0a1cbe837b4276f54a150a30f20bdcbe4cc2fad92d11e03b0cc6 \
-                    texlive-games-20619-doc.tar.xz \
-                    rmd160  239105bb41a921bbadd46455fb53cf833f34afe8 \
-                    sha256  b6dde88f83b8dc002a76867683764db5708a8d8b11368c0a132bd41796ac345b \
-                    texlive-games-20619-src.tar.xz \
-                    rmd160  b65eca39c287547962e3bca4c481cdd0e4c54db5 \
-                    sha256  2063c5c397e953721f9ebdf3b863a168c64411bf9f4f505f090c56314f9febee
+checksums           texlive-games-26207-run.tar.xz \
+                    rmd160  6307d34486f7acc05f7fd2afd19baf150933ffa1 \
+                    sha256  298afa9395ffeec2983b61bde601721ffe9ceb52f5f8c9d193da3e374b3a1414 \
+                    texlive-games-26207-doc.tar.xz \
+                    rmd160  9d42daa0546642e893a399ac04f7913f030629c8 \
+                    sha256  ef9d760d9cb2a62eaa4e3e4fb501332317db8597eeb9b0c3a7acded4aa0250e7 \
+                    texlive-games-26207-src.tar.xz \
+                    rmd160  42627227f3924cf7ade98cf4d42ed20388c01758 \
+                    sha256  2d28072ffb1974e94968536e613e544e57529bdf49f9536c2c5baa4876f87838
 
 depends_lib         port:texlive-latex
 

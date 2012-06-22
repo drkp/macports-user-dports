@@ -6,7 +6,7 @@ PortGroup           texlive 1.0
 
 name                texlive-lang-lithuanian
 version             23085
-revision            0
+revision            1
 
 categories          tex
 maintainers         dports
@@ -15,14 +15,14 @@ description         TeX Live: Lithuanian
 long_description    Support for typesetting Lithuanian.
 
 checksums           texlive-lang-lithuanian-23085-run.tar.xz \
-                    rmd160  0470aea447934526787169b1f1858a962ec7211a \
-                    sha256  5d34e196d1dc9690e498611a9b8c1c009ddf627b04ca63a1c9afa1cea5cafa5c \
+                    rmd160  326195f0f389fe557ea9bf8177be363618e90e54 \
+                    sha256  a3884a523fae8a3602904482a38aa9cbd6b7ebb5bd027df1427dcb93943cb961 \
                     texlive-lang-lithuanian-23085-doc.tar.xz \
-                    rmd160  8ebcbb6aa9d984f13629edeac127eded1834ab86 \
-                    sha256  7ceab51e465ef9ad8ecfe06e5161448a9cd381ba303befdcaef046ffd4a3de0c \
+                    rmd160  11e1d65d977e5a92e510c0e4644d2867512a4296 \
+                    sha256  bcd7f850915df2011cf3c18920668e089b5470a36bac3c672c12197688cbd75f \
                     texlive-lang-lithuanian-23085-src.tar.xz \
-                    rmd160  84ac6aa5ec686247b5f61c8f2549a2184d47e646 \
-                    sha256  57df18f07f2651fec8c5255fd7677f7e62ee034e5a8737b535c9dcb319a3c894
+                    rmd160  1461c00c2efa429ca8f8d131b57cf4b1b437c46f \
+                    sha256  57243d05f3e5e43eeb992508ea8d26005cf87ce1fb4bb1177400f14de96f5951
 
 depends_lib         port:texlive-basic
 
