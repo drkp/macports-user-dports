@@ -60,15 +60,12 @@ depends_run     port:ghostscript
 depends_build   path:bin/perl:perl5 \
                 path:bin/pkg-config:pkgconfig
 
-# # fix xdvipdfmx/freetype dfont issue (#30745)
-# patchfiles-append   patch-texk_xdvipdfmx_src_cidtype2.c.diff
+# fix xdvipdfmx/freetype dfont issue (#30745)
+patchfiles-append   patch-texk_xdvipdfmx_src_cidtype2.c.diff
 
-# # fix for clang compatibility
-# patchfiles-append   patch-texk_ps2pkm_type1.c.diff
-
-# # make luatex less sensitive to zlib version changes
-# # (cf. http://bugs.debian.org/581818)
-# patchfiles-append   patch-texk_web2c_luatexdir_luazlib_lzlib.c.diff
+# make luatex less sensitive to zlib version changes
+# (cf. http://bugs.debian.org/581818)
+patchfiles-append   patch-texk_web2c_luatexdir_luazlib_lzlib.c.diff
 
 # patches related to changes in install paths
 patchfiles-append   patch-texk_kpathsea_Makefile.in.diff \
@@ -81,12 +78,9 @@ patchfiles-append   patch-texk_kpathsea_Makefile.in.diff \
                     patch-utils_chktex_Makefile.in.diff
 
 # # fixes for makefile brokenness not otherwise specified
-# patchfiles-append   patch-configure.diff \
-#                     patch-libs-freetype-Makefile.in.diff \
-#                     patch-libs_icu_Makefile.in.diff \
-#                     patch-libs_icu_icu-4.6_configure.diff \
-#                     patch-libs_icu_icu-4.6_tools_icuinfo_Makefile.in.diff \
-#                     patch-texk_ptexenc_Makefile.in.diff
+patchfiles-append   patch-libs-freetype-Makefile.in.diff \
+                    patch-libs_icu_icu-49.1_configure.diff \
+                    patch-libs_icu_Makefile.in.diff
 
 post-patch {
     reinplace "s|@@TEXMFMAIN@@|${texlive_texmfmain}|" ${worksrcpath}/texk/tetex/Makefile.in
@@ -171,6 +165,7 @@ configure.args  --bindir=${texlive_bindir} \
                 --disable-detex \
                 --disable-dvi2tty \
                 --disable-dvipng \
+                --disable-lcdf-typetools \
                 --disable-ps2eps \
                 --disable-psutils \
                 --disable-t1utils \
@@ -271,7 +266,6 @@ variant atsui description {Use ATSUI instead of freetype for XeTeX font renderin
     # can't build xdv2pdf, and need to use a hack to make xetex build
     if {${os.platform} == "darwin" && ${os.major} >= 11} {
         configure.args-append --disable-xdv2pdf
-        patchfiles-append patch-texk_web2c_xetexdir_XeTeX_ext.h.diff
     }
 
     # ...and it doesn't build with clang, either (#33602)
