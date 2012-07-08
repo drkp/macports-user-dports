@@ -15,14 +15,14 @@ description         TeX Live: LuaTeX packages
 long_description    Packages for LuaTeX, a Unicode-aware extension of pdfTeX, using Lua as an embedded scripting and extension language. http://luatex.org/
 
 checksums           texlive-luatex-26718-run.tar.xz \
-                    rmd160  4d6294ffae6aec15b9c85795d4aba0e950d12b14 \
-                    sha256  2a1d338952b347716e7a750cef99b548c0762630b88538633534dc2d2efc379d \
+                    rmd160  8ec6d61f164aa78cf5d57b80e0b08cafbd8f6372 \
+                    sha256  b46643debe8f3d2477b668c7058f5ac422b4c30d845842830c7ec7d3e131ccc7 \
                     texlive-luatex-26718-doc.tar.xz \
-                    rmd160  13c570e364ac5997cd5c8449d469c24f9140969d \
-                    sha256  d72b77fc60dc14b1f082910693be1b77a44ac00abd18451f36a7016f654f32aa \
+                    rmd160  bb0ce9d70b115096679b0fdb0fce3902b2abfea2 \
+                    sha256  1270d4ab94e440fcf30eb2dffb5128c8cec55f5859ff270d916259116d83cc3b \
                     texlive-luatex-26718-src.tar.xz \
-                    rmd160  59383567fcdb0b9fded1c82f12d72f16593ba5c5 \
-                    sha256  2d23dac3ffcf216f8411a6bbc5e674cb77f4b44b3c706d432224ec9883da9c47
+                    rmd160  b06c64eab4861be1b589b0948bfedfd0ae1fce4d \
+                    sha256  04d01315d85066c5d2f14bfbdf8de0ed75fff103ab09d28e7869036e9d8b45ab
 
 depends_lib         port:texlive-basic
 

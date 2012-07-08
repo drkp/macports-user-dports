@@ -15,14 +15,14 @@ description         TeX Live: Hebrew
 long_description    Support for typesetting Hebrew.
 
 checksums           texlive-lang-hebrew-15878-run.tar.xz \
-                    rmd160  492df430c696f26d788fd5aac9bbc1ea165b9c6e \
-                    sha256  72c121e8f31e2178ca9889652e153b754c36cdb72161b50a0a7fc5805b1f980a \
+                    rmd160  93064810e33f70d85c1c7d260ed75ac71108327b \
+                    sha256  00b21cb1270566374ab31e11acb295325b797a6c87e1286ecd148d17c7b8c0b4 \
                     texlive-lang-hebrew-15878-doc.tar.xz \
-                    rmd160  58a3cd5991dd7c6acdd73eb8bdcefbbcb9b1d34f \
-                    sha256  af6728dda71fb50263ed4ed2205a18d507b7f94e062f04ce023ab880c60a9e7a \
+                    rmd160  5b32028a68c5f9886eff203eb560dcccacd116f0 \
+                    sha256  40bfca74b8fc74f7011692b9d874de431d1699512289bb9d42318a60cfac37fe \
                     texlive-lang-hebrew-15878-src.tar.xz \
-                    rmd160  4f832bcd0e81699b184a8086dc23bcf26751e314 \
-                    sha256  91aba2f54dbd604aa1599a1da02cc3fb8460c02774770a2821983024892d7a2a
+                    rmd160  78224c438b9f74ba3e36ff54acb44b1c43634204 \
+                    sha256  b336d6d70dd3c0399540be40ada76bfcb783ce78cfef25bca371f3f38f9be899
 
 depends_lib         port:texlive-basic
 

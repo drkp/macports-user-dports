@@ -15,14 +15,14 @@ description         TeX Live: Ukrainian documentation
 long_description    Ukrainian documentation
 
 checksums           texlive-documentation-ukrainian-15878-run.tar.xz \
-                    rmd160  1589bccbcddf18addfd4eb62dea3f142c4fc3d06 \
-                    sha256  f0e14d65812fb1d5c8591c127c2a7e646d2938e5842e8173c70ffc1f57099650 \
+                    rmd160  b36c13febd264002017546fb89152f012975cc3c \
+                    sha256  8a6eb8af8668679d567c50f77a2fb077876daf8d53038e01db45d3bac0dc29b5 \
                     texlive-documentation-ukrainian-15878-doc.tar.xz \
-                    rmd160  273eb12caf8057a0eb7bd763bc91cad4addd4b18 \
-                    sha256  ee5d09456091d7d07d795daceb3db63ed029a5afb5e5895f1b34266b597ac6b7 \
+                    rmd160  29dad505d15285b34514679bb9def5d74e1905f4 \
+                    sha256  2e7397efed9d2019643916f04e87b5c73c89b85431c6bc9c19fd25feeec64a52 \
                     texlive-documentation-ukrainian-15878-src.tar.xz \
-                    rmd160  d10af46bb7bca0f3cdcccc9ec846c88ef022ba2c \
-                    sha256  17ae3b5037b2cbfee28b63427c6ebad9c6ce89f210d0d428ff5a9ad08ed1da76
+                    rmd160  386855e52d0754365e688c9db5cc4bf080a86ec6 \
+                    sha256  cd9a54730ad806c6b4587eed735b0a08ca07dfc6d9cd9d710a6aa692d7037a24
 
 depends_lib         port:texlive-documentation-base
 

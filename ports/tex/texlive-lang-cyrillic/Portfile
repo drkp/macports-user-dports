@@ -15,14 +15,14 @@ description         TeX Live: Cyrillic
 long_description    Support for typesetting Cyrillic.
 
 checksums           texlive-lang-cyrillic-26689-run.tar.xz \
-                    rmd160  0192d0b667ae4206a4e5daa4fca9d844457a95c3 \
-                    sha256  d300b693334f8d3bdd2b12573343d9f1897809a0fe7d284b376335c6ecb48061 \
+                    rmd160  47a294e7f29f133fb7fa141f6af46f06266b1930 \
+                    sha256  3e2fb2c48c20618135eb1bd29158e9d19f9289f83208900288262f2311b68594 \
                     texlive-lang-cyrillic-26689-doc.tar.xz \
-                    rmd160  12b0f233f1cf4de40c7f9e238cb0708f763a0511 \
-                    sha256  a48e5365af311dc146a8dc40f2faf70db58c090cdc883ba4fb512cec0521accb \
+                    rmd160  cd1f60657cf773f7c79ed0d04d55b3e46f16cd11 \
+                    sha256  69a366eec01cacc0cab56dfd488cc39b9f6b50a7e1aab05433bc92c2704c94e2 \
                     texlive-lang-cyrillic-26689-src.tar.xz \
-                    rmd160  59097b7f81786e6dc80a0891d9301165802f8345 \
-                    sha256  49968521b794fb8c87c882de7d45a3e017e58083400a14a4188b9148b35a1944
+                    rmd160  43d088f038bc9970272ad8bb6ea42a56a230c625 \
+                    sha256  1dd551d1908a70e3c8d118fab38372fa95b177d49a7240476ba232309c034e79
 
 depends_lib         port:texlive-basic port:texlive-latex
 

@@ -15,14 +15,14 @@ description         TeX Live: Chinese documentation
 long_description    Chinese documentation
 
 checksums           texlive-documentation-chinese-26851-run.tar.xz \
-                    rmd160  52d2e1b08530f9f2197d3783c77239ebc534fecf \
-                    sha256  617da0fb37e01b95afe8f9e6883018b40fd2a6fabe959559a8d2d64e3d1d6a80 \
+                    rmd160  e13172da811809ce83129dd71bd29d0be978ae7d \
+                    sha256  72fea01419b68f81641de2dd54d6b6efbeade0f327546a0511edbdbd4aa12b80 \
                     texlive-documentation-chinese-26851-doc.tar.xz \
-                    rmd160  a13c8fa3124cb2d1f62a29326d63a9d8540aadf1 \
-                    sha256  a47f15102b35393f229b82c00d9ba14691c217039f36c1005240b1a91280ddbc \
+                    rmd160  682c3d924ac164f3dd90424735e5b2b65247d75c \
+                    sha256  cb1ddf628edeae04d3d6041e517288455d2ed037bc449cf1cd28e0421ea64bce \
                     texlive-documentation-chinese-26851-src.tar.xz \
-                    rmd160  49b228dc31104beb1be3aa49136e899e1901b2a5 \
-                    sha256  4b8570f226a5dd7d1d8e30dbfad45a3d7b0aab490f081392271ef54332b1d112
+                    rmd160  fda978609d67349c108af3e73734e9fd920528e6 \
+                    sha256  4948e68d2ae81dd1acb08231fb74f2fa35ed342ba3664f4ffb34700f8523ed9e
 
 depends_lib         port:texlive-documentation-base
 

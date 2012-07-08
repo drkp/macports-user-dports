@@ -15,14 +15,14 @@ description         TeX Live: Lithuanian
 long_description    Support for typesetting Lithuanian.
 
 checksums           texlive-lang-lithuanian-23085-run.tar.xz \
-                    rmd160  326195f0f389fe557ea9bf8177be363618e90e54 \
-                    sha256  a3884a523fae8a3602904482a38aa9cbd6b7ebb5bd027df1427dcb93943cb961 \
+                    rmd160  3ced76e25489a294994c9bb93b1f2ece6f8a63a3 \
+                    sha256  94bc3cc1ef821290f0686d640c301e5d776e57bc3c2c5203550b511480a58ebc \
                     texlive-lang-lithuanian-23085-doc.tar.xz \
-                    rmd160  11e1d65d977e5a92e510c0e4644d2867512a4296 \
-                    sha256  bcd7f850915df2011cf3c18920668e089b5470a36bac3c672c12197688cbd75f \
+                    rmd160  d357c21c16fd51b25c97a750c500aaf483cccdf2 \
+                    sha256  0fe69e9c0350234a0324ea2d5df90c1c9bb27d07c72be05510c24c423c4d0365 \
                     texlive-lang-lithuanian-23085-src.tar.xz \
-                    rmd160  1461c00c2efa429ca8f8d131b57cf4b1b437c46f \
-                    sha256  57243d05f3e5e43eeb992508ea8d26005cf87ce1fb4bb1177400f14de96f5951
+                    rmd160  b3c5a3634d1c2c9941dcda8512132c215155a633 \
+                    sha256  1b4863c609081b14883b119f70a703c6fd01711c46917bcbc312a38f9f8b24b7
 
 depends_lib         port:texlive-basic
 

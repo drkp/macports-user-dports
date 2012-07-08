@@ -15,14 +15,14 @@ description         TeX Live: LaTeX supplementary packages
 long_description    A large collection of add-on packages for LaTeX.
 
 checksums           texlive-latex-extra-26807-run.tar.xz \
-                    rmd160  254e1e8861698b72f84c9be283d5f9c3b30dd5ee \
-                    sha256  397b148f31dadfd6b3bee59e7f71a001640b79bb86693227e38eca4d20955ae9 \
+                    rmd160  df67a740baf614d702235a3aea69236628b1a764 \
+                    sha256  443548a409f7b1c4eda16289b33ec3e5ba735d0b4a9c0249a84eb0b6bbe0c1b0 \
                     texlive-latex-extra-26807-doc.tar.xz \
-                    rmd160  d51b68a9ddc672951d983c6bbae50e3c9a3bb1a1 \
-                    sha256  833ccc3ecad0dd1d56eb091770a8d01ed41a6e414b4b182267581cf03e3edb9d \
+                    rmd160  c50fc3e8bfd227b404d265519bad69393e030b3e \
+                    sha256  27dbb681351b420208e139c4a70ad1cb860ddb130ebbb6f19c1c5ca6b3a7d294 \
                     texlive-latex-extra-26807-src.tar.xz \
-                    rmd160  e82281932a627c115cf578d82dac589f9161be59 \
-                    sha256  a16b9de729fe8a7a99fad808f2b58bd53e53f57721501f8ef32c68e66a6ea260
+                    rmd160  33ec593d48fc25e1fae651f2a1b3c4abffec6ccf \
+                    sha256  957efa39d886d224d4b8698a2a9e370807ab719747d7beab8dabae3935c64982
 
 depends_lib         port:texlive-latex-recommended port:texlive-pictures
 

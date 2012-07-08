@@ -15,14 +15,14 @@ description         TeX Live: Arabic
 long_description    Support for typesetting Arabic.
 
 checksums           texlive-lang-arabic-26822-run.tar.xz \
-                    rmd160  7d6546ddab17b0e8c7b3bc603c937aa490175278 \
-                    sha256  5c0d49e9303151a631f3d5190d2bd3b9b35330cd1b1c5c3f65b2b9eea4cdf722 \
+                    rmd160  f6ebc4e1b2e0576cbf5b83d4bc861932decd8f96 \
+                    sha256  d2fcdde3daf9cb67b649fc94fa798581a1160ab6501fb59ae69f5959379c2096 \
                     texlive-lang-arabic-26822-doc.tar.xz \
-                    rmd160  07d94ab2a65649489a2f0e2308b53a8e2736602d \
-                    sha256  e1dd8a2cb9fc1a948c0dca85315beee2ac17b07927a546998c33d864e7cdb991 \
+                    rmd160  05a660955a04cbd0cab6e93da99e05ef0220e26c \
+                    sha256  dc73da97cb019fa22b8401fcfde3af427d4ff7e481c16ca2510e88b6658769c3 \
                     texlive-lang-arabic-26822-src.tar.xz \
-                    rmd160  3deaf92cbb48b324baa9ab30701f54c54243e33d \
-                    sha256  a210efc17b704086797c032a6314c47ed702ad60e0b8fea1ebfad3d1933abe70
+                    rmd160  268680a367233271c205cf4115eed3c16033f674 \
+                    sha256  eaa589f215c2f335cc10664bdec032ae0b6baa90bdc5a3adff87e01eae9a4f7d
 
 depends_lib         port:texlive-basic
 

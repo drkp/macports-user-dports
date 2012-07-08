@@ -15,14 +15,14 @@ description         TeX Live: Vietnamese documentation
 long_description    Vietnamese documentation
 
 checksums           texlive-documentation-vietnamese-21855-run.tar.xz \
-                    rmd160  bfdf6efeeb03d757d122a7b8cac1893f29905b17 \
-                    sha256  78e17e2e4cb39d3b6063e3412c4c2071aeecbf702a6f61f4efa6284404509f66 \
+                    rmd160  274affdee90ca22f620d139eb004c98d3615aed4 \
+                    sha256  9a4aab0f9227989082dfa2f71b17c01dea2dc04a94f5acb880e6a4f97cc24fac \
                     texlive-documentation-vietnamese-21855-doc.tar.xz \
-                    rmd160  88301c3ff91447a891c107e3ad94707726792bda \
-                    sha256  65ecbe13a27341a7be463978209b404c8f1f41a0a0cfc75e3f8ac1c38c8d591f \
+                    rmd160  8b1d2580039e26a7c11bab7437269ab12408b354 \
+                    sha256  2bc1da725dd71c8a9d5cffbff6f05ffec6a983551b9233a04e6481c60786ad2f \
                     texlive-documentation-vietnamese-21855-src.tar.xz \
-                    rmd160  73d8c9107601a7ce770d26b1cb41489110a5842b \
-                    sha256  a74ce4bec4a12ed28f8bfc9e4c6077519c8efd3c44ae73d24bde0e04b4470b9d
+                    rmd160  c5b646355ae783b9dd721ff26c6263dcb3a4f22b \
+                    sha256  8e2c72afa0cbba44e5bb3d3e9c76e806eadba419b26723baaa7f5d8a63309560
 
 depends_lib         port:texlive-documentation-base
 

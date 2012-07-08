@@ -15,14 +15,14 @@ description         TeX Live: Croatian
 long_description    Support for typesetting Croatian.
 
 checksums           texlive-lang-croatian-23085-run.tar.xz \
-                    rmd160  7d5845277d6d0d04cfa184bd28f0f6433613863c \
-                    sha256  a9eb22096e8c9bb572b827e749c003fe3d29efd3a99ad64615d51771ef62d45b \
+                    rmd160  33fb7070838be9543471a354dc11a1e2de01cabc \
+                    sha256  78cdcd1cb946416efcedc17fab952b60911cdb2c10b0650b1eebdda1ee9152bd \
                     texlive-lang-croatian-23085-doc.tar.xz \
-                    rmd160  fa14eafdd5d6838055b6604ed3737e97e98071a1 \
-                    sha256  51481016424fc9805a7f14d7358c4160a90123541d97734be5cebd783a93a50d \
+                    rmd160  ae62e2261f6e2eaec625ee78fc99afd3311cf2db \
+                    sha256  037dcf2ed4bdf26a789dcf3ae52bc84a6f93ac0e6b010d2f50bb028cd9d74813 \
                     texlive-lang-croatian-23085-src.tar.xz \
-                    rmd160  5f4185db58b9acf9c0cb9a80b3e48a37dfec300e \
-                    sha256  9d7961a220e104eb158b5842d562328dc4de7e40ef8bae06a68aacc13d3420f5
+                    rmd160  802220a515a930af4b2224faffce8168ee229c41 \
+                    sha256  9d699fe00745e39c633cbdb528da1d089be4b5799bc01085de650db2978a6729
 
 depends_lib         port:texlive-basic
 

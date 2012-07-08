@@ -15,14 +15,14 @@ description         TeX Live: Hungarian
 long_description    Support for typesetting Hungarian.
 
 checksums           texlive-lang-hungarian-25806-run.tar.xz \
-                    rmd160  372e2b0187836f658537ef3589742a2332f67a1d \
-                    sha256  2fdaa011e2caf9afb4d8bb837f6593f7ce4d55a0fff283e02530528861441e39 \
+                    rmd160  df6635c5a49431c50ac8172725c660d6e97387b6 \
+                    sha256  2e86fe06c986a09a6ec3cc597b295ad0c4756263b63a3e3345b4f360d93331cc \
                     texlive-lang-hungarian-25806-doc.tar.xz \
-                    rmd160  217d8deb792b322d4020671b3bdbf1faed7fb5bf \
-                    sha256  ae2eab3877f67f5e4906862ca44d32c47a90cb49225b0a1a7d44488c813f12fa \
+                    rmd160  4a78dc1ee44ea27fcba1b50e9041bc06a9e09821 \
+                    sha256  9b3c6abd6ae6ff2efe92c2d432dfb49800176e8049184eba4bc61aa8a008926e \
                     texlive-lang-hungarian-25806-src.tar.xz \
-                    rmd160  166b5e5bda5e0ef7dcaa98341eb7d8e3fb7f8d3b \
-                    sha256  660a4447738767bd0225c1168133e3b082756fc8cc2b6b5561abfbd15bf0653b
+                    rmd160  cdb5067557a76c68ad8cb4dddb4e088646e8af86 \
+                    sha256  7756d580d596c4cd33f8c38f60e88839c7b5cc8713bbf1cc57269a9b5179b632
 
 depends_lib         port:texlive-basic
 

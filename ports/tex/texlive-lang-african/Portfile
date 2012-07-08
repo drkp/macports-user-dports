@@ -15,14 +15,14 @@ description         TeX Live: African scripts
 long_description    Support for typesetting some African scripts
 
 checksums           texlive-lang-african-23085-run.tar.xz \
-                    rmd160  6fd5972a6371ae6ce2d06716425f336595f600c6 \
-                    sha256  6a059b278ec3f9fcaab2d691a769f7706fc7eee2af652fd593306637bdad1ea9 \
+                    rmd160  99bd89b969d60ce23329709e18dc8362178226f4 \
+                    sha256  8d82e18a2f6c997f1cdbbd82457d00e1a12e5e0e7bf956fabdfb17ed47628f0f \
                     texlive-lang-african-23085-doc.tar.xz \
-                    rmd160  f03e92a748492fc83337add4e066c4249f426a2c \
-                    sha256  c87652628f2aecf944a48f5fa197ccbe6deda02175edcfa55973ca7abc1dc6aa \
+                    rmd160  dc2e45b167a65403e1f09f540f9640e499bca7a2 \
+                    sha256  2b041e038319f0d1eee62feebbec62e18ea3e7ecd913efd5db122d308d844419 \
                     texlive-lang-african-23085-src.tar.xz \
-                    rmd160  499d955da37fa6dca5b8dfe9b3f6682bbd47297c \
-                    sha256  84098b2d7d70cf11e8f4836d79c60ab82e63d8d1f1fe5f92edb6f5cef27b4fc5
+                    rmd160  ef1f2367fbbbe04cfb54ab8226287e303401f5c3 \
+                    sha256  dbe24a7e313c597e69b58d0acedbdaa572f0c4b612d06e3831b2361e1b9b96a2
 
 depends_lib         port:texlive-basic
 

@@ -15,14 +15,14 @@ description         TeX Live: Turkish documentation
 long_description    Turkish documentation
 
 checksums           texlive-documentation-turkish-15878-run.tar.xz \
-                    rmd160  e381d680fef6e089b46d37545ed4bfa0fdcd6b60 \
-                    sha256  d612f0c8144e8f49e6d8093b7d077ab6bfa429dedaa2b6508ca9d794018c8c9f \
+                    rmd160  0f68acbc2abba774ee5fe3c93085c6417485b5ea \
+                    sha256  b700d8e520ccea18c9aafcc45d8c53fd2ee01b4c76ca064155ceaf8a49adbdea \
                     texlive-documentation-turkish-15878-doc.tar.xz \
-                    rmd160  0323fe6fa4afa4ceb336728a33b2ff9cc21e73ba \
-                    sha256  a2ce4239eb430f09fc76c68e0963d352391b9f80d13cd5cb8db560b7986078b0 \
+                    rmd160  c68fd0fe81df21a8f5e660a65fcac62866aaab2c \
+                    sha256  c4d19859061780b7c1b09286efb3ce7c0475a5d898047447c684294a9f25ad47 \
                     texlive-documentation-turkish-15878-src.tar.xz \
-                    rmd160  ae1f626a1822b054a2253acbcbeb702f13e8b1a9 \
-                    sha256  20371dabef9dd6f6cde1eb244b62f74858211ff64663c64e136c9adf4615b0dd
+                    rmd160  614f4e02747b18d00212ae5ee0337e5e4ec238b0 \
+                    sha256  06a31c6fb64af929395f861d50964d7e95486154a9d08715a9c11c6825dd7cb4
 
 depends_lib         port:texlive-documentation-base
 

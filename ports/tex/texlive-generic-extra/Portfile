@@ -15,14 +15,14 @@ description         TeX Live: Extra generic packages
 long_description    Extra packages that work with multiple formats, typically both TeX and LaTeX.
 
 checksums           texlive-generic-extra-26700-run.tar.xz \
-                    rmd160  29c628a3f24235f6754792c2e2f811a6c773998f \
-                    sha256  8bd4408cd79c924730b15f5e76b63e985df641092696bb20e4641065b1b22fd2 \
+                    rmd160  3e97a6c199c0f36b0f1851457531c6d8a1d91c21 \
+                    sha256  826bcdb585e4c41580cba8deb17903e3446b5a11ff6baa5e7ccd70f7a5bd95b7 \
                     texlive-generic-extra-26700-doc.tar.xz \
-                    rmd160  09d5cc694d0dd0396a3f9a4c9186c4f63efbd917 \
-                    sha256  0c025f186301d01354c938a966a960891033104c7f92c2981603f0e82f395759 \
+                    rmd160  35688a27f4b92c5e6879bb742753b7abae8dd5ac \
+                    sha256  538d9b200fb029c6efd7a8b9f8a6902c6354834efaee717b3f4dfbe255b12fe1 \
                     texlive-generic-extra-26700-src.tar.xz \
-                    rmd160  4c30e8ec66c1dd18453d154a0c894d3176b648ac \
-                    sha256  9d4d48ac152d36e2437d303778b3240a80bbe25519bdec8b9ff1fb1374b58686
+                    rmd160  dec2ea74ba1dc9e1a75f8f643f958742c73c8e80 \
+                    sha256  e37708511465cbe2d1c52f449d71f8c31d7c5dd0955943b91d30a0b604c69e96
 
 depends_lib         port:texlive-basic
 

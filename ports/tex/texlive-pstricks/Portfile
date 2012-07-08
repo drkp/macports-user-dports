@@ -15,14 +15,14 @@ description         TeX Live: PSTricks packages
 long_description    PSTricks packages
 
 checksums           texlive-pstricks-26865-run.tar.xz \
-                    rmd160  3b2d5a1ac1f2714f5f8c2c7815ad7db7a5314c28 \
-                    sha256  7c18607037c63eb7b29a59c074cf972d642c16f272f44055ba30b3d0ad5c94f2 \
+                    rmd160  8c221ed12706a4a025ea65d09c2e33cd6dcac772 \
+                    sha256  285e25083800c312531c531935936fb99049441c4311d3db316f8aad308a1b31 \
                     texlive-pstricks-26865-doc.tar.xz \
-                    rmd160  45f522d40b6a79bfdd9e659a7c3e96ced0de805c \
-                    sha256  3250c64d0a346ca32615309bd729fb6f042afa70f19f669c53bf93083f8014c5 \
+                    rmd160  8497014a56820e12edd6302e33ae8d834f206094 \
+                    sha256  803a837cc6b809bac5ceb651021d01d7f14fbc6a7ed8522aebea24bbba8c72d6 \
                     texlive-pstricks-26865-src.tar.xz \
-                    rmd160  264ba5ba04d9f7a2d9a41bc6d433645b7b40f6a3 \
-                    sha256  321a541ca07d1ac31b03e3e9df9c1ee9b4b1cb427e1f1eb1dc1a5c6eff0cb6f0
+                    rmd160  d37154598fdcfa04762a6d3a0414140b5908ea6b \
+                    sha256  9b9cef1ebc5f11a1c02992ccde083c1c3f865f2de876c6fe604b26b502f8b39c
 
 depends_lib         port:texlive-basic port:texlive-generic-recommended
 

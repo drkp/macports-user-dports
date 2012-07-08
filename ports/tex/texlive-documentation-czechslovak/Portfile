@@ -15,14 +15,14 @@ description         TeX Live: Czech/Slovak documentation
 long_description    Czech/Slovak documentation
 
 checksums           texlive-documentation-czechslovak-26864-run.tar.xz \
-                    rmd160  918a48eca62799f9247e8b73237d9ce4dca7ae9e \
-                    sha256  0846a68c0dfd8b6f851a250292b28494f33ac8708d88c78349e4ba6c37a8c68c \
+                    rmd160  560d844660666e0f99ba889505b08863b0beae2c \
+                    sha256  8851eafc5ff75ca4bb28ab80938673ae98ff936a411b497679e4327373ee140e \
                     texlive-documentation-czechslovak-26864-doc.tar.xz \
-                    rmd160  c4e9479dc87befde60a0fcf5074b8dfa9b14b02e \
-                    sha256  ef92aa48f7463f4d13881d44e1325a15be242921ad8e886d966e3a4486142b29 \
+                    rmd160  6a84fddbd8c5dd795504bb56ef25995a2564c7a3 \
+                    sha256  eb5396052e1d476805fb7ca9e7be9bfd9ff2f198fee0e4f6f9fbb99bda6c879f \
                     texlive-documentation-czechslovak-26864-src.tar.xz \
-                    rmd160  1ccf3c9dde519a77dd5291d1399e3f2977cc7501 \
-                    sha256  69a3bd6516138fbe01e38c40a075ded3dac1ba677cdd855d695e8cd21ccee5ce
+                    rmd160  b81e39e1e89ba5e7867c75b4d5685f59760f545d \
+                    sha256  febbe6418d95d388b807af652e7bdefa36147491ca50be6160906d4889241049
 
 depends_lib         port:texlive-documentation-base
 

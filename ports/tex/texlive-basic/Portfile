@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-basic
-version             26892
+version             26926
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Essential programs and files
 long_description    These files are regarded as basic for any TeX system, covering plain TeX macros, Computer Modern fonts, and configuration for common drivers\; no LaTeX.
 
-checksums           texlive-basic-26892-run.tar.xz \
-                    rmd160  e50c11855a03a247907dde5191ccd9b11fc3497e \
-                    sha256  e33cbcdf417b2f972813da90b1336a601a21ac01c5d51cf9c2ce33665e035c9e \
-                    texlive-basic-26892-doc.tar.xz \
-                    rmd160  5ae42bbeeb334bd763a40903ee1482c700f7b4af \
-                    sha256  d616a7b41202fc8ee91349307feb441344521c8e8490b2fa4051724312d65d14 \
-                    texlive-basic-26892-src.tar.xz \
-                    rmd160  d68efc962b5f48b4f10a53b4904f3b7c19c0f475 \
-                    sha256  49b47e0f009d6b08ec8fc7682d94e91c3949ec84d7e26f0dcea2caf818ea61a5
+checksums           texlive-basic-26926-run.tar.xz \
+                    rmd160  bbdc2b9f93fe2203b1a48d60184edccfef5bd7d3 \
+                    sha256  779bfba2565f334ebd0217412158e6bb7ee4239074011b6ceafea42e06a172d2 \
+                    texlive-basic-26926-doc.tar.xz \
+                    rmd160  ccc3dd9ce542cd96fa0721976bfd5a28436dee82 \
+                    sha256  3df0ef82233deab0d9eedb821c5f6bda59d7caa420034a619e033dc6b3022dd1 \
+                    texlive-basic-26926-src.tar.xz \
+                    rmd160  56eddd90d78b0a3c6335a0213fc843115e41b8b0 \
+                    sha256  d1055af3ddf3db2ea027c23e5505b0d6fbe96350daa5cd4fa584be22f79b6ffd
 
 depends_lib         port:texlive-documentation-base
 

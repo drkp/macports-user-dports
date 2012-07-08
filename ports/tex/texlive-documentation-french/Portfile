@@ -15,14 +15,14 @@ description         TeX Live: French documentation
 long_description    French documentation
 
 checksums           texlive-documentation-french-26782-run.tar.xz \
-                    rmd160  89ae3cd3743de70e20ca3bd7ed96abbdd2eaa61a \
-                    sha256  810b061c0cb0dc1f94d706cd1cf9479bd4f4b396daaf6bb7e838f986502e05f8 \
+                    rmd160  175594a9932e2de2c4f8843eec77929ee7a0a393 \
+                    sha256  b6985580afe1e257c915c5e763fb1353d5e1da12950947a3b12b037ad4ab5f89 \
                     texlive-documentation-french-26782-doc.tar.xz \
-                    rmd160  fc26ee79eb04112ab0a814b8a45daf39c2c50c76 \
-                    sha256  db746078bd792fa0db8628b9d954b616a4948f9e9caa1299d93550532eae4912 \
+                    rmd160  7c2607915d4df5fe5c3c55e348bdb1c4f4c25ecd \
+                    sha256  7d70bb8aea6e5a9d693b6c5c1b0a47cb4c10e1ed85e99d9cfcb4a0b1456ed4d2 \
                     texlive-documentation-french-26782-src.tar.xz \
-                    rmd160  ebd99f298a0be5893e2a517777bdea6c93648995 \
-                    sha256  001e55c8b1a2ff7cabe5bfbf14e474f130328aa4ee3291547b2329a8071f79af
+                    rmd160  a19801e818abf12881a52f37cfcf5f474fda046b \
+                    sha256  716854cf744cc39ff8ae8f849f1a20f43d84b2490e0b0b048116b31fe1da6708
 
 depends_lib         port:texlive-documentation-base
 

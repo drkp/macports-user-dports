@@ -15,14 +15,14 @@ description         TeX Live: Dutch documentation
 long_description    Dutch documentation
 
 checksums           texlive-documentation-dutch-15878-run.tar.xz \
-                    rmd160  df740a9b74ba10d3513e5c519862aefa986fd19e \
-                    sha256  045780b32b33a5e2166053a7c6e4f7df83198416de63cd1aa397ae98756668ab \
+                    rmd160  1b20315a7f7727efd7c1540e908c7574414ad4fd \
+                    sha256  7288e6069bfdf67445fd5c9b35e6a9a47f073cae6b8c88c4cd9ffecb929c2159 \
                     texlive-documentation-dutch-15878-doc.tar.xz \
-                    rmd160  d78baee6e8cfda2e14fa1fc37ee36ede8b7c974e \
-                    sha256  aaca31793fcebcafa38be4ac97e7f01dd05478e4b7542d51021af6f921453f59 \
+                    rmd160  07bf83989cb639541ef0b4d6ccc9670e6ff19418 \
+                    sha256  66a6ab1f03bc953e6acbfcf5c553dfb6e860d667bee7a71f91d05bda3a87a494 \
                     texlive-documentation-dutch-15878-src.tar.xz \
-                    rmd160  e66d766b61c67676ea24f746e5e6424ebae06ccb \
-                    sha256  2f33fb683517286910d6f9c530ab63c97836ad7c6ff029a6f05626555b173ac2
+                    rmd160  8fca8a58e03adb4acad2eb5c12f1c1ff82f79dd8 \
+                    sha256  bafa91a4ff10442ff402baddeb801d8cb5d5fbd0f097360d347dae32e69aec75
 
 depends_lib         port:texlive-documentation-base
 

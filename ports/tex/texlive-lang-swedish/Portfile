@@ -15,14 +15,14 @@ description         TeX Live: Swedish
 long_description    Support for typesetting Swedish.
 
 checksums           texlive-lang-swedish-23085-run.tar.xz \
-                    rmd160  abef5ff4a59ddbd243dad61c70906172da18c6bd \
-                    sha256  51990fac98aca701621becdda1384fa84fd22b842c51eed1652e7467e3646f80 \
+                    rmd160  5a369c480adc7f2035f134e87e1f9e73fd37d4d3 \
+                    sha256  3981102f7db094b94ec9d40967faf5e4308ad4fd8bb971a100b72409bb848ebe \
                     texlive-lang-swedish-23085-doc.tar.xz \
-                    rmd160  f428db4f6c66f4724386ab6937000ca83f3ca989 \
-                    sha256  3e123f09f2cd0744ed3f88205e8d5e52e7f9fb05d4624b5a5dfe38bd5f779d3d \
+                    rmd160  c01362abbf50b46eaaea558308812a641d75fdd5 \
+                    sha256  4ac1aa107848b1c84c8973e498d7045566a5e1fc68b19962380c9114ac90c361 \
                     texlive-lang-swedish-23085-src.tar.xz \
-                    rmd160  1a29f9fd910a4d8d4bb9756aa23106147bea45b1 \
-                    sha256  85cec46a5cdc6fcc5970c53e0c0fee69ce0325084fbff695ab19ebac0e595e4d
+                    rmd160  f086a8fd294cfcc4914de2e0fc7583f80f60a43e \
+                    sha256  f65ec0d57ba698a710c5b4d67ece910893415b1e53f186b968bff58fe84971db
 
 depends_lib         port:texlive-basic
 

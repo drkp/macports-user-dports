@@ -15,14 +15,14 @@ description         TeX Live: Support for publishers, theses, standards, confere
 long_description    Support for publishers, theses, standards, conferences, etc.
 
 checksums           texlive-publishers-26831-run.tar.xz \
-                    rmd160  36c5234f7545de3e11744f52c319049435431937 \
-                    sha256  4969b6a10c91b40e74cdc997cbcb1274d24d4c7c0202795f2b8799146a1685d0 \
+                    rmd160  49ef56da8b332a4527e02de45989439072618001 \
+                    sha256  0366cb72abb312405b0a061316eaec3ec840647304bf2b158889ad29b7066dc2 \
                     texlive-publishers-26831-doc.tar.xz \
-                    rmd160  e984c4451322726fd89281bf09e96c312277d325 \
-                    sha256  e579bfe02376560dcbde9ec5b52605eb717b0822cb0c8d90028873f34e539d95 \
+                    rmd160  1fd3d1183aad34a2cf01f979e6b230474bb3d318 \
+                    sha256  1994a321a90ee584ca0ff9aea1e838383319486da5cdeef2b87a57e04309cda2 \
                     texlive-publishers-26831-src.tar.xz \
-                    rmd160  0a03f99b775a97081059c7e274ee11a07ebff2bb \
-                    sha256  5034c02e10d2378e80290ad2fa3da778d31ba4055eadef5dd0e27fa9be03eb06
+                    rmd160  058926acc9fec68c1290b593ffc883c8c2da8d19 \
+                    sha256  17ef5d375a904f18fe2896517974efad13a25a71b051411f258b4718b547f8a8
 
 depends_lib         port:texlive-latex
 

@@ -15,14 +15,14 @@ description         TeX Live: Korean documentation
 long_description    Korean documentation
 
 checksums           texlive-documentation-korean-15878-run.tar.xz \
-                    rmd160  8497c7076130d1c516c1ee072573da38b3baaac0 \
-                    sha256  a31fd24e536e497f9ee35822b5bf0c0175791558ebb8c519c741f1670e22acb7 \
+                    rmd160  7ec9e7e3dc8fd9d5759d51d6a8652873ab8052d6 \
+                    sha256  fdb1840404ad08203a758163366a9f90182e78bebdb1dd5947dbec1f1614f542 \
                     texlive-documentation-korean-15878-doc.tar.xz \
-                    rmd160  109494bca08abf3218bc76eed128d1eccbaf9b5d \
-                    sha256  23f33430b2bf99d09bc03a0f7d6bf8923fe48d77bc6384c201c9fe24d6b25b9b \
+                    rmd160  b78a2f991229ee9550d63bddd3a3ac3bf2077176 \
+                    sha256  6ed9c92d3873a1f312b5fbfd24ca4e4f18a6845af0a6547ccdbfe021cddfcd64 \
                     texlive-documentation-korean-15878-src.tar.xz \
-                    rmd160  d553b3226b38bd29d20d59b230cdb53c12afa9a9 \
-                    sha256  f916cc5275af2d9c0828cf0ce5d5dbeb4a30e7bc771ea718a477cfd81b9ff95b
+                    rmd160  9ebf0fe1dc7896c5693d1ef37a121159cabc51cb \
+                    sha256  bf62983696dee00bd78faf1a0fad111cac66fac6af73b3af678c05b98235d7d7
 
 depends_lib         port:texlive-documentation-base
 

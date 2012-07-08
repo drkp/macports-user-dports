@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-htmlxml
-version             26599
+version             26926
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: HTML/SGML/XML support
 long_description    Packages to convert LaTeX to XML/HTML, and typset XML/SGML
 
-checksums           texlive-htmlxml-26599-run.tar.xz \
-                    rmd160  21353d1862077b9d08076ba099b7a2511f23ccf3 \
-                    sha256  aa858486434892fcfc429964179f898faa2db830bd764510c494e25e9068f0ea \
-                    texlive-htmlxml-26599-doc.tar.xz \
-                    rmd160  5ebb55c90c3e5324cff5ec54ecde5e47d5adff95 \
-                    sha256  012093f5ccd73289b0662b4e94d52a7bb7baebd0576c6d349325d3097e687f35 \
-                    texlive-htmlxml-26599-src.tar.xz \
-                    rmd160  ec663510a9d1a834fd23ffa7a8f47ab46b16004b \
-                    sha256  e9f5e02a0dc76a05c338c7c4c15189655da5bc6275602067168d83f720afaa01
+checksums           texlive-htmlxml-26926-run.tar.xz \
+                    rmd160  1832e90e25c965d2cf6bda1e32c411bd9c628d1d \
+                    sha256  d12062d1a3328b80d4e586278c3e5087e8c5c2bfbdc261a820ea1cf9bb31b808 \
+                    texlive-htmlxml-26926-doc.tar.xz \
+                    rmd160  e16089b050b05a2bb33c7b3268abeb12048ff367 \
+                    sha256  cc3eff07db0759c2f92d738ce28e3703eb5e008d485d2c456c583eff4948ef73 \
+                    texlive-htmlxml-26926-src.tar.xz \
+                    rmd160  f046338c4231ff6dda1d0ec58ca1a56db2845ddf \
+                    sha256  94c08ca29a790ae076dd11330afc8d6f16d48d640e5c805f3a746dc7451a8807
 
 depends_lib         port:texlive-basic port:texlive-fonts-recommended port:texlive-latex
 

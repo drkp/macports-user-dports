@@ -15,14 +15,14 @@ description         TeX Live: Norwegian
 long_description    Support for typesetting Norwegian.
 
 checksums           texlive-lang-norwegian-23085-run.tar.xz \
-                    rmd160  48937ee1fbba1c09cdeca2648e98c8a4999f2ebb \
-                    sha256  bab169c1469149d356ffba5bb509516bb73a20e38e778d9ca3d9f658dc72298b \
+                    rmd160  2e69370edf34afbd827412a1930a76952642d14a \
+                    sha256  a74f56aeeda9fa68d98d7199b47b31dc23fa710d8b7a3df92c56f5fcab6958fb \
                     texlive-lang-norwegian-23085-doc.tar.xz \
-                    rmd160  9d39d6360a1b4bc98f4f8797a81043fb14b634e1 \
-                    sha256  c0f64cde06d333de1600190c29ec6a5f023848f4fe475c2427594e2b3c3399ca \
+                    rmd160  bc8bd01dfa421b005eea5b98169690bed0e2fce2 \
+                    sha256  6be065b4fa6076c22862bb33bd2e1cecef6215ecc8d3856bf6d211ad47b9d95e \
                     texlive-lang-norwegian-23085-src.tar.xz \
-                    rmd160  928c98fb17d45f1ea1d9ea80074e563767cdc58b \
-                    sha256  b82d1e0766c6b1e66c253c339cec9d5d391fea3d8adb29ae090c31a90a688acb
+                    rmd160  38b5bd6cea3cc7a9104e41fa51e1864b84fdf349 \
+                    sha256  85e1569521fc56783b07827fd157a3a181e4fdd578034cc6a901e1ef8aeb2021
 
 depends_lib         port:texlive-basic
 

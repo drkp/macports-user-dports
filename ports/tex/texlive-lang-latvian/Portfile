@@ -15,14 +15,14 @@ description         TeX Live: Latvian
 long_description    Support for typesetting Latvian.
 
 checksums           texlive-lang-latvian-25990-run.tar.xz \
-                    rmd160  13fae230652256874393573db942edf2b955e825 \
-                    sha256  4c976dbc7bc3abd4ea2c7f0c09361fbba1a0d676a93e569c3b1d5f221ef400c1 \
+                    rmd160  bf9e6b662bbc8b85d37120dd9488fa281b3bc1a5 \
+                    sha256  4a4297aaa976dd2cff8c2b127c83fc7b137dac6e0ce6822b12977fcd4f2b710d \
                     texlive-lang-latvian-25990-doc.tar.xz \
-                    rmd160  a01acc060d5258c4725efd664d4d20564ca8cfaa \
-                    sha256  aa89edba3219f03fd6424b080e7934435fe7f75fdb4ef56daae3e4575bd2dab2 \
+                    rmd160  0d3f435deb9435c01feb1a07cccdc732d4ca1b10 \
+                    sha256  67bc2043c0d1fcdf23c3eaa965e9cf481bda3dae3aafb7e4bc19d4a700655935 \
                     texlive-lang-latvian-25990-src.tar.xz \
-                    rmd160  cb8482c963294e079d022d605ee3922a5fe78aa9 \
-                    sha256  919baad55f43f85b478d7bd12ebbadad65ae15a09a938bdafc0eb859475cc02a
+                    rmd160  82cee13ff5265b364be87182f6b8d38c8c1edcc7 \
+                    sha256  31f95ca480c0ee8573b634bbb74f8c9f1dc19a8a77ba6e886b64142c9654b641
 
 depends_lib         port:texlive-basic
 

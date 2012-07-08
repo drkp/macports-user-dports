@@ -15,14 +15,14 @@ description         TeX Live: Tibetan
 long_description    Support for typesetting Tibetan.
 
 checksums           texlive-lang-tibetan-15878-run.tar.xz \
-                    rmd160  ad3002e7935a9fcff02ecd00f174d1c4d0ed90d1 \
-                    sha256  51acaaf0bd87c6c59739c624e39bccec3f1677ea2ecd307a2ad424a0819273e6 \
+                    rmd160  87cd8628f8d961a32cde2e9d0b5319a3eb3de861 \
+                    sha256  52da19b789d584fbdf4a202eb5ce70df6af2717667520acc93f03cbaec279d8b \
                     texlive-lang-tibetan-15878-doc.tar.xz \
-                    rmd160  446c757d4c852819b6bb7d529e245f154d2428ce \
-                    sha256  648d5d9ec524d91ec2b2a1e06f13951780913d96c0367f6da22b6217f758a31a \
+                    rmd160  a600f1df476a3968d1a4a129e1f72e18bb78c823 \
+                    sha256  8b32b939d3bbf3c9de1ccc1dd3c8d509c7ce6249ed61ccbd142a9d958823ab1e \
                     texlive-lang-tibetan-15878-src.tar.xz \
-                    rmd160  fe71d16d7f151e0e0b359ecbfcbffbb903aebba8 \
-                    sha256  3fcea078272f58086c6998a6078fb35c38bb10785847c4e2f74a1e72c5fe2337
+                    rmd160  11f8678b879df00dcf7dee10a21f1af721d3c57b \
+                    sha256  069d110e9ca17027c3604c7851d59446b5016de5589106f899be05e82fa4729a
 
 depends_lib         port:texlive-basic
 

@@ -15,14 +15,14 @@ description         TeX Live: German documentation
 long_description    German documentation
 
 checksums           texlive-documentation-german-26888-run.tar.xz \
-                    rmd160  5c6fb73a284b82837d3ae76a895cd7bff7d39d95 \
-                    sha256  dc6112030e86af771c1d56c44d6eaa801cd7c44eb3d27ea99e48b737c4d69a2f \
+                    rmd160  88548718de1dbd125832c917a3e6bcba55a08c28 \
+                    sha256  38e340a8476b58db28817a8145cf678ad9c21fa6ee3af02a0e2f8262835d200b \
                     texlive-documentation-german-26888-doc.tar.xz \
-                    rmd160  68350e1dc2be6c61844d8d0a0e2b7c4f31a8efdf \
-                    sha256  f74cd02f69bb47a2b1251ea94e0492617a0ffe6351a656fc9dfc6aa0c1550d21 \
+                    rmd160  164ef856a3c9dfe4b9ba97e00712e93cad9106ee \
+                    sha256  86f6629824b450f7c789a3aba62db1b18f665aef92920e95f126e03818cb0507 \
                     texlive-documentation-german-26888-src.tar.xz \
-                    rmd160  d45bb94c87edac89889e802a9e30839684727d73 \
-                    sha256  9117f73a370416eb19b6e07af43b15dc283f8483074b3113d094abf82987d038
+                    rmd160  6ab20d8a94aa4871c1be5875677ad234df0c06c7 \
+                    sha256  69fc95cdeacc78ab3ce97ad6f38d7f350bf8004e2e4143e9b32046530569682f
 
 depends_lib         port:texlive-documentation-base
 

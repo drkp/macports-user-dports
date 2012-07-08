@@ -15,14 +15,14 @@ description         TeX Live: Humanities packages
 long_description    Packages for law, linguistics, the social sciences, the humanities, etc.
 
 checksums           texlive-humanities-25861-run.tar.xz \
-                    rmd160  157d5f440b6609ecdf19049c7a58ceed3a5809ec \
-                    sha256  e45b891b3780ecb0c586356f7c43ced221fa555758be4da9fbe5c236b5d43d77 \
+                    rmd160  bbcbde361d909e41eed41abf2cc97c73e3f01dc1 \
+                    sha256  0f42cb746531f01eced9d1b69bda3648bf25e9d51eb700e1f1e865a4c4d7eeb4 \
                     texlive-humanities-25861-doc.tar.xz \
-                    rmd160  82a2406a23104966e84ce8c050d32993e013c377 \
-                    sha256  949e9136c14894f1f311f3c5a90528e623f1157c87188d80371d72b9fca12bdb \
+                    rmd160  86637d97774b33a76aba693a8d3a2daf6a9b34c2 \
+                    sha256  a3862a5f0741700c7c1a2cb3a5a96020ec52fb80926f469231018a5b05d9e287 \
                     texlive-humanities-25861-src.tar.xz \
-                    rmd160  5f613c251c7a731a66a7881fb7bc2bdc07fa3c63 \
-                    sha256  f6208cc4aacbd4670927aebe5b5f16600d7c878cec90b1a432a56f9150bde8d9
+                    rmd160  f5dc4b9ebb83c816ce5c5b8155aee04f102ca65b \
+                    sha256  439e7236ec25b41c84c38a8d193f4e715890690b7fb9b848d2ec679814920da8
 
 depends_lib         port:texlive-latex
 

@@ -15,14 +15,14 @@ description         TeX Live: Italian documentation
 long_description    Italian documentation
 
 checksums           texlive-documentation-italian-26875-run.tar.xz \
-                    rmd160  46c7a8482ea34d903495f91177e5e504180f7573 \
-                    sha256  56b3b00db25ece402312f79e627ba2e86693ce397e41f604760502daca778b11 \
+                    rmd160  73a1848fbe63b8c93e0f87da149ff58ccb009ba2 \
+                    sha256  efd00c261127c42336f632008bff4881bc87b61121d0658c9123a2baec74774f \
                     texlive-documentation-italian-26875-doc.tar.xz \
-                    rmd160  00a3845ad1d31e2d64d4573feafd56efeb783768 \
-                    sha256  c5f6ab4bae0b88f7617a05590742a4f87415660ecee5175fb912544c46de8e8f \
+                    rmd160  fd792372f343e5cc12f36afe444a4d35ca5ed33c \
+                    sha256  79ebf4480ee198f5cef116e47660e5243aee21534e179bd3790374af4c24d93a \
                     texlive-documentation-italian-26875-src.tar.xz \
-                    rmd160  40c14454278a3ee531b02ee2fd946c951e1e0f37 \
-                    sha256  39acc0cb69260863ef60c191c07d9b68a36d82d352c4ef0940c6ecadf8f3eec9
+                    rmd160  811b5069844407c4f3dd2d4a2201ffa13b62a803 \
+                    sha256  c18b1224e098e91880e4b8a23ffbadac8ca577b0bd61ef356f85fb8266c3e59e
 
 depends_lib         port:texlive-documentation-base
 

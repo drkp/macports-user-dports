@@ -15,14 +15,14 @@ description         TeX Live: Arabic documentation
 long_description    Arabic documentation
 
 checksums           texlive-documentation-arabic-15878-run.tar.xz \
-                    rmd160  228d5cc6ddbe57e35ac3686ca7857625b8c3d9da \
-                    sha256  f3427adf8a1be38dbdc3eb1c820209dfc612af98e996da4a3a7e94f1a825cd13 \
+                    rmd160  e315901f93578e3dfe0e5f72558e49a4afd37a3e \
+                    sha256  9164e2e541d9e34d3b45f4871f95f44f166fdb3b5c1c9a6fb02dfefb24287816 \
                     texlive-documentation-arabic-15878-doc.tar.xz \
-                    rmd160  97030340cbd55ab433860d0f200e364d512503d4 \
-                    sha256  6612471bb9f0f4522c557b09b5dc3b6fd99d9a83888756085ef8dec2fb3f9446 \
+                    rmd160  e6b4bfabcca7449a05a5cd3f4a95ac9f40837635 \
+                    sha256  8b32c63856bfc000ddd82cf26b11d79a7b3fcdca87ece13d8b859d4afa22ded6 \
                     texlive-documentation-arabic-15878-src.tar.xz \
-                    rmd160  426911267848a9c739b87e876e8646365ac1809a \
-                    sha256  f2ecd7e900bfd2b58e6b8d1acf643cc3af685a397e0c503eb95586b498d1851f
+                    rmd160  73f4520aa858821adc7214687196b910d30cc36a \
+                    sha256  efea99b8265a0cb0991f58934caba5bd5369502ec3881f0070fca089c5ba980f
 
 depends_lib         port:texlive-documentation-base
 

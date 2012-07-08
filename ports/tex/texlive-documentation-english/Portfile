@@ -15,14 +15,14 @@ description         TeX Live: English documentation
 long_description    English documentation
 
 checksums           texlive-documentation-english-26760-run.tar.xz \
-                    rmd160  ad366c797f28554d57e1c3a72e9fe2502a88200f \
-                    sha256  56a1358a4c72da848cce576895da530d0736887c54657999fe1d2785f7fa1861 \
+                    rmd160  ee6873a6c417e3791367032cdeacfefa8e496ff5 \
+                    sha256  2c7a29363efe1219bbdd0e948857d5ab91e566b6e7925ef349bcb2eef630a879 \
                     texlive-documentation-english-26760-doc.tar.xz \
-                    rmd160  be0c2c7f8e7665a72aabda6b4761e8444884e4d2 \
-                    sha256  ded54cfccc6599074fdae7a2a3dc07870cf02bf659532aefb5ae20a6f0416cf8 \
+                    rmd160  2f8c293d1f3910d1719502581cd822989bec1af9 \
+                    sha256  4b690635074235dff9947efb56fa1ebc52e2277102ea364bcd5ad7b9153ee2d3 \
                     texlive-documentation-english-26760-src.tar.xz \
-                    rmd160  770fb6c2a81e113f349176c3831f9f816bac4d45 \
-                    sha256  dfec85defd7ed2a153ab7f4dc4f97bb5b30c0551c56aad4401b1b6cc5019ac9f
+                    rmd160  6b69976ba14fa8bc25fd43c4c5d398e9a32c4b59 \
+                    sha256  1945b380b3d47a9ff8442d403473ae3f9c1f959f5bd573b787257a1888865b35
 
 depends_lib         port:texlive-documentation-base
 

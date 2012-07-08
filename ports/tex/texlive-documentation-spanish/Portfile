@@ -15,14 +15,14 @@ description         TeX Live: Spanish documentation
 long_description    Spanish documentation
 
 checksums           texlive-documentation-spanish-24109-run.tar.xz \
-                    rmd160  8797a9d4dd68ba6575cfd95953bf76500b731287 \
-                    sha256  b57cbd32d9d2356ca739bd8d85e163b993bcd7db5be7613a22d5b14a26ae5640 \
+                    rmd160  59d0d069a4b484bd2961c4eeba424e42086a3e8b \
+                    sha256  94b36d8e6a84026701de750b914a4d3f2d9b5742c2bc4b07c093bda65e9aec02 \
                     texlive-documentation-spanish-24109-doc.tar.xz \
-                    rmd160  67d8f0f46c881e3c7ff056e24342484387ec0167 \
-                    sha256  fe65a45d0a0e72e4a64f9f8214b0bc5c7b8e927832646909b917daa3ee00f9b1 \
+                    rmd160  effad73cbaa14fa9bb311ffbfc8e1dcd514c0358 \
+                    sha256  c7f55bc354a334f863a1e34fc21297718b433a30521bc7e5cb4b0fb79b0043c6 \
                     texlive-documentation-spanish-24109-src.tar.xz \
-                    rmd160  970e78541d186c2e90c0c451d7f6d47bbe9d4ce1 \
-                    sha256  dc0b2d855be62327baafc4d9e2845213be02cf19038d31e3ff87a5e6274d324c
+                    rmd160  519711c1c8e624a4e631c7b49109d615a0941bb9 \
+                    sha256  ee0d7a3046b4a3f2a4f183dd71ab5bd053fd2a195caa696d2f18604733bff68d
 
 depends_lib         port:texlive-documentation-base
 

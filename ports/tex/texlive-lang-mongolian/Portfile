@@ -15,14 +15,14 @@ description         TeX Live: Mongolian
 long_description    Support for typesetting Mongolian.
 
 checksums           texlive-lang-mongolian-25990-run.tar.xz \
-                    rmd160  371b3c4f106017c735869dc89098171d121cd089 \
-                    sha256  347d08462cb321e5a5d35b1da308daf0b16cb64e0df8acaf9038c2359d338579 \
+                    rmd160  9a86c18f7a3836ef829595cf954f0e43339bd496 \
+                    sha256  247dc3bc5bf8d1054dba4bf7b26e89df8f3fdd39ea0762caf818fa691a2784f7 \
                     texlive-lang-mongolian-25990-doc.tar.xz \
-                    rmd160  45dceb759df1a627bc337ea17f34cedeb4d5140a \
-                    sha256  bb8327d0b8194e7d614d4ea3b67e3b5502767279176346666701743ced1ee2df \
+                    rmd160  36ec7d6c3efd92cf52ad1ecf7a61d6ddebcf6950 \
+                    sha256  77618ab8547132c2c9d23b4ef0f6dbdeeb22b6e84185546f6375022c3b3da6e0 \
                     texlive-lang-mongolian-25990-src.tar.xz \
-                    rmd160  7463fe19661c97475506a8304d74248f3ccbc9ff \
-                    sha256  698c21fce54b39a3e2df95a68927be55fb567aa30c87e7c19e64a7bc08c86dce
+                    rmd160  7fef1e6223f976877a9a682a52824c61e20ebfaa \
+                    sha256  15c0a5b1ae11e73d0efaa9d8c8f994de9079307bfac930dddd9f0641b3f30580
 
 depends_lib         port:texlive-basic
 

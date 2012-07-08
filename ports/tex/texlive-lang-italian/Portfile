@@ -15,14 +15,14 @@ description         TeX Live: Italian
 long_description    Support for typesetting Italian.
 
 checksums           texlive-lang-italian-26234-run.tar.xz \
-                    rmd160  276dbfcca4aabb7ef5eb7d658783c4709fb35ae9 \
-                    sha256  d1d4c003062c86e03f0e4657727e0b832921779ce778609908d31fea3eee6368 \
+                    rmd160  86d6cd0dcab76bab696bcd9252606ffc93bdc531 \
+                    sha256  4267bb6ca15c619f30736b5dee827fb48d192167b8ab1e4100cd6f5416fcb4aa \
                     texlive-lang-italian-26234-doc.tar.xz \
-                    rmd160  8e57f5e6a2db5ca92f6d8a34a5e46afcc4261058 \
-                    sha256  176c01af0457523a46abb127225676ce1e4683b206d58a0460c407ba14333f10 \
+                    rmd160  1d9dd10c4d33b7192e9d6e607188e6f64310849a \
+                    sha256  cd2686efb1436b422da81aa4e0e78abc1a649e2e9bd40981132838f7a07ca9a8 \
                     texlive-lang-italian-26234-src.tar.xz \
-                    rmd160  e852c22c9f32d1b5e0aa914582a5f789b73215f7 \
-                    sha256  41a6d02fd9934435c48d9bb736fdd90451665e882cd534e00ee8e37594cc1672
+                    rmd160  700020cf0350961d0ad0e5ee35eb8d87281e1c56 \
+                    sha256  787d23bfb21d729c8fcf1d592b10860c6fdd6fb3542a6fcdb6fb14c30dc3b6e6
 
 depends_lib         port:texlive-basic
 

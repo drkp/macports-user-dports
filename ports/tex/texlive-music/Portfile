@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-music
-version             26726
+version             26926
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Music typesetting
 long_description    Music-related fonts and packages.
 
-checksums           texlive-music-26726-run.tar.xz \
-                    rmd160  fa43d7742c89423f6f56862c25befaccb86e3994 \
-                    sha256  c7cc702e6d6559414f57e392f4be55ead2e6d672506d113000a12b2742aaf669 \
-                    texlive-music-26726-doc.tar.xz \
-                    rmd160  4c2f8ea303eb3ca9961c2886a561ed48550ed4cb \
-                    sha256  d5b523ef40cc6b4a6502ee79e720c48b698c919270d3a31b67ad18d82ca681f0 \
-                    texlive-music-26726-src.tar.xz \
-                    rmd160  9dbe114e450a39b7579deb99a7ce3f1954707df2 \
-                    sha256  99cbacf189e35aaa0b656f98e35691803c6a6c8493793e651e00c9b2773e7ca3
+checksums           texlive-music-26926-run.tar.xz \
+                    rmd160  2861d72144d7d0ff0d9500d98f6d99158082d094 \
+                    sha256  f59e117bbd202cef65610ed55332555c22d65cc794696a1f5b921264beaf428e \
+                    texlive-music-26926-doc.tar.xz \
+                    rmd160  546680841d47b6babb1f25ac78e7abd18e102da6 \
+                    sha256  7f53f98e2d37b4520f44200b42128a0eafa0e9a4b1025b912745f7a60c213a6a \
+                    texlive-music-26926-src.tar.xz \
+                    rmd160  5eea89923de59bfbb19218d15be7e71e92b2aa72 \
+                    sha256  891d9f577d5c1547986ec3084ea9ddbb90224b84f45c6bc5a806f69d39db891f
 
 depends_lib         port:texlive-latex
 

@@ -15,14 +15,14 @@ description         TeX Live: Portuguese
 long_description    Support for typesetting Portuguese.
 
 checksums           texlive-lang-portuguese-25990-run.tar.xz \
-                    rmd160  5406d25f44dfaca645481ea4729d0d0c46ad66fe \
-                    sha256  854b35520bb69009c9ff76c32e4e941e0ea3c0e3dd60a63e0d250fa0999e342f \
+                    rmd160  c74360b45474e56c87053eb6e016c76ee258146a \
+                    sha256  08f493a45a56d33ada82a993709537be48a2483c63bef07e4047322b5c645e0f \
                     texlive-lang-portuguese-25990-doc.tar.xz \
-                    rmd160  2705819e3313724872990554c2cbf974d8b65a3c \
-                    sha256  f54d2e432ffff68a464de0f802b2365d7024cac49391790a6b05b38bf8a6af3a \
+                    rmd160  07a6f7da05acaebf0fca126acaf640a60bff24d3 \
+                    sha256  75eaa2a689deb949005575cf728e8b23c6ad1672ed1dee44b7e808afbdbc9f97 \
                     texlive-lang-portuguese-25990-src.tar.xz \
-                    rmd160  554e729f532a4ec994e2abadf5bf44282dc50842 \
-                    sha256  7b4d53cc071e428151eb2f58b4c4559030b756652cc3351e5fe94abf691b0a08
+                    rmd160  41dd52d40eeb4f4a4af090c68348e82a62772960 \
+                    sha256  eab8c4253928502c1a1fbea0ab93a44a55ffca7dd977be22d3c8d1c96ddcf5ec
 
 depends_lib         port:texlive-basic
 

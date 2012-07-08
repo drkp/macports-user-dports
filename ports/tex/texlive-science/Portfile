@@ -15,14 +15,14 @@ description         TeX Live: Typesetting for natural and computer sciences
 long_description    Typesetting for natural and computer sciences
 
 checksums           texlive-science-26607-run.tar.xz \
-                    rmd160  a126a450ec1c49da8acc7ffffed1e0487346e1ff \
-                    sha256  6c4b0796059fb1f82f9ca5dcac4506f8cfd6a30434c2d3ce8b76bbf80d6f7a1e \
+                    rmd160  5a871329d057b670aa757beeeaf1486babe16dd4 \
+                    sha256  873068fd18ed881f850b7c467030a1d2f2072e539c2c29c8555484c0cc9432ac \
                     texlive-science-26607-doc.tar.xz \
-                    rmd160  321747c5f5f53ce292f54d8e34ca2cf662507b27 \
-                    sha256  04e6fa6e739d2027b8bbfc2f774b7f611f46995b939d2ed99bb162e353658dfb \
+                    rmd160  efc9adf71caa9d11a08687c3c4093dc43bc5ad4a \
+                    sha256  64fd31733c7412c4bedd333988c8b2eee031f792e120a134c004624aaad94ef3 \
                     texlive-science-26607-src.tar.xz \
-                    rmd160  e51e6866121fd2a1cc78d94d32d0ce804bd5e3f5 \
-                    sha256  946bee5a53c5dfea6640083367e535117188dc1de34aea7d505ac0392713c6ba
+                    rmd160  f7865fdd38207976ef945d8c647ee792f546d150 \
+                    sha256  7251ed92eee5adec70674f3c04cfcce01229eaedc6662272ed749cb0bccbacf2
 
 depends_lib         port:texlive-latex
 

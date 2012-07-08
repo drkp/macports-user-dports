@@ -15,14 +15,14 @@ description         TeX Live: Plain TeX supplementary packages
 long_description    Add-on packages and macros that work with plain TeX.
 
 checksums           texlive-plain-extra-25953-run.tar.xz \
-                    rmd160  ac4ebb79a06a6184dc3758162a714bd93aed8272 \
-                    sha256  7c426389ae598dcb07f04d7e3acee6537143b93b06e079c135726faec05c8197 \
+                    rmd160  81d31668103ffdb342a93f2a9ca59876809cac5e \
+                    sha256  f15fba608fc570381eab071975b3f1adafeb7a952628b76de5425445332a310a \
                     texlive-plain-extra-25953-doc.tar.xz \
-                    rmd160  c599fa0ddc5bd4b3cb9c76f2cb89f2283372abf0 \
-                    sha256  14bd9b10c1d7ac67d1c91fe7780c08f4cf8c25329d2ee0b60636ee1845808724 \
+                    rmd160  7f601fc5c4b1b988eb7b0ea67c944598b512a020 \
+                    sha256  49bd35ab6bc3f894821e2a0ad1212d589b19192409f10af465057759915e3531 \
                     texlive-plain-extra-25953-src.tar.xz \
-                    rmd160  ce177e559798ba113d6ee77660c6896b2032e8e0 \
-                    sha256  3bd501c14a9ca8745f9c0631519423f1e9d5c46ebc919289177bbd0a605415ed
+                    rmd160  39c90cc6d2f4edcf3e924931b703802bdd2fd27d \
+                    sha256  c9b9d2f57048f2a579a381c7ce26c3185b3619ccf2cfabd60fbb85fa876c2052
 
 depends_lib         port:texlive-basic
 

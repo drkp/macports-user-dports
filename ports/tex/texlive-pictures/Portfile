@@ -15,14 +15,14 @@ description         TeX Live: Graphics packages and programs
 long_description    Graphics packages and programs
 
 checksums           texlive-pictures-26791-run.tar.xz \
-                    rmd160  e0f8733e6bf3d4bd7ac4e48627f5b143c6409726 \
-                    sha256  432f76dcc6b5d29b5e067fde1024f993a72017e5af134eead390abab5150abed \
+                    rmd160  4093d13420f08cc04b70e681d240280a5aeb73fd \
+                    sha256  58e23a7f65f732b0a946b5d30757c270abc160f604ceb4c790b644bb27f5b024 \
                     texlive-pictures-26791-doc.tar.xz \
-                    rmd160  2bea3e537f2a8865b40785a7b43cb6c8717bed12 \
-                    sha256  9a0152de006f687cdb6d6697384e4a000e19c72df2047c728932e1acbc90fb3b \
+                    rmd160  6d5a47a68d6d95550b8b1f03d12b51b45d5594e4 \
+                    sha256  b78e0669de84d251ab624754531e12fda3e002b61f8e544cf1ad719e94d49811 \
                     texlive-pictures-26791-src.tar.xz \
-                    rmd160  b7e63a9ac23b26452074c129c536a34da6faad23 \
-                    sha256  700aea3b38b695a088bcec446414d76bc313f97d8b1a70ade03dd52026234fee
+                    rmd160  123d2a03b476006f1097e39108ed317b57b7390c \
+                    sha256  404b2afa36917ac196b01d97bdd21f6606c7400f3d35ebbd38c72fc201fb1cc6
 
 depends_lib         port:texlive-basic
 
