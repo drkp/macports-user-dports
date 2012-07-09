@@ -28,6 +28,5 @@ depends_lib         port:texlive-latex
 
 texlive.binaries    bibexport listbib urlbst
 
-depends_run-append  port:biblatex-biber
 
 texlive.texmfport
