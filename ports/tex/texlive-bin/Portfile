@@ -251,6 +251,18 @@ pre-activate {
         }
         $deactivate_proc texlive-basic "" [list ports_nodepcheck 1]
     }
+
+    # TL2012: some scripts in texmf are now installed by this port
+    # rather than by texlive-bin-extra and texlive-basic
+    if { ![catch {set vers [lindex [registry_active texlive-bin-extra] 0]}]
+         && [vercmp [lindex $vers 1] 26926] < 0} {
+        registry_deactivate_composite texlive-bin-extra "" [list ports_nodepcheck 1]
+    }
+    if { ![catch {set vers [lindex [registry_active texlive-basic] 0]}]
+         && [vercmp [lindex $vers 1] 26926] < 0} {
+        registry_deactivate_composite texlive-basic "" [list ports_nodepcheck 1]
+    }
+
 }
 
 post-activate {
