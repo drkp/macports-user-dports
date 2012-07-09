@@ -32,15 +32,15 @@ license         Copyleft Permissive LGPL-2.1+ BSD
 master_sites    http://flute.csail.mit.edu/texlive/test
 set distversion 20120708.26940
 use_xz          yes
-distname        texlive-${distversion}-source
+distname        texlive-${distversion}-source-stripped
 worksrcdir      ${distname}
 
 set tlpkgdistname   tlpkg-TeXLive-${distversion}
 distfiles-append    ${tlpkgdistname}${extract.suffix}
 
-checksums       texlive-20120708.26940-source.tar.xz \
-                rmd160  440cfc3facac1e9edf4c8c0e21e555b3c783d3f3 \
-                sha256  48ab350cde0fd9af557e59c2ce3bccb304cf98406b216f38a9b6b0721563a9a9 \
+checksums       texlive-20120708.26940-source-stripped.tar.xz \
+                rmd160  a1253c3b2852926337e724bdb30f07b376597089 \
+                sha256  765b2f7488fe06a59a7560e59132444e26de985961f06a41162e4de367269e4d \
                 tlpkg-TeXLive-20120708.26940.tar.xz \
                 rmd160  f550437e2591f770d449a01fabd44a4eb43d79fb \
                 sha256  259ed8697d8f42de51da4c0345c15d25c2925ec3f3422420c9144d9a54c55fb9
