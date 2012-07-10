@@ -15,14 +15,14 @@ description         TeX Live: Bulgarian documentation
 long_description    Bulgarian documentation
 
 checksums           texlive-documentation-bulgarian-19296-run.tar.xz \
-                    rmd160  f68b5000a451916562002f53395e4f09d1981768 \
-                    sha256  c03908a4fca63a7fe2346f3a5419278c4f80bd14bda3ea26020a4af604c17d06 \
+                    rmd160  e7627a622cfcb211a0ab3787cdc2433dd375e583 \
+                    sha256  128462f1faefb709f3f54c96d89a6ef0728a1eaaab49fd1d8223092a105d5a44 \
                     texlive-documentation-bulgarian-19296-doc.tar.xz \
-                    rmd160  f6248f7b948547f0cf54df293e934dc9b3ca8270 \
-                    sha256  2d3aff45a0602837b805489f0ae1edc569baf677ed21bedb1afc11b791154d50 \
+                    rmd160  85a87e95220cd6480cc76ac69fcf10de8d66da3e \
+                    sha256  f3366846b5f4787cf2b9ef2828fd0cc0da0573094b52ae424a5958d21fe00eaf \
                     texlive-documentation-bulgarian-19296-src.tar.xz \
-                    rmd160  99bf9eb189e495918f0d1545fcc37b03f1d82bd3 \
-                    sha256  fdf7e02d62ec8bb596dfc36665475eb30593158656a3f193d53ae7f1e29739eb
+                    rmd160  0313f0e808b3dcbeaac616a9d960bfa2daf823d0 \
+                    sha256  3286d2948d4d0486733c4c60b2bc0f76d53b61616e7d190006a192324ec24957
 
 depends_lib         port:texlive-documentation-base
 

@@ -15,14 +15,14 @@ description         TeX Live: Danish
 long_description    Support for typesetting Danish.
 
 checksums           texlive-lang-danish-23085-run.tar.xz \
-                    rmd160  ae6617961540123024a226d1cc3a1603cd6ad1e7 \
-                    sha256  57afbea1d97af3d65e50b10aa671df6bf49f0f7bea31a0fcf2dbe00edfd9d7e5 \
+                    rmd160  533579eefb32b9bb69b8d2386b59f25bd224731e \
+                    sha256  47e00ee136bfa9c4fd066a6660266dc626d25b75c613feefd36e932039d14c52 \
                     texlive-lang-danish-23085-doc.tar.xz \
-                    rmd160  f1bcefa021a70c12ae32fed83787bce6486c6088 \
-                    sha256  ebc10f0366dccd079db721594e188a6a11c300e4d838502153205d63d77b5d6b \
+                    rmd160  06707614b36f142a579efd1d0cca3b25084b200a \
+                    sha256  b5fce68c2a01150137797f3c014b554ba00e9ec18d2efdf13dd67d2f6b212f8d \
                     texlive-lang-danish-23085-src.tar.xz \
-                    rmd160  41cec86f115ce1e1e94d2148fcfd682f22313b73 \
-                    sha256  f2795b2ac163674b0485802e5dd735411c1dbe5f1ed198fa38f29cc651b630d6
+                    rmd160  4a27acd5550d06ce8f61f0837c7a4219f4d46485 \
+                    sha256  388519888158523ee701ada5c5dfdb52e0f7e57ca9fea19d6ec74e1deec36619
 
 depends_lib         port:texlive-basic
 

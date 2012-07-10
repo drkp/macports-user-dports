@@ -15,14 +15,14 @@ description         TeX Live: Thai documentation
 long_description    Thai documentation
 
 checksums           texlive-documentation-thai-15878-run.tar.xz \
-                    rmd160  12ce48c78963bb579ad6b9d9bd10bd3e90f7242e \
-                    sha256  1c8bb714f2bf8e023a5403be76c5f14890520315aa8731618edea27b3e7f782d \
+                    rmd160  f21674b15ed45ec9fbcfdca8e60c91c76543eda7 \
+                    sha256  092907998162fdcf009ecb5fc6d02c0ef53706c2ba2f8f1911f5b8e9e9bc463b \
                     texlive-documentation-thai-15878-doc.tar.xz \
-                    rmd160  b63d5bf7345b2dbde7bcc4b71e9d85534ba1abd6 \
-                    sha256  98d2be88c48076d34c48d06bfd6306c044771feed31c4e05147294bfccaef95e \
+                    rmd160  652c41cf23e6d09bf81033f9b66cd16240d205c3 \
+                    sha256  88acf4c73c9d73407962d466a08a5fee1d682555576fa0915ec647039dc11116 \
                     texlive-documentation-thai-15878-src.tar.xz \
-                    rmd160  8f7ae78249165751c83611c901d0d64e77a6ddaa \
-                    sha256  3f7dc595971d194cb6aee31ca274ff4e8c7eef785bb340d23eaf07eadba2660a
+                    rmd160  c0c90315c4d8eca53d97a253ea87a0ec8468abd9 \
+                    sha256  3df8cd44aca39b8532b6395405a0ee561d7ec08ba5fac3e1c29062b279c2cb9a
 
 depends_lib         port:texlive-documentation-base
 

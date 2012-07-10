@@ -15,14 +15,14 @@ description         TeX Live: Finnish documentation
 long_description    Finnish documentation
 
 checksums           texlive-documentation-finnish-15878-run.tar.xz \
-                    rmd160  408b137f74b6864739ced41b1fb088606ad885e1 \
-                    sha256  903f65901a7983924669abf194e6e4d5518e786c80502bad02b8334516f4a0bf \
+                    rmd160  db09a6f4ff248c8fac7e178a7365a3fa21de8bb3 \
+                    sha256  529fcdbf4481ae6e199f7c11e25035af7a291cc9a5e3f70ac259819e167a7b95 \
                     texlive-documentation-finnish-15878-doc.tar.xz \
-                    rmd160  48e6687876267ffe8b671e7b3a6c95c874b6cae7 \
-                    sha256  67e75cc70c82f84ccacb3a49cf8ad5964bc99b917ebb6a7a1a9f7357bb3b2e7d \
+                    rmd160  f0ce4ccc7fa415c320e63cf211371d418370f04c \
+                    sha256  a244a2399e60ce6c87111905ce427bb7a6a54e177702be42c891562eebe4129f \
                     texlive-documentation-finnish-15878-src.tar.xz \
-                    rmd160  0993fe7495a24292d64ff62b9c12c596d3cd15d4 \
-                    sha256  a60848fb798f47032dbcd0caf1ceb31335102cdc419d2a209855eab126bd48db
+                    rmd160  12b98a44a8dec6f4dd03aa9047ddd414b80f07ef \
+                    sha256  457ca833d39df66a0a08bffc1112fc50f7d5ee65b6183ab8647f556c17585ecb
 
 depends_lib         port:texlive-documentation-base
 

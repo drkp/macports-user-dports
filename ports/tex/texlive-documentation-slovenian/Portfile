@@ -15,14 +15,14 @@ description         TeX Live: Slovenian documentation
 long_description    Slovenian documentation
 
 checksums           texlive-documentation-slovenian-15878-run.tar.xz \
-                    rmd160  f91b8a624b3ed29981f4ea2887741141d224707b \
-                    sha256  aeaad10dcd096a69c9d61c66c327ea6f1f88deea2e0528248070bb3bfaa9b057 \
+                    rmd160  e899ef7c53936295ce7fd5c9ab2e8af2c4dfbafe \
+                    sha256  e9bf7760f9456dd12b3987cc314def9fc3ddf9c5f49249bc4d5e44ff8eba1251 \
                     texlive-documentation-slovenian-15878-doc.tar.xz \
-                    rmd160  6e445af12daef1ee1d03340bd9997ffd1e89d8c8 \
-                    sha256  90c578d37bb5286e4388107fbedd64c5ea2149eaf47b744dbc6db5b745d4afe2 \
+                    rmd160  ec420fd5c96d9862ad090a435dd7058f1d3472c6 \
+                    sha256  dcfc74934eb7e21474ddb191c7b66876417556123a18dc8afdb0205839c3ea3b \
                     texlive-documentation-slovenian-15878-src.tar.xz \
-                    rmd160  5c59520117682975c55d7c7ddaaf5691631f2328 \
-                    sha256  28f928ae082d95a350c87f84aed02168865d537b4af78296c2ec3399704cbea4
+                    rmd160  337958df4b0047fb5f6382daf36d7b66621c0f17 \
+                    sha256  b6be612d8b17f02ddc99a0de9fe96efb3608f34a0f0514225e7edf14a784a170
 
 depends_lib         port:texlive-documentation-base
 

@@ -15,14 +15,14 @@ description         TeX Live: Japanese documentation
 long_description    Japanese documentation
 
 checksums           texlive-documentation-japanese-15878-run.tar.xz \
-                    rmd160  d4e8d9d6aa1037a8ad31894bfdad5ef520d2bd2a \
-                    sha256  d2d742601f8b2eb24a7434c9b52a1a915bf21527faad79877b4182f5ec71c4ee \
+                    rmd160  701a7403cbbcf05ab6d494ee7083e710cc061325 \
+                    sha256  69054f315a92cec439366a44da3cdfa3849f9624a61d5c8fc2fd6ac9ca24d458 \
                     texlive-documentation-japanese-15878-doc.tar.xz \
-                    rmd160  aa5d4fa962b1b19d2631bc60ce25dfbd76f0520d \
-                    sha256  f88a16b8fad68c88890ed71c0d4537f3c37fe98dd895c6b09252f7a0127f340b \
+                    rmd160  abef51d6b49b51a059a7b506f6c5f0b81c0eb298 \
+                    sha256  9378545e15c15f6766d9770853712840dcabb3f9164cee1b2eaf1721bc7a1396 \
                     texlive-documentation-japanese-15878-src.tar.xz \
-                    rmd160  059cfb6b943d73b8038b44d30f24059ef4024d05 \
-                    sha256  020d8526edcb7f4ee8674ae55323f6fe017155bcbd77b42a344c88c8fe9666b4
+                    rmd160  02d1344509b5b61245d298ebe713ba72a273ad0d \
+                    sha256  51155e7c32a55bab45e4dd22daa0a0b2db68e509ecff8eb95eb7e656121b8dc1
 
 depends_lib         port:texlive-documentation-base
 

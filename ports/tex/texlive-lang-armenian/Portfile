@@ -15,14 +15,14 @@ description         TeX Live: Armenian
 long_description    Support for typesetting Armenian.
 
 checksums           texlive-lang-armenian-20529-run.tar.xz \
-                    rmd160  387b5a08e0ae27f47320c0654b83c6b6d1563806 \
-                    sha256  9cc735c5672c29728ebe84a60342a3231366abcbdfe589cb538b8e3bb17e3c98 \
+                    rmd160  244045f0b5eb4cbee542cdaa758a464f1ae27323 \
+                    sha256  200116ab13aac4dd9a9b113aa5ef6dc600d1c0c7ebf3ac3646ea765809d7af76 \
                     texlive-lang-armenian-20529-doc.tar.xz \
-                    rmd160  9f888f5da6d2681f919340d531645afc85535c08 \
-                    sha256  8dd0fc0e23f1a42731d54116d28f14e40d5cc480ea635188310a4272e9cf6640 \
+                    rmd160  6206014502f6962d5fde83560be72bf966b966de \
+                    sha256  3b1b528e599d3cfb7ddbbf05d9b825402792f33e7a86f64929188cf0c3099183 \
                     texlive-lang-armenian-20529-src.tar.xz \
-                    rmd160  47212952d6592276e9b6d8e7037a111a3dcb36dd \
-                    sha256  9fca883ada3f2068c4cd9009b7a7812c66b81da74f6714b5d435818867362695
+                    rmd160  d40dbceb55cbfa9532adca3ec99130cb6b60cc6a \
+                    sha256  56e036e9decc0677d4ca0eaa7c98d3de4b571d5a2bfd64978b0069f33d68829b
 
 depends_lib         port:texlive-basic
 

@@ -15,14 +15,14 @@ description         TeX Live: Vietnamese
 long_description    Support for typesetting Vietnamese.
 
 checksums           texlive-lang-vietnamese-22766-run.tar.xz \
-                    rmd160  8800925a93ce400f6d87ba1cc0ec9d579125a0f2 \
-                    sha256  41348c74f71cbf18f329421f9fe35538965111f453e2f1eb78d64f2df7bd4687 \
+                    rmd160  6f9d806a7b035d805a30b72ee875e62cdc96362f \
+                    sha256  15a924cb044df0b08c4fc7fd12df0e8288c83127ed806ab3ab5dd0de1bf234c3 \
                     texlive-lang-vietnamese-22766-doc.tar.xz \
-                    rmd160  f6df2da7ef73425cffc213f6a9bc2c6aebedb7c2 \
-                    sha256  b99c845e5039623d81e8d5cacdb3beb016414f2188703043f69df8deed03ddce \
+                    rmd160  625b57512beb2d809426736e6b31226be78da693 \
+                    sha256  ed00a4d02d1292f25d5f7ab51927eeb94cb918af49e9d11f098a7f77995ce439 \
                     texlive-lang-vietnamese-22766-src.tar.xz \
-                    rmd160  47e5e3ffaeea2d8458367375f98125b85704da46 \
-                    sha256  12953db91be08f3ef41b35e230a254aa48d53164465881f592d94e29125efaa3
+                    rmd160  b35d26682e40b740fe03edbc557ce4495b15713c \
+                    sha256  70d82aa9cedd1c2284042f7a55fe5e8160ffc9ee4ae4b85085ef86ae5e8a968a
 
 depends_lib         port:texlive-basic
 

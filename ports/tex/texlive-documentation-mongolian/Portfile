@@ -15,14 +15,14 @@ description         TeX Live: Mongolian documentation
 long_description    Mongolian documentation
 
 checksums           texlive-documentation-mongolian-15878-run.tar.xz \
-                    rmd160  0e3e3b6e098d2690ad056eb216d526eba23bd84d \
-                    sha256  61de18d467332e3e8dcbcea03abc9bd0d5de1f07788289366769d3aa07ee31aa \
+                    rmd160  226aec3f6acd7872fe98436b77687749ce75a3db \
+                    sha256  d30802e47bf9f4cb785ef22d3e4831088cc778e71caf1cd4df36912ed40b128c \
                     texlive-documentation-mongolian-15878-doc.tar.xz \
-                    rmd160  1912d584e85661e7272d0f365c8e6d9d32be1070 \
-                    sha256  e5bdb0ab6c552bda1a149ef8e3d059a0b758accb84898855e0c316d1b8e2cc13 \
+                    rmd160  23ca21808caa46d66ea8ad98d2f4ca9664d51179 \
+                    sha256  f63df3a2ba81f1df2e1a66f7fcdf5e84dd1e1e9481c782bc63544d1ee73d16aa \
                     texlive-documentation-mongolian-15878-src.tar.xz \
-                    rmd160  706c44ac9811ac3a90d875b6329fe10031d5afd2 \
-                    sha256  308055ecfa8f67fce5ca29a31e47377fbd727a8b693c132994caf2b0e9c3a886
+                    rmd160  db96e96b5fe4141d3141c208f27747bb72745013 \
+                    sha256  44983aa4244e6d38b4ef97b3de0f09e33078eeea860de80e0cd5ba1e18067046
 
 depends_lib         port:texlive-documentation-base
 
