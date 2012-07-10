@@ -29,7 +29,7 @@ license         Copyleft Permissive LGPL-2.1+ BSD
 # download time, it omits a number of libraries and utilities that we
 # don't build. However, the port should still work with an unmodified
 # texlive distfile.
-master_sites    http://flute.csail.mit.edu/texlive/test
+master_sites    http://flute.csail.mit.edu/texlive
 set distversion 20120708.26940
 use_xz          yes
 distname        texlive-${distversion}-source-stripped
