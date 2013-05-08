@@ -1,0 +1,17 @@
+--- texk/texlive/linked_scripts/context/stubs/unix/mtxrun.orig	2013-05-07 15:42:58.000000000 -0700
++++ texk/texlive/linked_scripts/context/stubs/unix/mtxrun	2013-05-07 15:43:01.000000000 -0700
+@@ -12845,13 +12845,7 @@
+ if environment.default_texmfcnf then
+   resolvers.luacnfspec="home:texmf/web2c;"..environment.default_texmfcnf 
+ else
+-  resolvers.luacnfspec=concat ({
+-    "home:texmf/web2c",
+-    "selfautoparent:/texmf-local/web2c",
+-    "selfautoparent:/texmf-context/web2c",
+-    "selfautoparent:/texmf-dist/web2c",
+-    "selfautoparent:/texmf/web2c",
+-  },";")
++  resolvers.luacnfspec='@@TEXMFSYSCONFIG@@'
+ end
+ local unset_variable="unset"
+ local formats=resolvers.formats

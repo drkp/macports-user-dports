@@ -1,6 +1,6 @@
 http://bugs.icu-project.org/trac/ticket/9367
---- libs/icu/icu-49.1/common/putil.cpp.orig	2012-06-01 10:52:46.000000000 -0400
-+++ libs/icu/icu-49.1/common/putil.cpp	2012-10-05 19:53:14.000000000 -0400
+--- libs/icu/icu-51.1/source/common/putil.cpp.orig	2012-06-01 10:52:46.000000000 -0400
++++ libs/icu/icu-51.1/source/common/putil.cpp	2012-10-05 19:53:14.000000000 -0400
 @@ -123,6 +123,13 @@
  #endif
  
