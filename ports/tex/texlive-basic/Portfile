@@ -48,24 +48,20 @@ texlive.maps      \
 
 texlive.binaries    afm2tfm allcm allec allneeded bibtex dvi2fax dviluatex dvipdfm dvipdfmx dvipdft dvips dvired ebb etex extractbb fmtutil fmtutil-sys gftodvi gftopk gftype gsftopk inimf initex kpseaccess kpsepath kpsereadlink kpsestat kpsetool kpsewhere kpsewhich kpsexpand luatex makeindex mf mf-nowin mft mkindex mkocp mkofm mktexfmt mktexlsr mktexmf mktexpk mktextfm pdfetex pdftex pktogf pktype simpdftex tex texconfig texconfig-dialog texconfig-sys texhash texlinks texlua texluac updmap updmap-sys xdvi
 
-texlive.exclude     texmf/web2c/fmtutil.cnf \
-                    texmf/web2c/texmf.cnf \
-                    texmf/web2c/texmfcnf.lua \
-                    texmf/web2c/updmap.cfg \
+texlive.exclude     texmf-dist/web2c/fmtutil.cnf \
+                    texmf-dist/web2c/texmf.cnf \
+                    texmf-dist/web2c/texmfcnf.lua \
                     texmf-dist/web2c/updmap.cfg \
-                    texmf/tex/generic/config/language.dat \
-                    texmf/tex/generic/config/language.dat.lua \
-                    texmf/tex/generic/config/language.def \
-                    texmf/fonts/map/dvipdfm/updmap \
-                    texmf/fonts/map/dvips/updmap \
-                    texmf/fonts/map/pdftex/updmap \
-                    texmf/scripts/simpdftex/simpdftex \
-                    texmf/scripts/tetex/updmap-sys.sh \
-                    texmf/scripts/tetex/updmap.pl \
-                    texmf/texconfig
+                    texmf-dist/web2c/updmap.cfg \
+                    texmf-dist/tex/generic/config/language.dat \
+                    texmf-dist/tex/generic/config/language.dat.lua \
+                    texmf-dist/tex/generic/config/language.def \
+                    texmf-dist/fonts/map/dvipdfm/updmap \
+                    texmf-dist/fonts/map/dvips/updmap \
+                    texmf-dist/fonts/map/pdftex/updmap \
+                    texmf-dist/texconfig
 
-patchfiles          patch-runfiles_texmf_dvipdfm_config_config.diff \
-                    patch-runfiles_texmf_dvipdfmx_dvipdfmx.cfg.diff
+patchfiles          patch-runfiles_texmf-dist_dvipdfmx_dvipdfmx.cfg.diff
 
 pre-activate {
     # If texlive 2007 metaport is installed, deactivate it to avoid
