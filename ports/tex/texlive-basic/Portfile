@@ -58,8 +58,7 @@ texlive.exclude     texmf-dist/web2c/fmtutil.cnf \
                     texmf-dist/tex/generic/config/language.def \
                     texmf-dist/fonts/map/dvipdfm/updmap \
                     texmf-dist/fonts/map/dvips/updmap \
-                    texmf-dist/fonts/map/pdftex/updmap \
-                    texmf-dist/texconfig
+                    texmf-dist/fonts/map/pdftex/updmap
 
 patchfiles          patch-runfiles_texmf-dist_dvipdfmx_dvipdfmx.cfg.diff
 
