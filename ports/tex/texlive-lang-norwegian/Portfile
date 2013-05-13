@@ -5,8 +5,8 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-norwegian
-version             23085
-revision            1
+version             30307
+revision            0
 
 categories          tex
 maintainers         dports
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Norwegian
 long_description    Support for typesetting Norwegian.
 
-checksums           texlive-lang-norwegian-23085-run.tar.xz \
-                    rmd160  2ee2b185a4a7747841d1359dab328b3a47b63b5d \
-                    sha256  4122e1c3dcaf466b3aff36a92011cb017b40709bac7d96074b1a2c68d4c83cfe \
-                    texlive-lang-norwegian-23085-doc.tar.xz \
-                    rmd160  ecb14623166d2a96dad421242e4e09bdddce7e8e \
-                    sha256  dff4e901b053e574e29b844a7a8bdf56fb8d9e307a3860da052613a613613d4f \
-                    texlive-lang-norwegian-23085-src.tar.xz \
-                    rmd160  e8b86608c9577282692be2ce95ca3150355f8108 \
-                    sha256  6ee57a066dc7f71538ea82433d0b552945ccc7bd29f5ac7811ec0efff859730e
+checksums           texlive-lang-norwegian-30307-run.tar.xz \
+                    rmd160  3e1dd6c5896927d5b0246f6176e8fb02d28d88e3 \
+                    sha256  2f4d434f8568acd24d333ac5ef950fc48f3bc7eedea8b8dbb42726e0db56698a \
+                    texlive-lang-norwegian-30307-doc.tar.xz \
+                    rmd160  c4f1b5a2e996ea6e3b9ca41b0ab9ed4694913ae9 \
+                    sha256  1851b38d33192ee813f66dcc679f10511bf59be05442230747f1699e3389295f \
+                    texlive-lang-norwegian-30307-src.tar.xz \
+                    rmd160  1bf53f7aa3fbebb7f68e741437d56058c3fe840e \
+                    sha256  754139cae1fadb793a67492b07339977bbadf72c50987d0f11bfc248fc30be35
 
 depends_lib         port:texlive-basic
 

@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-other
-version             26614
+version             30307
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Other hyphenation patterns
 long_description    Hyphenation patterns for languages without (much) other support.
 
-checksums           texlive-lang-other-26614-run.tar.xz \
-                    rmd160  ee169418dc747f18cb33438b73e949e7b6b3cdd8 \
-                    sha256  12a6ab5ce0cdcf71092eac0c0be1567273ae470b4e862f292aed6888722d1581 \
-                    texlive-lang-other-26614-doc.tar.xz \
-                    rmd160  95e1613563fdc8c78889c6e23ea4cf696511e832 \
-                    sha256  1f0043c71b191b4e4fdcccacc5902fb6f53063fbfe15c4fd0a19b117b33767fb \
-                    texlive-lang-other-26614-src.tar.xz \
-                    rmd160  ac7b77263c4db2474a661e19c5602cd7e851f4d9 \
-                    sha256  3a178f110d1f128f4dbf7725f47d0ef1a41180a9b6f7da062c1b43264a2e3b79
+checksums           texlive-lang-other-30307-run.tar.xz \
+                    rmd160  fac24999116d3d57bbbbe6f1a9e81a7bdd4c6653 \
+                    sha256  8d4c015a163aedb91fb9b2616017b7423285dfb6f4670c03d0d31895e9d5fb7a \
+                    texlive-lang-other-30307-doc.tar.xz \
+                    rmd160  8f06823a24087ee1862dfa4d97172c24ba0fe7fd \
+                    sha256  2829e59d68eb416025994a346d060010aaa7cbaa12a453ede58791a253c78e09 \
+                    texlive-lang-other-30307-src.tar.xz \
+                    rmd160  9a6efaaa9beeea017b466ec4dc4e71b1273f5e0e \
+                    sha256  2cbabde35fa5664ad46a713ff3efd6be79f9533c4c8ccb7c7d04f47c597ffcfb
 
 depends_lib         port:texlive-basic
 
@@ -38,6 +38,7 @@ texlive.languages      \
     {interlingua loadhyph-ia.tex 2 2 {} {hyph-ia.pat.txt} {hyph-ia.hyp.txt} {} } \
     {irish loadhyph-ga.tex 2 3 {} {hyph-ga.pat.txt} {hyph-ga.hyp.txt} {} } \
     {kurmanji loadhyph-kmr.tex 2 2 {} {hyph-kmr.pat.txt} {} {} } \
+    {piedmontese loadhyph-pms.tex 2 2 {} {hyph-pms.pat.txt} {} {} } \
     {romanian loadhyph-ro.tex 2 2 {} {hyph-ro.pat.txt} {} {} } \
     {romansh loadhyph-rm.tex 2 2 {} {hyph-rm.pat.txt} {} {} } \
     {serbian loadhyph-sr-latn.tex 2 2 {} {hyph-sh-latn.pat.txt,hyph-sh-cyrl.pat.txt} {hyph-sh-latn.hyp.txt,hyph-sh-cyrl.hyp.txt} {} } \

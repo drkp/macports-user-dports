@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-spanish
-version             25990
+version             30307
 revision            0
 
 categories          tex
@@ -14,22 +14,22 @@ license             Copyleft Permissive
 description         TeX Live: Spanish
 long_description    Support for typesetting Spanish.
 
-checksums           texlive-lang-spanish-25990-run.tar.xz \
-                    rmd160  11c079edbc79474ff305ce05c8e126a04255f00e \
-                    sha256  e7312b8613dfd8a684a4f32e71c43147db44c96de281b6ef8f91865d01e73500 \
-                    texlive-lang-spanish-25990-doc.tar.xz \
-                    rmd160  ba3a438f2bdbe8a09823231aca46c9d3739741da \
-                    sha256  cf8f907da5daa97f2bda901482197bb986a24fa5f4114d98bca5a4d23193080a \
-                    texlive-lang-spanish-25990-src.tar.xz \
-                    rmd160  1f889d0bf6cd1aa75d7d3d212b9d2b602d3eee3c \
-                    sha256  0c5f658ed5f6518b34b2507b32dd0b92fd391ecd12441f679a842e1de344b76e
+checksums           texlive-lang-spanish-30307-run.tar.xz \
+                    rmd160  b3a25430222f0c1aeffea505f543b03a4f75a246 \
+                    sha256  8d5c87a98b3fc92290dd968f8fcb0d979fdfe74dcf9cf7175f725eb3641de730 \
+                    texlive-lang-spanish-30307-doc.tar.xz \
+                    rmd160  51e14e3092152d491189b3e82b4f05640cd21482 \
+                    sha256  b24277a5f240f28731b589d92df373ce6a7e7bd2e9cbde9227bdd8800c873869 \
+                    texlive-lang-spanish-30307-src.tar.xz \
+                    rmd160  6a6223adbeee62c755e8d23bd8c9e4276d1094a9 \
+                    sha256  056194cabdd8b586d882aa7d4552f7708e343e8da8f0711bbd9201f64138d0b7
 
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {spanish loadhyph-es.tex 2 2 {espanol} {hyph-es.pat.txt} {} {} } \
     {catalan loadhyph-ca.tex 2 2 {} {hyph-ca.pat.txt} {hyph-ca.hyp.txt} {} } \
-    {galician loadhyph-gl.tex 2 2 {} {hyph-gl.pat.txt} {} {} }
+    {galician loadhyph-gl.tex 2 2 {} {hyph-gl.pat.txt} {} {} } \
+    {spanish loadhyph-es.tex 2 2 {espanol} {hyph-es.pat.txt} {} {} }
 
 
 texlive.texmfport

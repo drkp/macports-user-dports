@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-czechslovak
-version             26926
+version             30307
 revision            0
 
 categories          tex
@@ -14,31 +14,33 @@ license             Copyleft Permissive
 description         TeX Live: Czech/Slovak
 long_description    Support for typesetting Czech/Slovak.
 
-checksums           texlive-lang-czechslovak-26926-run.tar.xz \
-                    rmd160  3f52ea3cb4796c9cb917f9d58a467620c49eca3a \
-                    sha256  875579a9b65d88428eef45ef2aaa16cb00dab1cd2787c168a42b423d631f79a4 \
-                    texlive-lang-czechslovak-26926-doc.tar.xz \
-                    rmd160  bf1938ee79054a57372b90c3dd364f6012bb0421 \
-                    sha256  3d4d962b2aa44c832aeb027e615b49498e3b6c6eebf9560706880e4414371c74 \
-                    texlive-lang-czechslovak-26926-src.tar.xz \
-                    rmd160  ac800afd82b1d4c1b4476ecb07626de9a05db418 \
-                    sha256  64191d0b6154059d57a9da30331f227dfa6a6ed69bf4980952e0a0317a4eedac
+checksums           texlive-lang-czechslovak-30307-run.tar.xz \
+                    rmd160  577e167f75b5fb81dc7aafc7cab13bb6d1d695a4 \
+                    sha256  d9e58baf262919867f3598924bcc1dec2d74405d3b20619bb65b4d328427a5e8 \
+                    texlive-lang-czechslovak-30307-doc.tar.xz \
+                    rmd160  632c05ec97c8f39a41c7ac3cfd0074beafb24afe \
+                    sha256  a696be915f6b4f93706ba021ce402ad0352a8e989db0463674ef4510cd07a04e \
+                    texlive-lang-czechslovak-30307-src.tar.xz \
+                    rmd160  e3ee724bd4dde0ed5f4262b3b0f90813eaa617f3 \
+                    sha256  de2646561e1997601f082b66ac0b36ce7a4e4d1da60083f9be5dc2a4c85ba8ad
 
 depends_lib         port:texlive-basic port:texlive-latex
 
 texlive.formats      \
-    {1 cslatex pdftex - {-etex -translate-file=cp227.tcx cslatex.ini}} \
-    {1 pdfcslatex pdftex - {-etex -translate-file=cp227.tcx cslatex.ini}} \
-    {1 csplain pdftex - {-etex -translate-file=cp227.tcx csplain.ini}} \
-    {1 pdfcsplain pdftex - {-etex -translate-file=cp227.tcx csplain.ini}}
+    {1 cslatex pdftex - {-etex cslatex.ini}} \
+    {1 pdfcslatex pdftex - {-etex cslatex.ini}} \
+    {1 csplain pdftex - {-etex -enc csplain-utf8.ini}} \
+    {1 pdfcsplain pdftex - {-etex -enc csplain-utf8.ini}} \
+    {0 pdfcsplain xetex - {-etex csplain.ini}} \
+    {0 pdfcsplain luatex - {-etex csplain.ini}}
 
 texlive.languages      \
     {czech loadhyph-cs.tex 2 3 {} {hyph-cs.pat.txt} {hyph-cs.hyp.txt} {} } \
     {slovak loadhyph-sk.tex 2 3 {} {hyph-sk.pat.txt} {hyph-sk.hyp.txt} {} }
 
 texlive.maps      \
-    {MixedMap csother.map} \
-    {MixedMap cstext.map}
+    {Map cs-charter.map} \
+    {Map csfonts.map}
 
 texlive.binaries    cslatex csplain pdfcslatex pdfcsplain vlna
 

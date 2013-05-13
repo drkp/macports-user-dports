@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-italian
-version             26234
+version             30307
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Italian
 long_description    Support for typesetting Italian.
 
-checksums           texlive-lang-italian-26234-run.tar.xz \
-                    rmd160  86d6cd0dcab76bab696bcd9252606ffc93bdc531 \
-                    sha256  4267bb6ca15c619f30736b5dee827fb48d192167b8ab1e4100cd6f5416fcb4aa \
-                    texlive-lang-italian-26234-doc.tar.xz \
-                    rmd160  1d9dd10c4d33b7192e9d6e607188e6f64310849a \
-                    sha256  cd2686efb1436b422da81aa4e0e78abc1a649e2e9bd40981132838f7a07ca9a8 \
-                    texlive-lang-italian-26234-src.tar.xz \
-                    rmd160  700020cf0350961d0ad0e5ee35eb8d87281e1c56 \
-                    sha256  787d23bfb21d729c8fcf1d592b10860c6fdd6fb3542a6fcdb6fb14c30dc3b6e6
+checksums           texlive-lang-italian-30307-run.tar.xz \
+                    rmd160  72827dcb5c299008035f8a4d3b9d60d63417b86e \
+                    sha256  590a81461c12f74b5a405bc806ea007f36fe7a065d9f05d221b7755243824a5b \
+                    texlive-lang-italian-30307-doc.tar.xz \
+                    rmd160  b17632b0cb8e63c0a8a583bf29ff566daa388150 \
+                    sha256  fe17a9e2c5653f5f7a0c57688d820ab27e5b9cdc2a2203acfcdb96aec43730d3 \
+                    texlive-lang-italian-30307-src.tar.xz \
+                    rmd160  57ee73c3b1da00962b9eceb42446998d9a4966b6 \
+                    sha256  15f448b9d2577cca9c3b3b5d04e878cfd29b8b06aed3863ab1bd6b6850a349bb
 
 depends_lib         port:texlive-basic
 

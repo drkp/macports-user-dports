@@ -5,8 +5,8 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-vietnamese
-version             22766
-revision            1
+version             30307
+revision            0
 
 categories          tex
 maintainers         dports
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Vietnamese
 long_description    Support for typesetting Vietnamese.
 
-checksums           texlive-lang-vietnamese-22766-run.tar.xz \
-                    rmd160  6f9d806a7b035d805a30b72ee875e62cdc96362f \
-                    sha256  15a924cb044df0b08c4fc7fd12df0e8288c83127ed806ab3ab5dd0de1bf234c3 \
-                    texlive-lang-vietnamese-22766-doc.tar.xz \
-                    rmd160  625b57512beb2d809426736e6b31226be78da693 \
-                    sha256  ed00a4d02d1292f25d5f7ab51927eeb94cb918af49e9d11f098a7f77995ce439 \
-                    texlive-lang-vietnamese-22766-src.tar.xz \
-                    rmd160  b35d26682e40b740fe03edbc557ce4495b15713c \
-                    sha256  70d82aa9cedd1c2284042f7a55fe5e8160ffc9ee4ae4b85085ef86ae5e8a968a
+checksums           texlive-lang-vietnamese-30307-run.tar.xz \
+                    rmd160  f2b616647cd5a17f8814414b38381a512a7fbb5e \
+                    sha256  2d2deda963479b45ceedf49e57114713fb6500d08cb6b8ae117218297efb330c \
+                    texlive-lang-vietnamese-30307-doc.tar.xz \
+                    rmd160  68171878fafc5afaaa694b34f0ce6b562a2fc097 \
+                    sha256  f5afd55b8879943f3957433ce803c967c38328e2e82e9d51fefa37775fc941bc \
+                    texlive-lang-vietnamese-30307-src.tar.xz \
+                    rmd160  be1e458dc5f23e5ed18d5b043e251ff06d0f7ab3 \
+                    sha256  2dba6ccba41b08ca37dcff84bc128d9cbdde57d6412a4ba2779a6c7da82e3bac
 
 depends_lib         port:texlive-basic
 

@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-hungarian
-version             25806
+version             30307
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Hungarian
 long_description    Support for typesetting Hungarian.
 
-checksums           texlive-lang-hungarian-25806-run.tar.xz \
-                    rmd160  df6635c5a49431c50ac8172725c660d6e97387b6 \
-                    sha256  2e86fe06c986a09a6ec3cc597b295ad0c4756263b63a3e3345b4f360d93331cc \
-                    texlive-lang-hungarian-25806-doc.tar.xz \
-                    rmd160  4a78dc1ee44ea27fcba1b50e9041bc06a9e09821 \
-                    sha256  9b3c6abd6ae6ff2efe92c2d432dfb49800176e8049184eba4bc61aa8a008926e \
-                    texlive-lang-hungarian-25806-src.tar.xz \
-                    rmd160  cdb5067557a76c68ad8cb4dddb4e088646e8af86 \
-                    sha256  7756d580d596c4cd33f8c38f60e88839c7b5cc8713bbf1cc57269a9b5179b632
+checksums           texlive-lang-hungarian-30307-run.tar.xz \
+                    rmd160  513af7dedb77bec1db9c82e278141ac86027bb69 \
+                    sha256  394985ee6bb1185d082ee09a855f2f82b1ac22e83e501358c63a3020d381f34d \
+                    texlive-lang-hungarian-30307-doc.tar.xz \
+                    rmd160  521e931b229e8e4cf1a8b66945b3560ade1802ee \
+                    sha256  77465f79fe5b6ef020523d44eab0bf99f57554f6916e1f14fc6fc91a90307d9d \
+                    texlive-lang-hungarian-30307-src.tar.xz \
+                    rmd160  473c06cc211902f4f380a9140d32bb54b10134cd \
+                    sha256  d73cd3829f2fa90d1be380acf4576efdb58101ae465f29f54dec3fe5bada04b3
 
 depends_lib         port:texlive-basic
 

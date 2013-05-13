@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-context
-version             26873
+version             30044
 revision            0
 
 categories          tex
@@ -14,26 +14,26 @@ license             Copyleft Permissive
 description         TeX Live: ConTeXt format
 long_description    Hans Hagen's powerful ConTeXt system, http://pragma-ade.com. Also includes third-party ConTeXt packages.
 
-checksums           texlive-context-26873-run.tar.xz \
-                    rmd160  b53cb4b02a320a7914c0ea20691525911a2399b4 \
-                    sha256  6d2c72534509eb4f05b3c67b76901a832e416ffec123b5f040796f51551dc944 \
-                    texlive-context-26873-doc.tar.xz \
-                    rmd160  c9d73e730a57c9eda0d9a217d1ee19942d602de3 \
-                    sha256  b964b345f786d736bb9b45d9cc5ca0863635903b49d4e44e456f79c642a92853 \
-                    texlive-context-26873-src.tar.xz \
-                    rmd160  4113324e71cd25ce14355abc20246ade3a89c910 \
-                    sha256  958cdd62f7b10b0c4462f4401be47e8fd0fa4a0d84fb65dde6e2925af0b5ec77
+checksums           texlive-context-30044-run.tar.xz \
+                    rmd160  4309736b73f3634c991d612fed5ef83cd0d2eb69 \
+                    sha256  59180084d7fa509381363eb092a9ae46e194ff880da0ee14ceafd371cfc36275 \
+                    texlive-context-30044-doc.tar.xz \
+                    rmd160  f867a0578329e87096df615cb0c49bcf68cd3223 \
+                    sha256  a505330ae1d59e05771abeceda6140850292fb76c0fa5c578b76f45f225b415c \
+                    texlive-context-30044-src.tar.xz \
+                    rmd160  154b9b332c7a960ae321d6a0764191c6512f02a9 \
+                    sha256  bde601dc04f39984a5813caca4e7d4b9f76ea094723e49576eef4dde91c58c91
 
 depends_lib         port:texlive-basic
 
 texlive.formats      \
-    {1 cont-en pdftex cont-usr.tex {-8bit *cont-en.ini}} \
-    {1 cont-en xetex cont-usr.tex {-8bit *cont-en.ini}} \
-    {0 cont-de pdftex cont-usr.tex {-8bit *cont-de.ini}} \
-    {0 cont-fr pdftex cont-usr.tex {-8bit *cont-fr.ini}} \
-    {0 cont-it pdftex cont-usr.tex {-8bit *cont-it.ini}} \
-    {0 cont-nl pdftex cont-usr.tex {-8bit *cont-nl.ini}} \
-    {0 cont-ro pdftex cont-usr.tex {-8bit *cont-ro.ini}}
+    {1 cont-en pdftex cont-usr.tex {-8bit *cont-en.mkii}} \
+    {1 cont-en xetex cont-usr.tex {-8bit *cont-en.mkii}} \
+    {0 cont-de pdftex cont-usr.tex {-8bit *cont-de.mkii}} \
+    {0 cont-fr pdftex cont-usr.tex {-8bit *cont-fr.mkii}} \
+    {0 cont-it pdftex cont-usr.tex {-8bit *cont-it.mkii}} \
+    {0 cont-nl pdftex cont-usr.tex {-8bit *cont-nl.mkii}} \
+    {0 cont-ro pdftex cont-usr.tex {-8bit *cont-ro.mkii}}
 
 texlive.maps      \
     {Map original-context-symbol.map}

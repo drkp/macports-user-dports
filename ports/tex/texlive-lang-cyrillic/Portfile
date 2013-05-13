@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-cyrillic
-version             26689
+version             30307
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Cyrillic
 long_description    Support for typesetting Cyrillic.
 
-checksums           texlive-lang-cyrillic-26689-run.tar.xz \
-                    rmd160  47a294e7f29f133fb7fa141f6af46f06266b1930 \
-                    sha256  3e2fb2c48c20618135eb1bd29158e9d19f9289f83208900288262f2311b68594 \
-                    texlive-lang-cyrillic-26689-doc.tar.xz \
-                    rmd160  cd1f60657cf773f7c79ed0d04d55b3e46f16cd11 \
-                    sha256  69a366eec01cacc0cab56dfd488cc39b9f6b50a7e1aab05433bc92c2704c94e2 \
-                    texlive-lang-cyrillic-26689-src.tar.xz \
-                    rmd160  43d088f038bc9970272ad8bb6ea42a56a230c625 \
-                    sha256  1dd551d1908a70e3c8d118fab38372fa95b177d49a7240476ba232309c034e79
+checksums           texlive-lang-cyrillic-30307-run.tar.xz \
+                    rmd160  f4233292e725dc864d819d67395417f4cc09c414 \
+                    sha256  24276f002d826f5d5b08854305ccc7060ab5c43fd0b3aac48ce2b06e5fd7d7a1 \
+                    texlive-lang-cyrillic-30307-doc.tar.xz \
+                    rmd160  c0732a867b92109aa02fab6f99fe7baf271310ee \
+                    sha256  c5a814239940be538f614451148a29792848b21a399f2367a1c475004e028273 \
+                    texlive-lang-cyrillic-30307-src.tar.xz \
+                    rmd160  f6cfda3ffb7b13ff5ac3f8659a94d30d17f45e2e \
+                    sha256  596d41937d9f965e6bb17fe6f78a16612c987b8261699f9ccd88b782eaf1d861
 
 depends_lib         port:texlive-basic port:texlive-latex
 

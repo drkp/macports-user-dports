@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-xetex
-version             26926
+version             30307
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: XeTeX packages
 long_description    Packages for XeTeX, the Unicode/OpenType-enabled TeX by Jonathan Kew, http://tug.org/xetex.
 
-checksums           texlive-xetex-26926-run.tar.xz \
-                    rmd160  46aadfce623698fa8af380ff328b6fd7b9fdccca \
-                    sha256  cf302839eac491d3cbc2e551219bd77a27e37b58bfa51e2470d7e66b392d4d84 \
-                    texlive-xetex-26926-doc.tar.xz \
-                    rmd160  22ff84a28c890413451eb6a283eddbe272cacf4b \
-                    sha256  57f170f9eab4cd8a15259373ed554599b8722fd2f5e9d9a64827069062ea0f92 \
-                    texlive-xetex-26926-src.tar.xz \
-                    rmd160  903f3685a1e0ff8478d4810f616899ef4295fb77 \
-                    sha256  cdf3f0f2ddfc26f2f13935da8d82aeccdb136412d36914f2ad3ae810fd221b94
+checksums           texlive-xetex-30307-run.tar.xz \
+                    rmd160  69c64567a9a6d194bfc6eaaea1ebaf83c9ae6bf0 \
+                    sha256  aba4975ea5af2e7b1317097d4ad5d02986b5842a85adb65a442ef0c3120d0a39 \
+                    texlive-xetex-30307-doc.tar.xz \
+                    rmd160  6e1e868f09b3c61e3b0e58e7e9c73e20fd7fb554 \
+                    sha256  af4dba7c1a0668976e4c3913e42a77681281618ff470fc83030eba4f397f4cbb \
+                    texlive-xetex-30307-src.tar.xz \
+                    rmd160  052bfba00fcebed9f05fc172172b5ef4034da752 \
+                    sha256  e11739643594ba2111360459b6c0cb74cea6666ffa54c70319de06e2226c94d2
 
 depends_lib         port:texlive-basic
 
@@ -30,7 +30,7 @@ texlive.formats      \
     {1 xetex xetex language.def {-etex xetex.ini}} \
     {1 xelatex xetex language.dat {-etex xelatex.ini}}
 
-texlive.binaries    T1Wrap teckit_compile xdv2pdf xdvipdfmx xelatex xetex
+texlive.binaries    teckit_compile xdvipdfmx xelatex xetex
 
 texlive.exclude     tlpkg/tlpostcode/xetex.pl
 

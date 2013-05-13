@@ -5,24 +5,24 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-omega
-version             26926
+version             30307
 revision            0
 
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
 description         TeX Live: Omega packages
-long_description    Omega, a 16-bit extended TeX by John Plaice and Yannis Haralambous.
+long_description    Omega, a 16-bit extended TeX by John Plaice and Yannis Haralambous, now updated to Aleph.
 
-checksums           texlive-omega-26926-run.tar.xz \
-                    rmd160  221c049467788ab26172479353f5e6b4c3c71352 \
-                    sha256  ac7cd527c0449f6132033294542c7452e71ab6314de16ef1280413b7646b4d1f \
-                    texlive-omega-26926-doc.tar.xz \
-                    rmd160  4b407e64bceb8cb26db87e7a60e24ad3506d5aeb \
-                    sha256  73388ffe4aa10e5af1b20ea4035fce4ca2793fdebd72af15128bbc7ebfa1d8df \
-                    texlive-omega-26926-src.tar.xz \
-                    rmd160  4d79c443d0ee588cd0840ceeda666e259a5401e6 \
-                    sha256  4d697f2aee9645565ae92fedf8b508942d3bed1bf122c591791ad87b4bc43a93
+checksums           texlive-omega-30307-run.tar.xz \
+                    rmd160  3a5baa580040f265eefb14f0596321e68096d291 \
+                    sha256  060cfe7b27eaeafc0ddb2ff0e2ffdd28f2d85d7dd2306551156db8be7c924e55 \
+                    texlive-omega-30307-doc.tar.xz \
+                    rmd160  1857c4028f3049335f369a349099a87df408c434 \
+                    sha256  b8849a3c75af9db933c03af269c33bbb6100f3113ded7436aa5c4d7598c00898 \
+                    texlive-omega-30307-src.tar.xz \
+                    rmd160  24502c7aaaedd1a9c3d97a4d722550bdbba34181 \
+                    sha256  5b1aef41ecde5b650e9cc928412550d1f86c197507dbd0e377ff77cb5bd72ba2
 
 depends_lib         port:texlive-basic port:texlive-latex
 
@@ -31,6 +31,7 @@ texlive.formats      \
     {1 lamed aleph language.dat {*lambda.ini}}
 
 texlive.maps      \
+    {Map mxedruli.map} \
     {Map omega.map}
 
 texlive.binaries    aleph lamed odvicopy odvitype ofm2opl omfonts opl2ofm otangle otp2ocp outocp ovf2ovp ovp2ovf

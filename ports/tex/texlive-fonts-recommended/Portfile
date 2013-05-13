@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-fonts-recommended
-version             26838
+version             30307
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Recommended fonts
 long_description    Recommended fonts, including the base 35 PostScript fonts, Latin Modern, TeX Gyre, and T1 and other encoding support for Computer Modern, in outline form.
 
-checksums           texlive-fonts-recommended-26838-run.tar.xz \
-                    rmd160  4f3251295a06fa05d598c161813215b3c2e21ece \
-                    sha256  4d2054cb6de0b224428774125301bc79bd8291c817e88e48556c61e9e0706eb5 \
-                    texlive-fonts-recommended-26838-doc.tar.xz \
-                    rmd160  4ca6c160ed239e83e3252fe707bf356e4e850981 \
-                    sha256  765654829e27ea85635f40e7a4b1baa3a31f52ce020ddc9024b32e921db57ab2 \
-                    texlive-fonts-recommended-26838-src.tar.xz \
-                    rmd160  75946f029ddebd89dcd5381955f92d1d102e5b4d \
-                    sha256  a0442f54e2403c26e4284837841399a9d7a8633b688315c21893022542085093
+checksums           texlive-fonts-recommended-30307-run.tar.xz \
+                    rmd160  c9c0bde074332300f36fafcda1854a556e95bfb1 \
+                    sha256  75aeda3c242e12befd5c3a34d4a279468f8fd50af5a396de735d083508d1b0a2 \
+                    texlive-fonts-recommended-30307-doc.tar.xz \
+                    rmd160  6fffc27d56a83dbaee6c5819e00d738fa09e99b8 \
+                    sha256  7a424e1f9530dfb20cf8e0c86c48406ed59af8b9bcb4d4c320e22ce4d119deb0 \
+                    texlive-fonts-recommended-30307-src.tar.xz \
+                    rmd160  b748a964c456c956523b19d3f091b620594e7ae9 \
+                    sha256  37351f9c92c6ddf342d488ee415b0f731792ca107114c79158fbafc421b261fb
 
 depends_lib         port:texlive-basic
 

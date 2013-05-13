@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-french
-version             26782
+version             29743
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: French documentation
 long_description    French documentation
 
-checksums           texlive-documentation-french-26782-run.tar.xz \
-                    rmd160  175594a9932e2de2c4f8843eec77929ee7a0a393 \
-                    sha256  b6985580afe1e257c915c5e763fb1353d5e1da12950947a3b12b037ad4ab5f89 \
-                    texlive-documentation-french-26782-doc.tar.xz \
-                    rmd160  7c2607915d4df5fe5c3c55e348bdb1c4f4c25ecd \
-                    sha256  7d70bb8aea6e5a9d693b6c5c1b0a47cb4c10e1ed85e99d9cfcb4a0b1456ed4d2 \
-                    texlive-documentation-french-26782-src.tar.xz \
-                    rmd160  a19801e818abf12881a52f37cfcf5f474fda046b \
-                    sha256  716854cf744cc39ff8ae8f849f1a20f43d84b2490e0b0b048116b31fe1da6708
+checksums           texlive-documentation-french-29743-run.tar.xz \
+                    rmd160  e53bb05d94ad20def37be788c288f5d3acba1bb1 \
+                    sha256  b8cc1135e94ac82267b33f952239bcdf338d2f4c7f4b9c627deb1cf47fdd90c7 \
+                    texlive-documentation-french-29743-doc.tar.xz \
+                    rmd160  8d3b6f7b1e7cb0d666c71c85a71fbb048178dd7e \
+                    sha256  2e18a76d29a5fe16e6ccc93c7403a016c43f56871c58dd883ea33571ff5f82c0 \
+                    texlive-documentation-french-29743-src.tar.xz \
+                    rmd160  e801ddc7602c8af0f8d38d44fd272dbec850d9c8 \
+                    sha256  a8d90a23fe0261943663d180f2c43afd001310c991ac78bcab9d80fe06c3878a
 
 depends_lib         port:texlive-documentation-base
 

@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-mongolian
-version             25990
+version             30307
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Mongolian
 long_description    Support for typesetting Mongolian.
 
-checksums           texlive-lang-mongolian-25990-run.tar.xz \
-                    rmd160  9a86c18f7a3836ef829595cf954f0e43339bd496 \
-                    sha256  247dc3bc5bf8d1054dba4bf7b26e89df8f3fdd39ea0762caf818fa691a2784f7 \
-                    texlive-lang-mongolian-25990-doc.tar.xz \
-                    rmd160  36ec7d6c3efd92cf52ad1ecf7a61d6ddebcf6950 \
-                    sha256  77618ab8547132c2c9d23b4ef0f6dbdeeb22b6e84185546f6375022c3b3da6e0 \
-                    texlive-lang-mongolian-25990-src.tar.xz \
-                    rmd160  7fef1e6223f976877a9a682a52824c61e20ebfaa \
-                    sha256  15c0a5b1ae11e73d0efaa9d8c8f994de9079307bfac930dddd9f0641b3f30580
+checksums           texlive-lang-mongolian-30307-run.tar.xz \
+                    rmd160  35b5e4938d8cc46b5bd0221f0954311be2708607 \
+                    sha256  ddfdfdc9163c287dc8c3a3d73527c412f7601525a9de8bdc8e11f64c63b78bec \
+                    texlive-lang-mongolian-30307-doc.tar.xz \
+                    rmd160  46a4ac0bf04b7a5595ed8afcad4920a643d5aab5 \
+                    sha256  042f382cba08eadf7e7d25a92b0c0ee58203371f8c9b2244b05e171028701eb0 \
+                    texlive-lang-mongolian-30307-src.tar.xz \
+                    rmd160  54a4669dae403d6945b0f0c0b32805b7346ce87f \
+                    sha256  924b129077ff794e767599db3ca962383047e059d7370dfd89b30177a51d108b
 
 depends_lib         port:texlive-basic
 

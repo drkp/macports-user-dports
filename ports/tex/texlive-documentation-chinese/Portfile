@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-chinese
-version             26851
+version             29743
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Chinese documentation
 long_description    Chinese documentation
 
-checksums           texlive-documentation-chinese-26851-run.tar.xz \
-                    rmd160  e13172da811809ce83129dd71bd29d0be978ae7d \
-                    sha256  72fea01419b68f81641de2dd54d6b6efbeade0f327546a0511edbdbd4aa12b80 \
-                    texlive-documentation-chinese-26851-doc.tar.xz \
-                    rmd160  682c3d924ac164f3dd90424735e5b2b65247d75c \
-                    sha256  cb1ddf628edeae04d3d6041e517288455d2ed037bc449cf1cd28e0421ea64bce \
-                    texlive-documentation-chinese-26851-src.tar.xz \
-                    rmd160  fda978609d67349c108af3e73734e9fd920528e6 \
-                    sha256  4948e68d2ae81dd1acb08231fb74f2fa35ed342ba3664f4ffb34700f8523ed9e
+checksums           texlive-documentation-chinese-29743-run.tar.xz \
+                    rmd160  2228b3fc645efbe904b2c6774995b205c64da728 \
+                    sha256  22f0034a68fc88ad18eaf74dde5dd4798d6ff84554d54e42ee28eba5580159b6 \
+                    texlive-documentation-chinese-29743-doc.tar.xz \
+                    rmd160  af7e4e3e4a878ffb42eec87742f3e4efd98038fc \
+                    sha256  aab5bc28c9a357c5d02fc576604402999bc2420f7d8025354efe33ef58eeccd4 \
+                    texlive-documentation-chinese-29743-src.tar.xz \
+                    rmd160  e32bd07a36ba1742aaa3d2e65aab87c0a3756273 \
+                    sha256  9d7cded84bb278182c27f0aae36ef7ca2c954439e3d2a78c0f12d4ce246b3223
 
 depends_lib         port:texlive-documentation-base
 

@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-fontutils
-version             26926
+version             30307
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Graphics and font utilities
 long_description    Programs for conversion between font formats, testing fonts, virtual fonts, .gf and .pk manipulation, mft, fontinst, etc. Manipulating OpenType, TrueType, PostScript Type 1, and PostScript and other images.
 
-checksums           texlive-fontutils-26926-run.tar.xz \
-                    rmd160  6f76e0710a09b5dd07465d9c99ddd67ff9176b0f \
-                    sha256  9f2a88bb3dc60487d48d0709ccc7561761b44d12ff8ade6a1861b95ab6b972ce \
-                    texlive-fontutils-26926-doc.tar.xz \
-                    rmd160  eb7253a11dc5f09c1b27f628d7d099c16dbdd6df \
-                    sha256  035cdfc76beca3036269a1a7242d9b1430c17474b72eb2c95b98e707297639b6 \
-                    texlive-fontutils-26926-src.tar.xz \
-                    rmd160  3860a715fa75f4cd0c8b7b913a9070133f549afa \
-                    sha256  f28c0d1f13329720d00d1469a863cf262755860c4ce09f2652937971e64dafa1
+checksums           texlive-fontutils-30307-run.tar.xz \
+                    rmd160  ab02b3b3bc95f5034bc5d098b26cb415ed7b0a30 \
+                    sha256  48c280d72b6b970565127cede7d61e8dd282306052e2f70a959343e4e18c4224 \
+                    texlive-fontutils-30307-doc.tar.xz \
+                    rmd160  a1f15488157631efdd6eb12062bc6110c4f6acfb \
+                    sha256  0f85b5aa93511e4f8312e2c6be877315db2c4f462eab3e9598dd3fbe62cb1c12 \
+                    texlive-fontutils-30307-src.tar.xz \
+                    rmd160  b406b86db77642a3f2a0e041e194cd14cebf2942 \
+                    sha256  b8d538b6610c06fa96b96765cd74b504f48c37ed02ffc1952bab5eea5b8d656d
 
 depends_lib         port:texlive-basic
 

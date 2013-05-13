@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-cjk
-version             26926
+version             30201
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Chinese, Japanese, Korean
 long_description    CJK (Chinese, Japanese, Korean) macros, fonts, documentation, also Thai since there is some overlap in the fonts.
 
-checksums           texlive-lang-cjk-26926-run.tar.xz \
-                    rmd160  c3eb55e108a81a725ee9a8c1aee5a9b705b0a003 \
-                    sha256  e37a9851f4f1d35cfdf7e6908b08cd400cd6073de1bed6771e4b120bf51a1a60 \
-                    texlive-lang-cjk-26926-doc.tar.xz \
-                    rmd160  5a2c42eb71fd994a2257e1527353b843876c6ca9 \
-                    sha256  b3b35e9d9f1f56c62af4f0a6fa2b3244f47771d8acb0ef8a28c0958dd1f56e06 \
-                    texlive-lang-cjk-26926-src.tar.xz \
-                    rmd160  3dcd45de96add0dfd2d1f141e96fa2a17ca7ab74 \
-                    sha256  584218bac8a80932f1738d62a7a51443f56cb174af6d210632ee6a599c0e1851
+checksums           texlive-lang-cjk-30201-run.tar.xz \
+                    rmd160  b7b565172f139bbe344fe73416280a205d4bf828 \
+                    sha256  f789493f2cbbe15f243cb557c7877a760880ebe60245339422b17562b1373a3d \
+                    texlive-lang-cjk-30201-doc.tar.xz \
+                    rmd160  32cd1dcfdbd4528fb2fef6fe9cd64dd5fa830c35 \
+                    sha256  0bfc0e08496155fe20e308b3b865a5b0a09ec23c67fa184fd00773cfa6c625eb \
+                    texlive-lang-cjk-30201-src.tar.xz \
+                    rmd160  5b733365ce42aadbf620a134f0d2effa3eca4085 \
+                    sha256  99cc7fd759d428ed022ab4f19a011d7e744fd8af9fece0a0c0f74c536411686d
 
 depends_lib         port:texlive-basic port:texlive-documentation-chinese
 
@@ -47,6 +47,7 @@ texlive.maps      \
     {KanjiMap otf-cktx.map} \
     {KanjiMap otf-@kanjiEmbed@.map} \
     {KanjiMap otf-up-@kanjiEmbed@.map} \
+    {Map nanumfonts.map} \
     {Map norasi-c90.map} \
     {KanjiMap ptex-@kanjiEmbed@@kanjiVariant@.map} \
     {KanjiMap morisawa.map} \
@@ -59,7 +60,7 @@ texlive.maps      \
     {Map mr2j.map} \
     {Map mrj.map}
 
-texlive.binaries    bg5+latex bg5+pdflatex bg5conv bg5latex bg5pdflatex cef5conv cef5latex cef5pdflatex cefconv ceflatex cefpdflatex cefsconv cefslatex cefspdflatex convbkmk eptex euptex extconv gbklatex gbkpdflatex hbf2gf makejvf mendex pbibtex pdvitype platex ppltotf ptex ptftopl sjisconv sjislatex sjispdflatex upbibtex updmap-setup-kanji updvitype uplatex uppltotf uptex uptftopl wovp2ovf
+texlive.binaries    bg5+latex bg5+pdflatex bg5conv bg5latex bg5pdflatex cef5conv cef5latex cef5pdflatex cefconv ceflatex cefpdflatex cefsconv cefslatex cefspdflatex convbkmk eptex euptex extconv gbklatex gbkpdflatex hbf2gf kanji-config-updmap kanji-config-updmap-sys kanji-fontmap-creator makejvf mendex pbibtex pdvitype platex ppltotf ptex ptex2pdf ptftopl sjisconv sjislatex sjispdflatex upbibtex updvitype uplatex uppltotf uptex uptftopl wovp2ovf
 
 depends_lib-append port:texlive-latex
 

@@ -5,8 +5,8 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-hebrew
-version             15878
-revision            1
+version             30307
+revision            0
 
 categories          tex
 maintainers         dports
@@ -14,19 +14,20 @@ license             Copyleft Permissive
 description         TeX Live: Hebrew
 long_description    Support for typesetting Hebrew.
 
-checksums           texlive-lang-hebrew-15878-run.tar.xz \
-                    rmd160  72c18dc873cf36ec227a3f6970a910c8da93ad9b \
-                    sha256  c6f4574d995401586c30b2e52706a510a9aad10905ca622415f3658889c47022 \
-                    texlive-lang-hebrew-15878-doc.tar.xz \
-                    rmd160  c309f12fa1b2afcaf3df8fccd7446fbe1f171e18 \
-                    sha256  819e39e626c47bf7c1087be63ceb8b43aba803f4719302e4fc82a05d823afa91 \
-                    texlive-lang-hebrew-15878-src.tar.xz \
-                    rmd160  fe8be8a6c6b3c9da66e25907aea31a33b181c82f \
-                    sha256  ffb0c6415fc0683e3d54a36361c25e3b58be2cc79942bc11caba7c2fa52b6a8d
+checksums           texlive-lang-hebrew-30307-run.tar.xz \
+                    rmd160  7c33931422439527fdeaddde03c0d806d92524a0 \
+                    sha256  7e15b16ea9728dc23d16f2de418ddadb7f325ef248dc1d8bd038f44eea989868 \
+                    texlive-lang-hebrew-30307-doc.tar.xz \
+                    rmd160  c0ca4924d159b9bb918b280d85099477acdad57d \
+                    sha256  b9cba0638bbdf1dffae506954c6a57f4c594104a2fcf8548da8e5d72aea310d9 \
+                    texlive-lang-hebrew-30307-src.tar.xz \
+                    rmd160  4d56b7ef5acd470a3dfd5c65b30de9d3b2001e16 \
+                    sha256  f59fb8a1134c2b500b2ba58f05ec1be04256b932982c6c8d76fbf0e017ea3e37
 
 depends_lib         port:texlive-basic
 
 texlive.maps      \
+    {Map syriac.map} \
     {Map cjhebrew.map}
 
 

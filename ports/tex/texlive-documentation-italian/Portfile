@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-documentation-italian
-version             26875
+version             29743
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Italian documentation
 long_description    Italian documentation
 
-checksums           texlive-documentation-italian-26875-run.tar.xz \
-                    rmd160  73a1848fbe63b8c93e0f87da149ff58ccb009ba2 \
-                    sha256  efd00c261127c42336f632008bff4881bc87b61121d0658c9123a2baec74774f \
-                    texlive-documentation-italian-26875-doc.tar.xz \
-                    rmd160  fd792372f343e5cc12f36afe444a4d35ca5ed33c \
-                    sha256  79ebf4480ee198f5cef116e47660e5243aee21534e179bd3790374af4c24d93a \
-                    texlive-documentation-italian-26875-src.tar.xz \
-                    rmd160  811b5069844407c4f3dd2d4a2201ffa13b62a803 \
-                    sha256  c18b1224e098e91880e4b8a23ffbadac8ca577b0bd61ef356f85fb8266c3e59e
+checksums           texlive-documentation-italian-29743-run.tar.xz \
+                    rmd160  61f9607016d656fabb66ec1f8e6e236c2c2f14d7 \
+                    sha256  1e8b4b4aeaa09768454cf4cff5da42504a9f43c5494881dad586d3bc78168ba0 \
+                    texlive-documentation-italian-29743-doc.tar.xz \
+                    rmd160  79a58359e5a9990d6c464eeb250669f6ac6a8626 \
+                    sha256  999bf6d43b590cbc8bca752d124e481a3cb3f9fe1371d14eca7dd00d94a254fd \
+                    texlive-documentation-italian-29743-src.tar.xz \
+                    rmd160  4b0dbefefbe6a8bc88c6bd2ae71bd0e4e9daa62e \
+                    sha256  2786b3129a200863bf34b9fdeb5c8e9a240d87e5950a274224d062fc07d11374
 
 depends_lib         port:texlive-documentation-base
 
