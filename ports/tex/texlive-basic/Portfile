@@ -60,7 +60,8 @@ texlive.exclude     texmf-dist/web2c/fmtutil.cnf \
                     texmf-dist/fonts/map/dvips/updmap \
                     texmf-dist/fonts/map/pdftex/updmap
 
-patchfiles          patch-runfiles_texmf-dist_dvipdfmx_dvipdfmx.cfg.diff
+patchfiles          patch-runfiles_texmf-dist_dvipdfmx_dvipdfmx.cfg.diff \
+                    patch-runfiles_texmf-dist_scripts_texlive_updmap-sys.sh.diff
 
 pre-activate {
     # If texlive 2007 metaport is installed, deactivate it to avoid
