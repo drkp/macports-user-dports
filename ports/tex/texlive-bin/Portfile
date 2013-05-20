@@ -101,19 +101,6 @@ post-patch {
     reinplace "s|@@PREFIX@@|${prefix}|" ${worksrcpath}/texk/kpathsea/paths.h
     reinplace "s|@@TEXMFSYSCONFIG@@|${texlive_texmfsysconfig}|" ${worksrcpath}/texk/kpathsea/paths.h
     reinplace "s|@@TEXMFSYSCONFIG@@|${texlive_texmfsysconfig}|" ${worksrcpath}/texk/texlive/linked_scripts/context/stubs/unix/mtxrun
-
-    if {![variant_isset atsui]} {
-        # Force configure to believe that Carbon API is
-        # unavailable. This test is actually used to determine whether
-        # ATSUI should be used.
-        reinplace "s|kpse_cv_have_Carbon=yes|kpse_cv_have_Carbon=no|" ${worksrcpath}/texk/web2c/configure
-        reinplace "s|kpse_cv_have_Carbon=yes|kpse_cv_have_Carbon=no|" ${worksrcpath}/texk/xdv2pdf/configure
-    }
-    
-    # Force xdvipdfmx to use multi-platform freetype API as freetype is not
-    # compiled with --with-old-mac-fonts. A patch helps xdvipdfmx accept dfont
-    # files that freetype can handle.
-    reinplace "s|kpse_cv_have_ApplicationServices=yes|kpse_cv_have_ApplicationServices=no|" ${worksrcpath}/texk/xdvipdfmx/configure
 }
 
 # llvm-gcc apparently fails on Xcode 4.0.x (#30758)
@@ -261,27 +248,6 @@ pre-activate {
 
 post-activate {
     system "${texlive_bindir}/mktexlsr"
-}
-
-variant atsui description {Use ATSUI instead of freetype for XeTeX font rendering (forces 32-bit)} {
-    # ATSUI is a deprecated interface, not available on 64-bit archs,
-    # so force 32-bit build
-    supported_archs i386 ppc
-
-    # ...and on 10.7 and above, enough of the APIs are broken that we
-    # can't build xdv2pdf, and need to use a hack to make xetex build
-    if {${os.platform} == "darwin" && ${os.major} >= 11} {
-        configure.args-append --disable-xdv2pdf
-    }
-
-    # ...and it doesn't build with clang, either (#33602)
-    if {${configure.compiler} == "clang"} {
-        configure.compiler llvm-gcc-4.2
-    }
-}
-
-if {![variant_isset "atsui"]} {
-    notes-append "XeTeX is built without support for Apple Type Services for Unicode Imaging (ATSUI) or Apple Advanced Typography (AAT). To enable it, build texlive-bin with the +atsui variant. Note that this will force texlive and all of its dependencies to be built 32-bit."
 }
 
 variant x11 conflicts no_x11 description {Build with x11 support, using Xaw widgets for xdvi} {
