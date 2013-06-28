@@ -22,8 +22,8 @@ if {![variant_isset perl5_16]} {
 if {[variant_isset perl5_14]} { perl5.default_branch 5.14 }
 if {[variant_isset perl5_16]} { perl5.default_branch 5.16 }
 
-perl5.setup     Biber 0.9.9
-revision        1
+perl5.setup     Biber 1.5
+version         ${perl5.moduleversion}
 
 categories      tex
 license         {Artistic-2 GPL}
@@ -45,10 +45,10 @@ homepage        http://biblatex-biber.sourceforge.net/
 master_sites    sourceforge:project/${name}/${name}/${version}
 distname        ${name}
 dist_subdir     ${name}-${version}
-worksrcdir      ${name}-v${version}
+worksrcdir      ${name}-${version}
 
-checksums       rmd160  cadd7aeda10701b3a3591740b3f13ec1716517a2 \
-                sha256  9b9b471c6a1bb83a82c1cae8e70498debef9484458adea9d1ae9fc1706e35246
+checksums       rmd160  17b519fa946e6a2590f473ea1efe858d4e6631e5 \
+                sha256  1155702c854a3479434e6431e2c1ef9425f9e027c7821981b67e2e928008eff3
 
 depends_build-append    port:p${perl5.major}-config-autoconf \
                         port:p${perl5.major}-extutils-libbuilder
