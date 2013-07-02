@@ -5,24 +5,24 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-fonts-extra
-version             30307
+version             30782
 revision            0
 
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Extra fonts
-long_description    Extra fonts
+description         TeX Live: Additional fonts
+long_description    Additional fonts
 
-checksums           texlive-fonts-extra-30307-run.tar.xz \
-                    rmd160  0c37cbaec0116d7274939e19734238a3232e1bcc \
-                    sha256  39861ddd02c51a374bb9c313cb0454fac790905f18fe3f4c32efebfde085a31d \
-                    texlive-fonts-extra-30307-doc.tar.xz \
-                    rmd160  93acd7e38e2a5699874ef883361e0f9ae971e70e \
-                    sha256  116a9250609e27febc632bcaf7177ef346463366d32bd9e227c888ca684be535 \
-                    texlive-fonts-extra-30307-src.tar.xz \
-                    rmd160  045a9dc36c60fea76d4711e57eac4f39941d3d60 \
-                    sha256  f88e1ab0ae96ee9f0533696985ef55641f2ced61e3d2b6292e4d9e10df0a0def
+checksums           texlive-fonts-extra-30782-run.tar.xz \
+                    rmd160  8dea0244fefba1eb53fa47f417d68cbc48326ada \
+                    sha256  f6fcb8c11c69f1a381d3dca4c8bddbe155e3b7e4b6e5e3646f6a86848c3702d5 \
+                    texlive-fonts-extra-30782-doc.tar.xz \
+                    rmd160  a447b997e6df08b1c1a2565ccb78fb41447b2f73 \
+                    sha256  1caed8a9d3bd3c06c74c68a153b77b7aaf45db8b438d4022c3f6c40507410820 \
+                    texlive-fonts-extra-30782-src.tar.xz \
+                    rmd160  5807630bd3a5da23f3d0fdeb65d42a2fe4608d5b \
+                    sha256  5e226878cdadf77131329ff62a3e71a3defec6148290db9ef7da74a3f0be84ae
 
 depends_lib         port:texlive-basic
 

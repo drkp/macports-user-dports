@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-basic
-version             30218
+version             30847
 revision            0
 
 categories          tex
@@ -14,17 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Essential programs and files
 long_description    These files are regarded as basic for any TeX system, covering plain TeX macros, Computer Modern fonts, and configuration for common drivers\; no LaTeX.
 
-checksums           texlive-basic-30218-run.tar.xz \
-                    rmd160  1de80acf6ef1763ec0d3c534628dc19784a6010b \
-                    sha256  9a855f560e0ecba92d8001d55ad141f4324db478fa51f6afcb71445d84bdce24 \
-                    texlive-basic-30218-doc.tar.xz \
-                    rmd160  19b9eb5a92e9092a9a336fda35c4b45931e34832 \
-                    sha256  d0be71c675595c47030b9a935c6606fec0b82d212c2cba5d6a24bfb34730b51e \
-                    texlive-basic-30218-src.tar.xz \
-                    rmd160  97e43ad689e0048cc89914e47f78d142dd5a30c6 \
-                    sha256  0987c5d3140c85ac12b8e5a73206cf8c4321f3ca9b3262edd5c2dbf60f44437c
-
-depends_lib         port:texlive-documentation-base
+checksums           texlive-basic-30847-run.tar.xz \
+                    rmd160  3338209a8fa58026766abbeb3e3d874747a9bf6e \
+                    sha256  55261fb01fbb0cb1753000cf75312e1d3f51361f50086bece89f2f7f4b920686 \
+                    texlive-basic-30847-doc.tar.xz \
+                    rmd160  6ef9062951043bf8edd73ff901a3539b1b1fda15 \
+                    sha256  44baa37b52832f9f4cd2fd2f0bc4425692b1066181f490e9692147bfb1a875d1 \
+                    texlive-basic-30847-src.tar.xz \
+                    rmd160  83b0f4df4e678f97aa4f395bec48ac99d649d2b5 \
+                    sha256  59d054dcabc14a23dddf41e057aef0c321bd749f2d1a315143696da859d1cf04
 
 texlive.formats      \
     {1 luatex luatex language.def,language.dat.lua {luatex.ini}} \
@@ -62,6 +60,7 @@ texlive.exclude     texmf-dist/web2c/fmtutil.cnf \
 
 patchfiles          patch-runfiles_texmf-dist_dvipdfmx_dvipdfmx.cfg.diff \
                     patch-runfiles_texmf-dist_scripts_texlive_updmap-sys.sh.diff
+
 
 pre-activate {
     # If texlive 2007 metaport is installed, deactivate it to avoid

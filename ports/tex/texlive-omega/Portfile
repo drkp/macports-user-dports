@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-omega
-version             30307
+version             30842
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Omega packages
 long_description    Omega, a 16-bit extended TeX by John Plaice and Yannis Haralambous, now updated to Aleph.
 
-checksums           texlive-omega-30307-run.tar.xz \
-                    rmd160  3a5baa580040f265eefb14f0596321e68096d291 \
-                    sha256  060cfe7b27eaeafc0ddb2ff0e2ffdd28f2d85d7dd2306551156db8be7c924e55 \
-                    texlive-omega-30307-doc.tar.xz \
-                    rmd160  1857c4028f3049335f369a349099a87df408c434 \
-                    sha256  b8849a3c75af9db933c03af269c33bbb6100f3113ded7436aa5c4d7598c00898 \
-                    texlive-omega-30307-src.tar.xz \
-                    rmd160  24502c7aaaedd1a9c3d97a4d722550bdbba34181 \
-                    sha256  5b1aef41ecde5b650e9cc928412550d1f86c197507dbd0e377ff77cb5bd72ba2
+checksums           texlive-omega-30842-run.tar.xz \
+                    rmd160  586eb14f37d3f69815c3b2443619f9e55efa93f8 \
+                    sha256  f83a9aa36ca7a9160acef120f4ddc9750a1672ff5ecceefc8717d413055dbf98 \
+                    texlive-omega-30842-doc.tar.xz \
+                    rmd160  dcade2f3dc35c8b9c00fae53c4305f0b4c86f52a \
+                    sha256  2e56b940e9cde400090e332dbe45558c6d6a50e56ba9611240e9da8302e6d118 \
+                    texlive-omega-30842-src.tar.xz \
+                    rmd160  801322eaa8cdd68bfb2dbf1ddbdd8587d937c16f \
+                    sha256  db9107cb85bf4dbc402c6df297c026009dd66ca1870a6f3600f5c66c6e381d51
 
 depends_lib         port:texlive-basic port:texlive-latex
 

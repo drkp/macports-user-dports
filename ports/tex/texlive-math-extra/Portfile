@@ -5,24 +5,24 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-math-extra
-version             30307
+version             30747
 revision            0
 
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Advanced math typesetting
-long_description    Extra math
+description         TeX Live: Mathematics packages
+long_description    Mathematics packages
 
-checksums           texlive-math-extra-30307-run.tar.xz \
-                    rmd160  8cec63bc0268d69152585e2c991d0a8377f8dfdc \
-                    sha256  8c692b5580e7d0125a8cc481153f1cd582c123ff866999064295f5171c5687db \
-                    texlive-math-extra-30307-doc.tar.xz \
-                    rmd160  8c8344ffef6440d198a195151e27067041065a0e \
-                    sha256  4472d061ab57466132fa97053f1c75b1887bc14df5bae9be504beca31613fc93 \
-                    texlive-math-extra-30307-src.tar.xz \
-                    rmd160  2b8a78d2fd52d933110d13fba2070521bd3d38f1 \
-                    sha256  f5b5d8aa9fca87a852b73f54e7ba2b384df4b0cea1be293e309174ed114ed4cd
+checksums           texlive-math-extra-30747-run.tar.xz \
+                    rmd160  e1412e89ec89132632cb9bce95364015f7bb83ac \
+                    sha256  c5ec2eafc7dada62288de303e9acd66787dac8711a3284ddf3eac6c481bee025 \
+                    texlive-math-extra-30747-doc.tar.xz \
+                    rmd160  0a46fbd7a346f6360c2dae20a6cfda5220043e02 \
+                    sha256  901b47a030cadf9c3ce1c75ccf66f4d49d2671cf0de7e4b8675d6d8998dceb78 \
+                    texlive-math-extra-30747-src.tar.xz \
+                    rmd160  0aeda398f9aea80e9c47a5ee08a3446de775a487 \
+                    sha256  c712d79396d11777a108b3bcea5cc52437e50b986db71ad13f14fe52adac0558
 
 depends_lib         port:texlive-fonts-recommended port:texlive-latex
 

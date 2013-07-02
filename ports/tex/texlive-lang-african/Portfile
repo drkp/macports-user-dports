@@ -5,24 +5,24 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-african
-version             30307
+version             30372
 revision            0
 
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
 description         TeX Live: African scripts
-long_description    Support for typesetting some African scripts
+long_description    Support for African scripts.
 
-checksums           texlive-lang-african-30307-run.tar.xz \
-                    rmd160  deb43f193bb90b50cfea64e22649bef22dc3392a \
-                    sha256  2e9b1e4eda713d0c522066ece762f5337ac44ca6a499674eb5bc958955819be9 \
-                    texlive-lang-african-30307-doc.tar.xz \
-                    rmd160  050f88288e69d4bf81070a3e29b075ab25d7ee9a \
-                    sha256  17f9176c0250c34f548974e64756f9dd406693d1fc8b85571fab7b8e4cb09867 \
-                    texlive-lang-african-30307-src.tar.xz \
-                    rmd160  001c0dd336ebc8fc35e0746fc093985439dcab03 \
-                    sha256  acfb17b47225b8ba0bcb5e80df0223a1ef866143795f604211cc2490102e4d90
+checksums           texlive-lang-african-30372-run.tar.xz \
+                    rmd160  e4cf62401b87542a94f0ac025c8ce49885316505 \
+                    sha256  bb4d6dea6f4c00b7f90204d6a1c534af827c625f3a4fcb4106079f6866f0c6ab \
+                    texlive-lang-african-30372-doc.tar.xz \
+                    rmd160  1c36c7faeabc6b4f7cd3c69091fff903a9f82ca7 \
+                    sha256  5e930a1974fb5c487407cd4ba83ccd5b9cf675c66501da259f75ba61e6834981 \
+                    texlive-lang-african-30372-src.tar.xz \
+                    rmd160  f7de41bedd678339dd1a4b025602a34ff7bfc5fd \
+                    sha256  260b8c321e92798a9ebdb2f1e7867196f57708dfcf38bf14243331d51128b562
 
 depends_lib         port:texlive-basic
 

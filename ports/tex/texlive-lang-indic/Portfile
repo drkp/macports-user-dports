@@ -5,24 +5,24 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-indic
-version             30307
+version             30842
 revision            0
 
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
 description         TeX Live: Indic scripts
-long_description    Support for typesetting some Indic scripts.
+long_description    Support for Indic scripts.
 
-checksums           texlive-lang-indic-30307-run.tar.xz \
-                    rmd160  bdf0f7b86592278a8412631c51fbbad6c6fc7202 \
-                    sha256  d725d39c9c585e6fda966f432f669dc629f59716a74abff63cf71dec25f8e639 \
-                    texlive-lang-indic-30307-doc.tar.xz \
-                    rmd160  15f98e93edae1ea83fe33d3ea9db04528f17e6b4 \
-                    sha256  d3731ab6a56dea324898228315495c03027c5c8762c9a9cfb341976157c6739b \
-                    texlive-lang-indic-30307-src.tar.xz \
-                    rmd160  938306f460d383cebaf563bc2317875b9c817eb7 \
-                    sha256  b8bf62f453e08232e9f0ea87303a0fddc14128004c453cd8da072ec1d91967bb
+checksums           texlive-lang-indic-30842-run.tar.xz \
+                    rmd160  27fcf8c728f69dc4daa3cfe01fcc1dd778b478d2 \
+                    sha256  32768878b2cd406d879ea5e18148a4764dc4660f9124572834da45929aee530a \
+                    texlive-lang-indic-30842-doc.tar.xz \
+                    rmd160  1c19164d1091e568248998d67df74a968ee832c6 \
+                    sha256  d3c82c30b7f643f51dadc4bb23d766f8410ffaa1a7409f0fd07dbe81fb151f2d \
+                    texlive-lang-indic-30842-src.tar.xz \
+                    rmd160  c52ccf4b0299b44b8d886b14d21aadbfb1feb8ce \
+                    sha256  342061f2c1ff4f4e30d40db39b1671316782ad8ca2045f7385ace5d28e6ef7ef
 
 depends_lib         port:texlive-basic
 

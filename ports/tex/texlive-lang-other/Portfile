@@ -5,48 +5,53 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-other
-version             30307
+version             30661
 revision            0
 
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Other hyphenation patterns
-long_description    Hyphenation patterns for languages without (much) other support.
+description         TeX Live: Other languages
+long_description    Support for languages not otherwise listed, including Thai, Vietnamese, Hebrew, Indonesian, and plenty more.  The split is made simply on the basis of the size of the support, to keep both collection sizes and the number of collections reasonable.
 
-checksums           texlive-lang-other-30307-run.tar.xz \
-                    rmd160  fac24999116d3d57bbbbe6f1a9e81a7bdd4c6653 \
-                    sha256  8d4c015a163aedb91fb9b2616017b7423285dfb6f4670c03d0d31895e9d5fb7a \
-                    texlive-lang-other-30307-doc.tar.xz \
-                    rmd160  8f06823a24087ee1862dfa4d97172c24ba0fe7fd \
-                    sha256  2829e59d68eb416025994a346d060010aaa7cbaa12a453ede58791a253c78e09 \
-                    texlive-lang-other-30307-src.tar.xz \
-                    rmd160  9a6efaaa9beeea017b466ec4dc4e71b1273f5e0e \
-                    sha256  2cbabde35fa5664ad46a713ff3efd6be79f9533c4c8ccb7c7d04f47c597ffcfb
+checksums           texlive-lang-other-30661-run.tar.xz \
+                    rmd160  64acd302f5f5cd81b4a036f9e022c74df01f1c6a \
+                    sha256  065ef7a55764682bac23cccd149eb7b3a34d8e6c4f4b8244a359f05c42e9b0fe \
+                    texlive-lang-other-30661-doc.tar.xz \
+                    rmd160  6d2b967349dbf93732d36ec8d84467e2f62d2c9f \
+                    sha256  4857c7b9db02dcc4b7372c3df46d7cc7b62a26f853d437929cad5f0a30e95298 \
+                    texlive-lang-other-30661-src.tar.xz \
+                    rmd160  2883ebc8e2b736c6885bb576028193060516a43d \
+                    sha256  2648b07977db2fc2effc3ff444ebcddf85255335333e461aac9b7a1cb1b9f0e0
 
 depends_lib         port:texlive-basic
 
 texlive.languages      \
     {afrikaans loadhyph-af.tex 1 2 {} {hyph-af.pat.txt} {hyph-af.hyp.txt} {} } \
-    {armenian loadhyph-hy.tex 1 2 {} {hyph-hy.pat.txt} {} {} } \
     {coptic loadhyph-cop.tex 1 1 {} {hyph-cop.pat.txt} {} {} } \
     {esperanto loadhyph-eo.tex 2 2 {} {hyph-eo.pat.txt} {} {} } \
-    {estonian loadhyph-et.tex 2 3 {} {hyph-et.pat.txt} {} {} } \
-    {friulan loadhyph-fur.tex 2 2 {} {hyph-fur.pat.txt} {} {} } \
-    {icelandic loadhyph-is.tex 2 2 {} {hyph-is.pat.txt} {} {} } \
+    {georgian loadhyph-ka.tex 2 3 {} {hyph-ka.pat.txt} {} {} } \
     {indonesian loadhyph-id.tex 2 2 {} {hyph-id.pat.txt} {hyph-id.hyp.txt} {} } \
     {interlingua loadhyph-ia.tex 2 2 {} {hyph-ia.pat.txt} {hyph-ia.hyp.txt} {} } \
-    {irish loadhyph-ga.tex 2 3 {} {hyph-ga.pat.txt} {hyph-ga.hyp.txt} {} } \
-    {kurmanji loadhyph-kmr.tex 2 2 {} {hyph-kmr.pat.txt} {} {} } \
-    {piedmontese loadhyph-pms.tex 2 2 {} {hyph-pms.pat.txt} {} {} } \
-    {romanian loadhyph-ro.tex 2 2 {} {hyph-ro.pat.txt} {} {} } \
-    {romansh loadhyph-rm.tex 2 2 {} {hyph-rm.pat.txt} {} {} } \
-    {serbian loadhyph-sr-latn.tex 2 2 {} {hyph-sh-latn.pat.txt,hyph-sh-cyrl.pat.txt} {hyph-sh-latn.hyp.txt,hyph-sh-cyrl.hyp.txt} {} } \
-    {serbianc loadhyph-sr-cyrl.tex 2 2 {} {hyph-sh-latn.pat.txt,hyph-sh-cyrl.pat.txt} {hyph-sh-latn.hyp.txt,hyph-sh-cyrl.hyp.txt} {} } \
-    {slovenian loadhyph-sl.tex 2 2 {slovene} {hyph-sl.pat.txt} {} {} } \
-    {turkish loadhyph-tr.tex 2 2 {} {hyph-tr.pat.txt} {} {} } \
-    {uppersorbian loadhyph-hsb.tex 2 2 {} {hyph-hsb.pat.txt} {hyph-hsb.hyp.txt} {} } \
-    {welsh loadhyph-cy.tex 2 3 {} {hyph-cy.pat.txt} {} {} }
+    {thai loadhyph-th.tex 2 3 {} {hyph-th.pat.txt} {} {} } \
+    {turkmen loadhyph-tk.tex 2 2 {} {hyph-tk.pat.txt} {} {} }
+
+texlive.maps      \
+    {Map syriac.map} \
+    {Map cjhebrew.map} \
+    {Map nectec.map} \
+    {Map nf.map} \
+    {Map tlwg.map} \
+    {Map arevvn.map} \
+    {Map chartervn.map} \
+    {Map cmbrightvn.map} \
+    {Map concretevn.map} \
+    {Map grotesqvn.map} \
+    {Map txttvn.map} \
+    {Map urwvn.map} \
+    {MixedMap vnrother.map} \
+    {MixedMap vnrtext.map} \
+    {Map vntopia.map}
 
 
 texlive.texmfport

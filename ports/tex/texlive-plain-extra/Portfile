@@ -5,24 +5,24 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-plain-extra
-version             30307
+version             30395
 revision            0
 
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Plain TeX supplementary packages
+description         TeX Live: Plain TeX packages
 long_description    Add-on packages and macros that work with plain TeX.
 
-checksums           texlive-plain-extra-30307-run.tar.xz \
-                    rmd160  209c2554508e3ad3927204fc71f9a66c00296d41 \
-                    sha256  7b2c725be7c025fae2c1cc3c7daddad5586eae8876b476ed7d24f707588013b6 \
-                    texlive-plain-extra-30307-doc.tar.xz \
-                    rmd160  4b82edcf47a8c24395291dd486ed47c0ddb7b7f0 \
-                    sha256  751e4758b163fb511663db1819120758d88c3bd7282822405a76dfab209ebb3f \
-                    texlive-plain-extra-30307-src.tar.xz \
-                    rmd160  43469f2b17e42c727d38c353e2349cdb032b8016 \
-                    sha256  9a1748ae3731e776a26f0d1ff9b62c293bcc8d70a174ce4d7e7e97a95c91e3e7
+checksums           texlive-plain-extra-30395-run.tar.xz \
+                    rmd160  eecb568dc93dea2f9ab3379fd03fbc1b019286ff \
+                    sha256  5d4f88c3d0bae35c382e89ea50f91fd8a7e6ea1fbb634c16e0b542913b629e9c \
+                    texlive-plain-extra-30395-doc.tar.xz \
+                    rmd160  64876227bce54f4f00d29ebb2e2260db3627453c \
+                    sha256  a91ce1138117310459c51ebf7fe4cb1b4ef96be7bc4dc65a0ff6395b49acc707 \
+                    texlive-plain-extra-30395-src.tar.xz \
+                    rmd160  29a3e2840eacb362ec7132245cb6acf71f13bea4 \
+                    sha256  180a2a47547567fa0a5fb256730c68f6d6c2976cc881d517a5b18ddf7d19d7ff
 
 depends_lib         port:texlive-basic
 

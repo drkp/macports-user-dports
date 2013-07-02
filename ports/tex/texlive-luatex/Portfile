@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-luatex
-version             30313
+version             30790
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: LuaTeX packages
 long_description    Packages for LuaTeX, a Unicode-aware extension of pdfTeX, using Lua as an embedded scripting and extension language. http://luatex.org/
 
-checksums           texlive-luatex-30313-run.tar.xz \
-                    rmd160  bd91633b04e6488ccc190be7a8bcceda4770a159 \
-                    sha256  6747bcebbf6b2072e526c4219199cf40ffc814e130f631c99e6e90cee20c1951 \
-                    texlive-luatex-30313-doc.tar.xz \
-                    rmd160  869050e84cbb2c829c10801c2f8df78d2d0a7e38 \
-                    sha256  52303161e32e5eecee60ae5f5b06ed7a464a0c135d8c9f19b4db126978572654 \
-                    texlive-luatex-30313-src.tar.xz \
-                    rmd160  a0db842edc1f0ec60e497d9c45cd101f8d33137d \
-                    sha256  8bb5e96393fe4d777a6d72e23f1b9cc0299f11105eff2dea3e4e3256f26821ed
+checksums           texlive-luatex-30790-run.tar.xz \
+                    rmd160  112bd8ce2974679b087fc1df66cc3585ffc32038 \
+                    sha256  5962a94c778ba49aff8604fca9d5268719b361649eefc040778b1d40045ee26a \
+                    texlive-luatex-30790-doc.tar.xz \
+                    rmd160  a7f95e9ba53c4004f708ab8c3d8ebdd7660f40ff \
+                    sha256  4ecc57928333c43f7e88b9bad149461e6527d807374b0cda0000187ef52fb685 \
+                    texlive-luatex-30790-src.tar.xz \
+                    rmd160  5349860c8db96d9ab950f8ba04a8aa8a6363e4e2 \
+                    sha256  fbf9827e0a8e3fca7a7dfaabfcedbe5f4e4f20c53bd642639f1112e1b6603571
 
 depends_lib         port:texlive-basic
 
