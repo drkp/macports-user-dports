@@ -56,6 +56,8 @@ depends_lib     port:fontconfig \
                 path:lib/pkgconfig/cairo.pc:cairo \
                 path:lib/pkgconfig/pixman-1.pc:libpixman \
                 port:graphite2 \
+                port:icu \
+                port:harfbuzz \
                 port:texlive-common
 
 depends_run     port:ghostscript
@@ -77,9 +79,7 @@ patchfiles-append   patch-texk_kpathsea_Makefile.in.diff \
                     patch-texk_chktex_Makefile.in.diff
 
 # # fixes for makefile brokenness not otherwise specified
-patchfiles-append   patch-libs-freetype-Makefile.in.diff \
-                    patch-libs_icu_icu-51.1_source_configure.diff \
-                    patch-libs_icu_Makefile.in.diff
+patchfiles-append   patch-libs-freetype-Makefile.in.diff
 
 post-patch {
     reinplace "s|@@TEXMFDIST@@|${texlive_texmfdist}|" ${worksrcpath}/texk/texlive/linked_scripts/Makefile.in
@@ -116,8 +116,7 @@ if {${configure.compiler} == "llvm-gcc-4.2" &&
 # texlive whenever possible, to avoid redundancy and to better keep
 # current with respect to security updates and the like.
 #
-# Exceptions are freetype1 (not in MacPorts anymore) and icu/harfbuzz
-# (the texlive version of icu is non-standard)
+# Exceptions are freetype1 (not in MacPorts anymore)
 #
 # Many of the --with-system-* and --disable-* flags are actually
 # redundant because we've removed those components from the distfile,
@@ -136,6 +135,8 @@ configure.args  --bindir=${texlive_bindir} \
                 --with-system-cairo \
                 --with-system-gd \
                 --with-system-graphite2 \
+                --with-system-harfbuzz \
+                --with-system-icu \
                 --with-system-libpng \
                 --with-libpng-includes=${prefix}/include \
                 --with-libpng-libdir=${prefix}/lib \
@@ -273,10 +274,6 @@ variant no_x11 conflicts x11 motif description {Legacy compatibility variant} {}
 
 if {![variant_isset no_x11]} {
     default_variants    +x11
-}
-
-platform darwin 8 {
-    patchfiles-append patch-libs_icu_icu-51.1_source_common_putil.cpp.diff
 }
 
 livecheck.type      regex
