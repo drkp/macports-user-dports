@@ -40,12 +40,6 @@ texlive.maps      \
 
 texlive.binaries    context ctxtools luatools mtxrun pstopdf texexec texmfstart
 
-patchfiles          patch-runfiles_texmf-dist_tex_context_base_data-res.lua.diff
-
-post-patch {
-    reinplace "s|@@TEXMFSYSCONFIG@@|${texlive_texmfsysconfig}|" ${worksrcpath}/runfiles/texmf-dist/tex/context/base/data-res.lua
-}
-
 depends_lib-append  port:texlive-latex \
                     port:texlive-metapost \
                     port:texlive-xetex \

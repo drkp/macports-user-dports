@@ -72,7 +72,6 @@ patchfiles-append   patch-texk_web2c_luatexdir_luazlib_lzlib.c.diff
 # patches related to changes in install paths
 patchfiles-append   patch-texk_kpathsea_Makefile.in.diff \
                     patch-texk_tex4htk_Makefile.in.diff \
-                    patch-texk_texlive_linked_scripts_context_stubs_unix_mtxrun.diff \
                     patch-texk_texlive_linked_scripts_Makefile.in.diff \
                     patch-texk_texlive_tl_scripts_Makefile.in.diff \
                     patch-texk_xdvik_xdvi-sh.in.diff \
@@ -102,7 +101,6 @@ post-patch {
     file copy ${filespath}/texk_kpathsea_paths.h ${worksrcpath}/texk/kpathsea/paths.h
     reinplace "s|@@PREFIX@@|${prefix}|" ${worksrcpath}/texk/kpathsea/paths.h
     reinplace "s|@@TEXMFSYSCONFIG@@|${texlive_texmfsysconfig}|" ${worksrcpath}/texk/kpathsea/paths.h
-    reinplace "s|@@TEXMFSYSCONFIG@@|${texlive_texmfsysconfig}|" ${worksrcpath}/texk/texlive/linked_scripts/context/stubs/unix/mtxrun
 }
 
 # llvm-gcc apparently fails on Xcode 4.0.x (#30758)
