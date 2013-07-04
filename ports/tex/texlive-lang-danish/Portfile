@@ -8,26 +8,13 @@ name                texlive-lang-danish
 version             30307
 revision            0
 
+replaced_by         texlive-lang-european
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Danish
-long_description    Support for typesetting Danish.
+description         TeX Live: Danish (obsolete port)
+long_description    Support for typesetting Danish. (obsolete port)
 
-checksums           texlive-lang-danish-30307-run.tar.xz \
-                    rmd160  371993340ed816c30b1a990dea958d9de12ded15 \
-                    sha256  12c25aebf52eead3d8c46b82f304205283ae1139164ec3c7b94a7a3d6b701694 \
-                    texlive-lang-danish-30307-doc.tar.xz \
-                    rmd160  4e8a30f77cd17021dcfdb782a48d14ced8f72c7e \
-                    sha256  39de8a526b140784e4d65bef5cf96967972cc47309af353b920d69b5bec8511b \
-                    texlive-lang-danish-30307-src.tar.xz \
-                    rmd160  faa2ca997646e50994b16425efafd517be5bb84e \
-                    sha256  012efff9d20a3e8b5bb032dfca46a86f2a864b3118e1eb4469dba70697b5f82f
-
-depends_lib         port:texlive-basic
-
-texlive.languages      \
-    {danish loadhyph-da.tex 2 2 {} {hyph-da.pat.txt} {} {} }
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

@@ -8,23 +8,13 @@ name                texlive-lang-tibetan
 version             30307
 revision            0
 
+replaced_by         texlive-lang-other
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Tibetan
-long_description    Support for typesetting Tibetan.
+description         TeX Live: Tibetan (obsolete port)
+long_description    Support for typesetting Tibetan. (obsolete port)
 
-checksums           texlive-lang-tibetan-30307-run.tar.xz \
-                    rmd160  600f9c0b68fcfdb86d97d061a9085c2c11af2922 \
-                    sha256  4e9bd2f65d3eed8845f21904259a824912e3ff8e2fd02e6b4ecd9eef1ca4d0f9 \
-                    texlive-lang-tibetan-30307-doc.tar.xz \
-                    rmd160  51a056eb645318ae28f9b21f78f116b06395fc1e \
-                    sha256  36ee8e1a52b691c614762ff2367345f2fe5955e22279dbfc19eac1040ac32a94 \
-                    texlive-lang-tibetan-30307-src.tar.xz \
-                    rmd160  c51e447a4cc352169a90b2c142622a2af9eb293d \
-                    sha256  c33922427a19c86e4ac4aff27bfbcf3724ab0379ba3313fe1af4f80d6a1b89a6
-
-depends_lib         port:texlive-basic
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

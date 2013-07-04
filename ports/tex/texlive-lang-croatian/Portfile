@@ -8,26 +8,13 @@ name                texlive-lang-croatian
 version             30307
 revision            0
 
+replaced_by         texlive-lang-european
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Croatian
-long_description    Support for typesetting Croatian.
+description         TeX Live: Croatian (obsolete port)
+long_description    Support for typesetting Croatian. (obsolete port)
 
-checksums           texlive-lang-croatian-30307-run.tar.xz \
-                    rmd160  4c88b74b58efd76f0f16dc4284e1a559806bfb47 \
-                    sha256  1296c805a30bd59d08829256310dcb192bfeef4bb60145aa723fa80486c3924a \
-                    texlive-lang-croatian-30307-doc.tar.xz \
-                    rmd160  9fbe9c5d09e0ec5c29bc9bc401aed8e8c142ea63 \
-                    sha256  d66fff189c40fc755dc63828ae4adb98bc6abfdb5364092dac9ad252ecd39fcb \
-                    texlive-lang-croatian-30307-src.tar.xz \
-                    rmd160  30f9207bc552bc94fffabed8c1c36289591ca964 \
-                    sha256  60e3e15167a72a01f3d174edad6de02805a94b340c1f93cdbaf7c8917528e3ab
-
-depends_lib         port:texlive-basic
-
-texlive.languages      \
-    {croatian loadhyph-hr.tex 2 2 {} {hyph-hr.pat.txt} {} {} }
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

@@ -8,23 +8,13 @@ name                texlive-documentation-chinese
 version             29743
 revision            0
 
+replaced_by         texlive-lang-cjk
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Chinese documentation
-long_description    Chinese documentation
+description         TeX Live: Chinese documentation (obsolete port)
+long_description    Chinese documentation (obsolete port)
 
-checksums           texlive-documentation-chinese-29743-run.tar.xz \
-                    rmd160  2228b3fc645efbe904b2c6774995b205c64da728 \
-                    sha256  22f0034a68fc88ad18eaf74dde5dd4798d6ff84554d54e42ee28eba5580159b6 \
-                    texlive-documentation-chinese-29743-doc.tar.xz \
-                    rmd160  af7e4e3e4a878ffb42eec87742f3e4efd98038fc \
-                    sha256  aab5bc28c9a357c5d02fc576604402999bc2420f7d8025354efe33ef58eeccd4 \
-                    texlive-documentation-chinese-29743-src.tar.xz \
-                    rmd160  e32bd07a36ba1742aaa3d2e65aab87c0a3756273 \
-                    sha256  9d7cded84bb278182c27f0aae36ef7ca2c954439e3d2a78c0f12d4ce246b3223
-
-depends_lib         port:texlive-documentation-base
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

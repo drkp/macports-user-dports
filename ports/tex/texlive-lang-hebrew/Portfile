@@ -8,27 +8,13 @@ name                texlive-lang-hebrew
 version             30307
 revision            0
 
+replaced_by         texlive-lang-other
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Hebrew
-long_description    Support for typesetting Hebrew.
+description         TeX Live: Hebrew (obsolete port)
+long_description    Support for typesetting Hebrew. (obsolete port)
 
-checksums           texlive-lang-hebrew-30307-run.tar.xz \
-                    rmd160  7c33931422439527fdeaddde03c0d806d92524a0 \
-                    sha256  7e15b16ea9728dc23d16f2de418ddadb7f325ef248dc1d8bd038f44eea989868 \
-                    texlive-lang-hebrew-30307-doc.tar.xz \
-                    rmd160  c0ca4924d159b9bb918b280d85099477acdad57d \
-                    sha256  b9cba0638bbdf1dffae506954c6a57f4c594104a2fcf8548da8e5d72aea310d9 \
-                    texlive-lang-hebrew-30307-src.tar.xz \
-                    rmd160  4d56b7ef5acd470a3dfd5c65b30de9d3b2001e16 \
-                    sha256  f59fb8a1134c2b500b2ba58f05ec1be04256b932982c6c8d76fbf0e017ea3e37
-
-depends_lib         port:texlive-basic
-
-texlive.maps      \
-    {Map syriac.map} \
-    {Map cjhebrew.map}
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

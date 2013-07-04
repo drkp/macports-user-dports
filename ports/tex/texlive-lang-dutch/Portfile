@@ -8,26 +8,13 @@ name                texlive-lang-dutch
 version             30307
 revision            0
 
+replaced_by         texlive-lang-european
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Dutch
-long_description    Support for typesetting Dutch.
+description         TeX Live: Dutch (obsolete port)
+long_description    Support for typesetting Dutch. (obsolete port)
 
-checksums           texlive-lang-dutch-30307-run.tar.xz \
-                    rmd160  671e8acbfb43cd61be2e8507fbfeb6ef9cb57372 \
-                    sha256  bf3861490457f29ffa152528eb279c12e35b1bacc505469ffa80a53ed5bf56bb \
-                    texlive-lang-dutch-30307-doc.tar.xz \
-                    rmd160  7749311079eb43bf33659a45393553e8ff62ae98 \
-                    sha256  467a2d1e9bccb5ee1e9d14a4cfd9013c36f1a6e0c329b53ea4bd0952396d1ac3 \
-                    texlive-lang-dutch-30307-src.tar.xz \
-                    rmd160  71bb5901585f4c8275334d95133eca31233fea38 \
-                    sha256  7e6a9553ec371a389c664b0be071160b3f2e9bb2171df01a22391ae23b6ae8c8
-
-depends_lib         port:texlive-basic
-
-texlive.languages      \
-    {dutch loadhyph-nl.tex 2 2 {} {hyph-nl.pat.txt} {hyph-nl.hyp.txt} {} }
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

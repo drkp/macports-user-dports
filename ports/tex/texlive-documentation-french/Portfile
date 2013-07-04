@@ -8,23 +8,13 @@ name                texlive-documentation-french
 version             29743
 revision            0
 
+replaced_by         texlive-lang-french
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: French documentation
-long_description    French documentation
+description         TeX Live: French documentation (obsolete port)
+long_description    French documentation (obsolete port)
 
-checksums           texlive-documentation-french-29743-run.tar.xz \
-                    rmd160  e53bb05d94ad20def37be788c288f5d3acba1bb1 \
-                    sha256  b8cc1135e94ac82267b33f952239bcdf338d2f4c7f4b9c627deb1cf47fdd90c7 \
-                    texlive-documentation-french-29743-doc.tar.xz \
-                    rmd160  8d3b6f7b1e7cb0d666c71c85a71fbb048178dd7e \
-                    sha256  2e18a76d29a5fe16e6ccc93c7403a016c43f56871c58dd883ea33571ff5f82c0 \
-                    texlive-documentation-french-29743-src.tar.xz \
-                    rmd160  e801ddc7602c8af0f8d38d44fd272dbec850d9c8 \
-                    sha256  a8d90a23fe0261943663d180f2c43afd001310c991ac78bcab9d80fe06c3878a
-
-depends_lib         port:texlive-documentation-base
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

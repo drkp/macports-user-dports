@@ -8,26 +8,13 @@ name                texlive-documentation-base
 version             30310
 revision            0
 
+replaced_by         texlive-basic
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: TeX Live documentation
-long_description    TeX Live documentation
+description         TeX Live: TeX Live documentation (obsolete port)
+long_description    TeX Live documentation (obsolete port)
 
-checksums           texlive-documentation-base-30310-run.tar.xz \
-                    rmd160  a8a1db89b82ea7609e7dd8f8f7cd0f53a428ad5f \
-                    sha256  46b02980acdfce202cca09d47164bb0829ad939baf101c453576a6130845bdc3 \
-                    texlive-documentation-base-30310-doc.tar.xz \
-                    rmd160  134fe98f8c501518663383c661c592d9842b4878 \
-                    sha256  9268fc3708620a808a1a28e3fb6c2c6a7744c5c37e0e59111e3588afecbdcb41 \
-                    texlive-documentation-base-30310-src.tar.xz \
-                    rmd160  a3b25185fecbd734c2b4ba5401e295b4dc48b5da \
-                    sha256  948c534eab5a4daf00f61b32b9084006fc91c295905ca32fa999ec81f2d08ba0
-
-texlive.exclude     doc.html
-
-# This port is installed prior to texlive-basic, so mktexlsr is not
-# available yet. Do not try to run it in post-activate.
-texlive.use_mktexlsr no
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

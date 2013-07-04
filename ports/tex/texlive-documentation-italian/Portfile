@@ -8,23 +8,13 @@ name                texlive-documentation-italian
 version             29743
 revision            0
 
+replaced_by         texlive-lang-italian
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Italian documentation
-long_description    Italian documentation
+description         TeX Live: Italian documentation (obsolete port)
+long_description    Italian documentation (obsolete port)
 
-checksums           texlive-documentation-italian-29743-run.tar.xz \
-                    rmd160  61f9607016d656fabb66ec1f8e6e236c2c2f14d7 \
-                    sha256  1e8b4b4aeaa09768454cf4cff5da42504a9f43c5494881dad586d3bc78168ba0 \
-                    texlive-documentation-italian-29743-doc.tar.xz \
-                    rmd160  79a58359e5a9990d6c464eeb250669f6ac6a8626 \
-                    sha256  999bf6d43b590cbc8bca752d124e481a3cb3f9fe1371d14eca7dd00d94a254fd \
-                    texlive-documentation-italian-29743-src.tar.xz \
-                    rmd160  4b0dbefefbe6a8bc88c6bd2ae71bd0e4e9daa62e \
-                    sha256  2786b3129a200863bf34b9fdeb5c8e9a240d87e5950a274224d062fc07d11374
-
-depends_lib         port:texlive-documentation-base
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

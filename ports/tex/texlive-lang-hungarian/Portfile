@@ -8,26 +8,13 @@ name                texlive-lang-hungarian
 version             30307
 revision            0
 
+replaced_by         texlive-lang-european
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Hungarian
-long_description    Support for typesetting Hungarian.
+description         TeX Live: Hungarian (obsolete port)
+long_description    Support for typesetting Hungarian. (obsolete port)
 
-checksums           texlive-lang-hungarian-30307-run.tar.xz \
-                    rmd160  513af7dedb77bec1db9c82e278141ac86027bb69 \
-                    sha256  394985ee6bb1185d082ee09a855f2f82b1ac22e83e501358c63a3020d381f34d \
-                    texlive-lang-hungarian-30307-doc.tar.xz \
-                    rmd160  521e931b229e8e4cf1a8b66945b3560ade1802ee \
-                    sha256  77465f79fe5b6ef020523d44eab0bf99f57554f6916e1f14fc6fc91a90307d9d \
-                    texlive-lang-hungarian-30307-src.tar.xz \
-                    rmd160  473c06cc211902f4f380a9140d32bb54b10134cd \
-                    sha256  d73cd3829f2fa90d1be380acf4576efdb58101ae465f29f54dec3fe5bada04b3
-
-depends_lib         port:texlive-basic
-
-texlive.languages      \
-    {hungarian loadhyph-hu.tex 2 2 {} {hyph-hu.pat.txt} {} {} }
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

@@ -8,23 +8,13 @@ name                texlive-documentation-czechslovak
 version             29803
 revision            0
 
+replaced_by         texlive-lang-czechslovak
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Czech/Slovak documentation
-long_description    Czech/Slovak documentation
+description         TeX Live: Czech/Slovak documentation (obsolete port)
+long_description    Czech/Slovak documentation (obsolete port)
 
-checksums           texlive-documentation-czechslovak-29803-run.tar.xz \
-                    rmd160  37a8499f913c1d3b6cdfc4f94e0c81a2387d5254 \
-                    sha256  93b0f0efb897117993ac9560d2d1ef31e3059d56cbc6cee24ccd77318e966f59 \
-                    texlive-documentation-czechslovak-29803-doc.tar.xz \
-                    rmd160  f7cf037e6d8d86383853be4afdef8fa7b675329c \
-                    sha256  82702f6713831cb9e086e01d47df0de6ef509d841b787ea315905a3c8e77a00f \
-                    texlive-documentation-czechslovak-29803-src.tar.xz \
-                    rmd160  46a9db06cd5671e9c9ac44796fb7f132a7e2f4be \
-                    sha256  d3a54994e8451a66d7f308c7ef1105884b81a50cb9290fc9ff7f29e6c5b92531
-
-depends_lib         port:texlive-documentation-base
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

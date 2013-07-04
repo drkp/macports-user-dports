@@ -8,26 +8,13 @@ name                texlive-lang-turkmen
 version             30307
 revision            0
 
+replaced_by         texlive-lang-other
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Turkmen
-long_description    Support for typesetting Turkish and Turkmen.
+description         TeX Live: Turkmen (obsolete port)
+long_description    Support for typesetting Turkish and Turkmen. (obsolete port)
 
-checksums           texlive-lang-turkmen-30307-run.tar.xz \
-                    rmd160  a1345cb736463c33c5ba7a0e5cc8df2e5e0f8c6d \
-                    sha256  3ee22f55967caade2b36fb3c041cb32058bf9d3cde63a1590fc474bbfbb4c271 \
-                    texlive-lang-turkmen-30307-doc.tar.xz \
-                    rmd160  ce41108482dbe626910b9f53068349ba5226d3e9 \
-                    sha256  15fc4f84790974509978207fa05fc22b808cf8a7b389ead18d7a746eda9bb655 \
-                    texlive-lang-turkmen-30307-src.tar.xz \
-                    rmd160  eacdc86dbcb88b01084e7dbc563063f7f5531b73 \
-                    sha256  4c2691dc93e39972d26dbbbaf27a8852e92a774809042c353f42715a265d901d
-
-depends_lib         port:texlive-basic
-
-texlive.languages      \
-    {turkmen loadhyph-tk.tex 2 2 {} {hyph-tk.pat.txt} {} {} }
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

@@ -8,26 +8,13 @@ name                texlive-lang-latin
 version             30307
 revision            0
 
+replaced_by         texlive-lang-european
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Latin
-long_description    Support for typesetting Latin.
+description         TeX Live: Latin (obsolete port)
+long_description    Support for typesetting Latin. (obsolete port)
 
-checksums           texlive-lang-latin-30307-run.tar.xz \
-                    rmd160  0066641f34a08d4ae2c90f6fda0dfc319ce4b4cf \
-                    sha256  54b42ad247b17b3635fc121f84629c59cb72a6ae316cad27dc8b1b9bf30d26c2 \
-                    texlive-lang-latin-30307-doc.tar.xz \
-                    rmd160  cb4c1e00108a5540615cf942cc7a2566dee88792 \
-                    sha256  a1447a85580969274bf7dea2e33006a211672db39ae84b777df5693d852ea1f1 \
-                    texlive-lang-latin-30307-src.tar.xz \
-                    rmd160  d21ad2f74180b8ec1e5a6d4b65819846904f2d7f \
-                    sha256  dc1af3fef6c51a562d3aad370f64dcad926fad5cb2f3aea491ee582f84a37d9b
-
-depends_lib         port:texlive-basic
-
-texlive.languages      \
-    {latin loadhyph-la.tex 2 2 {} {hyph-la.pat.txt} {} {} }
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

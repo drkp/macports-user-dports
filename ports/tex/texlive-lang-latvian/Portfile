@@ -8,26 +8,13 @@ name                texlive-lang-latvian
 version             30307
 revision            0
 
+replaced_by         texlive-lang-european
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Latvian
-long_description    Support for typesetting Latvian.
+description         TeX Live: Latvian (obsolete port)
+long_description    Support for typesetting Latvian. (obsolete port)
 
-checksums           texlive-lang-latvian-30307-run.tar.xz \
-                    rmd160  a7b6a08ad16bb2414f869ef6d303b1fc0e29fb78 \
-                    sha256  db0dcc59951e23f6100f4a7a85708f4be63cf44759a82a7f3d824da428048f98 \
-                    texlive-lang-latvian-30307-doc.tar.xz \
-                    rmd160  3e755cbaa19d29065cb5c4b6e49aeb2c66bafd25 \
-                    sha256  d5b57cc41d0199f5eb5c27e89dd45edb10871a0a5587a8519c112756eb34e8a8 \
-                    texlive-lang-latvian-30307-src.tar.xz \
-                    rmd160  74a6bc42c432895eaf45242c4567cc50d9dfb5ca \
-                    sha256  1437d395b1aaaeb9a7a4b3ac8ab887e23e166d94094441143857ac7b65046687
-
-depends_lib         port:texlive-basic
-
-texlive.languages      \
-    {latvian loadhyph-lv.tex 2 2 {} {hyph-lv.pat.txt} {} {} }
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

@@ -8,23 +8,13 @@ name                texlive-documentation-serbian
 version             29743
 revision            0
 
+replaced_by         texlive-lang-cyrillic
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Serbian documentation
-long_description    Serbian documentation
+description         TeX Live: Serbian documentation (obsolete port)
+long_description    Serbian documentation (obsolete port)
 
-checksums           texlive-documentation-serbian-29743-run.tar.xz \
-                    rmd160  7ec6ef60447faaab14c21f764ff747339621ae15 \
-                    sha256  11f89f28975a1e39c05e03efc96cc67435c3618330145f6a1e623bbd6adb8a8f \
-                    texlive-documentation-serbian-29743-doc.tar.xz \
-                    rmd160  cb80e1246eebd4831882be32839689978344ad22 \
-                    sha256  8e694c0b890c5d21d50e335b7606274536e92ba538961ab05dbe4800cd1586eb \
-                    texlive-documentation-serbian-29743-src.tar.xz \
-                    rmd160  307ac76387e35ed12824d58adcee7cb50f8d2338 \
-                    sha256  7ba7b1048772cfa1aa3ffa98b10195f3312f6295d738454263c5407d15596d97
-
-depends_lib         port:texlive-documentation-base
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

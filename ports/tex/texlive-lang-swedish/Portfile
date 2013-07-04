@@ -8,26 +8,13 @@ name                texlive-lang-swedish
 version             30307
 revision            0
 
+replaced_by         texlive-lang-european
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Swedish
-long_description    Support for typesetting Swedish.
+description         TeX Live: Swedish (obsolete port)
+long_description    Support for typesetting Swedish. (obsolete port)
 
-checksums           texlive-lang-swedish-30307-run.tar.xz \
-                    rmd160  3a8e52da78ae74cdf63db85a221c62749d81ae18 \
-                    sha256  56ede3cde8a9b409395b8b09ae6311f05b7769efd7ef008bbc7850dee81d5315 \
-                    texlive-lang-swedish-30307-doc.tar.xz \
-                    rmd160  9800f15d072b8e3059e9bf40061c63fea98d56d0 \
-                    sha256  357f4d011e045a78d523f4f792ace6a2720a52b26ddbd8b72afc8a7d698d5fda \
-                    texlive-lang-swedish-30307-src.tar.xz \
-                    rmd160  7b7ca6f1da214f7cd6cfcd0d99670aa78749622c \
-                    sha256  3182e595fe184a74cfbcb669555b78e3f87a3aafe21de8f454785bee368ff200
-
-depends_lib         port:texlive-basic
-
-texlive.languages      \
-    {swedish loadhyph-sv.tex 2 2 {} {hyph-sv.pat.txt} {} {} }
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

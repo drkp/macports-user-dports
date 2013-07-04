@@ -8,29 +8,13 @@ name                texlive-lang-lithuanian
 version             30307
 revision            0
 
+replaced_by         texlive-lang-european
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Lithuanian
-long_description    Support for typesetting Lithuanian.
+description         TeX Live: Lithuanian (obsolete port)
+long_description    Support for typesetting Lithuanian. (obsolete port)
 
-checksums           texlive-lang-lithuanian-30307-run.tar.xz \
-                    rmd160  cc5189933a0906599cc885b09199d8d6b1ea718d \
-                    sha256  3ad70fb407543cb2e77372be759604c952ae9e5523d3e6c16e16d28e4d235949 \
-                    texlive-lang-lithuanian-30307-doc.tar.xz \
-                    rmd160  e807142dfd048d48effaf2eb641992748d1212b2 \
-                    sha256  870e4aac6483f8f9a501a0fbb6f9767fea686c02715cc3eedfb7aa96ac3d0f80 \
-                    texlive-lang-lithuanian-30307-src.tar.xz \
-                    rmd160  fc98cf332daba4f012a61195914362eaf91a02a2 \
-                    sha256  8a8092de51d246c2b530f904f1ebed03e65587f227047073d83191d497f0fc44
-
-depends_lib         port:texlive-basic
-
-texlive.languages      \
-    {lithuanian loadhyph-lt.tex 2 2 {} {hyph-lt.pat.txt} {} {} }
-
-texlive.maps      \
-    {Map l7x-urwvn.map}
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

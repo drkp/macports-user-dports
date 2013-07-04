@@ -8,26 +8,13 @@ name                texlive-lang-finnish
 version             30307
 revision            0
 
+replaced_by         texlive-lang-european
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Finnish
-long_description    Support for typesetting Finnish.
+description         TeX Live: Finnish (obsolete port)
+long_description    Support for typesetting Finnish. (obsolete port)
 
-checksums           texlive-lang-finnish-30307-run.tar.xz \
-                    rmd160  7cabdd7fa88247fed0cbe13683bb14718e83f0a7 \
-                    sha256  06a6d6d65946d8d05c4da50751639b82ced41c238f75fa6ff7ae2d20db6fe51e \
-                    texlive-lang-finnish-30307-doc.tar.xz \
-                    rmd160  8edc237a5ce09862ae1ba18f25cc694a117a2977 \
-                    sha256  b40a426de0a05db8fd287b53fca20cf1e50b8c48690096a0e1320911d5970f06 \
-                    texlive-lang-finnish-30307-src.tar.xz \
-                    rmd160  bcb29ce45e7cc56d7c191741ede81da83008f2b0 \
-                    sha256  bafb96381fa5315e9acd48ee6579841e1d98288d7cf8e73bbf11f7fcb7e8d4aa
-
-depends_lib         port:texlive-basic
-
-texlive.languages      \
-    {finnish loadhyph-fi.tex 2 2 {} {hyph-fi.pat.txt} {} {} }
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

@@ -8,27 +8,13 @@ name                texlive-lang-norwegian
 version             30307
 revision            0
 
+replaced_by         texlive-lang-european
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Norwegian
-long_description    Support for typesetting Norwegian.
+description         TeX Live: Norwegian (obsolete port)
+long_description    Support for typesetting Norwegian. (obsolete port)
 
-checksums           texlive-lang-norwegian-30307-run.tar.xz \
-                    rmd160  3e1dd6c5896927d5b0246f6176e8fb02d28d88e3 \
-                    sha256  2f4d434f8568acd24d333ac5ef950fc48f3bc7eedea8b8dbb42726e0db56698a \
-                    texlive-lang-norwegian-30307-doc.tar.xz \
-                    rmd160  c4f1b5a2e996ea6e3b9ca41b0ab9ed4694913ae9 \
-                    sha256  1851b38d33192ee813f66dcc679f10511bf59be05442230747f1699e3389295f \
-                    texlive-lang-norwegian-30307-src.tar.xz \
-                    rmd160  1bf53f7aa3fbebb7f68e741437d56058c3fe840e \
-                    sha256  754139cae1fadb793a67492b07339977bbadf72c50987d0f11bfc248fc30be35
-
-depends_lib         port:texlive-basic
-
-texlive.languages      \
-    {bokmal loadhyph-nb.tex 2 2 {norwegian norsk} {hyph-nb.pat.txt} {hyph-nb.hyp.txt} {} } \
-    {nynorsk loadhyph-nn.tex 2 2 {} {hyph-nn.pat.txt} {hyph-nn.hyp.txt} {} }
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

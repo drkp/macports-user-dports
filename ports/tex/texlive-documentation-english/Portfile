@@ -8,23 +8,13 @@ name                texlive-documentation-english
 version             30138
 revision            0
 
+replaced_by         texlive-lang-english
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: English documentation
-long_description    English documentation
+description         TeX Live: English documentation (obsolete port)
+long_description    English documentation (obsolete port)
 
-checksums           texlive-documentation-english-30138-run.tar.xz \
-                    rmd160  522756064916c446c6dc51e3f999f7d10b46499f \
-                    sha256  6e26969d11870620bffd8986755e433f09b90f3a4f1f2b13ba5f03e0edb9e1a7 \
-                    texlive-documentation-english-30138-doc.tar.xz \
-                    rmd160  820cdb5725205b5db51b1ff1675d1fcf2038de40 \
-                    sha256  24f32c3eea15b0a8ee79f4043e7e3f09ddd5d47ede28afef32d29ad504ad24ea \
-                    texlive-documentation-english-30138-src.tar.xz \
-                    rmd160  b262110e7e48ea07a7da527ccc19080719f88b96 \
-                    sha256  a34abdcfeca7a37d361e9a3dec3f3f564ab2d19edf4c203c23c2388ce6bc4c9b
-
-depends_lib         port:texlive-documentation-base
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

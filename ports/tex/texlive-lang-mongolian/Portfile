@@ -8,30 +8,13 @@ name                texlive-lang-mongolian
 version             30307
 revision            0
 
+replaced_by         texlive-lang-cyrillic
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Mongolian
-long_description    Support for typesetting Mongolian.
+description         TeX Live: Mongolian (obsolete port)
+long_description    Support for typesetting Mongolian. (obsolete port)
 
-checksums           texlive-lang-mongolian-30307-run.tar.xz \
-                    rmd160  35b5e4938d8cc46b5bd0221f0954311be2708607 \
-                    sha256  ddfdfdc9163c287dc8c3a3d73527c412f7601525a9de8bdc8e11f64c63b78bec \
-                    texlive-lang-mongolian-30307-doc.tar.xz \
-                    rmd160  46a4ac0bf04b7a5595ed8afcad4920a643d5aab5 \
-                    sha256  042f382cba08eadf7e7d25a92b0c0ee58203371f8c9b2244b05e171028701eb0 \
-                    texlive-lang-mongolian-30307-src.tar.xz \
-                    rmd160  54a4669dae403d6945b0f0c0b32805b7346ce87f \
-                    sha256  924b129077ff794e767599db3ca962383047e059d7370dfd89b30177a51d108b
-
-depends_lib         port:texlive-basic
-
-texlive.languages      \
-    {mongolian loadhyph-mn-cyrl.tex 2 2 {} {hyph-mn-cyrl.pat.txt} {} {} } \
-    {mongolianlmc loadhyph-mn-cyrl-x-lmc.tex 2 2 {} {} {} {disabled:only for 8bit montex with lmc encoding} }
-
-texlive.maps      \
-    {MixedMap mongolian.map}
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

@@ -8,35 +8,13 @@ name                texlive-lang-vietnamese
 version             30307
 revision            0
 
+replaced_by         texlive-lang-other
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Vietnamese
-long_description    Support for typesetting Vietnamese.
+description         TeX Live: Vietnamese (obsolete port)
+long_description    Support for typesetting Vietnamese. (obsolete port)
 
-checksums           texlive-lang-vietnamese-30307-run.tar.xz \
-                    rmd160  f2b616647cd5a17f8814414b38381a512a7fbb5e \
-                    sha256  2d2deda963479b45ceedf49e57114713fb6500d08cb6b8ae117218297efb330c \
-                    texlive-lang-vietnamese-30307-doc.tar.xz \
-                    rmd160  68171878fafc5afaaa694b34f0ce6b562a2fc097 \
-                    sha256  f5afd55b8879943f3957433ce803c967c38328e2e82e9d51fefa37775fc941bc \
-                    texlive-lang-vietnamese-30307-src.tar.xz \
-                    rmd160  be1e458dc5f23e5ed18d5b043e251ff06d0f7ab3 \
-                    sha256  2dba6ccba41b08ca37dcff84bc128d9cbdde57d6412a4ba2779a6c7da82e3bac
-
-depends_lib         port:texlive-basic
-
-texlive.maps      \
-    {Map arevvn.map} \
-    {Map chartervn.map} \
-    {Map cmbrightvn.map} \
-    {Map concretevn.map} \
-    {Map grotesqvn.map} \
-    {Map txttvn.map} \
-    {Map urwvn.map} \
-    {MixedMap vnrother.map} \
-    {MixedMap vnrtext.map} \
-    {Map vntopia.map}
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

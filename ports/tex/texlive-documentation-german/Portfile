@@ -8,23 +8,13 @@ name                texlive-documentation-german
 version             29940
 revision            0
 
+replaced_by         texlive-lang-german
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: German documentation
-long_description    German documentation
+description         TeX Live: German documentation (obsolete port)
+long_description    German documentation (obsolete port)
 
-checksums           texlive-documentation-german-29940-run.tar.xz \
-                    rmd160  419a27d39bf7a8306d397c900e9b4849e360a6d1 \
-                    sha256  40a0bce253a0dacb94bf07e8aeae4b3a51934db5cb5fcbfa20257be4afc1c1e5 \
-                    texlive-documentation-german-29940-doc.tar.xz \
-                    rmd160  84fd8e94d449fba1e8116474653416c90ebcd212 \
-                    sha256  72fad9b5c610f2d4b1b633e62a6229546ed7aa0fb3e4d38269c6a9551e4f4d9f \
-                    texlive-documentation-german-29940-src.tar.xz \
-                    rmd160  378fe69ddf9cb8fab9a865a01c768244405b3044 \
-                    sha256  91e5d33502d79a632a910066c066a3616460d30bdebaa139796bfed86f077f56
-
-depends_lib         port:texlive-documentation-base
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

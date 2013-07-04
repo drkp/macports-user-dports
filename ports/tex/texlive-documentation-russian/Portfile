@@ -8,23 +8,13 @@ name                texlive-documentation-russian
 version             29743
 revision            0
 
+replaced_by         texlive-lang-cyrillic
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Russian documentation
-long_description    Russian documentation
+description         TeX Live: Russian documentation (obsolete port)
+long_description    Russian documentation (obsolete port)
 
-checksums           texlive-documentation-russian-29743-run.tar.xz \
-                    rmd160  f72ee8b06010817144fe423145f3ee04c626df9f \
-                    sha256  f1d747b536baa22299acf80d61088617fd8dded55af479ea98e8f3ce4257b7e7 \
-                    texlive-documentation-russian-29743-doc.tar.xz \
-                    rmd160  e6e0bf2d153e17148a1170c6b4b307e875c516e7 \
-                    sha256  3190a0ce230ca52e038cf3f8ffbfad7137813761b26775a3bc3c4ddb61d2ea96 \
-                    texlive-documentation-russian-29743-src.tar.xz \
-                    rmd160  7a2ae9c58da99750690021c61a504323e509930d \
-                    sha256  eb4eede571825ed91c36359b2f1d183122da6dc25372222e6024f86b1ff8ab0d
-
-depends_lib         port:texlive-documentation-base
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

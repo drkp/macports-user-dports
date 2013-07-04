@@ -8,23 +8,13 @@ name                texlive-documentation-spanish
 version             29725
 revision            0
 
+replaced_by         texlive-lang-spanish
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Spanish documentation
-long_description    Spanish documentation
+description         TeX Live: Spanish documentation (obsolete port)
+long_description    Spanish documentation (obsolete port)
 
-checksums           texlive-documentation-spanish-29725-run.tar.xz \
-                    rmd160  e8325ad9da296bdbfc3d4938107b893ed9228862 \
-                    sha256  2151105bf0c3cce25831559d818291426385a5847f565e7d13ab59df476610e6 \
-                    texlive-documentation-spanish-29725-doc.tar.xz \
-                    rmd160  f41d031534babe6c7655d78a9916cfb63ef68eb2 \
-                    sha256  f4e1e3587e4c84276875f672bee248655acb2d8eeca1b04da90c85abe161b6a5 \
-                    texlive-documentation-spanish-29725-src.tar.xz \
-                    rmd160  495dc0f654c4df94abf345ce7ccdb16cf154cb4b \
-                    sha256  e8dd8def4f02b194ea2e2af8d5609a71b754345303264e0e2b7531e15b14ea3b
-
-depends_lib         port:texlive-documentation-base
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/

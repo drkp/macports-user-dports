@@ -8,23 +8,13 @@ name                texlive-documentation-polish
 version             29743
 revision            0
 
+replaced_by         texlive-lang-polish
+PortGroup           obsolete 1.0
+
 categories          tex
 maintainers         dports
 license             Copyleft Permissive
-description         TeX Live: Polish documentation
-long_description    Polish documentation
+description         TeX Live: Polish documentation (obsolete port)
+long_description    Polish documentation (obsolete port)
 
-checksums           texlive-documentation-polish-29743-run.tar.xz \
-                    rmd160  8e98d43104d579aa49585d2ee2fa20f9468ef403 \
-                    sha256  4831d8c49e1d6eb4ba926936049484a541ce01d896ace2c8ee7e889b49d0a08f \
-                    texlive-documentation-polish-29743-doc.tar.xz \
-                    rmd160  7557bba016b47970cb6ce762fd50de069a916807 \
-                    sha256  86ecbf3fa230289b623240ef7558e2d116db27f8f170436f3bfa1469e8df3912 \
-                    texlive-documentation-polish-29743-src.tar.xz \
-                    rmd160  9fb29bb764a97f388d3c2263cb17fa6ef44496ff \
-                    sha256  f42c27726fc3c9546fbaea31d20b1dd8f3e911bd22655a1e0d5a9c074debbfa3
-
-depends_lib         port:texlive-documentation-base
-
-
-texlive.texmfport
+homepage            http://www.tug.org/texlive/
