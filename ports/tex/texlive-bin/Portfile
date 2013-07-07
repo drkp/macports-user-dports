@@ -32,15 +32,15 @@ license         Copyleft Permissive LGPL-2.1+ BSD
 master_sites    http://giraffe.cs.washington.edu/texlive/test/
 set distversion 20130619
 use_xz          yes
-distname        texlive-source-${distversion}
+distname        texlive-source-${distversion}-stripped
 worksrcdir      ${distname}
 
 set tlpkgdistname   tlpkg-TeXLive-${distversion}
 distfiles-append    ${tlpkgdistname}${extract.suffix}
 
-checksums       texlive-source-20130619.tar.xz \
-                rmd160  a9e22a0bce9bd6300ab6ed0384c857f442cae0bc \
-                sha256  a63cbfacbbafa554c82afc5cdf71adc017b8643d0e8d4dfa3f3e988123f24b9b \
+checksums       texlive-source-20130619-stripped.tar.xz \
+                rmd160  566e82917575c8d26a90c73b3d5a780a6017462a \
+                sha256  7a5fc3574f3609fc722cc0f7e6a6b9989d03f2ef536ac13412e152717b6a3172 \
                 tlpkg-TeXLive-20130619.tar.xz \
                 rmd160  fd998013e216d576b41986183069adaeb637f56b \
                 sha256  77c1d0859025f28410805ec493f384c705279e94471790aac7ba80badd586a74
