@@ -26,12 +26,5 @@ checksums           texlive-generic-recommended-30396-run.tar.xz \
 
 depends_lib         port:texlive-basic
 
-pre-activate {
-    # kastrup moved from texlive-latex-extra to texlive-generic-recommended
-    if {![catch {set vers [lindex [registry_active texlive-latex-extra] 0]}]
-        && [vercmp [lindex $vers 1] 19548] < 0} {
-        registry_deactivate_composite texlive-latex-extra "" [list ports_nodepcheck 1]
-    }
-}
 
 texlive.texmfport

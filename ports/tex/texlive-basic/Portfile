@@ -62,32 +62,6 @@ patchfiles          patch-runfiles_texmf-dist_dvipdfmx_dvipdfmx.cfg.diff \
                     patch-runfiles_texmf-dist_scripts_texlive_updmap-sys.sh.diff
 
 
-pre-activate {
-    # If texlive 2007 metaport is installed, deactivate it to avoid
-    # conflicts on $prefix/bin/etex etc.
-    if {[file exists $prefix/bin/etex] 
-        && ![catch {set vers [lindex [registry_active texlive] 0]}]
-        && [vercmp [lindex $vers 1] 2009] < 0} {
-        registry_deactivate_composite texlive "" [list ports_nodepcheck 1]
-    }
-
-    # Deactivate texlive-fontutils to avoid conflicts on mft from the
-    # 2009->2010 update
-    if {![catch {set vers [lindex [registry_active texlive-fontutils] 0]}]
-        && [vercmp [lindex $vers 1] 16392] < 0} {
-        registry_deactivate_composite texlive-fontutils "" [list ports_nodepcheck 1]
-    }
-
-    # Deactivate 2009 version of texlive-lang-mongolian if it's
-    # installed; its hyphenation references a file that no longer
-    # exists, causing format generation to fail (see #27339)
-    if {![catch {set vers [lindex [registry_active texlive-lang-mongolian] 0]}]
-         && [vercmp [lindex $vers 1] 14727] == 0
-         && [lindex $vers 2] < 2} {
-        registry_deactivate_composite texlive-lang-mongolian "" [list ports_nodepcheck 1]
-    }
-}
-
 texlive.forceupdatecnf yes
 texlive.use_mktexlsr_on_deactivate no
 

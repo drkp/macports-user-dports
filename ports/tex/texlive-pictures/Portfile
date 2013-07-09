@@ -35,11 +35,4 @@ texlive.binaries    cachepic epspdf epspdftk fig4latex mathspic
 # use pgf port to satisfy pgf dependency (see #25478)
 depends_lib-append port:pgf
 
-pre-activate {
-    if {![catch {set vers [lindex [registry_active texlive-latex-extra] 0]}]
-        && [vercmp [lindex $vers 1] 19538] < 0} {
-        registry_deactivate_composite texlive-latex-extra "" [list ports_nodepcheck 1]
-    }
-}
-
 texlive.texmfport

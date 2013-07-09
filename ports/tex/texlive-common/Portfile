@@ -121,11 +121,6 @@ pre-activate {
     if [file exists ${texlive_texmfsysvar}/tex/generic/config/language.def] {
         delete ${texlive_texmfsysvar}/tex/generic/config/language.def
     }
-
-    # Deactivate tetex if installed
-    if {![catch {registry_active teTeX}]} {
-        registry_deactivate_composite teTeX "" [list ports_nodepcheck 1]
-    }
 }
 
 post-activate {
