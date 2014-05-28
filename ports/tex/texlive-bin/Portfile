@@ -6,8 +6,7 @@ PortGroup       compiler_blacklist_versions 1.0
 PortGroup       texlive 1.0
 
 name            texlive-bin
-version         2013
-revision        5
+version         2014
 
 categories      tex
 maintainers     dports
@@ -31,21 +30,21 @@ license         Copyleft Permissive LGPL-2.1+ BSD
 # download time, it omits a number of libraries and utilities that we
 # don't build. However, the port should still work with an unmodified
 # texlive distfile.
-master_sites    http://giraffe.cs.washington.edu/texlive/
-set distversion 20130619
+master_sites    http://giraffe.cs.washington.edu/texlive/test/
+set distversion 20140523
 use_xz          yes
-distname        texlive-source-${distversion}-stripped
+distname        texlive-source-${distversion}
 worksrcdir      ${distname}
 
 set tlpkgdistname   tlpkg-TeXLive-${distversion}
 distfiles-append    ${tlpkgdistname}${extract.suffix}
 
-checksums       texlive-source-20130619-stripped.tar.xz \
-                rmd160  566e82917575c8d26a90c73b3d5a780a6017462a \
-                sha256  7a5fc3574f3609fc722cc0f7e6a6b9989d03f2ef536ac13412e152717b6a3172 \
-                tlpkg-TeXLive-20130619.tar.xz \
-                rmd160  fd998013e216d576b41986183069adaeb637f56b \
-                sha256  77c1d0859025f28410805ec493f384c705279e94471790aac7ba80badd586a74
+checksums           texlive-source-20140523.tar.xz \
+                    rmd160  8c997a79b96c8421d240b3c7a358494512e7fc26 \
+                    sha256  f2eedab7d41b043628c39a9323756a758927361982ec40ef24cd512fb2628965 \
+                    tlpkg-TeXLive-20140523.tar.xz \
+                    rmd160  bd83d1b4e9594ad8d640d48f641d474c73177c31 \
+                    sha256  3fe73ca2adf58f1698d23466261204242d5f897729902c786209220304692172
 
 depends_lib     port:fontconfig \
                 port:freetype \
@@ -73,26 +72,12 @@ depends_build   path:bin/perl:perl5 \
 patchfiles-append   patch-texk_web2c_luatexdir_luazlib_lzlib.c.diff
 
 # patches related to changes in install paths
-patchfiles-append   patch-texk_kpathsea_Makefile.in.diff \
-                    patch-texk_tex4htk_Makefile.in.diff \
-                    patch-texk_texlive_linked_scripts_Makefile.in.diff \
-                    patch-texk_texlive_tl_scripts_Makefile.in.diff \
-                    patch-texk_xdvik_xdvi-sh.in.diff \
-                    patch-texk_chktex_Makefile.in.diff
-
-# # fixes for makefile brokenness not otherwise specified
-patchfiles-append   patch-libs-freetype-Makefile.in.diff
-
-# backported fixes from upstream
-#  svn31700 fixes #39334
-patchfiles-append   patch-svn31126-luatex.diff \
-                    patch-svn31303-dvipdfmx.diff \
-                    patch-svn31313-pdftex-luatex.diff \
-                    patch-svn31350-dvips.diff \
-                    patch-svn31358-luatex.diff \
-                    patch-svn31621-mendex.diff \
-                    patch-svn31700-dvipdfmx.diff \
-                    patch-svn31735-metapost.diff
+patchfiles-append  patch-texk_kpathsea_Makefile.in.diff \
+                   patch-texk_tex4htk_Makefile.in.diff \
+                   patch-texk_texlive_linked_scripts_Makefile.in.diff \
+                   patch-texk_texlive_tl_scripts_Makefile.in.diff \
+                   patch-texk_xdvik_xdvi-sh.in.diff \
+                   patch-texk_chktex_Makefile.in.diff
 
 post-patch {
     reinplace "s|@@TEXMFDIST@@|${texlive_texmfdist}|" ${worksrcpath}/texk/texlive/linked_scripts/Makefile.in
