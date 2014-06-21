@@ -186,6 +186,8 @@ texlive.maps      \
     {Map yvt.map} \
     {Map XCharter.map}
 
+# handle conflicting filename; fixed upstream but not in the 2014 release
+# see http://www.tug.org/pipermail/tex-live/2014-May/035446.html
 texlive.exclude texmf-dist/tex/latex/merriweather/Merriweather.sty
 
 texlive.texmfport
