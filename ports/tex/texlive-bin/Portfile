@@ -33,18 +33,18 @@ license         Copyleft Permissive LGPL-2.1+ BSD
 master_sites    http://giraffe.cs.washington.edu/texlive/test/
 set distversion 20140614
 use_xz          yes
-distname        texlive-source-${distversion}
+distname        texlive-source-${distversion}-stripped
 worksrcdir      ${distname}
 
 set tlpkgdistname   tlpkg-TeXLive-${distversion}
 distfiles-append    ${tlpkgdistname}${extract.suffix}
 
-checksums       texlive-source-20140614.tar.xz \
-                rmd160  21381006ae5d8bb76783394abc07ea442452e5f3 \
-                sha256  1691387e39539c4c37838721269689b52e6325d53c623b2fbfddfe8225d899da \
-                tlpkg-TeXLive-20140614.tar.xz \
-                rmd160  24dc163913fa7d523c93cfba60f79c87cfa0e056 \
-                sha256  4064edbae6536b12a43d6598bd9ae23fa0426c148adaed1fd9c536118e6b9292
+checksums           texlive-source-20140614-stripped.tar.xz \
+                    rmd160  f34ea0015a123e86c33afbfec506a121f1508925 \
+                    sha256  2efe3c2a15dc5c52d7bafc2cbee8b2b499cdc034bbdcb959d4989881734380e9 \
+                    tlpkg-TeXLive-20140614.tar.xz \
+                    rmd160  24dc163913fa7d523c93cfba60f79c87cfa0e056 \
+                    sha256  4064edbae6536b12a43d6598bd9ae23fa0426c148adaed1fd9c536118e6b9292
 
 depends_lib     port:fontconfig \
                 port:freetype \
@@ -52,7 +52,6 @@ depends_lib     port:fontconfig \
                 port:ncurses \
                 port:zlib \
                 port:libzzip \
-                port:t1lib \
                 port:poppler \
                 path:lib/pkgconfig/cairo.pc:cairo \
                 path:lib/pkgconfig/pixman-1.pc:libpixman \
@@ -60,6 +59,7 @@ depends_lib     port:fontconfig \
                 port:icu \
                 port:harfbuzz \
                 port:harfbuzz-icu \
+                port:libpaper \
                 port:texlive-common
 
 depends_run     port:ghostscript
@@ -112,7 +112,9 @@ compiler.blacklist-append gcc-4.0 gcc-3.3
 # texlive whenever possible, to avoid redundancy and to better keep
 # current with respect to security updates and the like.
 #
-# Exceptions are freetype1 (not in MacPorts anymore)
+# At present, the only exceptions are TeX-specific libraries like
+# kpathsea and ptexenc that it doesn't make sense to package
+# separately.
 #
 # Many of the --with-system-* and --disable-* flags are actually
 # redundant because we've removed those components from the distfile,
@@ -133,15 +135,13 @@ configure.args  --bindir=${texlive_bindir} \
                 --with-system-graphite2 \
                 --with-system-harfbuzz \
                 --with-system-icu \
+                --with-system-libpaper \
                 --with-system-libpng \
                 --with-libpng-includes=${prefix}/include \
                 --with-libpng-libdir=${prefix}/lib \
                 --with-system-ncurses \
                 --with-system-pixman \
                 --with-system-poppler \
-                --with-system-t1lib \
-                --with-t1lib-includes=${prefix}/include \
-                --with-t1lib-libdir=${prefix}/lib \
                 --with-system-xpdf \
                 --with-system-zlib \
                 --with-system-zziplib \
