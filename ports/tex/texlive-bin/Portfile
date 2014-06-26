@@ -5,6 +5,10 @@ PortSystem      1.0
 PortGroup       compiler_blacklist_versions 1.0
 PortGroup       texlive 1.0
 
+# luajittex requires muniversal (and some patches to configure
+# scripts) to build universal
+PortGroup       muniversal 1.0
+
 name            texlive-bin
 version         2014
 
@@ -78,6 +82,11 @@ patchfiles-append  patch-texk_kpathsea_Makefile.in.diff \
                    patch-texk_texlive_tl_scripts_Makefile.in.diff \
                    patch-texk_xdvik_xdvi-sh.in.diff \
                    patch-texk_chktex_Makefile.in.diff
+
+# patches to luajit/luajittex's config scripts to correctly detect
+# architecture in universal builds
+patchfiles-append  patch-libs_luajit_configure.diff \
+                   patch-texk_web2c_configure.diff
 
 post-patch {
     reinplace "s|@@TEXMFDIST@@|${texlive_texmfdist}|" ${worksrcpath}/texk/texlive/linked_scripts/Makefile.in
@@ -171,7 +180,6 @@ post-patch {
     }
 }
 
-variant universal {}
 configure.cppflags-delete   -I${prefix}/include
 configure.ldflags-delete    -L${prefix}/lib
 configure.cppflags-append   -isystem${prefix}/include
@@ -236,7 +244,7 @@ post-activate {
 variant x11 description {Build with x11 support, using Xaw widgets for xdvi} {
     depends_lib-append port:xorg-libXp
     configure.args-delete --without-x --without-pdfopen
-    depends_lib-append port:xorg-libXaw
+    depends_lib-append port:xorg-libXaw port:xorg-libXi
     configure.args-append --with-xdvi-x-toolkit=xaw
 }
 
