@@ -10,8 +10,7 @@ PortGroup       texlive 1.0
 PortGroup       muniversal 1.0
 
 name            texlive-bin
-version         2014
-revision        8
+version         2015
 
 categories      tex
 maintainers     dports
@@ -35,21 +34,21 @@ license         Copyleft Permissive LGPL-2.1+ BSD
 # download time, it omits a number of libraries and utilities that we
 # don't build. However, the port should still work with an unmodified
 # texlive distfile.
-master_sites    http://giraffe.cs.washington.edu/texlive/
-set distversion 20140614
+master_sites    http://giraffe.cs.washington.edu/texlive/test
+set distversion 20150511
 use_xz          yes
-distname        texlive-source-${distversion}-stripped
+distname        texlive-source-${distversion}
 worksrcdir      ${distname}
 
 set tlpkgdistname   tlpkg-TeXLive-${distversion}
 distfiles-append    ${tlpkgdistname}${extract.suffix}
 
-checksums           texlive-source-20140614-stripped.tar.xz \
-                    rmd160  f34ea0015a123e86c33afbfec506a121f1508925 \
-                    sha256  2efe3c2a15dc5c52d7bafc2cbee8b2b499cdc034bbdcb959d4989881734380e9 \
-                    tlpkg-TeXLive-20140614.tar.xz \
-                    rmd160  24dc163913fa7d523c93cfba60f79c87cfa0e056 \
-                    sha256  4064edbae6536b12a43d6598bd9ae23fa0426c148adaed1fd9c536118e6b9292
+checksums           texlive-source-20150511.tar.xz \
+                    rmd160  6b71fc0b518e18130ddf33f1c636e4fdef7e812b \
+                    sha256  0f196ed39c4cbba99622f928fa2fa2412423362d5740a74e9f65124b6eebe07f \
+                    tlpkg-TeXLive-20150511.tar.xz \
+                    rmd160  515a50ed1dad5a145fc9f3825c84ed67139a0d13 \
+                    sha256  680374c1b1e4bcae569ea6d3c958f52b91905c8617aebaade29b5ee67b26f9f5
 
 depends_lib     port:fontconfig \
                 port:freetype \
@@ -72,18 +71,14 @@ depends_run     port:ghostscript
 depends_build   path:bin/perl:perl5 \
                 path:bin/pkg-config:pkgconfig
 
-# make luatex less sensitive to zlib version changes
-# (cf. http://bugs.debian.org/581818)
-patchfiles-append   patch-texk_web2c_luatexdir_luazlib_lzlib.c.diff
-
 # patches related to changes in install paths
-patchfiles-append  patch-texk_kpathsea_Makefile.in.diff \
+patchfiles-append  patch-texk_chktex_Makefile.in.diff \
+                   patch-texk_kpathsea_Makefile.in.diff \
                    patch-texk_tex4htk_Makefile.in.diff \
                    patch-texk_texlive_linked_scripts_Makefile.in.diff \
                    patch-texk_texlive_tl_scripts_Makefile.in.diff \
-                   patch-texk_xdvik_xdvi-sh.in.diff \
-                   patch-texk_chktex_Makefile.in.diff
-
+                   patch-texk_xdvik_xdvi-sh.in.diff
+                   
 # patches to luajit/luajittex's config scripts to correctly detect
 # architecture in universal builds
 patchfiles-append  patch-libs_luajit_configure.diff \
