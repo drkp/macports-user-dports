@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-bin-extra
-version             34201
+version             37276
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: TeX auxiliary programs
 long_description    Various useful, but non-essential, support programs. Includes programs and macros for DVI file manipulation, literate programming, patgen, and the TeX Works Editor.
 
-checksums           texlive-bin-extra-34201-run.tar.xz \
-                    rmd160  a5849fe75a26a7cdec3aa7295261fab542abebd2 \
-                    sha256  0c2def14e3c791ef4e2c095d5a0b08c16d77f8c4d44db25351fb23ae74834406 \
-                    texlive-bin-extra-34201-doc.tar.xz \
-                    rmd160  3bc269a45b5795ffbfb53a233f772ad5f7d19835 \
-                    sha256  390a82a51a21fd8659904b1b203aeadb5f61b70ab139ee4d20d73da4b9502744 \
-                    texlive-bin-extra-34201-src.tar.xz \
-                    rmd160  a313f7520505933cb8d14fd2da145ab6c8660c24 \
-                    sha256  3144c9965f53b251286084a76d1f44576dbc73d07b90e900ec958ee67d7cff02
+checksums           texlive-bin-extra-37276-run.tar.xz \
+                    rmd160  f1ffc91441a5295d008347a79adce29ed9b6fb7a \
+                    sha256  ce9ec8920d2c406455b637246b53c81afefb410b7930de408593f65fe1697020 \
+                    texlive-bin-extra-37276-doc.tar.xz \
+                    rmd160  46fd23e012190b907016a0993f320c4ec5a9628a \
+                    sha256  4778c822f8b72e8afbf2857b28db2c8158ab60f1af43570a3cd65beb6c5bb1a9 \
+                    texlive-bin-extra-37276-src.tar.xz \
+                    rmd160  2a0edb9efd76ed8cb24dcdf9338e5a0009efb154 \
+                    sha256  5a32dc958f741c57ff2e000b6451d1f65ff3d3776854425523927b46d16d1e34
 
 depends_lib         port:texlive-basic
 
@@ -33,16 +33,5 @@ depends_run         port:latexmk \
                     port:latexdiff \
                     port:pdfjam \
                     port:dvipng
-
-# TL 2014: ps4pdf (pst-pdf) moved from texlive-latex-extra to
-# texlive-bin-extra
-pre-activate {
-    if { ![catch {set vers [lindex [registry_active texlive-latex-extra] 0]}]
-         && ([vercmp [lindex $vers 1] 34239] < 0
-             || [vercmp [lindex $vers 1] 34239] == 0
-             && [lindex $vers 2] < 1)} {
-        registry_deactivate_composite texlive-latex-extra "" [list ports_nodepcheck 1]
-    }
-}
 
 texlive.texmfport

@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-cjk
-version             34201
+version             37281
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Chinese/Japanese/Korean (base)
 long_description    Packages supporting a combination of Chinese, Japanese, Korean, including macros, fonts, documentation.  Also Thai in the c90 encoding, since there is some overlap in those fonts\; standard Thai support is in collection-langother.  Additional packages for CJK are in their individual language collections.
 
-checksums           texlive-lang-cjk-34201-run.tar.xz \
-                    rmd160  4ae1f0372b4e471687cdfecb495078e0e055f956 \
-                    sha256  01eac4e380dbfff1f6fa73613262d186b0a858aac16e5c99b23c658025df1d4b \
-                    texlive-lang-cjk-34201-doc.tar.xz \
-                    rmd160  f4c18c8a02098e93f809cdf3618895b17052f25e \
-                    sha256  3b2a1f300c8a733e914b674f19ac0c02f4a33b403cf867045927f76125ac191f \
-                    texlive-lang-cjk-34201-src.tar.xz \
-                    rmd160  fae005170298512e556155be4530f512b290ea4b \
-                    sha256  ce8c6889e49d2c953ad0a04585160106868ae7461f42677e65219db9f27184b3
+checksums           texlive-lang-cjk-37281-run.tar.xz \
+                    rmd160  f281fcbfab54d9064558cd20428fd2211a815f9f \
+                    sha256  b8b9288cdc673d509373370310abf48cefd9469155b403a55472adf768b23f51 \
+                    texlive-lang-cjk-37281-doc.tar.xz \
+                    rmd160  895af76ec7ee098e09d4c98a0ea26c5a3ac63f27 \
+                    sha256  a7d615c42772617b7ff2b905e3eb42c10579b759aa30a4a1927e9d529a07d279 \
+                    texlive-lang-cjk-37281-src.tar.xz \
+                    rmd160  6c2c89aa6693ad5c830a02ebe601d51b85b6943d \
+                    sha256  6210044a46db82d7e987a959acbb824ef75f5b532117ba90cb8f9e9d144844cc
 
 depends_lib         port:texlive-basic
 
@@ -30,7 +30,7 @@ texlive.maps      \
     {Map garuda-c90.map} \
     {Map norasi-c90.map}
 
-texlive.binaries    bg5+latex bg5+pdflatex bg5conv bg5latex bg5pdflatex cef5conv cef5latex cef5pdflatex cefconv ceflatex cefpdflatex cefsconv cefslatex cefspdflatex extconv gbklatex gbkpdflatex hbf2gf sjisconv sjislatex sjispdflatex
+texlive.binaries    bg5+latex bg5+pdflatex bg5conv bg5latex bg5pdflatex cef5conv cef5latex cef5pdflatex cefconv ceflatex cefpdflatex cefsconv cefslatex cefspdflatex cjk-gs-integrate extconv gbklatex gbkpdflatex hbf2gf sjisconv sjislatex sjispdflatex
 
 depends_lib-append port:texlive-latex
 

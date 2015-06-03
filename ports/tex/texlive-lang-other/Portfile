@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-other
-version             33527
+version             34560
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Other languages
 long_description    Support for languages not otherwise listed, including Thai, Vietnamese, Hebrew, Indonesian, and plenty more.  The split is made simply on the basis of the size of the support, to keep both collection sizes and the number of collections reasonable.
 
-checksums           texlive-lang-other-33527-run.tar.xz \
-                    rmd160  43ffc03858e59bf8616f81d4981b9d1a30fc12b8 \
-                    sha256  b3de116fb0a069dd4cea4780ea414e0162222992f6089838466e750937ce52c5 \
-                    texlive-lang-other-33527-doc.tar.xz \
-                    rmd160  5c4890398fc4c95bd6b80f82ea5a9495dda2b38e \
-                    sha256  8aa7787daa2138a731bf2d5779ca98d31898e2fcaede1dccab0dbdfe8d56b3fe \
-                    texlive-lang-other-33527-src.tar.xz \
-                    rmd160  1dbf69017dd8074f22a95312b1ce2d597d210cba \
-                    sha256  0cf2ee3913f1f16f1a8da3c98e19b6079ecc1e4bbf80c1ecabce6b83236133a2
+checksums           texlive-lang-other-34560-run.tar.xz \
+                    rmd160  819f52091c0d1a14a1d07980776239c4ebb1c7b7 \
+                    sha256  82ae3fb4c55cc81ea1662c065838b1b666e07931b5ffffaf9154cfe82709d4db \
+                    texlive-lang-other-34560-doc.tar.xz \
+                    rmd160  6329c8c7eeb86ddffd37e073d19eeeb87160acaf \
+                    sha256  d29bda058b51290f90403ecd34999b2277239903be8452bc54a10d9f3536d7d0 \
+                    texlive-lang-other-34560-src.tar.xz \
+                    rmd160  656b6f42fa664ab336e0ffa103b029d91f09ac0f \
+                    sha256  b7449c149dfceb69470dd59c9b1b0f949512963cc9bdfa32b02f288282e802bb
 
 depends_lib         port:texlive-basic
 
@@ -41,6 +41,7 @@ texlive.maps      \
     {Map cjhebrew.map} \
     {Map nectec.map} \
     {Map nf.map} \
+    {Map sipa.map} \
     {Map tlwg.map} \
     {Map arevvn.map} \
     {Map chartervn.map} \

@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-basic
-version             34245
+version             37302
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Essential programs and files
 long_description    These files are regarded as basic for any TeX system, covering plain TeX macros, Computer Modern fonts, and configuration for common drivers\; no LaTeX.
 
-checksums           texlive-basic-34245-run.tar.xz \
-                    rmd160  840e7858c2d9b5d63cf1b87750b386b5cefcc39f \
-                    sha256  cee7ad39b8ffb07597fcc80d18df21ef888a2a4f515ba9747daf47bd921a1dec \
-                    texlive-basic-34245-doc.tar.xz \
-                    rmd160  5e2fcdfeecf9aa5452d00b2c89767faa1f926ff0 \
-                    sha256  6e8b287b03771c7a6781b23c5743a757c44edf843b92973e202fb7dcaaf0208d \
-                    texlive-basic-34245-src.tar.xz \
-                    rmd160  14f728eea084e3ed5b137d4069e8d3abc2407828 \
-                    sha256  efec1ea7f4fced2466e2c66a3878d424bbb603570b22b4b7a5ce68664a3488f7
+checksums           texlive-basic-37302-run.tar.xz \
+                    rmd160  f7908cc102efef2517cdfa6eea2246bc3d48960a \
+                    sha256  a44142effbe13d8edeaacb86f054c677f2d5c43bfeb58d6e3a86135208ddd23b \
+                    texlive-basic-37302-doc.tar.xz \
+                    rmd160  c6c9707cb342df28c29a85c8fd41c5bed0e16596 \
+                    sha256  399128efc3ccd42fff865628ed71ad49271c9db0f61155a4d506bd12ab0b8326 \
+                    texlive-basic-37302-src.tar.xz \
+                    rmd160  5ad6d365e1290cdac09ece6663e0dc10d35f1285 \
+                    sha256  f5bbeff653a205284187134cbb109aae16268e288c85c354f0a77ebab322103d
 
 texlive.formats      \
     {1 luatex luatex language.def,language.dat.lua {luatex.ini}} \
@@ -42,7 +42,6 @@ texlive.maps      \
     {MixedMap latxfont.map} \
     {MixedMap symbols.map} \
     {MixedMap cmtext-bsr-interpolated.map} \
-    {MixedMap mflogo.map} \
     {Map dummy-space.map} \
     {Map mathpple.map}
 
@@ -58,11 +57,11 @@ texlive.exclude     texmf-dist/web2c/fmtutil.cnf \
                     texmf-dist/tex/generic/config/language.def \
                     texmf-dist/fonts/map/dvipdfm/updmap \
                     texmf-dist/fonts/map/dvips/updmap \
-                    texmf-dist/fonts/map/pdftex/updmap \
-                    doc.html \
-                    tlpkg/tlpostcode/dvipdfmx.pl
+                    texmf-dist/fonts/map/pdftex/updmap
 
-patchfiles          patch-runfiles_texmf-dist_dvipdfmx_dvipdfmx.cfg.diff
+post-patch {
+    reinplace "s|rungs|gs|g" ${worksrcpath}/runfiles/texmf-dist/dvipdfmx/dvipdfmx.cfg
+}
 
 texlive.forceupdatecnf yes
 texlive.use_mktexlsr_on_deactivate no

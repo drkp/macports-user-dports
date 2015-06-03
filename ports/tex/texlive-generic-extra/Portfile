@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-generic-extra
-version             34087
+version             37262
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Generic additional packages
 long_description    Extra packages that work with multiple formats, typically both TeX and LaTeX.
 
-checksums           texlive-generic-extra-34087-run.tar.xz \
-                    rmd160  626fe951e2ad6de63d6bcfce4b54edc05d058937 \
-                    sha256  4ae71bcfb87297e4a3b911b88fb15ecb0859d6ac5f37991af01ae4f629fbc97d \
-                    texlive-generic-extra-34087-doc.tar.xz \
-                    rmd160  80b3da228c203a144ac7ad8ea6d5ec930d631bf9 \
-                    sha256  41f36e709cdc8b7ab505751d4c96de4cc861bceda0714b071dcc10737799b42a \
-                    texlive-generic-extra-34087-src.tar.xz \
-                    rmd160  bf0efb02367560feb178f72d7bc60ba00995f5cf \
-                    sha256  e7c247b235a423d1b768670e3f57884fb6f2f70e7c898010ba7fb58d0bd28952
+checksums           texlive-generic-extra-37262-run.tar.xz \
+                    rmd160  181cd4e7eb8565fe304de5530027c0754081b58f \
+                    sha256  8272bf30feabd73acfdba019259e4d9048b7b6496cfd3a8068e1c25f030365fb \
+                    texlive-generic-extra-37262-doc.tar.xz \
+                    rmd160  22caf8562c65142b5a447f3bbcc8c6256b36c19e \
+                    sha256  488c4b93669e81740a1fcf32c4a49676247550feafd47bcb0884dbd7f60b5c66 \
+                    texlive-generic-extra-37262-src.tar.xz \
+                    rmd160  26838644f87dc7633304006485d34ea0aef9342c \
+                    sha256  1847216f2c21568ebe5ca98b0bcd2f546609a5802e8d3c7fac23f2f5be89259a
 
 depends_lib         port:texlive-basic
 

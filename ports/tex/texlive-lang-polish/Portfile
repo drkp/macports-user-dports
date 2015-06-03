@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-polish
-version             34177
+version             36012
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Polish
 long_description    Support for Polish.
 
-checksums           texlive-lang-polish-34177-run.tar.xz \
-                    rmd160  f03c3a47e1d9bafacc9337aad04d4d1e03a32569 \
-                    sha256  33e4fa90f06664da40ae654e8580a30155d025d33610ef75b87258e4a756e2e5 \
-                    texlive-lang-polish-34177-doc.tar.xz \
-                    rmd160  a1a9a8e3927335d5f975d86b4e12b8a9cb19ff5f \
-                    sha256  cba5cd845053912e86d5b3354f88c47cd637d2831db61b964daca0cee1aa023b \
-                    texlive-lang-polish-34177-src.tar.xz \
-                    rmd160  b06f9fa691e82661ab50f4b4e0ca35d995a764e8 \
-                    sha256  ec83a031f7dca541e3f88cae55f2acf83d4e56c392f90b399fba098c80ca9d9c
+checksums           texlive-lang-polish-36012-run.tar.xz \
+                    rmd160  83cffc56ae6c87b24fac6019b699607785aca1e9 \
+                    sha256  515d301bfa60bef5c045453e7a179be32796c738e96103f5d7e2eea6c6270469 \
+                    texlive-lang-polish-36012-doc.tar.xz \
+                    rmd160  8e6996308d493236b6d30be096d9dcfe6b8052db \
+                    sha256  f7651e9052281bb81a59b07c88dc6bc484bdb405e0803c59fa3cf9825eddd4b2 \
+                    texlive-lang-polish-36012-src.tar.xz \
+                    rmd160  075d43600bb6148219a080a0c9f1681d196fa8ef \
+                    sha256  2cd39bd069b10940b4f3339dcb2475e909c9087ad0a09221a723b6109e7c49ba
 
 depends_lib         port:texlive-latex port:texlive-basic
 

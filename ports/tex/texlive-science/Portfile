@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-science
-version             33447
+version             37037
 revision            0
 
 categories          tex
@@ -14,22 +14,22 @@ license             Copyleft Permissive
 description         TeX Live: Natural and computer sciences
 long_description    Natural and computer sciences
 
-checksums           texlive-science-33447-run.tar.xz \
-                    rmd160  bc8f5ff33fff55a5dfc792969ac706f91d946813 \
-                    sha256  9dc7478d65404cebdb736618b642e33636ba539e33a5d339bd498c183960fda9 \
-                    texlive-science-33447-doc.tar.xz \
-                    rmd160  a1d808992127a196f44771bd826a3ea15ff5812c \
-                    sha256  74ec39b5c5f90232f1bbb7db20aa24067df56ad62a28669cf54de71fce765bb5 \
-                    texlive-science-33447-src.tar.xz \
-                    rmd160  248a25da7a807fbe1d60a550c820afaef6a0b747 \
-                    sha256  a297185aab8404602fb9bb7e5f35a4d1c67d89a1c10467dd12c73985bbe8fbcd
+checksums           texlive-science-37037-run.tar.xz \
+                    rmd160  3abdf64e9913cc1ff4de35cfaa24ccb7f81f52f3 \
+                    sha256  c69c7bc78d2c45cc48248881b012035c582cc39ddea6bae05bb7bdc931fe52c6 \
+                    texlive-science-37037-doc.tar.xz \
+                    rmd160  a56925556eafe5f5a4478cd8606298e35db24a91 \
+                    sha256  f82a99f096c1118e09c239f2020390c6348862c7cb8b26c2e29c0b611ab98236 \
+                    texlive-science-37037-src.tar.xz \
+                    rmd160  8921d339ced342adb9fee5b0306d7280761614bb \
+                    sha256  23db7e1573e2a2ea6d4640c1cdefd9605fb0d80d08771b370a970bd536600fda
 
 depends_lib         port:texlive-latex
 
 texlive.maps      \
     {Map chemarrow.map}
 
-texlive.binaries    ulqda
+texlive.binaries    pygmentex ulqda
 
 
 texlive.texmfport

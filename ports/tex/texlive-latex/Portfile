@@ -5,8 +5,8 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-latex
-version             34192
-revision            1
+version             37197
+revision            0
 
 categories          tex
 maintainers         dports
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: LaTeX fundamental packages
 long_description    These packages are either mandated by the core LaTeX team, or very widely used and strongly recommended in practice.
 
-checksums           texlive-latex-34192-run.tar.xz \
-                    rmd160  bae71760b7ad7794aae7359e213b547dc7752056 \
-                    sha256  e0a89db670c54090dabc18ed96e91c83778eaaf5b038b1ec6ebe42f38fe04c74 \
-                    texlive-latex-34192-doc.tar.xz \
-                    rmd160  8b42bdff92b24f0366fe8244158995078552459a \
-                    sha256  ef290620b7bd100f8a2d54bcd0df6b7a3084bede16181d77e7c2aa5434e7cd50 \
-                    texlive-latex-34192-src.tar.xz \
-                    rmd160  aa9f117533235b029f0e0d15aedd1b328c0e14f7 \
-                    sha256  23b539dbff8b105d9f781e6a8dbf354972d3c9abed88e9d9e434abe62800811a
+checksums           texlive-latex-37197-run.tar.xz \
+                    rmd160  970e30b9a2d315f8ddc12ff22f6a65b1085fa1cf \
+                    sha256  d6e231bb7c9b0309b41c1aa9db56456fced3a9c8de9053cfb22c889222d49c8b \
+                    texlive-latex-37197-doc.tar.xz \
+                    rmd160  496a494aae562e8d71ab5aab9aebe96ef2b3a710 \
+                    sha256  61f63297f751bb65e7a5f633b3c3d9eba5222ff3e0668cc35263075ba3e80000 \
+                    texlive-latex-37197-src.tar.xz \
+                    rmd160  0c766cbc8144a532e7034ff1efd33f504c880918 \
+                    sha256  b51bc6c453569b1f6763543557fcdecbae0f3a73f94330996d8987c4ef815d1e
 
 depends_lib         port:texlive-basic
 
@@ -45,7 +45,9 @@ texlive.binaries    dvilualatex latex lualatex mptopdf pdflatex
 # TL 2014: miscdoc moved from texlive-latex-recommended to texlive-latex
 pre-activate {
     if { ![catch {set vers [lindex [registry_active texlive-latex-recommended] 0]}]
-         && ([vercmp [lindex $vers 1] 34240] < 0) } {
+         && ([vercmp [lindex $vers 1] 32420] < 0
+             || [vercmp [lindex $vers 1] 32420] == 0
+             && [lindex $vers 2] < 1)} {
         registry_deactivate_composite texlive-latex-recommended "" [list ports_nodepcheck 1]
     }
 }

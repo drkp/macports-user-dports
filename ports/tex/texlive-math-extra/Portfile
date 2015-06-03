@@ -5,8 +5,8 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-math-extra
-version             34176
-revision            1
+version             37078
+revision            0
 
 categories          tex
 maintainers         dports
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Mathematics packages
 long_description    Mathematics packages
 
-checksums           texlive-math-extra-34176-run.tar.xz \
-                    rmd160  e349177a9595e4fb11b00be3b3452e4a9c8ddc6f \
-                    sha256  e7b99cc0cd7dffa4ba5b3c8eac05dd221654ec62dc18d97c3e14b08f48ea7e61 \
-                    texlive-math-extra-34176-doc.tar.xz \
-                    rmd160  595562d2cf0e5d575729cbafeab8bdc8bb9829b2 \
-                    sha256  650bc889ffb9f537d26cc40ace3ddae82ddadbcd7305161d5b9eb9121be9bdf7 \
-                    texlive-math-extra-34176-src.tar.xz \
-                    rmd160  b79abf1f8fb9724b2f9aa81c741b86b96d86ed18 \
-                    sha256  e6931bbcaea427e9f5182a95d19c64eb8ead7b688667414bb3a9c672e02750c2
+checksums           texlive-math-extra-37078-run.tar.xz \
+                    rmd160  4bd28eb536fff79fcc6b65119adac9eaaebf8e7d \
+                    sha256  579cbb2182321ef2c25cbc98e17e59a95c0ecc4aedde605d9e3ba8c457201253 \
+                    texlive-math-extra-37078-doc.tar.xz \
+                    rmd160  5e4edbe0b5c8ed6d6580231852a0e82c14c933fc \
+                    sha256  c935c7744cab2e71ec1058a079cfc0503f020bb5658f2fe8666491a67199d46b \
+                    texlive-math-extra-37078-src.tar.xz \
+                    rmd160  e823bac3c744bf6c7f21cdbe1030f0f255b7c08a \
+                    sha256  09fd79bdd9cc9c317c2608db865cbcec7c6274656a1feeb897259e9a57515c54
 
 depends_lib         port:texlive-fonts-recommended port:texlive-latex
 
@@ -38,7 +38,9 @@ texlive.binaries    amstex
 # TL 2014: begriff moved from texlive-latex-extra to texlive-math-extra
 pre-activate {
     if { ![catch {set vers [lindex [registry_active texlive-latex-extra] 0]}]
-         && ([vercmp [lindex $vers 1] 34239] < 0) } {
+         && ([vercmp [lindex $vers 1] 34239] < 0
+             || [vercmp [lindex $vers 1] 34239] == 0
+             && [lindex $vers 2] < 1)} {
         registry_deactivate_composite texlive-latex-extra "" [list ports_nodepcheck 1]
     }
 }

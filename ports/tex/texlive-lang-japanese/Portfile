@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-japanese
-version             34224
+version             37282
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Japanese
 long_description    Support for Japanese\; additional packages in collection- langcjk.
 
-checksums           texlive-lang-japanese-34224-run.tar.xz \
-                    rmd160  145686c894f322905e55a0febe700471da5c3e67 \
-                    sha256  a9f3cb8bd912c2399feedd947e865c57322da5a87b09967566bfe2fb2b395a01 \
-                    texlive-lang-japanese-34224-doc.tar.xz \
-                    rmd160  39011b89a506ab6f166f08617942188469ad26b9 \
-                    sha256  03a2cd4c657f0359fbe84ae5b2bf31e646cdde4d8d462c0a23d82f30c53563ab \
-                    texlive-lang-japanese-34224-src.tar.xz \
-                    rmd160  3c78dfe5db8d8dc4c6d295f159431aa1bca7ddd1 \
-                    sha256  53fda34ca965a789f56b56735c02f662dfa6a312837cd5fbb51911883a15741f
+checksums           texlive-lang-japanese-37282-run.tar.xz \
+                    rmd160  12f43233018bbff4dd1d5a65d46792e3131f9603 \
+                    sha256  1ef4beb2c484ed4d4488b45fa5105b6cda256bf42f915a503f11c4e50dc69489 \
+                    texlive-lang-japanese-37282-doc.tar.xz \
+                    rmd160  5c42a93f136a2a5a602ffb6ab1184aec8af4411b \
+                    sha256  bb7a566ae79774a40275a59b435b3d6f990768e025d77532b768137ad5c9eb1f \
+                    texlive-lang-japanese-37282-src.tar.xz \
+                    rmd160  162aafef4fb06488c15228bacce0e4bc880f6d48 \
+                    sha256  ed9aca7740329cef97b1c54373b8f7f989a100aa5b9d9d42a7b6541615cea9bc
 
 depends_lib         port:texlive-lang-cjk
 
@@ -48,7 +48,7 @@ texlive.maps      \
     {Map mr2j.map} \
     {Map mrj.map}
 
-texlive.binaries    convbkmk eptex euptex kanji-config-updmap kanji-config-updmap-sys kanji-fontmap-creator makejvf mendex pbibtex pdvitype platex ppltotf ptex ptex2pdf ptftopl upbibtex updvitype uplatex uppltotf uptex uptftopl wovp2ovf
+texlive.binaries    convbkmk eptex euptex kanji-config-updmap kanji-config-updmap-sys kanji-fontmap-creator makejvf mendex pbibtex pdvitomp pdvitype platex pmpost ppltotf ptex ptex2pdf ptftopl upbibtex updvitomp updvitype uplatex upmpost uppltotf uptex uptftopl wovp2ovf
 
 
 texlive.texmfport

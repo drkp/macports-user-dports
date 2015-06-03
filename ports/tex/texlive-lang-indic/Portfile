@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-indic
-version             34201
+version             37276
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Indic scripts
 long_description    Support for Indic scripts.
 
-checksums           texlive-lang-indic-34201-run.tar.xz \
-                    rmd160  d0914e00badfc8db7af15ea8465c2178d931d5ee \
-                    sha256  9a1cfc81e03ff88a2902da12b054c0c192e2777601547bbaf0e114840a3f1258 \
-                    texlive-lang-indic-34201-doc.tar.xz \
-                    rmd160  23d291a57f424befb6e85b2eb4586a6ceb1b94d3 \
-                    sha256  ef667f7e47a239711e75d29abb662a20fe72f727a61005f6ea088b01dbfc33e5 \
-                    texlive-lang-indic-34201-src.tar.xz \
-                    rmd160  a381531650ddb92fc1511d08a9740528d2a89dc5 \
-                    sha256  ba665492c0a296c1f6ea4ec26a20836337e6e0511e50ce02ecc6d1b064d3fb23
+checksums           texlive-lang-indic-37276-run.tar.xz \
+                    rmd160  0a477d7720f04625d6b6977432c2d98db657921f \
+                    sha256  9e842a788467a70f6718afc731dff28eab7c38968e26b92b09e60b02bed66962 \
+                    texlive-lang-indic-37276-doc.tar.xz \
+                    rmd160  2c5b6af2dbb8c43f090ae23af58d8185fd4ac163 \
+                    sha256  76a076acf1c65dcdaef18eba7606e814048b3f07940aaa49ef8583cecee430ae \
+                    texlive-lang-indic-37276-src.tar.xz \
+                    rmd160  57d0e85818340d46238411e8c5fc12e04d49dfc2 \
+                    sha256  9af6ba50a03eba0101106b43f55055c24bb86c7bd38dbddabc8f5a129b87c00b
 
 depends_lib         port:texlive-basic
 

@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-latex-extra
-version             34239
+version             37299
 revision            0
 
 categories          tex
@@ -14,24 +14,23 @@ license             Copyleft Permissive
 description         TeX Live: LaTeX additional packages
 long_description    A very large collection of add-on packages for LaTeX.
 
-checksums           texlive-latex-extra-34239-run.tar.xz \
-                    rmd160  7548059d4706bae2b0d06d4bf4c5f6472ed7f113 \
-                    sha256  7b424634a75fada0e779367bbe58f6a68bdc9012626b9f59c060cbcb54dab308 \
-                    texlive-latex-extra-34239-doc.tar.xz \
-                    rmd160  d13f2580a34093024897e283768d983282711434 \
-                    sha256  e2a58ef315d79a2cddd3da2ad0377784ebfd951f4fa873121eb2f16b4053a2f2 \
-                    texlive-latex-extra-34239-src.tar.xz \
-                    rmd160  4255b2f432a40e70bc8262622dc8617078a933ab \
-                    sha256  4b886e7310b91b38cb537059b0595b5434b5dc3ff54aa4e218ebe30a06fdb40a
+checksums           texlive-latex-extra-37299-run.tar.xz \
+                    rmd160  3ff1cfce08bc1607d96cdccf91de52eb2f3a5efe \
+                    sha256  ce02e443305e5c75574a5d6c06926d6ad015435d8635357e98e314f69dd0dbf7 \
+                    texlive-latex-extra-37299-doc.tar.xz \
+                    rmd160  e61333a1882dfd51e704ff003a022700f1181b56 \
+                    sha256  0b23e7362b6b0875a0e2aee5029b890f561e87a966863fc872cbca9e1e480bac \
+                    texlive-latex-extra-37299-src.tar.xz \
+                    rmd160  1cee78a1e5ba5f060d0c95788a6a50d3916da452 \
+                    sha256  bec27f8222542eb087ad5a838f65313b087147894ee7c77b397c3aa45cd61e57
 
 depends_lib         port:texlive-latex-recommended port:texlive-pictures
 
 texlive.maps      \
     {Map epiolmec.map} \
-    {MixedMap esint.map} \
-    {MixedMap manfnt.map}
+    {MixedMap esint.map}
 
-texlive.binaries    authorindex exceltex makeglossaries pdfannotextractor perltex ps4pdf splitindex svn-multi vpe
+texlive.binaries    authorindex exceltex makeglossaries pdfannotextractor perltex ps4pdf splitindex svn-multi vpe yplan
 
 
 texlive.texmfport
