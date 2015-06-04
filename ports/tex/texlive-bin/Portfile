@@ -207,6 +207,10 @@ if {[string match *clang* ${configure.cxx}]} {
 }
 
 post-destroot   {
+    # Not sure why this gets installed into the wrong location, but
+    # fix it here.
+    move ${destroot}${prefix}/lib/kpathsea/c-auto.h ${destroot}${prefix}/include/kpathsea/c-auto.h
+    
     # Anything that gets installed into texmf-dist will be installed
     # by one of the texmf ports
     delete ${destroot}${prefix}/share/texmf-dist
