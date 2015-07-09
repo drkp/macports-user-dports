@@ -64,6 +64,9 @@ depends_lib     port:fontconfig \
                 port:harfbuzz \
                 port:harfbuzz-icu \
                 port:libpaper \
+                port:gmp \
+                port:mpfr \
+                port:potrace \
                 port:texlive-common
 
 depends_run     port:ghostscript
@@ -137,6 +140,7 @@ configure.args  --bindir=${texlive_bindir} \
                 --without-system-icu \
                 --with-system-cairo \
                 --with-system-gd \
+                --with-system-gmp \
                 --with-system-graphite2 \
                 --with-system-harfbuzz \
                 --with-system-icu \
@@ -145,9 +149,11 @@ configure.args  --bindir=${texlive_bindir} \
                 --with-system-libpng \
                 --with-libpng-includes=${prefix}/include \
                 --with-libpng-libdir=${prefix}/lib \
+                --with-system-mpfr \
                 --with-system-ncurses \
                 --with-system-pixman \
                 --with-system-poppler \
+                --with-system-potrace \
                 --with-system-xpdf \
                 --with-system-zlib \
                 --with-system-zziplib \
