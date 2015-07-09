@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-fonts-extra
-version             37236
+version             37425
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Additional fonts
 long_description    Additional fonts
 
-checksums           texlive-fonts-extra-37236-run.tar.xz \
-                    rmd160  25c9298680edb8eb8d433480ad38436389a5d978 \
-                    sha256  b9773fb54cbf1daebd14267c93779b9800641ecf5db1d2b49fe55f62cea1984e \
-                    texlive-fonts-extra-37236-doc.tar.xz \
-                    rmd160  8939c23404bd7b4df8b9a4b40242966d0472b15c \
-                    sha256  83c1135bbed5400200676176296e65e6f967dd107ede48c6bbea9f2c88244633 \
-                    texlive-fonts-extra-37236-src.tar.xz \
-                    rmd160  8a64ee18c0f65b38a93bdb3ee13f10ba47434d6a \
-                    sha256  9805cda78a34f66382cb03f2f23ad16693bc3cb5771858e1235c701b9bb26112
+checksums           texlive-fonts-extra-37425-run.tar.xz \
+                    rmd160  722bde79e61f1cae9d8217441aa825ef904acc39 \
+                    sha256  40e84865a50d77baf51cc234e96266a9503ad69d8bc3b7ae24a7c30cb2941ccf \
+                    texlive-fonts-extra-37425-doc.tar.xz \
+                    rmd160  47c5c5a7b30c9fc2c7d4c6b06817d67e81e4f8fe \
+                    sha256  9782c4a68bcc93296f0241d2ce8470934120942d04a7df302c93be61171dfe20 \
+                    texlive-fonts-extra-37425-src.tar.xz \
+                    rmd160  e5f53747ef4f4c65af717561eb17fd377070b3a4 \
+                    sha256  26fab14ee80d7f15af74fd282662c686f3f52d25960a17b12b823797ed774a03
 
 depends_lib         port:texlive-basic
 
@@ -179,6 +179,7 @@ texlive.maps      \
     {MixedMap semaf.map} \
     {Map SourceCodePro.map} \
     {Map SourceSansPro.map} \
+    {Map SourceSerifPro.map} \
     {Map starfont.map} \
     {Map icelandic.map} \
     {Map stix.map} \

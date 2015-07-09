@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-generic-recommended
-version             35958
+version             37357
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Generic recommended packages
 long_description    Recommended packages that work with multiple formats.
 
-checksums           texlive-generic-recommended-35958-run.tar.xz \
-                    rmd160  8a634a0518f75442dd9f4bb3675e68be4cf63251 \
-                    sha256  ea93d0d9b8324e95103835934a73a8ea69f476e3eed81a3d06e458bbf5890527 \
-                    texlive-generic-recommended-35958-doc.tar.xz \
-                    rmd160  a7e88500696b694295b189286354f0ec8de33b84 \
-                    sha256  753f1d8b00098ff0ce8a2e8db4080a6cc6ab1b7010add5e20bcc562a9dae0876 \
-                    texlive-generic-recommended-35958-src.tar.xz \
-                    rmd160  3b0d96515898b99d63ff0fa84968d40e83ef6d25 \
-                    sha256  044b5a51ad9bb10abde99bb7e10b3fe07ff51ced7a8b10372a5519b0e6a61d1b
+checksums           texlive-generic-recommended-37357-run.tar.xz \
+                    rmd160  cb3fe23c8e4f7abb34a78f513ca25f7a0e5ab135 \
+                    sha256  013aa218c7091f36cc8c8a935c21c2851a876eeb766e51e90d5274035696dfb8 \
+                    texlive-generic-recommended-37357-doc.tar.xz \
+                    rmd160  02e6d6a09cf89ec5c20e3da38d588ec1b42a2566 \
+                    sha256  2ae5ee505c8b80d8c8e431bfd4cf70d2714267580dbb08a036f04def3f3556fb \
+                    texlive-generic-recommended-37357-src.tar.xz \
+                    rmd160  aeaa693fc25709d3292d6408971cea1a8b2d0e1b \
+                    sha256  19b6944dc589d645008dd4e3d4676139c242e11bb5756db2bf3746a47132b7ad
 
 depends_lib         port:texlive-basic
 

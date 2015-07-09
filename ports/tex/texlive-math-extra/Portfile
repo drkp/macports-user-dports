@@ -15,14 +15,14 @@ description         TeX Live: Mathematics packages
 long_description    Mathematics packages
 
 checksums           texlive-math-extra-37078-run.tar.xz \
-                    rmd160  4bd28eb536fff79fcc6b65119adac9eaaebf8e7d \
-                    sha256  579cbb2182321ef2c25cbc98e17e59a95c0ecc4aedde605d9e3ba8c457201253 \
+                    rmd160  47e25c2d16e864a5dae2df13b342a86d0a17abbf \
+                    sha256  3c7cb2d044f3c3c0e2420c176ca201a9670f8eb3bf2be015d221504024769a12 \
                     texlive-math-extra-37078-doc.tar.xz \
-                    rmd160  5e4edbe0b5c8ed6d6580231852a0e82c14c933fc \
-                    sha256  c935c7744cab2e71ec1058a079cfc0503f020bb5658f2fe8666491a67199d46b \
+                    rmd160  6e641ceb6fac03f668224feded5d2a3edb50a0f9 \
+                    sha256  db3ea9d110e0adb8cd93b1a1d879a8a8c6f89b594cde088b092d5532852e2afc \
                     texlive-math-extra-37078-src.tar.xz \
-                    rmd160  e823bac3c744bf6c7f21cdbe1030f0f255b7c08a \
-                    sha256  09fd79bdd9cc9c317c2608db865cbcec7c6274656a1feeb897259e9a57515c54
+                    rmd160  39f51186d26d6120b7aef05e30b9d59afc263259 \
+                    sha256  8c6511c5ce31c478b23ee757063e67cc7fbff59dc417bae26d41fa5b49b92092
 
 depends_lib         port:texlive-fonts-recommended port:texlive-latex
 

@@ -15,14 +15,14 @@ description         TeX Live: Recommended fonts
 long_description    Recommended fonts, including the base 35 PostScript fonts, Latin Modern, TeX Gyre, and T1 and other encoding support for Computer Modern, in outline form.
 
 checksums           texlive-fonts-recommended-36916-run.tar.xz \
-                    rmd160  9f1d91b61c9d588a16e5877f6e7ae8e6a1e906ca \
-                    sha256  4c89187b310bd6a7c3b3ac08db98044772d72ee175f4983be990e2c6d76527cc \
+                    rmd160  7b41a3acea726735a16baf93b6b206a6cbc9522d \
+                    sha256  6f882fe8250b94fa20dd24955d0d4b0987ac5b29adcf866a31a598ae783fe246 \
                     texlive-fonts-recommended-36916-doc.tar.xz \
-                    rmd160  bc97f970a44213d14fdffc4db3d1a977dccf87f2 \
-                    sha256  3404303b69fdc98a3003435d8915b21e503b50223e380831f9a0ce65097b8ea1 \
+                    rmd160  c28fd10f0fc2297d70ec6b4d99af6fb6565f753b \
+                    sha256  9795ede6156e63e17ff97eac57c2d5b2f1812427c29797a24d8caf903562bb8a \
                     texlive-fonts-recommended-36916-src.tar.xz \
-                    rmd160  874c4a8802e7351a17a3ffc8e672d21f3b3e2ea4 \
-                    sha256  3be5e68783f2a1c819efc75785e6f304cc0b31d6f81e860ac8bc83cb1030aaa8
+                    rmd160  76e6684e3dc86fdee5733b11a1b868ef228ddf2b \
+                    sha256  647b10627b9ab469446f45a7ae7bf09ca2a1f46a8a153bba6820ec35ac3c9841
 
 depends_lib         port:texlive-basic
 

@@ -15,14 +15,14 @@ description         TeX Live: Other European languages
 long_description    Support for a number of European languages\; others (Greek, German, French, ...) have their own collections, depending simply on the size of the support.
 
 checksums           texlive-lang-european-36308-run.tar.xz \
-                    rmd160  bd8c32897e4810e60fb4570dbdbfa6a364f71e48 \
-                    sha256  2b9b8ee83d1adf7f35fdaa8808f2fcf38032eebc336bf16d568e7896b9cc2729 \
+                    rmd160  da904caa26a0057a253d3a40794c85362e72f89e \
+                    sha256  97d012f22ff010e9c2a99323757ff72396cb20a75d049383245cefe9ef8e19c2 \
                     texlive-lang-european-36308-doc.tar.xz \
-                    rmd160  1d632813cc448d61bf1c067d610c072b51a13e19 \
-                    sha256  6a2fd2f367ed8bd8424936bb3ca6c551619e2f24def1ac81add9b3fb97dfcb35 \
+                    rmd160  5d692978203a18a39ea9696bf1dde0cdaad12a9e \
+                    sha256  2e742630a5840a1369beea4ee9184e0460b7c2247aceca8620839984d4237275 \
                     texlive-lang-european-36308-src.tar.xz \
-                    rmd160  ac5ee84a70903add8d5961c81492b722017c2739 \
-                    sha256  c1f79f162fcbdcf2f37e8391c34c6cf37710858085a35026b1fd07578c000c56
+                    rmd160  87f943e8a824a6407eb8f1e9518e7fcb9b2a1a78 \
+                    sha256  464d95f7903255a5e3a85e8ce275f46f1d65c572dbf39c196b128fd88e072c6f
 
 depends_lib         port:texlive-basic
 

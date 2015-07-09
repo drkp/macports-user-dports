@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-german
-version             37312
+version             37399
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: German
 long_description    Support for German.
 
-checksums           texlive-lang-german-37312-run.tar.xz \
-                    rmd160  f8f3dd63c781c4e3ec01f9bfd4815e94e2bb1abf \
-                    sha256  e72b493c51110c5439d10e0f30207e4d8076a7d999fc28d8d84169a23baa44be \
-                    texlive-lang-german-37312-doc.tar.xz \
-                    rmd160  884549998f6ecc087ca24e1a824867d9f1736f9b \
-                    sha256  08d51cc391a2fe0d7e22653c5d6aff01ecc203350113dfa4f02fbd2b2eb28a14 \
-                    texlive-lang-german-37312-src.tar.xz \
-                    rmd160  6b907fe0b819eb554ce66d56c5ebad3d7471ee9f \
-                    sha256  42e9f457eb2e3ce6f90840daec9662e0c6e8ab1668ae45e4b04f4ed8b7dc546e
+checksums           texlive-lang-german-37399-run.tar.xz \
+                    rmd160  8628c4653c12d2a47af12218fcee01c556d61061 \
+                    sha256  a9a295608736efeb8d6cdaf0b24ac0596dddbceea65a9eaa6b947306b71857c1 \
+                    texlive-lang-german-37399-doc.tar.xz \
+                    rmd160  76fa7de7a826215a98fcfab859af66ce1b4ef4e3 \
+                    sha256  798b7859d0ab95b47a89a53b62c77f46bbdd4735dcce42574c2b88a100d5714c \
+                    texlive-lang-german-37399-src.tar.xz \
+                    rmd160  1f2e31f69a4cff35a7ba6ae19575d88f6b7ca042 \
+                    sha256  9d7e8a7b801f54a104c5c8d9eccad3f11ec8e99e5a0ab21a4e6785c91bcc8b6a
 
 depends_lib         port:texlive-basic
 

@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-pictures
-version             37186
+version             37410
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Graphics, pictures, diagrams
 long_description    Including TikZ, pict, etc., but MetaPost and PStricks are separate.
 
-checksums           texlive-pictures-37186-run.tar.xz \
-                    rmd160  fc50d2790622800f6b1a1ba6e48f0004e4b4eeea \
-                    sha256  2d1fc08c4198bbc7a107ca27232de931dac8e532e6dca2d507420daf7d5035ef \
-                    texlive-pictures-37186-doc.tar.xz \
-                    rmd160  c05bd5d1d8af4c5349043bea36018539a7c68b51 \
-                    sha256  36b73ca1289ece729033c1013960213a3eba63b19b57939c6d927412a80f4fd3 \
-                    texlive-pictures-37186-src.tar.xz \
-                    rmd160  50d98301503920d1bd6e0615749379cf1aa56ce9 \
-                    sha256  5e0eae495b1158d6e06d4751a039c9f506ef396ae728a72dfcb2f47114e7875f
+checksums           texlive-pictures-37410-run.tar.xz \
+                    rmd160  1bd0d5a104354c1829b5e372ec343adcefe45c0d \
+                    sha256  3b320fbd40ac437fa42a248c93ffb8bb96fe16b12ef003aca2f3e1d86aa79ad2 \
+                    texlive-pictures-37410-doc.tar.xz \
+                    rmd160  dc75707ec4c5d346800d9090f59efdc03c032f8c \
+                    sha256  2b8fe41f60229820a37a13a656cd7a399f40e572c512271f714e7beb78ed9ac4 \
+                    texlive-pictures-37410-src.tar.xz \
+                    rmd160  d4cf47cab7aa862c5afda01c18c781417d1493ad \
+                    sha256  4953dc20ba2af29c19dcb570b5a07d5ba7241963c2cc5ba5ddaef2c3ac09a73e
 
 depends_lib         port:texlive-basic
 

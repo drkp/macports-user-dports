@@ -15,14 +15,14 @@ description         TeX Live: Games typesetting
 long_description    Setups for typesetting various games, including chess.
 
 checksums           texlive-games-36531-run.tar.xz \
-                    rmd160  004911ee471edcd67cf3e7963878bc402c5c12e3 \
-                    sha256  2ac7757e65a4801f860dfdaec4c89ab2ab5933feb89c7293b66684893bd8d018 \
+                    rmd160  68012b00f26b39ada86939287fc520f160fc6388 \
+                    sha256  21e354bfaf6b34797fa25401cc7d823019ff0b800118d64972639c23c7a4b412 \
                     texlive-games-36531-doc.tar.xz \
-                    rmd160  d322de7af7c5b6b0fbedf32756443069395fdb85 \
-                    sha256  24b3d992961434927a76bacc42a9df7b6eb714ba1a443e3fd30ef16abfed5507 \
+                    rmd160  22a1e0f31899605287b9dcccc3e50409b9d9dc39 \
+                    sha256  02b798607a1e7376a41637f8a17274dcafe96fdf7c347aac2aad07acce295857 \
                     texlive-games-36531-src.tar.xz \
-                    rmd160  57d4fb425f9527172f81a20f033fbfe15c90aae2 \
-                    sha256  0b5ccea981166ea251e6df290c7ebdb804cacd644bd92bab4320de9bbe6e5333
+                    rmd160  dee81afb30223cd86359c0f8fc7c3612daa2818a \
+                    sha256  e2a4cf425c4dd796eb3c3a99d7fc243af57dfdd0aca0b4ed06ef295acc378a82
 
 depends_lib         port:texlive-latex
 

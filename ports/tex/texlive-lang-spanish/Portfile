@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-spanish
-version             36995
+version             37356
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Spanish
 long_description    Support for Spanish.
 
-checksums           texlive-lang-spanish-36995-run.tar.xz \
-                    rmd160  bba57ce9e7508f46379e6124178f1c563e4d14ec \
-                    sha256  d55e3c23425a785ff2ba1cf75889add2fa092877b2f3ffc5b56a81c7b0e0473d \
-                    texlive-lang-spanish-36995-doc.tar.xz \
-                    rmd160  6dc91d56527aba0262e442f68b7cc35c071a491e \
-                    sha256  00e4333fc46942509254bc44c5fe19a915e215b40124790947bc54c2633937d4 \
-                    texlive-lang-spanish-36995-src.tar.xz \
-                    rmd160  4e560eef64f6147b033b6cc7caff8f10acab0a48 \
-                    sha256  61fead78ed6079897d2843287365e0bd5b2d2f2b3b01c96081065498cbc0c8fc
+checksums           texlive-lang-spanish-37356-run.tar.xz \
+                    rmd160  025c001bc6872e13fc09b147f2be72c02047a701 \
+                    sha256  9a43229c79234e5a9528d6a9071429287e7b82c4a647b4b27067363328425316 \
+                    texlive-lang-spanish-37356-doc.tar.xz \
+                    rmd160  81911cbf3920bfbe3b16536a49063180f89dfb72 \
+                    sha256  b7e02a0a3afad2121ac0ae7b25f758f9c5fe1c3c4d4a2063f9aca3db4aab8b87 \
+                    texlive-lang-spanish-37356-src.tar.xz \
+                    rmd160  552374235919377f52a9037c3927ca2e52a22e1d \
+                    sha256  6af780de93afe09ef58b0718baa3be92c0638aee663fff9067ca807ff376b571
 
 depends_lib         port:texlive-basic
 

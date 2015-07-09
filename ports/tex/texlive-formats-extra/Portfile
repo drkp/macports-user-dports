@@ -15,14 +15,14 @@ description         TeX Live: Additional formats
 long_description    Collected TeX `formats', i.e., large-scale macro packages designed to be dumped into .fmt files -- excluding the most common ones, such as latex and context, which have their own package(s).
 
 checksums           texlive-formats-extra-36217-run.tar.xz \
-                    rmd160  d997e8709e41cfbb67feead7b19e809c7a5febb9 \
-                    sha256  830133403736f89f05a8301d4deb249ef38271babb964b4317e4ba5d217a7f46 \
+                    rmd160  2b5eeb62ac4b939cdd897bfd07c40d717ced749b \
+                    sha256  2fe33f3896bc9a7a99bb84851e4c5a901d3782ad94c1e5466c0f66c88ed9b8eb \
                     texlive-formats-extra-36217-doc.tar.xz \
-                    rmd160  a462e335046824405b51b5f440ca59106456f65d \
-                    sha256  29f384882918ce9aacbf054c847ed7457c37eff50ac6c382d345fadd4043bb60 \
+                    rmd160  f046671b38e9df4b6962d48c3342c898fa4f5f1c \
+                    sha256  778bf67714d7429977ae8d87240a131d035ceda1500eb7eef97f64ccf9d4c9dd \
                     texlive-formats-extra-36217-src.tar.xz \
-                    rmd160  6ee862605f33177568b22af8c4394cbf030e96f7 \
-                    sha256  9d1013d950bb223f1dd516011ffe800664316902960633e0d836c98694dcf77f
+                    rmd160  ae5872f5591fa9e2e2d8d6d11564c5bf65faf840 \
+                    sha256  131ceb8b63d1d4db2b9a978f563fafe97c9268d767879ece5202a35de6de5a16
 
 depends_lib         port:texlive-basic
 
