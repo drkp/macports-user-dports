@@ -10,8 +10,7 @@ PortGroup       texlive 1.0
 PortGroup       muniversal 1.0
 
 name            texlive-bin
-version         2015
-revision        10
+version         2016
 
 categories      tex
 maintainers     dports
@@ -35,21 +34,21 @@ license         Copyleft Permissive LGPL-2.1+ BSD
 # download time, it omits a number of libraries and utilities that we
 # don't build. However, the port should still work with an unmodified
 # texlive distfile.
-master_sites    http://giraffe.cs.washington.edu/texlive/
-set distversion 20150611
+master_sites    http://giraffe.cs.washington.edu/texlive/test/
+set distversion 20160522
 use_xz          yes
-distname        texlive-source-${distversion}-stripped
+distname        texlive-source-${distversion}
 worksrcdir      ${distname}
 
 set tlpkgdistname   tlpkg-TeXLive-${distversion}
 distfiles-append    ${tlpkgdistname}${extract.suffix}
 
-checksums           texlive-source-20150611-stripped.tar.xz \
-                    rmd160  01c66563498ea54c4738e1c4c93876cceb3af127 \
-                    sha256  a867cfa837ffb341fdc55e928fcfeeaad2d9ef95eb5e505bd87a11e6e19af218 \
-                    tlpkg-TeXLive-20150611.tar.xz \
-                    rmd160  05be1bb670091a25cb6132018a7eb875e7e8de2d \
-                    sha256  b6502db5f2d1eb267eeebd67cd5585bf6d716f75c657566d319c9e92afae9aa1
+checksums           texlive-source-20160522.tar.xz \
+                    rmd160  2c4c65b2d150c30734898529ea9ddee77594c0f1 \
+                    sha256  26e24d0972f55c0a5e1a056d9e0c8b3c96fb395d6f54535d83a9f16b43511fe1 \
+                    tlpkg-TeXLive-20160522.tar.xz \
+                    rmd160  d4b6c5c31ac81cd5e43edc2ab8c810dab7745f8d \
+                    sha256  7aa8053ffa93480b1864cd1b976b12c29d5d2d3dfebc96c56d42ce1d6b420d40
 
 depends_lib     port:fontconfig \
                 port:freetype \
