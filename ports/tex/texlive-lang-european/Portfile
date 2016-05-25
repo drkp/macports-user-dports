@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-european
-version             36308
+version             41189
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Other European languages
 long_description    Support for a number of European languages\; others (Greek, German, French, ...) have their own collections, depending simply on the size of the support.
 
-checksums           texlive-lang-european-36308-run.tar.xz \
-                    rmd160  da904caa26a0057a253d3a40794c85362e72f89e \
-                    sha256  97d012f22ff010e9c2a99323757ff72396cb20a75d049383245cefe9ef8e19c2 \
-                    texlive-lang-european-36308-doc.tar.xz \
-                    rmd160  5d692978203a18a39ea9696bf1dde0cdaad12a9e \
-                    sha256  2e742630a5840a1369beea4ee9184e0460b7c2247aceca8620839984d4237275 \
-                    texlive-lang-european-36308-src.tar.xz \
-                    rmd160  87f943e8a824a6407eb8f1e9518e7fcb9b2a1a78 \
-                    sha256  464d95f7903255a5e3a85e8ce275f46f1d65c572dbf39c196b128fd88e072c6f
+checksums           texlive-lang-european-41189-run.tar.xz \
+                    rmd160  5bbfe7bfddf7cd52514971a0feb29979569d6545 \
+                    sha256  29ebbbd9cd141f8b50dfc97d97f68cb981ba22203d59ad295b67fbac82ada631 \
+                    texlive-lang-european-41189-doc.tar.xz \
+                    rmd160  89b23e821e00d7e2cf93d5fcb817897269c9df35 \
+                    sha256  cc67534926be24bcf8955c619fffe6b5a2c00a76d8b31fc7ac2acb438eb73979 \
+                    texlive-lang-european-41189-src.tar.xz \
+                    rmd160  39f66e6e4b1946964ebbee6a0b24f1feb7481fe0 \
+                    sha256  ebcdafd8c0a6baf297d692886a86fe0b10cde1425cf83ad6e2cee541909dbb3d
 
 depends_lib         port:texlive-basic
 
@@ -40,10 +40,12 @@ texlive.languages      \
     {kurmanji loadhyph-kmr.tex 2 2 {} {hyph-kmr.pat.txt} {} {} } \
     {latin loadhyph-la.tex 2 2 {} {hyph-la.pat.txt} {} {} } \
     {classiclatin loadhyph-la-x-classic.tex 2 2 {} {hyph-la-x-classic.pat.txt} {} {} } \
+    {liturgicallatin loadhyph-la-x-liturgic.tex 2 2 {} {hyph-la-x-liturgic.pat.txt} {} {} } \
     {latvian loadhyph-lv.tex 2 2 {} {hyph-lv.pat.txt} {} {} } \
     {lithuanian loadhyph-lt.tex 2 2 {} {hyph-lt.pat.txt} {} {} } \
     {bokmal loadhyph-nb.tex 2 2 {norwegian norsk} {hyph-nb.pat.txt} {hyph-nb.hyp.txt} {} } \
     {nynorsk loadhyph-nn.tex 2 2 {} {hyph-nn.pat.txt} {hyph-nn.hyp.txt} {} } \
+    {occitan loadhyph-oc.tex 2 2 {} {hyph-oc.pat.txt} {} {} } \
     {piedmontese loadhyph-pms.tex 2 2 {} {hyph-pms.pat.txt} {} {} } \
     {romanian loadhyph-ro.tex 2 2 {} {hyph-ro.pat.txt} {} {} } \
     {romansh loadhyph-rm.tex 2 2 {} {hyph-rm.pat.txt} {} {} } \

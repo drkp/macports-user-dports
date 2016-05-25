@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-french
-version             37426
+version             41244
 revision            0
 
 categories          tex
@@ -14,21 +14,21 @@ license             Copyleft Permissive
 description         TeX Live: French
 long_description    Support for French and Basque.
 
-checksums           texlive-lang-french-37426-run.tar.xz \
-                    rmd160  3e9273ad8243d56ebba55e0676f933c754f8cbc0 \
-                    sha256  5f5371d2279bcdabf153070186302e354df0472a5d1af1b5560914b84b01e5c8 \
-                    texlive-lang-french-37426-doc.tar.xz \
-                    rmd160  172715f833b386650a3521ee3e2a573631f676cf \
-                    sha256  dfe365c9f3a251b9b091d0fd6f896570cd7be63def1113289399375dc5e4e236 \
-                    texlive-lang-french-37426-src.tar.xz \
-                    rmd160  2a13bd14b75b38a454744257912c098ddeceb52f \
-                    sha256  61c1ab6cef322689aa0817d530780d6cafbae85362b081f8bc672aa5c6a119ac
+checksums           texlive-lang-french-41244-run.tar.xz \
+                    rmd160  e777103901a5b72fa3744a4baa6221003003e0ec \
+                    sha256  28fda23771c5c6b74595a01ef08c4f19d6fd46cc7d42a783c83e2ef0c66ac6e1 \
+                    texlive-lang-french-41244-doc.tar.xz \
+                    rmd160  4ae5c27f7b2179b09dc22a5781c024f54ae96df8 \
+                    sha256  0146f69bba30081df7d80932b45e846b65de7668715d8b63eb3c1f65723185a6 \
+                    texlive-lang-french-41244-src.tar.xz \
+                    rmd160  0fc4c7ff0ab4b347471d099469420b910eba07b3 \
+                    sha256  3ea195f589f042a4c4967c7fbec8cd390a9d6adcc09f31405620935bde6c2a17
 
 depends_lib         port:texlive-basic
 
 texlive.languages      \
     {basque loadhyph-eu.tex 2 2 {} {hyph-eu.pat.txt} {} {} } \
-    {french loadhyph-fr.tex 2 3 {patois francais} {hyph-fr.pat.txt} {} {} }
+    {french loadhyph-fr.tex 2 2 {patois francais} {hyph-fr.pat.txt} {} {} }
 
 texlive.maps      \
     {Map tabvar.map}

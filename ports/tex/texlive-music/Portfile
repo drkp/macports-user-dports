@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-music
-version             37366
+version             41157
 revision            0
 
 categories          tex
@@ -14,22 +14,22 @@ license             Copyleft Permissive
 description         TeX Live: Music packages
 long_description    Music-related fonts and packages.
 
-checksums           texlive-music-37366-run.tar.xz \
-                    rmd160  c16bc99e8a62d5bc7a7362401b418f3f58981eed \
-                    sha256  dab4cc2b1caf34f55a7905f7a39b03a8b91fe25315000a5e520f5e0aa52863d7 \
-                    texlive-music-37366-doc.tar.xz \
-                    rmd160  8988f0f030a37375d1b7e063d6477abeb19a4742 \
-                    sha256  713b2d1d3a5a303c2938d1b7daeedabb047adb4311ec80b0cd5f6dad0f95eb8d \
-                    texlive-music-37366-src.tar.xz \
-                    rmd160  de0304db5c29d20e28b57c8910fb0c544a5e1e87 \
-                    sha256  829ac726fe521ef9a6116e6622ae50496f8f2bb0bce4dc57c81d2b3fa098dbe3
+checksums           texlive-music-41157-run.tar.xz \
+                    rmd160  e107df3d3af21975a2aceafcaebbce85697503ee \
+                    sha256  8a6afb14c1b787fcb23024a00c660f245d85baa8a916b8b26272fe8b7736c176 \
+                    texlive-music-41157-doc.tar.xz \
+                    rmd160  bf57d70a5dda78f0c2302ea41be95a13a1286702 \
+                    sha256  252ef303ed3b0a13b4aacc7bb4c1682fc0c6058caf522358136f1d351e3b580b \
+                    texlive-music-41157-src.tar.xz \
+                    rmd160  4869432b8c7b65d71a57f2f370e647ff84198a12 \
+                    sha256  209fe00141c55f1d2a0e618266474e65dbbc86107b9ff2d478435c8ebf3721ae
 
 depends_lib         port:texlive-latex
 
 texlive.maps      \
     {MixedMap musix.map}
 
-texlive.binaries    fixmsxpart lily-glyph-commands lily-image-commands lily-rebuild-pdfs m-tx msxlint musixflx musixtex pmx2pdf pmxab pmxchords prepmx scor2prt
+texlive.binaries    autosp gregorio lily-glyph-commands lily-image-commands lily-rebuild-pdfs m-tx msxlint musixflx musixtex pmx2pdf pmxab pmxchords prepmx scor2prt
 
 
 texlive.texmfport

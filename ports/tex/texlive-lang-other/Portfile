@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-other
-version             34560
+version             41113
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Other languages
 long_description    Support for languages not otherwise listed, including Thai, Vietnamese, Hebrew, Indonesian, and plenty more.  The split is made simply on the basis of the size of the support, to keep both collection sizes and the number of collections reasonable.
 
-checksums           texlive-lang-other-34560-run.tar.xz \
-                    rmd160  15e3e24d4db8038947db43e97d4ecb6176a60bde \
-                    sha256  ef97b9c4f7be98b0a1fbc420f14e4cfa5da09bd75d50f6a3464afb712150aff0 \
-                    texlive-lang-other-34560-doc.tar.xz \
-                    rmd160  26ed9e5d1468aa43ca73c4636a0cc527a728fa7e \
-                    sha256  75092f85f93a073b0996d398e020d996e7a0d25bb192ab9dc53a9fdfcff6308a \
-                    texlive-lang-other-34560-src.tar.xz \
-                    rmd160  b3316eb564a51ea7b92b3f104b2cebcbbc6a2123 \
-                    sha256  f0a936fc5354fdcec38bd471c088c7f0538639adf3ca4c2d48c561652ad20b03
+checksums           texlive-lang-other-41113-run.tar.xz \
+                    rmd160  0a545a760a08b0565de4726b5a13ac626c38a35f \
+                    sha256  9f1910afb79ac31b5a2ca9f11cca1c5ba77c95b07a53bbb0d2600858d10ba8f5 \
+                    texlive-lang-other-41113-doc.tar.xz \
+                    rmd160  a1ff24021adc5efbe992697bbc6e0ade5b9055cd \
+                    sha256  da4ad8a87d9d1485396db227c922faf885ec28e4b80c1bd7bf0a72dd532fc52b \
+                    texlive-lang-other-41113-src.tar.xz \
+                    rmd160  28d9d59c7c2996193da1a15677fc47efa9d04b46 \
+                    sha256  c937ef33279de0a42e0eab385057e30dd36f34251df3be677e031c4f7425b07b
 
 depends_lib         port:texlive-basic
 
@@ -30,7 +30,7 @@ texlive.languages      \
     {afrikaans loadhyph-af.tex 1 2 {} {hyph-af.pat.txt} {hyph-af.hyp.txt} {} } \
     {coptic loadhyph-cop.tex 1 1 {} {hyph-cop.pat.txt} {} {} } \
     {esperanto loadhyph-eo.tex 2 2 {} {hyph-eo.pat.txt} {} {} } \
-    {georgian loadhyph-ka.tex 2 3 {} {hyph-ka.pat.txt} {} {} } \
+    {georgian loadhyph-ka.tex 1 2 {} {hyph-ka.pat.txt} {} {} } \
     {indonesian loadhyph-id.tex 2 2 {} {hyph-id.pat.txt} {hyph-id.hyp.txt} {} } \
     {interlingua loadhyph-ia.tex 2 2 {} {hyph-ia.pat.txt} {hyph-ia.hyp.txt} {} } \
     {thai loadhyph-th.tex 2 3 {} {hyph-th.pat.txt} {} {} } \

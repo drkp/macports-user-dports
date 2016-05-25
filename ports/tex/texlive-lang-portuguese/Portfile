@@ -5,8 +5,8 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-portuguese
-version             31125
-revision            1
+version             40340
+revision            0
 
 categories          tex
 maintainers         dports
@@ -14,20 +14,20 @@ license             Copyleft Permissive
 description         TeX Live: Portuguese
 long_description    Support for Portuguese.
 
-checksums           texlive-lang-portuguese-31125-run.tar.xz \
-                    rmd160  faaff01eb128f2eaaa1a6478c68fba3f03c5ec78 \
-                    sha256  b8fe351a4b9f80244d1338ab9716cd902662c1558a3ada5ff821c434ad82e502 \
-                    texlive-lang-portuguese-31125-doc.tar.xz \
-                    rmd160  963e27984be4636b4c244ec0c613452500b5b1a5 \
-                    sha256  4c28ff4ea0993b4cd068d5914dd4ce510ee028fe9540ec5b835ea3902d92eacc \
-                    texlive-lang-portuguese-31125-src.tar.xz \
-                    rmd160  e347ef2eaa9a0366c741f3635b73e165a641ed9b \
-                    sha256  8c240bd95e58b59af96cf23f2b8a249cd9d280c1bb61956f84e224a05de1ef0c
+checksums           texlive-lang-portuguese-40340-run.tar.xz \
+                    rmd160  15604d937822c4643f62d09223c00e657980da98 \
+                    sha256  bb1b579dda8912d4e26441d1194bd3a7f5b268976f7c45c9f75ca0e067cd8a7e \
+                    texlive-lang-portuguese-40340-doc.tar.xz \
+                    rmd160  23044f4e38e99da23d5c240ee46f3826fa15a6ee \
+                    sha256  493f221d715dd525b73a43a00a468af69e8dfd1e9745bc7c3c43e2539cd5af78 \
+                    texlive-lang-portuguese-40340-src.tar.xz \
+                    rmd160  66a69f054aabe05151a17d8494d6fc41df847519 \
+                    sha256  6681fe0c199b2b629cfddffafca5e491f39341b81e69203c7fd576bcfbf908a3
 
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {portuguese loadhyph-pt.tex 2 3 {portuges brazil brazilian} {hyph-pt.pat.txt} {hyph-pt.hyp.txt} {} }
+    {portuguese loadhyph-pt.tex 2 3 {portuges} {hyph-pt.pat.txt} {hyph-pt.hyp.txt} {} }
 
 
 texlive.texmfport

@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-latex
-version             37361
+version             41282
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: LaTeX fundamental packages
 long_description    These packages are either mandated by the core LaTeX team, or very widely used and strongly recommended in practice.
 
-checksums           texlive-latex-37361-run.tar.xz \
-                    rmd160  c10bb4c6a19544dd8d937522ffd5dc867e2a12bf \
-                    sha256  cf8105988c19bbc9085c4d19c5ce20eb0b1cab9c0cc0bae9c1db45bb01e9a6fd \
-                    texlive-latex-37361-doc.tar.xz \
-                    rmd160  41a9fb6cb5bd44396adb0bd4a9215de5bccbdb7e \
-                    sha256  293e6ba31bcb2cb4d95a56ef7e57400a4e51c66d529055e0a87e03a7db8df3eb \
-                    texlive-latex-37361-src.tar.xz \
-                    rmd160  c8030b7b0e67e258f8c97552ed246d58d3e69b6a \
-                    sha256  fe3094d37743339ce108a7b6822705dea47d0ed99fbf456221605cc8f51de68e
+checksums           texlive-latex-41282-run.tar.xz \
+                    rmd160  12f68cc40fd06c17e3fa4bf1929172dbd46eb9d8 \
+                    sha256  af01738fb623cd30d1ad8fce799563ebf33028bdc83cc8c82103f1a4750406fe \
+                    texlive-latex-41282-doc.tar.xz \
+                    rmd160  dc5560297448e454fd993e9455725fe5c32c04de \
+                    sha256  03ea4f9ee30ffc829e20c55619c7f28c5df2c42dc77cf45657649aa6b167826d \
+                    texlive-latex-41282-src.tar.xz \
+                    rmd160  9539757a8d5306d851382f5c56a478b7e82bb827 \
+                    sha256  6a7e532a189753bf399723dd065074ff46bd8083d820475f7d33f0c5536f35c1
 
 depends_lib         port:texlive-basic
 

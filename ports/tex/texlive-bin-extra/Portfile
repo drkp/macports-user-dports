@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-bin-extra
-version             37366
+version             41101
 revision            0
 
 categories          tex
@@ -14,19 +14,22 @@ license             Copyleft Permissive
 description         TeX Live: TeX auxiliary programs
 long_description    Various useful, but non-essential, support programs. Includes programs and macros for DVI file manipulation, literate programming, patgen, and the TeX Works Editor.
 
-checksums           texlive-bin-extra-37366-run.tar.xz \
-                    rmd160  4d94e4cbaf61db79ab9e4083dfdf89f29190dda1 \
-                    sha256  2176479ef1032f214de6b86cc4284a4e3b76f72507c24cf9481988bc727ed237 \
-                    texlive-bin-extra-37366-doc.tar.xz \
-                    rmd160  20f5cb2c312847fc5f7ad708088811d7b9fe7e9e \
-                    sha256  5e02844ad9137155b616ceb7bfb9a8b9165a787d1d927d07c36bb456be034ee3 \
-                    texlive-bin-extra-37366-src.tar.xz \
-                    rmd160  167f675c5e7e9f1753b89600d0bebc0d6f9ee5a1 \
-                    sha256  7a9ded2b09976377f1dac1b0d4f4386ac783943ca8119ecabb2b9a0776dec4ab
+checksums           texlive-bin-extra-41101-run.tar.xz \
+                    rmd160  22b4240ca72744db16c0e55fe59b669973f8d9b8 \
+                    sha256  414e549a1f6bcdc6d2d3f015c3475582947e0b61dc93f23c8f02116e34bf2430 \
+                    texlive-bin-extra-41101-doc.tar.xz \
+                    rmd160  f28b5a2ffe65e1038472d0300782e4b950ea78e8 \
+                    sha256  4d9bd2694fb1195b31a9d20cbe2a34a54b3e3c61a7e38390a6dee98f5801878c \
+                    texlive-bin-extra-41101-src.tar.xz \
+                    rmd160  514805dd2b59f06e71418c955b9f63886f2d38a3 \
+                    sha256  315998993df9a433e8d0d6d233c55f032214f95cc4aca0aa5935c30a89ada8a6
 
 depends_lib         port:texlive-basic
 
-texlive.binaries    a2ping a5toa4 adhocfilelist arara arlatex bibtex8 bibtexu bundledoc chktex chkweb ctangle ctanify ctanupload ctie cweave de-macro depythontex deweb dt2dv dtxgen dv2dt dviasm dvibook dviconcat dvicopy dvidvi dvihp dvilj dvilj2p dvilj4 dvilj4l dvilj6 dvipos dviselect dvisvgm dvitodvi dvitype e2pall findhyph fragmaster installfont-tl lacheck latex-git-log latex2man latexfileversion latexindent latexpand listings-ext.sh ltxfileinfo ltximg match_parens mkjobtexmf patgen pdfatfi pdfclose pdfcrop pdfopen pdftosrc pfarrei pkfix pkfix-helper pooltype purifyeps pythontex rpdfcrop sty2dtx synctex tangle texcount texdef texdiff texdirflatten texdoc texdoctk texfot texliveonfly texloganalyser tie tpic2pdftex typeoutfileinfo weave
+texlive.formats      \
+    {0 mflua mflua-nowin - {mf.ini}}
+
+texlive.binaries    a2ping a5toa4 adhocfilelist arara arlatex bibtex8 bibtexu bundledoc checklistings chktex chkweb ctangle ctanify ctanupload ctie cweave de-macro depythontex deweb dt2dv dtxgen dv2dt dviasm dvibook dviconcat dvicopy dvidvi dvihp dvilj dvilj2p dvilj4 dvilj4l dvilj6 dvipos dviselect dvisvgm dvitodvi dvitype e2pall findhyph fragmaster installfont-tl lacheck latex-git-log latex2man latexfileversion latexindent latexpand listings-ext.sh ltxfileinfo ltximg make4ht match_parens mflua mflua-nowin mfluajit mfluajit-nowin mkjobtexmf patgen pdfatfi pdfbook2 pdfclose pdfcrop pdfopen pdftosrc pdfxup pfarrei pkfix pkfix-helper pooltype purifyeps pythontex rpdfcrop srcredact sty2dtx synctex tangle tex4ebook texcount texdef texdiff texdirflatten texdoc texdoctk texfot texliveonfly texloganalyser tie tpic2pdftex typeoutfileinfo weave
 
 depends_run         port:latexmk \
                     port:detex \

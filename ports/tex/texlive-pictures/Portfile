@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-pictures
-version             37410
+version             40966
 revision            0
 
 categories          tex
@@ -14,15 +14,15 @@ license             Copyleft Permissive
 description         TeX Live: Graphics, pictures, diagrams
 long_description    Including TikZ, pict, etc., but MetaPost and PStricks are separate.
 
-checksums           texlive-pictures-37410-run.tar.xz \
-                    rmd160  1bd0d5a104354c1829b5e372ec343adcefe45c0d \
-                    sha256  3b320fbd40ac437fa42a248c93ffb8bb96fe16b12ef003aca2f3e1d86aa79ad2 \
-                    texlive-pictures-37410-doc.tar.xz \
-                    rmd160  dc75707ec4c5d346800d9090f59efdc03c032f8c \
-                    sha256  2b8fe41f60229820a37a13a656cd7a399f40e572c512271f714e7beb78ed9ac4 \
-                    texlive-pictures-37410-src.tar.xz \
-                    rmd160  d4cf47cab7aa862c5afda01c18c781417d1493ad \
-                    sha256  4953dc20ba2af29c19dcb570b5a07d5ba7241963c2cc5ba5ddaef2c3ac09a73e
+checksums           texlive-pictures-40966-run.tar.xz \
+                    rmd160  272c861bf85c45c02bb8b72d4833e01d8f9c72a8 \
+                    sha256  ea17f46db2cb9655b73f87faa5527d3dd200e78dc5358128b346bb966ac53f06 \
+                    texlive-pictures-40966-doc.tar.xz \
+                    rmd160  d1a5f230e63b77aea8108d65e63a1f0fbfcce9b9 \
+                    sha256  04ce375793dd35806b3f4702424268c905f1b8f5111d51bd9927401fbb7d26fe \
+                    texlive-pictures-40966-src.tar.xz \
+                    rmd160  5f1ba6c0eadbda578c7120571a63f2ee75f375d4 \
+                    sha256  3951fbba2f9bd671b20ae769ef9a8e4f9aeaa47d084c8cc5b6f3850e3df6ee0b
 
 depends_lib         port:texlive-basic
 
@@ -30,7 +30,7 @@ texlive.maps      \
     {Map knitfont.map} \
     {MixedMap xypic.map}
 
-texlive.binaries    cachepic epspdf epspdftk fig4latex getmapdl mathspic mkpic
+texlive.binaries    cachepic epspdf epspdftk fig4latex getmapdl mathspic mkpic pn2pdf
 
 # use pgf port to satisfy pgf dependency (see #25478)
 depends_lib-append port:pgf
