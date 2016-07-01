@@ -37,15 +37,15 @@ license         Copyleft Permissive LGPL-2.1+ BSD
 master_sites    http://giraffe.cs.washington.edu/texlive/
 set distversion 20160605
 use_xz          yes
-distname        texlive-source-${distversion}
+distname        texlive-source-${distversion}-stripped
 worksrcdir      ${distname}
 
 set tlpkgdistname   tlpkg-TeXLive-${distversion}
 distfiles-append    ${tlpkgdistname}${extract.suffix}
 
-checksums           texlive-source-20160605.tar.xz \
-                    rmd160  3ac42e608906493fe6d0fcbffd697d5022e6aff4 \
-                    sha256  f5faac229b7974fa98e5f32f313af6a83194813b40394935568fe6c318467dde \
+checksums           texlive-source-20160605-stripped.tar.xz \
+                    rmd160  6458766f5dd3e4f00c529fe1762a56a154383bc4 \
+                    sha256  1b3f88056a2cb9273f01df22f67c24db8b5f73c967d6ddb30abc6e69fad424c6 \
                     tlpkg-TeXLive-20160605.tar.xz \
                     rmd160  066447d2f6a358a3633c997fe4b6194afae48a1c \
                     sha256  1cd8cb957d0c442be20451e661dc936f7aedaf41d4c603cb7b6ca0c12a044795
@@ -144,6 +144,7 @@ configure.args  --bindir=${texlive_bindir} \
                 --with-system-graphite2 \
                 --with-system-harfbuzz \
                 --with-system-icu \
+                --with-system-libpaper \
                 --with-libpaper-includes=${prefix}/include \
                 --with-libpaper-libdir=${prefix}/lib \
                 --with-system-libpng \
