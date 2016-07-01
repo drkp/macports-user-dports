@@ -15,14 +15,14 @@ description         TeX Live: Essential programs and files
 long_description    These files are regarded as basic for any TeX system, covering plain TeX macros, Computer Modern fonts, and configuration for common drivers\; no LaTeX.
 
 checksums           texlive-basic-41271-run.tar.xz \
-                    rmd160  cedfc251e0e1c8f0ddf7d7cd77d64e307293fdbf \
-                    sha256  7174963bb87c483f84c4e3f26c91388846166774a25e5dc1d490258930bd926c \
+                    rmd160  cd856514533d5c944f77ab54c3223851dd882fdb \
+                    sha256  37c8889227a2d346af6c45935620972c254685bd2cc6342b7dfccda0dc781e39 \
                     texlive-basic-41271-doc.tar.xz \
-                    rmd160  ac085e8b0dd59362c6d972271228add28ae1aa7f \
-                    sha256  0ebcc50381a53f6ef6177ff98c2b8d7740a1e6b9f5a8edfbbd9f670787489357 \
+                    rmd160  54907e5575eb3bfe5d2ca786715af60fff535a7d \
+                    sha256  80a30c43d46fd3a99953be2bcbee905f926df2898631ab812cf6743733725ca4 \
                     texlive-basic-41271-src.tar.xz \
-                    rmd160  22cf0ad30c17880980319c9a8fcfaf445a032b23 \
-                    sha256  bda2d2a984c4f6d888b83eb1eaca272f1efd63793586ed7393ccaf7b2d378c7e
+                    rmd160  107affbf97e532e3cfbab2c903a1cfe3566249df \
+                    sha256  8b8279664845b172f5835438f6b9b5263b74386a7f24c74f83e54b97927d57fa
 
 texlive.formats      \
     {1 luatex luatex language.def,language.dat.lua {luatex.ini}} \

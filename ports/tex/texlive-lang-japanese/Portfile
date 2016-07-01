@@ -15,14 +15,14 @@ description         TeX Live: Japanese
 long_description    Support for Japanese\; additional packages in collection- langcjk.
 
 checksums           texlive-lang-japanese-41270-run.tar.xz \
-                    rmd160  f71cde401c782eabe729734cfb30e8e7ef401476 \
-                    sha256  4c698b3bee50e941c8619d8bf0537091383197180d62b935d3b7da26bd26db88 \
+                    rmd160  170bc9f1daeb170599c50207621a602a47a2ec21 \
+                    sha256  4f555778b5f44d3d8f1f588f7194fda5731d577125de54c936b05fafbc0326d6 \
                     texlive-lang-japanese-41270-doc.tar.xz \
-                    rmd160  bcdadd53ce3d0b6fa829a2c114af9885d6da8f3e \
-                    sha256  b4f331530008a4d6d1ecb89feea6ad2e04dc55a147cc0b25148ba82f19b87207 \
+                    rmd160  4204e3d14a3c73be50faaeac5bb75c55c450daf2 \
+                    sha256  2ba31dc59c0cf90317184a6d8a809cb0d335b9f46755913d0f5af3aad58e9445 \
                     texlive-lang-japanese-41270-src.tar.xz \
-                    rmd160  13ad3e6745f61c212d7e8acaba9706444935eec1 \
-                    sha256  fa53fbe12be713732a3cf6055ef819f0a8317155669784de391fbc5a2e8020ba
+                    rmd160  6455dbd6a59583fda0b279a480d843cfe9579a48 \
+                    sha256  3c230500eadde7231a9572a2a718161daf2149784fdcdb3acb606bf01e31fa09
 
 depends_lib         port:texlive-lang-cjk
 

@@ -15,14 +15,14 @@ description         TeX Live: Natural and computer sciences
 long_description    Natural and computer sciences
 
 checksums           texlive-science-41041-run.tar.xz \
-                    rmd160  1b1d64c254837a9d83239f61b38a2dfe0f97967c \
-                    sha256  d99e1cb14e9d069d9f45ca561155da8c207b7ef10512e94836ac64aec41f7811 \
+                    rmd160  e36a739e5be44700d79884edb764426b6b580903 \
+                    sha256  14a827db6c4c464264bac3e4cf6a38b41ffb2db08097eae52d3de42f2f112902 \
                     texlive-science-41041-doc.tar.xz \
-                    rmd160  fe43d8a4c3f2ead720005de4a4afda32cbd0bd27 \
-                    sha256  c035b9b2af25ffdf9d2e7c14f80b044a3e1ebaae454d49c488f47cddde185a34 \
+                    rmd160  9d14a3c89485f63db91008112f55c1927e63845f \
+                    sha256  96b0fa50fdd7ce19ce0cd5c9081ba04dc2279197fbcbaadd19b4fbd808123625 \
                     texlive-science-41041-src.tar.xz \
-                    rmd160  8fbd4d136208d7506b1f322fdffb2cbe2473173a \
-                    sha256  4b41cf7f6f8bd1dab0c43a7dd6a10de702ebe978a7001b35a0198286ce2aa0c8
+                    rmd160  34d2b95199bfc36d6b6f470f15cfbf952800f557 \
+                    sha256  eb4410dfab4304ff9cb6e74a1b9f22ff54391103d9960e628ebfffdbd0dfb906
 
 depends_lib         port:texlive-latex
 

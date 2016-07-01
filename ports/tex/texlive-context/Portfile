@@ -15,14 +15,14 @@ description         TeX Live: ConTeXt and packages
 long_description    Hans Hagen's powerful ConTeXt system, http://pragma-ade.com. Also includes third-party ConTeXt packages.
 
 checksums           texlive-context-41282-run.tar.xz \
-                    rmd160  160d6af854438ec882809bffff376791610086a0 \
-                    sha256  8038e95ab43a7b4f3059cef10799f7de9c8ed81e7cfb70e17767e4223c94affc \
+                    rmd160  f15460239b3204b966ae05c361207811dddc5173 \
+                    sha256  c8a11497924df348652230b783245d64fa4e627edeb0a032d4041c62f3245326 \
                     texlive-context-41282-doc.tar.xz \
-                    rmd160  3591089478b6b6a35a15525da0fcd4b6056103df \
-                    sha256  2e4748d6677c821cdbda07dbdf19435a760d3496c483cda9e4f9cdb5a0559489 \
+                    rmd160  54a58115b3fe0f6d5560c7099d1d768cb5d7ca15 \
+                    sha256  aced9af6f103f64c9845b4f6d8175d6be16ace08c6162545a05d1573bcb2085d \
                     texlive-context-41282-src.tar.xz \
-                    rmd160  598ea2031e025d93a576e0890c8c63326da6934c \
-                    sha256  e1ae837a43a8a771c26d16191cc3569122dccd6a73fbe54a0d9c6ac0c57b131e
+                    rmd160  d18190b13989b345b741486fc2cab9fa93264b97 \
+                    sha256  cbf149cb810b6498a67fc8e2147a35e4cf6e93c0a6487f75b74f7c52f8233ebf
 
 depends_lib         port:texlive-basic
 

@@ -15,14 +15,14 @@ description         TeX Live: Music packages
 long_description    Music-related fonts and packages.
 
 checksums           texlive-music-41157-run.tar.xz \
-                    rmd160  e107df3d3af21975a2aceafcaebbce85697503ee \
-                    sha256  8a6afb14c1b787fcb23024a00c660f245d85baa8a916b8b26272fe8b7736c176 \
+                    rmd160  e5840619e071a71fc60be64b91fa8dee0ea0b5cb \
+                    sha256  729b8c032a5977f70e86b85e350fc109dbb13146ead01874708d10b7b4a266a7 \
                     texlive-music-41157-doc.tar.xz \
-                    rmd160  bf57d70a5dda78f0c2302ea41be95a13a1286702 \
-                    sha256  252ef303ed3b0a13b4aacc7bb4c1682fc0c6058caf522358136f1d351e3b580b \
+                    rmd160  baa54c0d7e131602a5cc2dfc809589bb09063ebc \
+                    sha256  e1b31841744673b987b4886b2a0b72ae2ad84416e2e1341939e0fe81a86588b0 \
                     texlive-music-41157-src.tar.xz \
-                    rmd160  4869432b8c7b65d71a57f2f370e647ff84198a12 \
-                    sha256  209fe00141c55f1d2a0e618266474e65dbbc86107b9ff2d478435c8ebf3721ae
+                    rmd160  38c18aafd71f8e768e01b8a5995f96dd843c93a6 \
+                    sha256  c2bd3cbc2eedbf9cac34caa01ca9366981ca4798ad519b5037e1b35cf6f29a64
 
 depends_lib         port:texlive-latex
 

@@ -15,14 +15,14 @@ description         TeX Live: Publisher styles, theses, etc.
 long_description    Publisher styles, theses, etc.
 
 checksums           texlive-publishers-41243-run.tar.xz \
-                    rmd160  19cbd9998ab393776e2ddeff76b15c8b4767333f \
-                    sha256  41a74f07cfd8243038197687495ce83d4715736b235ebc76d4f3dbf5e9e87016 \
+                    rmd160  edaaaa680a47b3f29cc69b3fc4a2760eecd36819 \
+                    sha256  2b90de2c8df457e941a985512ae89bcb1dc3697c4308a453f2af5cc658454e50 \
                     texlive-publishers-41243-doc.tar.xz \
-                    rmd160  a8882add49b94233756359f2bb72cfc487edad0b \
-                    sha256  c43751f91fc8283cc52ce1c449b37448414a4563157a15aac1e7e422b2991dff \
+                    rmd160  de7dc4e4cf68ef5e2485b0de98d22d76c4a172b3 \
+                    sha256  184a47665b6856f24307ef744903f8c18f1984d2f9a69999a4ddf91fca483bff \
                     texlive-publishers-41243-src.tar.xz \
-                    rmd160  189292b8a8551d8e5f7e81ababb54a8ec9847dfc \
-                    sha256  ab99a7a3f6439b6d594bc02d4d07a3ef0d6d4098cd805506795c7b860ac80f61
+                    rmd160  f8ac5cec42a65d63df90eedf752016d3223f2a74 \
+                    sha256  e1f645dd14dbb301c33d3959350aab9779977c460160a98070260a33cf51dca6
 
 depends_lib         port:texlive-latex
 

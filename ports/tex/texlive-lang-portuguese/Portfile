@@ -15,14 +15,14 @@ description         TeX Live: Portuguese
 long_description    Support for Portuguese.
 
 checksums           texlive-lang-portuguese-40340-run.tar.xz \
-                    rmd160  15604d937822c4643f62d09223c00e657980da98 \
-                    sha256  bb1b579dda8912d4e26441d1194bd3a7f5b268976f7c45c9f75ca0e067cd8a7e \
+                    rmd160  9c78bea82c43c2d65d0abac66d20a19c4ad40a5c \
+                    sha256  46266e63a944fb2dbce79cc9b602682d1b33b548802ffa204ade2dc05b0b0464 \
                     texlive-lang-portuguese-40340-doc.tar.xz \
-                    rmd160  23044f4e38e99da23d5c240ee46f3826fa15a6ee \
-                    sha256  493f221d715dd525b73a43a00a468af69e8dfd1e9745bc7c3c43e2539cd5af78 \
+                    rmd160  17d0aaea1c5a1894f09c8996ed0172c75111a013 \
+                    sha256  7b447c7994c274666fe513ebe0d573ee7671e50e3ba804171b8fe59d3ce2512f \
                     texlive-lang-portuguese-40340-src.tar.xz \
-                    rmd160  66a69f054aabe05151a17d8494d6fc41df847519 \
-                    sha256  6681fe0c199b2b629cfddffafca5e491f39341b81e69203c7fd576bcfbf908a3
+                    rmd160  8377c82bf807e34340420c74efd6a3a244ddfe18 \
+                    sha256  68657bddd90339ac0ab76e39809be40f026c1573623ed024996c16e7ef27b9d3
 
 depends_lib         port:texlive-basic
 

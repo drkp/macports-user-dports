@@ -15,14 +15,14 @@ description         TeX Live: Plain TeX packages
 long_description    Add-on packages and macros that work with plain TeX.
 
 checksums           texlive-plain-extra-40618-run.tar.xz \
-                    rmd160  3da1706cf6a763584214b278a243613990dd89d8 \
-                    sha256  8fbb9c37f6c46c8e935c47626edfb760a5c52c3e2e516ec71d623ccf3e67e1c5 \
+                    rmd160  eba420240f763705a250511cb8725b488f71b3da \
+                    sha256  10c2cfc5a34921ef31dc6fb5ff49bb9d18b0aecfeeee69a3177a3996aae755d9 \
                     texlive-plain-extra-40618-doc.tar.xz \
-                    rmd160  310446be570559b09606a4b6ce702e848bfb3e3a \
-                    sha256  510f3ec6fbca19f1b3ed790117332986cae48e920b90446eb966f753c2716a7d \
+                    rmd160  f0a0da50dd97dc82cd90763069bc716ba52bff54 \
+                    sha256  0b577b7b0afdc7a919c68b98292a68bd2b9af0f585331725abf0224ba9e3e632 \
                     texlive-plain-extra-40618-src.tar.xz \
-                    rmd160  4cd339a00708987038a5b6a4c6a4feb773cf2c58 \
-                    sha256  33d348fddd98a276a0f9e768cab8603c9f02825636488b7a12cf2ce6ee9ad1f3
+                    rmd160  d7a92c0a2673b8f82663c2830e893d333bf330f6 \
+                    sha256  4f018f36dea9d9653cb9028807ea2e0cab445a485a2af0a9c885be0cc1106b92
 
 depends_lib         port:texlive-basic
 

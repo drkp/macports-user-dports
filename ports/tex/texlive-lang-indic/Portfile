@@ -15,14 +15,14 @@ description         TeX Live: Indic scripts
 long_description    Support for Indic scripts.
 
 checksums           texlive-lang-indic-41101-run.tar.xz \
-                    rmd160  c7513671fd260ce6852d16a3c9b6d752c69b82c1 \
-                    sha256  778f6459c8fc19b2533d5b2a98fd1fcba05a324c8de8aefb03c30343c1d81f91 \
+                    rmd160  ea2d52c91ef103bd3ef8bf05e1a7eceeed1b6540 \
+                    sha256  1aa8e540051e6de920be78d17b68821768a9124635939fe060e86d9276122a8d \
                     texlive-lang-indic-41101-doc.tar.xz \
-                    rmd160  6e92c82b42181e03f9d293b9b546306f7d46c97b \
-                    sha256  85f7de5ed2288e1bf55e9a1932c392a0db833e01ad212f286f25a14aa0c469d1 \
+                    rmd160  20df8cbe0fe9c8f2348e5849f2d0193cdd578207 \
+                    sha256  e29f94d3f1791a642283196d4e2473eac005354904f96a79357636f8b0fff757 \
                     texlive-lang-indic-41101-src.tar.xz \
-                    rmd160  76fd9d01321d11f2a817b6d275baa0ab0d39b5ed \
-                    sha256  2d25f2e3d5dfecc02e2a28ed3cb213fe008e4e81d52458ccddfe47f834ac4d3b
+                    rmd160  3a7305df828b2541419a7fa34101e0cff3d660d5 \
+                    sha256  66c53825bd28e5e48a589e1e218ca8d608bba3b2e29d695dc50f2535013ead53
 
 depends_lib         port:texlive-basic
 

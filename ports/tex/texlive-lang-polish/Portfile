@@ -15,14 +15,14 @@ description         TeX Live: Polish
 long_description    Support for Polish.
 
 checksums           texlive-lang-polish-41226-run.tar.xz \
-                    rmd160  21b6b84c22b50edc4be016bef361be120eb58a08 \
-                    sha256  c60163e8d2aa519f4f0e0dda89e60c890482509359fd27485e0a079c59cf486c \
+                    rmd160  4b0679b80990341fc85b8b95c2178b2808469122 \
+                    sha256  05eab128a1133910cf1ca8b76510d879d418e315d936560c2b175709bfeb8dc3 \
                     texlive-lang-polish-41226-doc.tar.xz \
-                    rmd160  c1556adbcb1ec9cdc1bb47f9f2d04b96fcf9c157 \
-                    sha256  d9bf65a93f8b1c86870c789e4155c79c4105c7a823f5552917af3013a2d067c9 \
+                    rmd160  dc4dfbb3297078c22b2fc735e9cc557f6cb9f308 \
+                    sha256  b8c1a1c076ae09b7763a53b6264854b0e345f8480fe426da2f9e6ca8e13dc76a \
                     texlive-lang-polish-41226-src.tar.xz \
-                    rmd160  6b5e7a0fed64b4cb71779c4120b64c73248431f2 \
-                    sha256  ffd8bb43faa670c600cccedade9dc95a6012634592989bc8fd289b083c5c2869
+                    rmd160  5dc3a1ac2df8d7ab10e878d409f4163d76090011 \
+                    sha256  aa19a122fb5040154ec44fd79e96eebd3441e39d2a439eb7ae286db2ca6e1939
 
 depends_lib         port:texlive-latex port:texlive-basic
 

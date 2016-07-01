@@ -15,14 +15,14 @@ description         TeX Live: XeTeX and packages
 long_description    Packages for XeTeX, the Unicode/OpenType-enabled TeX by Jonathan Kew, http://tug.org/xetex.
 
 checksums           texlive-xetex-41165-run.tar.xz \
-                    rmd160  5c9a639ff69bd446c703af1b23787a748c6c2b89 \
-                    sha256  28f01d2fdd9daf6f4087f1fd9bab3d3c126a176a6d769b148325629aa85b4d37 \
+                    rmd160  637efedd0444bceac7271916cc5cbc9ef922dde1 \
+                    sha256  9943d4dcb0c92976bc34d132a4234dcfa909ea28ce020caf7d034808cdc4e002 \
                     texlive-xetex-41165-doc.tar.xz \
-                    rmd160  471d816a309e561340180ab73767a773b829bfaf \
-                    sha256  5bedbc9d40699126e2df59c40b915e7ab496c03a595c7a9dd0b1c9d666c185b5 \
+                    rmd160  1911d0420e8f9e5797d1dee78c57cd3d79575c54 \
+                    sha256  9eb25cfa7aeaa1735b80f8925c3bb1fb54f688cfee62aa96c1dabf9c6b690bd3 \
                     texlive-xetex-41165-src.tar.xz \
-                    rmd160  a54ee00208a769567c3a0d130463bcea1fb8277b \
-                    sha256  d5151519261217b4488b010107c24a79e08022398298e291540cb9534dc091c5
+                    rmd160  60af34973f3bbd9869271ae96a49f8225597a5f6 \
+                    sha256  ec1065aa0fb61ab5b1791c764aba5885a0b5ba5be33cf7501f67ae812804f475
 
 depends_lib         port:texlive-basic
 

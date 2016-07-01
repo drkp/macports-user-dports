@@ -15,14 +15,14 @@ description         TeX Live: TeX auxiliary programs
 long_description    Various useful, but non-essential, support programs. Includes programs and macros for DVI file manipulation, literate programming, patgen, and the TeX Works Editor.
 
 checksums           texlive-bin-extra-41101-run.tar.xz \
-                    rmd160  22b4240ca72744db16c0e55fe59b669973f8d9b8 \
-                    sha256  414e549a1f6bcdc6d2d3f015c3475582947e0b61dc93f23c8f02116e34bf2430 \
+                    rmd160  e0b09d8592ca307bedb4f880fc714f116caacc13 \
+                    sha256  aedf5b1665c2012728579194d2584e3bcd46cafc273324b5cfafb4ff5e8f0865 \
                     texlive-bin-extra-41101-doc.tar.xz \
-                    rmd160  f28b5a2ffe65e1038472d0300782e4b950ea78e8 \
-                    sha256  4d9bd2694fb1195b31a9d20cbe2a34a54b3e3c61a7e38390a6dee98f5801878c \
+                    rmd160  c08a641c8ab6870871bc39fff135af2027493acd \
+                    sha256  03b39c2b65daff264b85e5875a0f018c4decf49cc9856cb99a8546305e36ee54 \
                     texlive-bin-extra-41101-src.tar.xz \
-                    rmd160  514805dd2b59f06e71418c955b9f63886f2d38a3 \
-                    sha256  315998993df9a433e8d0d6d233c55f032214f95cc4aca0aa5935c30a89ada8a6
+                    rmd160  f36c995487f0ca7a28fd3ee11490b2df8e402c37 \
+                    sha256  915b74663a1b39304d4cf8475d2751f34c08b69e6945ab624b1e0bde439f54fc
 
 depends_lib         port:texlive-basic
 

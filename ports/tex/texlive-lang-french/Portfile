@@ -15,14 +15,14 @@ description         TeX Live: French
 long_description    Support for French and Basque.
 
 checksums           texlive-lang-french-41244-run.tar.xz \
-                    rmd160  e777103901a5b72fa3744a4baa6221003003e0ec \
-                    sha256  28fda23771c5c6b74595a01ef08c4f19d6fd46cc7d42a783c83e2ef0c66ac6e1 \
+                    rmd160  f3e16277367024ce0d42c586cb6aaaf65ae6c2a7 \
+                    sha256  057b1417779ff79f73bd40c90f33474696848dc3cfab2e622236c100e140b074 \
                     texlive-lang-french-41244-doc.tar.xz \
-                    rmd160  4ae5c27f7b2179b09dc22a5781c024f54ae96df8 \
-                    sha256  0146f69bba30081df7d80932b45e846b65de7668715d8b63eb3c1f65723185a6 \
+                    rmd160  43aae204a21841d384811405ae063eddeb31d0d7 \
+                    sha256  35258b2832b30ec6b3824520f1cee59fea0ad8891a0e946fd7876efd08728b04 \
                     texlive-lang-french-41244-src.tar.xz \
-                    rmd160  0fc4c7ff0ab4b347471d099469420b910eba07b3 \
-                    sha256  3ea195f589f042a4c4967c7fbec8cd390a9d6adcc09f31405620935bde6c2a17
+                    rmd160  c31a51c3338039ad2c0a82320e0b2cc0bde7bb9d \
+                    sha256  4d33a1974b4cf90a0e525d85bb61872a1902fc0f91d7df9b1e2d93855234a6a7
 
 depends_lib         port:texlive-basic
 

@@ -15,14 +15,14 @@ description         TeX Live: Chinese/Japanese/Korean (base)
 long_description    Packages supporting a combination of Chinese, Japanese, Korean, including macros, fonts, documentation.  Also Thai in the c90 encoding, since there is some overlap in those fonts\; standard Thai support is in collection-langother.  Additional packages for CJK are in their individual language collections.
 
 checksums           texlive-lang-cjk-41121-run.tar.xz \
-                    rmd160  ce3ccd1b51161954bac1adadf3ae3c614ea5e75b \
-                    sha256  ea303fd26945b1ef5493f56e20e35cce39cc33aa73ff9be221a2b89ca9b3b88d \
+                    rmd160  293238bc1437ad47dbcd3febd75233c5f484e7c1 \
+                    sha256  700529002a85bf8d0e408b5029f755ceaeaded58e52f0f82432f1090e424e512 \
                     texlive-lang-cjk-41121-doc.tar.xz \
-                    rmd160  f98eb80f179e92c6a7db7142c3bab0d3c30e3eae \
-                    sha256  fa2524b522cd38bd696f261a71bc761cf10446ef7e9a87df8ce82e45a96ca9e6 \
+                    rmd160  e5ef363a29e384d527e124757d9f124dcf3f65af \
+                    sha256  849e510f5cde99c5ae9f7355ba554145e245b76c8c1594e7f4b5af85927ef9fd \
                     texlive-lang-cjk-41121-src.tar.xz \
-                    rmd160  5f749be4674b7f6b89a0eca95f40960236873be8 \
-                    sha256  b3c0646939ea516ae5a5741e70a584619f6e4f4c7750d3d538df55aba302069a
+                    rmd160  796ef1193bb09024c7cec46a8e18badcf77ef7c0 \
+                    sha256  b7027fa67fba02d072e9eddcd57026d6eae54a2d5a853db3b0e6bf87d4b09acb
 
 depends_lib         port:texlive-basic
 

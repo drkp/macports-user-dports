@@ -15,14 +15,14 @@ description         TeX Live: Greek
 long_description    Support for Greek.
 
 checksums           texlive-lang-greek-41189-run.tar.xz \
-                    rmd160  2e52bbbb594a6313d1236952dcac222aeb2c7be2 \
-                    sha256  35b02a1118291ec043d252a306a6f561023a832935931bec347102b534fe0061 \
+                    rmd160  d6caabb43acc1b3c5394fa7bb402143bc23105c9 \
+                    sha256  83c1a33c29fbfe7ab2055749fc8357b195b84827dc1eb0d90f478493f9f468dd \
                     texlive-lang-greek-41189-doc.tar.xz \
-                    rmd160  01888f825cbf5db5fc9050982fd584ef4c7b67d9 \
-                    sha256  81c53b3036ed1202d4559d9c176f794c219b0219ab0348d029e1238559864d6a \
+                    rmd160  e527501ff20bd165b157a0b3fa1363cee1bfa60e \
+                    sha256  e547c2cc1f4e4728ef454b29b6ed9480532d1f8cfef2ab4ea32dcaa348f0cbe5 \
                     texlive-lang-greek-41189-src.tar.xz \
-                    rmd160  8c77e879ceac1e592e2d04ef6b9b061887756b1c \
-                    sha256  c972b2ae8e1e42951ed0067a3ab43e025c4fd230f3eb8453a0b3ae28c4972e51
+                    rmd160  4c2f0a117d95984d107f328b126a0587554c6279 \
+                    sha256  65743140c99a1e586fb339c82cec6131d479233dee5e0ec81bff44534d3d9f9a
 
 depends_lib         port:texlive-basic
 

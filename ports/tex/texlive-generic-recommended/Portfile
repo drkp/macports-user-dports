@@ -15,14 +15,14 @@ description         TeX Live: Generic recommended packages
 long_description    Recommended packages that work with multiple formats.
 
 checksums           texlive-generic-recommended-39710-run.tar.xz \
-                    rmd160  53590722a723b5ff46bbac1aa1ef7ab5858b2e9e \
-                    sha256  0bc876eed431899da34c759ba740a5e776d49002a284d0a1ab8c88b39b6e7365 \
+                    rmd160  d5bbb7fcc246e993398a5b4dc689bd5b77132ec1 \
+                    sha256  d5ff3226a05aeca575f35a477a8160448fc65d32ba7d0d645f9b5b5e2f1cd3d4 \
                     texlive-generic-recommended-39710-doc.tar.xz \
-                    rmd160  bf79d3fb19436bcc1c3925ba879056b0665835ee \
-                    sha256  ee327db69172b36017c9df55b50beaf3dcfa16ac25c686a9b5075d5fde3f6b39 \
+                    rmd160  4fac6956d5644aef4bf8466450d19bcbce8a8cec \
+                    sha256  1f51cea551afd827ac93f74ecfe436db7a33c7cdd21fd66d190defa1651f4b2a \
                     texlive-generic-recommended-39710-src.tar.xz \
-                    rmd160  dbf6dfd23f76dc83027c6a1640fbadfe39f04a26 \
-                    sha256  ed9d73b03989ccf9a80a597c38fec96d79d538798c2d84be32a6301bf6cfc492
+                    rmd160  9686d9bcd3ae5d6ab9cdffb8df056505d39b540d \
+                    sha256  e0800180b2942d222f3253fe18bf613d30f2a356f19ff2b4b6a3d01b1a70eff8
 
 depends_lib         port:texlive-basic
 

@@ -15,14 +15,14 @@ description         TeX Live: HTML/SGML/XML support
 long_description    Packages to convert LaTeX to XML/HTML, and typeset XML/SGML.
 
 checksums           texlive-htmlxml-41101-run.tar.xz \
-                    rmd160  d1dff419cbe2e00aeda92980f7c8c1e94e3d6347 \
-                    sha256  006a03ae2bb97ade9599497b0350196a55b53628b72415f04070da740830d60b \
+                    rmd160  c56b7b814b61ce2199e4138f50bfe19193151acb \
+                    sha256  de68e4319bd4a25c463a540c7053ba4d5584dafe8b63f664e4432b02e566cbe4 \
                     texlive-htmlxml-41101-doc.tar.xz \
-                    rmd160  8c095105cf48905d5b84f49d38333e555e27635a \
-                    sha256  fa83cc5444f7840f591bf71d6840ba493edef6e934d54eb6e639fbbd74824669 \
+                    rmd160  0e49467f5b057b759ad50b06a79fc1e060cbc7bd \
+                    sha256  fbf365a7acdb808d77b0c73fd40ec0f111499f108e6d8db3c1b5e5a56ef59330 \
                     texlive-htmlxml-41101-src.tar.xz \
-                    rmd160  cba90d95e040af0f76c0ef5d86ef563457254b7b \
-                    sha256  38de946fd42cd6fa7a6db882bd38e503286912e310d89e57faa57717b216513a
+                    rmd160  ede42951cbaa0f5256d5ea519865809f841f1030 \
+                    sha256  13e13e698710ab17d48bcdb00491b92df9ea01b60dfc8f0fec6758e5c57a87be
 
 depends_lib         port:texlive-basic port:texlive-fonts-recommended port:texlive-latex
 

@@ -15,14 +15,14 @@ description         TeX Live: LaTeX fundamental packages
 long_description    These packages are either mandated by the core LaTeX team, or very widely used and strongly recommended in practice.
 
 checksums           texlive-latex-41282-run.tar.xz \
-                    rmd160  12f68cc40fd06c17e3fa4bf1929172dbd46eb9d8 \
-                    sha256  af01738fb623cd30d1ad8fce799563ebf33028bdc83cc8c82103f1a4750406fe \
+                    rmd160  88f0946a122a9571d4420773511bab6f4bca72f2 \
+                    sha256  cac9f874dc32448a050ccc177a76b971f8dc926f60ad963fedbc1ae42be7c474 \
                     texlive-latex-41282-doc.tar.xz \
-                    rmd160  dc5560297448e454fd993e9455725fe5c32c04de \
-                    sha256  03ea4f9ee30ffc829e20c55619c7f28c5df2c42dc77cf45657649aa6b167826d \
+                    rmd160  d5bfd523272b52a56e099237fdca5831971e0eaa \
+                    sha256  04c1580f4837e31647ce707e181347842acd92dcce03f04ff53bcd939ccd364d \
                     texlive-latex-41282-src.tar.xz \
-                    rmd160  9539757a8d5306d851382f5c56a478b7e82bb827 \
-                    sha256  6a7e532a189753bf399723dd065074ff46bd8083d820475f7d33f0c5536f35c1
+                    rmd160  deda1afe56535227d43e775293f3340431fe3a7e \
+                    sha256  5965f82f89e247f8aebcf03775a8f08edc485f3d2bd47ab18eba62bf1b70ecee
 
 depends_lib         port:texlive-basic
 

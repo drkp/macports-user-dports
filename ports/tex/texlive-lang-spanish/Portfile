@@ -15,14 +15,14 @@ description         TeX Live: Spanish
 long_description    Support for Spanish.
 
 checksums           texlive-lang-spanish-41224-run.tar.xz \
-                    rmd160  7d30fadb1050330ef15959591b431801883488b3 \
-                    sha256  fb9559b0a2134c9e1bd52e51406c01c406c41ddccda25301baf11d11b3d67386 \
+                    rmd160  57d7f16dd8b8f63e64f77ce1f8955c2591709e47 \
+                    sha256  b2c0eb6c3e4debb9bce95af1a58f9b5b1dacffc201b1296e4c4a9035ef7bc499 \
                     texlive-lang-spanish-41224-doc.tar.xz \
-                    rmd160  c4124f70406d009bef4c49e530a62142a1d9daf0 \
-                    sha256  0d1467d63d0cea06de57a8e0b42944d180e2704db1bd0d698c480b62726aa7c2 \
+                    rmd160  05e3d3f1c3464b94b610245fc085b5996eafcd6f \
+                    sha256  ce20eb40b192a3d93485f47418d42dd5e5232e06066611d66adb84cc0af307a9 \
                     texlive-lang-spanish-41224-src.tar.xz \
-                    rmd160  a6408afa44340d0efb3c316e43ebe8555fd5b893 \
-                    sha256  ffc22fd678d0acf06179c3da2a67958f66aadc46d5c6c787ad13b941990e6981
+                    rmd160  fc0553f9664c1ee9db86beca59e4ac8511eb442e \
+                    sha256  f654df00250583ca10f63fc9db2f58db50599906d0c93e10e06560c69bf55d5e
 
 depends_lib         port:texlive-basic
 

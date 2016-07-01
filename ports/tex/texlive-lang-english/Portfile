@@ -15,14 +15,14 @@ description         TeX Live: US and UK English
 long_description    Support for (and documentation in) English.
 
 checksums           texlive-lang-english-40612-run.tar.xz \
-                    rmd160  fef756fd49d93e8aadc1a29a339f467b3d7cc2a4 \
-                    sha256  ec543ea4898bf2cafe1005fc254c55ee04ee7bba5c9d8d5b23aa1ba1b784f938 \
+                    rmd160  4f86c0a1f2a73babd8e32c5f882788d5dd418117 \
+                    sha256  620a13988d5fe2a7409a273dc45ea8716fdd340b9a0dbdc297220533a5c039f5 \
                     texlive-lang-english-40612-doc.tar.xz \
-                    rmd160  627d577c1a43085b71c1c3039b4e8746bdf56297 \
-                    sha256  bbf104ec57054a66ac7e3e98f8404c9588cb094347a1eae76c6170603fc3d76a \
+                    rmd160  f2425500906b3c077d06e8156e7be20340982bab \
+                    sha256  77837f8b70307bf658ffba57c119e840d9c4fac75ad5acca207c8193b3990d34 \
                     texlive-lang-english-40612-src.tar.xz \
-                    rmd160  e950e315447afead7b82dc05719be2682181b569 \
-                    sha256  f7ecc571f34a3f4854c252d9749e8fdad817f0131050cf96247fcb7188dd4a4c
+                    rmd160  3a02b145dd82cfaccb7bab56c9fcc2f324f22304 \
+                    sha256  bfb3f78f3e1614dfda5417ac4282a9d0b566258c956e12a8eec5f5edc45494f3
 
 depends_lib         port:texlive-basic
 

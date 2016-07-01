@@ -34,8 +34,8 @@ license         Copyleft Permissive LGPL-2.1+ BSD
 # download time, it omits a number of libraries and utilities that we
 # don't build. However, the port should still work with an unmodified
 # texlive distfile.
-master_sites    http://giraffe.cs.washington.edu/texlive/test/
-set distversion 20160522
+master_sites    http://giraffe.cs.washington.edu/texlive/
+set distversion 20160605
 use_xz          yes
 distname        texlive-source-${distversion}
 worksrcdir      ${distname}
@@ -43,12 +43,12 @@ worksrcdir      ${distname}
 set tlpkgdistname   tlpkg-TeXLive-${distversion}
 distfiles-append    ${tlpkgdistname}${extract.suffix}
 
-checksums           texlive-source-20160522.tar.xz \
-                    rmd160  2c4c65b2d150c30734898529ea9ddee77594c0f1 \
-                    sha256  26e24d0972f55c0a5e1a056d9e0c8b3c96fb395d6f54535d83a9f16b43511fe1 \
-                    tlpkg-TeXLive-20160522.tar.xz \
-                    rmd160  d4b6c5c31ac81cd5e43edc2ab8c810dab7745f8d \
-                    sha256  7aa8053ffa93480b1864cd1b976b12c29d5d2d3dfebc96c56d42ce1d6b420d40
+checksums           texlive-source-20160605.tar.xz \
+                    rmd160  3ac42e608906493fe6d0fcbffd697d5022e6aff4 \
+                    sha256  f5faac229b7974fa98e5f32f313af6a83194813b40394935568fe6c318467dde \
+                    tlpkg-TeXLive-20160605.tar.xz \
+                    rmd160  066447d2f6a358a3633c997fe4b6194afae48a1c \
+                    sha256  1cd8cb957d0c442be20451e661dc936f7aedaf41d4c603cb7b6ca0c12a044795
 
 depends_lib     port:fontconfig \
                 port:freetype \
